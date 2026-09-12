@@ -43,6 +43,7 @@ header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:spac
 .brand small{display:block;font-family:var(--mono);font-size:11.5px;color:var(--ink-3);letter-spacing:.07em;text-transform:uppercase;margin-top:5px;font-weight:500}
 .yt{font-family:var(--mono);font-size:13px;font-weight:500;color:var(--ink);text-decoration:none;border:1px solid var(--line-2);background:var(--panel);padding:9px 13px;border-radius:8px;white-space:nowrap}
 .yt:hover{border-color:var(--green);color:var(--green)}
+.links{display:flex;gap:8px;flex-wrap:wrap}
 
 .intro{display:grid;grid-template-columns:1.4fr 1fr;gap:24px 40px;padding-block:30px 8px}
 .intro h2{font-family:var(--display);font-weight:700;font-size:clamp(26px,4.2vw,40px);line-height:1.05;margin:0 0 14px;text-wrap:balance;letter-spacing:-.02em;text-shadow:0 0 42px rgba(53,208,127,.28)}
@@ -120,7 +121,11 @@ details.srcbox>summary:hover{color:var(--green)}
       <small>Every claim, traced back to where it came from</small>
     </div>
   </div>
-  <a class="yt" href="https://www.youtube.com/@OGSMysteryLab" target="_blank" rel="noopener">▶ youtube.com/@OGSMysteryLab</a>
+  <nav class="links" aria-label="Where to find us">
+    <a class="yt" href="https://www.youtube.com/@OGSMysteryLab" target="_blank" rel="noopener">▶ YouTube</a>
+    <a class="yt" href="https://www.instagram.com/ogsmysterylab/" target="_blank" rel="noopener">Instagram</a>
+    <a class="yt" href="https://www.facebook.com/profile.php?id=61594053192752" target="_blank" rel="noopener">Facebook</a>
+  </nav>
 </header>
 
 <section class="intro">
@@ -229,5 +234,6 @@ details.srcbox>summary:hover{color:var(--green)}
     .catch(function(){ list.innerHTML = '<div class="empty">Could not load episodes.json.</div>'; });
 })();
 </script>
+<script data-goatcounter="https://ogsmysterylab.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
