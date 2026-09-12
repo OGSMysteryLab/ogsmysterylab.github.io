@@ -252,12 +252,85 @@
     "id": "what-would-a-real-dragon-need-to-fly-science-drago",
     "video": "lf2QO6QNREc",
     "ep": 1,
-    "format": "FACT",
+    "format": "WHATIF",
     "title": "What would a real dragon need to fly? #science #dragons #biology #whatif",
-    "claim": "",
+    "claim": "Take a dragon seriously as an animal and the physics turns brutal: wingspan, weight, bone density, and a way to make fire.",
     "verdict": "",
     "date": "2026-09-12",
     "youtube": "https://www.youtube.com/watch?v=lf2QO6QNREc",
-    "sources": []
+    "sources": [
+      {
+        "type": "paper",
+        "title": "Scaling of Soaring Seabirds and Implications for Flight Abilities of Giant Pterosaurs",
+        "publisher": "Sato et al. — PLoS ONE 4(4): e5400",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0005400"
+      },
+      {
+        "type": "paper",
+        "title": "On the Size and Flight Diversity of Giant Pterosaurs, the Use of Birds as Pterosaur Analogues and Comments on Pterosaur Flightlessness",
+        "publisher": "Witton & Habib — PLoS ONE 5(11): e13982",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0013982"
+      },
+      {
+        "type": "official",
+        "title": "Pterosaurs: the truth about these 'flying dinosaurs'",
+        "publisher": "Emily Osterloff — Natural History Museum, London",
+        "url": "https://www.nhm.ac.uk/discover/the-truth-about-pterosaurs.html"
+      },
+      {
+        "type": "official",
+        "title": "Kori bustard",
+        "publisher": "Smithsonian's National Zoo & Conservation Biology Institute",
+        "url": "https://nationalzoo.si.edu/animals/kori-bustard"
+      },
+      {
+        "type": "paper",
+        "title": "The Most Extreme Sexual Size Dimorphism Among Birds: the Great Bustard (Otis tarda)",
+        "publisher": "Alonso et al. — The Auk 126(3): 657",
+        "url": "https://academic.oup.com/auk/article/126/3/657/5148342"
+      },
+      {
+        "type": "paper",
+        "title": "Comparative evidence for quadrupedal launch in pterosaurs",
+        "publisher": "Habib — Zitteliana B28: 159–166, LMU Munich Open Access",
+        "url": "https://epub.ub.uni-muenchen.de/12011/1/zitteliana_2008_b28_09.pdf"
+      },
+      {
+        "type": "paper",
+        "title": "Locomotor mechanisms of birds",
+        "publisher": "Frank A. Hartman — Smithsonian Miscellaneous Collections 143(1): 1–91",
+        "url": "https://repository.si.edu/bitstreams/2a8764d6-5f3e-4e3a-b0ca-97daf1b34451/download"
+      },
+      {
+        "type": "paper",
+        "title": "Maximum Lift Production During Takeoff in Flying Animals",
+        "publisher": "Marden — Journal of Experimental Biology 130(1): 235",
+        "url": "https://journals.biologists.com/jeb/article-abstract/130/1/235/5237/Maximum-Lift-Production-During-Takeoff-in-Flying"
+      },
+      {
+        "type": "paper",
+        "title": "Respiratory Evolution Facilitated the Origin of Pterosaur Flight and Aerial Gigantism",
+        "publisher": "Claessens, O'Connor & Unwin — PLoS ONE 4(2): e4497",
+        "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0004497&type=printable"
+      },
+      {
+        "type": "paper",
+        "title": "Bone density and the lightweight skeletons of birds",
+        "publisher": "Dumont — Proceedings of the Royal Society B, copy hosted by UMass Amherst",
+        "url": "https://www.bio.umass.edu/biology/dumont/Dumont_2010_Bone_density_and_bird_skeletons_ProcRoySocB.pdf"
+      },
+      {
+        "type": "official",
+        "title": "Ask an Explainer: what is wing loading?",
+        "publisher": "Smithsonian National Air and Space Museum (How Things Fly)",
+        "url": "https://howthingsfly.si.edu/ask-an-explainer/what-wing-loading"
+      },
+      {
+        "type": "paper",
+        "title": "Spray Mechanism of the Most Primitive Bombardier Beetle (Metrius contractus)",
+        "publisher": "Eisner, Aneshansley et al. — Journal of Experimental Biology 203(8): 1265",
+        "url": "https://journals.biologists.com/jeb/article/203/8/1265/8530/Spray-Mechanism-of-the-Most-Primitive-Bombardier"
+      }
+    ]
   }
 ]
