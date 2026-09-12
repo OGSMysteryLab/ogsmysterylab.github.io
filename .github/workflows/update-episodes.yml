@@ -1,0 +1,114 @@
+name: Update episodes from YouTube
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read the channel feed and merge into episodes.json
+        run: |
+          python3 - <<'PY'
+          import json, os, re, urllib.request
+          import xml.etree.ElementTree as ET
+
+          CHANNEL_ID = "UCoySACBPKhFYyq_iJarS3UA"
+          FEED = "https://www.youtube.com/feeds/videos.xml?channel_id=" + CHANNEL_ID
+          NS = {
+              "a": "http://www.w3.org/2005/Atom",
+              "yt": "http://www.youtube.com/xml/schemas/2015",
+          }
+
+          def slug(title):
+              s = title.lower()
+              s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+              return s[:50] or "episode"
+
+          def guess_format(title):
+              t = title.lower().strip()
+              if t.startswith("what if"):
+                  return "WHATIF"
+              if t.startswith(("did ", "was ", "were ", "is ", "are ", "do ", "does ", "can ", "could ")) \
+                 or "myth" in t or "really" in t:
+                  return "MYTH"
+              return "FACT"
+
+          req = urllib.request.Request(FEED, headers={"User-Agent": "ogs-sources-bot"})
+          with urllib.request.urlopen(req, timeout=30) as r:
+              tree = ET.fromstring(r.read())
+
+          feed = []
+          for entry in tree.findall("a:entry", NS):
+              vid = entry.findtext("yt:videoId", default="", namespaces=NS)
+              title = (entry.findtext("a:title", default="", namespaces=NS) or "").strip()
+              published = (entry.findtext("a:published", default="", namespaces=NS) or "")[:10]
+              if vid and title:
+                  feed.append({"video": vid, "title": title, "date": published})
+          feed.sort(key=lambda e: e["date"])
+
+          path = "episodes.json"
+          existing = []
+          if os.path.exists(path):
+              with open(path, encoding="utf-8") as f:
+                  existing = json.load(f)
+
+          by_video = {e.get("video"): e for e in existing if e.get("video")}
+          used_slugs = {e.get("id") for e in existing}
+          max_ep = max([e.get("ep", 0) for e in existing] or [0])
+
+          added = 0
+          for item in feed:
+              cur = by_video.get(item["video"])
+              if cur:
+                  cur["title"] = item["title"]
+                  cur["date"] = item["date"] or cur.get("date", "")
+                  cur["youtube"] = "https://www.youtube.com/watch?v=" + item["video"]
+                  continue
+              base = slug(item["title"])
+              sid, n = base, 2
+              while sid in used_slugs:
+                  sid, n = base + "-" + str(n), n + 1
+              used_slugs.add(sid)
+              max_ep += 1
+              new = {
+                  "id": sid,
+                  "video": item["video"],
+                  "ep": max_ep,
+                  "format": guess_format(item["title"]),
+                  "title": item["title"],
+                  "claim": "",
+                  "verdict": "",
+                  "date": item["date"],
+                  "youtube": "https://www.youtube.com/watch?v=" + item["video"],
+                  "sources": [],
+              }
+              existing.append(new)
+              by_video[item["video"]] = new
+              added += 1
+
+          existing.sort(key=lambda e: e.get("ep", 0), reverse=True)
+          with open(path, "w", encoding="utf-8") as f:
+              json.dump(existing, f, ensure_ascii=False, indent=2)
+              f.write("\n")
+          print("new episodes added:", added, "| total:", len(existing))
+          PY
+
+      - name: Commit when something changed
+        run: |
+          if [ -n "$(git status --porcelain episodes.json)" ]; then
+            git config user.name "OGS sources bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add episodes.json
+            git commit -m "Update episodes from the YouTube feed"
+            git push
+          else
+            echo "Nothing changed."
+          fi
