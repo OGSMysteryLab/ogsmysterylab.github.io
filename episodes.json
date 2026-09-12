@@ -84,11 +84,84 @@
     "ep": 3,
     "format": "MYTH",
     "title": "Vikings didn't have horns—here's why we think they did #vikings #history #myth",
-    "claim": "",
-    "verdict": "",
+    "claim": "No Viking grave has ever produced a horned helmet. The horns were put on their heads in the 1800s.",
+    "verdict": "BUSTED",
     "date": "2026-09-12",
     "youtube": "https://www.youtube.com/watch?v=bb0Nw6Nt8ps",
-    "sources": []
+    "sources": [
+      {
+        "type": "official",
+        "title": "Viking helmets",
+        "publisher": "National Museum of Denmark",
+        "url": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/weapons/helmets/"
+      },
+      {
+        "type": "official",
+        "title": "The Gjermundbu helmet",
+        "publisher": "Museum of Cultural History, University of Oslo",
+        "url": "https://www.khm.uio.no/besok-oss/vikingskipshuset/vikingtid/vapen-og-gullskatter/vapen/gjermundbu.html"
+      },
+      {
+        "type": "paper",
+        "title": "The Yarm Helmet",
+        "publisher": "Chris Caple, Medieval Archaeology 64(1) — Durham University repository",
+        "url": "https://durham-repository.worktribe.com/preview/1247660/33082.pdf"
+      },
+      {
+        "type": "official",
+        "title": "The Viksø helmets",
+        "publisher": "National Museum of Denmark",
+        "url": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-bronze-age/the-viksoe-helmets/"
+      },
+      {
+        "type": "official",
+        "title": "What were the helmets used for?",
+        "publisher": "National Museum of Denmark",
+        "url": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-bronze-age/the-viksoe-helmets/what-were-the-helmets-used-for/"
+      },
+      {
+        "type": "paper",
+        "title": "New study about the Viksø helmets",
+        "publisher": "Aarhus University",
+        "url": "https://arts.au.dk/en/news-and-events/news/show/artikel/new-study-about-the-viksoe-helmets"
+      },
+      {
+        "type": "official",
+        "title": "Historien om Veksøhjelmene",
+        "publisher": "ROMU (Roskilde Museum)",
+        "url": "https://romu.dk/historien-om-veksoehjelmene-et-ikonisk-oldtidsfund-fra-broens-mose/"
+      },
+      {
+        "type": "archive",
+        "title": "Wagner's Ring: Forging an Epic (Doepler costume designs)",
+        "publisher": "The Morgan Library & Museum",
+        "url": "https://www.themorgan.org/exhibitions/wagners-ring"
+      },
+      {
+        "type": "archive",
+        "title": "The horned helmet: misconceptions and misunderstandings",
+        "publisher": "World-Tree Project, University College Cork",
+        "url": "https://www.worldtreeproject.org/exhibits/show/miscon/hornvikes"
+      },
+      {
+        "type": "news",
+        "title": "Did this Viking helmet belong to a Norwegian warrior who served rulers in the East?",
+        "publisher": "ScienceNorway",
+        "url": "https://www.sciencenorway.no/archaeology-viking-age-vikings/did-this-viking-helmet-belong-to-a-norwegian-warrior-who-served-rulers-in-the-east/1964783"
+      },
+      {
+        "type": "news",
+        "title": "Did Vikings really wear horned helmets?",
+        "publisher": "HISTORY / A&E",
+        "url": "https://www.history.com/articles/did-vikings-really-wear-horned-helmets"
+      },
+      {
+        "type": "news",
+        "title": "Viksøhjelmene inspirerede måske myten om vikinger med horn",
+        "publisher": "Videnskab.dk",
+        "url": "https://videnskab.dk/kultur-samfund/viksoehjelmene-inspirerede-maaske-myten-om-vikinger-med-horn-men-de-er-meget-aeldre/"
+      }
+    ]
   },
   {
     "id": "why-history-got-napoleon-wrong-mythbusting-history",
@@ -96,11 +169,84 @@
     "ep": 2,
     "format": "MYTH",
     "title": "Why history got Napoleon wrong #mythbusting #history",
-    "claim": "",
-    "verdict": "",
+    "claim": "History's most famous short man was an ordinary height for his time. The joke was British propaganda.",
+    "verdict": "BUSTED",
     "date": "2026-09-12",
     "youtube": "https://www.youtube.com/watch?v=CC8L0_jXpkc",
-    "sources": []
+    "sources": [
+      {
+        "type": "paper",
+        "title": "La taille de Napoléon",
+        "publisher": "Marcel Dunan, Revue de l'Institut Napoléon no. 89, pp. 178–179 — Fondation Napoléon",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/articles/la-taille-de-napoleon/"
+      },
+      {
+        "type": "paper",
+        "title": "Was Napoleon small?",
+        "publisher": "Thierry Lentz, director of the Fondation Napoléon",
+        "url": "https://www.napoleon.org/en/history-of-the-two-empires/articles/was-napoleon-small/"
+      },
+      {
+        "type": "paper",
+        "title": "An Anthropometric History of Early-Modern France",
+        "publisher": "Komlos, Hau & Bourguinat — University of Munich, Discussion Paper 2003-10",
+        "url": "https://epub.ub.uni-muenchen.de/54/1/france.pdf"
+      },
+      {
+        "type": "official",
+        "title": "La redingote et le chapeau de Napoléon Ier (object sheet)",
+        "publisher": "Musée de l'Armée, Hôtel national des Invalides, Paris",
+        "url": "https://www.musee-armee.fr/fileadmin/user_upload/Documents/Support-Visite-Fiches-Objets/Fiches-periode-napoleon/MA_redingote-chapeau.pdf"
+      },
+      {
+        "type": "archive",
+        "title": "Napoleon Bonaparte ('Maniac-ravings – or – little Boney in a strong fit'), NPG D12811",
+        "publisher": "National Portrait Gallery, London",
+        "url": "https://www.npg.org.uk/collections/search/portrait/mw62678/Napolon-Bonaparte-Maniac-ravings---or---little-Boney-in-a-strong-fit---"
+      },
+      {
+        "type": "archive",
+        "title": "Napoleon — James Gillray (collection essay)",
+        "publisher": "National Portrait Gallery, London",
+        "url": "https://www.npg.org.uk/collections/explore/james-gillray/napoleon"
+      },
+      {
+        "type": "archive",
+        "title": "Little Boney: James Gillray and Napoleon's Fragile Masculinity",
+        "publisher": "Peter W. Walker — The Public Domain Review",
+        "url": "https://publicdomainreview.org/essay/little-boney/"
+      },
+      {
+        "type": "archive",
+        "title": "The King of Brobdingnag and Gulliver, James Gillray",
+        "publisher": "The Metropolitan Museum of Art, New York",
+        "url": "https://www.metmuseum.org/art/collection/search/391822"
+      },
+      {
+        "type": "archive",
+        "title": "The Empress's wish or Boney Puzzled!!",
+        "publisher": "Royal Museums Greenwich",
+        "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-108935"
+      },
+      {
+        "type": "paper",
+        "title": "Napoleon's Death: New Findings From His Autopsy",
+        "publisher": "Arie Ribon — Fondation Napoléon",
+        "url": "https://www.napoleon.org/en/history-of-the-two-empires/articles/napoleons-death-new-findings-from-his-autopsy/"
+      },
+      {
+        "type": "paper",
+        "title": "A close-up on Napoleon's death",
+        "publisher": "Fondation Napoléon",
+        "url": "https://www.napoleon.org/en/history-of-the-two-empires/close-up/a-close-up-on-napoleons-death/"
+      },
+      {
+        "type": "paper",
+        "title": "The gastric disease of Napoleon Bonaparte",
+        "publisher": "Lugli et al., Virchows Archiv — Springer",
+        "url": "https://link.springer.com/article/10.1007/s00428-021-03061-1"
+      }
+    ]
   },
   {
     "id": "what-would-a-real-dragon-need-to-fly-science-drago",
