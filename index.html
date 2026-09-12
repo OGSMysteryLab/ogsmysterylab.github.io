@@ -86,6 +86,10 @@ header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:spac
 .verdict b{color:var(--yellow)}
 .watch{font-family:var(--mono);font-size:12.5px;font-weight:600;text-decoration:none;border:1px solid var(--line-2);border-radius:8px;padding:9px 12px;color:var(--ink);white-space:nowrap;background:var(--panel-2)}
 .watch:hover{background:var(--green);border-color:var(--green);color:#04170D}
+.acts{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.copy{font-family:var(--mono);font-size:12.5px;font-weight:600;border:1px solid var(--line-2);border-radius:8px;padding:9px 12px;color:var(--ink-2);background:transparent;cursor:pointer;white-space:nowrap}
+.copy:hover{border-color:var(--yellow);color:var(--yellow)}
+.copy[data-done="1"]{border-color:var(--green);color:var(--green)}
 .src{margin:16px 0 0;padding:15px 0 0;list-style:none;display:grid;gap:10px;border-top:1px dashed var(--line-2)}
 .src li{display:grid;grid-template-columns:auto 1fr;gap:11px;align-items:baseline;font-size:15px}
 .tag{font-family:var(--mono);font-size:10.5px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-3);border:1px solid var(--line-2);border-radius:5px;padding:3px 7px;white-space:nowrap}
@@ -190,7 +194,10 @@ header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:spac
         + (e.claim?'<p class="claim">'+esc(e.claim)+'</p>':'')
         + (e.verdict?'<div class="verdict"><span>VERDICT</span><b>'+esc(e.verdict)+'</b></div>':'')
         + '</div>'
+        + '<div class="acts">'
         + (e.youtube?'<a class="watch" href="'+esc(e.youtube)+'" target="_blank" rel="noopener">Watch ▶</a>':'')
+        + '<button class="copy" type="button" data-link="'+esc(e.id)+'">Copy source link</button>'
+        + '</div>'
         + '</div>' + body + '</article>';
     }).join('');
 
@@ -204,6 +211,13 @@ header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:spac
   }); });
   q.addEventListener('input', render);
   window.addEventListener('hashchange', render);
+  list.addEventListener('click', function(ev){
+    var b = ev.target.closest('.copy'); if(!b) return;
+    var url = location.origin + location.pathname + '#' + b.getAttribute('data-link');
+    var done = function(){ b.textContent = 'Copied'; b.setAttribute('data-done','1'); setTimeout(function(){ b.textContent='Copy source link'; b.removeAttribute('data-done'); }, 1800); };
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done, function(){ prompt('Copy this link:', url); }); }
+    else { prompt('Copy this link:', url); }
+  });
   fetch('episodes.json', {cache:'no-store'}).then(function(r){ return r.json(); }).then(function(d){ episodes = d; render(); })
     .catch(function(){ list.innerHTML = '<div class="empty">Could not load episodes.json.</div>'; });
 })();
