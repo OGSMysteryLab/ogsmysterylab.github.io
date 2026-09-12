@@ -5,11 +5,78 @@
     "ep": 4,
     "format": "FACT",
     "title": "Why this ancient cave was a death trap for animals #ancientrome #history #science",
-    "claim": "",
+    "claim": "Ancient writers said the gateway at Hierapolis killed every animal led into it. The archaeology and the gas readings say they were telling the truth.",
     "verdict": "",
     "date": "2026-09-12",
     "youtube": "https://www.youtube.com/watch?v=-8bAhUHrkMM",
-    "sources": []
+    "sources": [
+      {
+        "type": "paper",
+        "title": "Deadly CO2 gases in the Plutonium of Hierapolis (Denizli, Turkey)",
+        "publisher": "Pfanz, Yüce, Gulbay & Gokgoz — Archaeological and Anthropological Sciences 11(4): 1359–1371, Springer Nature",
+        "url": "https://link.springer.com/article/10.1007/s12520-018-0599-5"
+      },
+      {
+        "type": "paper",
+        "title": "The Ploutonion of Hierapolis in light of recent research (2013–17)",
+        "publisher": "Francesco D'Andria — Journal of Roman Archaeology 31 (2018)",
+        "url": "https://journalofromanarchaeology.com/wp-content/uploads/2020/03/JRA31_04_DAndria.pdf"
+      },
+      {
+        "type": "paper",
+        "title": "New Archaeological Findings at Hierapolis Ploutonion Between Hades and Kybele",
+        "publisher": "Francesco D'Andria — Colloquium Anatolicum 16 (2017): 217–245",
+        "url": "https://dergipark.org.tr/en/pub/collan/article/919748"
+      },
+      {
+        "type": "paper",
+        "title": "Journey to the Gate of Hell: the Plutonion through the eyes of early modern European travellers",
+        "publisher": "Sevil Gözübüyük — Pamukkale Üniversitesi Sosyal Bilimler Enstitüsü Dergisi 71: 355–375",
+        "url": "https://dergipark.org.tr/tr/pub/pausbed/article/1732187"
+      },
+      {
+        "type": "official",
+        "title": "Hierapolis-Pamukkale (World Heritage List no. 485)",
+        "publisher": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/485"
+      },
+      {
+        "type": "official",
+        "title": "Hierapolis Pamukkale archaeological site",
+        "publisher": "Republic of Türkiye, Ministry of Culture and Tourism",
+        "url": "https://muze.gov.tr/muze-detay?SectionId=PMK01&DistId=PMK"
+      },
+      {
+        "type": "archive",
+        "title": "Missione Archeologica Italiana a Hierapolis di Frigia",
+        "publisher": "Università del Salento",
+        "url": "https://www.hierapolis.unisalento.it/15"
+      },
+      {
+        "type": "archive",
+        "title": "Strabo, Geography 13.4.14 (Loeb, trans. H. L. Jones, 1928)",
+        "publisher": "LacusCurtius, University of Chicago",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/13D*.html"
+      },
+      {
+        "type": "archive",
+        "title": "Cassius Dio, Roman History 68.27.3 (Loeb, trans. E. Cary)",
+        "publisher": "LacusCurtius, University of Chicago",
+        "url": "https://penelope.uchicago.edu/Thayer/e/roman/texts/cassius_dio/68*.html"
+      },
+      {
+        "type": "official",
+        "title": "Carbon dioxide — IDLH documentation",
+        "publisher": "NIOSH / U.S. Centers for Disease Control and Prevention",
+        "url": "https://www.cdc.gov/niosh/idlh/124389.html"
+      },
+      {
+        "type": "official",
+        "title": "Carbon dioxide asphyxiation hazard (HIB 06-05-96)",
+        "publisher": "U.S. Occupational Safety and Health Administration",
+        "url": "https://www.osha.gov/publications/hib19960605"
+      }
+    ]
   },
   {
     "id": "vikings-didn-t-have-horns-here-s-why-we-think-they",
