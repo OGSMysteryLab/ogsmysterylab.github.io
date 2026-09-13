@@ -25,25 +25,25 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <style>
 :root{
-  --bg:#0A100D; --bg-2:#0E1713; --panel:#111C17; --panel-2:#16241D;
-  --ink:#ECF3EE; --ink-2:#AFC0B6; --ink-3:#7A8C83;
-  --line:#223129; --line-2:#2E4036;
-  --green:#35D07F; --blue:#4FA8FF;
-  --yellow:#F5D90A; --yellow-ink:#1A1600;
-  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
-  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-  --display:"Bricolage Grotesque","IBM Plex Sans",system-ui,sans-serif;
+--bg:#0A100D; --bg-2:#0E1713; --panel:#111C17; --panel-2:#16241D;
+--ink:#ECF3EE; --ink-2:#AFC0B6; --ink-3:#7A8C83;
+--line:#223129; --line-2:#2E4036;
+--green:#35D07F; --blue:#4FA8FF;
+--yellow:#F5D90A; --yellow-ink:#1A1600;
+--mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+--body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+--display:"Bricolage Grotesque","IBM Plex Sans",system-ui,sans-serif;
 }
 *{box-sizing:border-box}
 html{background:var(--bg)}
 body{
-  margin:0;color:var(--ink);font-family:var(--body);font-size:15.5px;line-height:1.5;
-  background:
-    radial-gradient(900px 420px at 12% -8%, rgba(53,208,127,.16), transparent 60%),
-    radial-gradient(700px 360px at 88% 2%, rgba(245,217,10,.10), transparent 60%),
-    var(--bg);
-  background-attachment:fixed;
-  padding-inline:clamp(16px,4vw,40px);padding-block:0 64px;
+margin:0;color:var(--ink);font-family:var(--body);font-size:15.5px;line-height:1.5;
+background:
+radial-gradient(900px 420px at 12% -8%, rgba(53,208,127,.16), transparent 60%),
+radial-gradient(700px 360px at 88% 2%, rgba(245,217,10,.10), transparent 60%),
+var(--bg);
+background-attachment:fixed;
+padding-inline:clamp(16px,4vw,40px);padding-block:0 64px;
 }
 a{color:var(--green);text-decoration-thickness:1px;text-underline-offset:3px}
 a:hover{color:#5FE29B}
@@ -63,6 +63,10 @@ header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:spac
 .intro h2{font-family:var(--display);font-weight:700;font-size:clamp(26px,4.2vw,40px);line-height:1.05;margin:0 0 14px;text-wrap:balance;letter-spacing:-.02em;text-shadow:0 0 42px rgba(53,208,127,.28)}
 .intro p{margin:0;max-width:60ch;color:var(--ink-2)}
 .hl{background:var(--yellow);color:var(--yellow-ink);padding:0 .2em;box-decoration-break:clone;-webkit-box-decoration-break:clone;box-shadow:0 0 30px -2px rgba(245,217,10,.55)}
+.testline{margin:18px 0 0;font-family:var(--display);font-weight:700;font-size:clamp(17px,2.4vw,21px);line-height:1.3;letter-spacing:-.012em;text-wrap:balance}
+.testline a{color:var(--ink);text-decoration:none}
+.testline a .hl{white-space:nowrap}
+.testline a:hover .hl{filter:brightness(1.07)}
 .rules{border:1px solid var(--line);border-radius:12px;padding:18px 20px;background:var(--panel);align-self:start}
 .rules h3{margin:0 0 10px;font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--green);font-weight:600}
 .rules ol{margin:0;padding-left:18px;color:var(--ink-2);font-size:14.5px;display:grid;gap:7px}
@@ -128,125 +132,127 @@ details.srcbox>summary:hover{color:var(--green)}
 <body>
 <div class="wrap">
 <header class="top">
-  <div class="brand">
-    <div class="mark" aria-hidden="true">OGS</div>
-    <div>
-      <h1>OGS Mystery Lab — Sources</h1>
-      <small>Every claim, traced back to where it came from</small>
-    </div>
-  </div>
-  <nav class="links" aria-label="Where to find us">
-    <a class="yt" href="https://www.youtube.com/@OGSMysteryLab" target="_blank" rel="noopener">▶ YouTube</a>
-    <a class="yt" href="https://www.instagram.com/ogsmysterylab/" target="_blank" rel="noopener">Instagram</a>
-    <a class="yt" href="https://www.tiktok.com/@ogsmysterylab" target="_blank" rel="noopener">TikTok</a>
-    <a class="yt" href="https://www.facebook.com/profile.php?id=61594053192752" target="_blank" rel="noopener">Facebook</a>
-  </nav>
+<div class="brand">
+<div class="mark" aria-hidden="true">OGS</div>
+<div>
+<h1>OGS Mystery Lab — Sources</h1>
+<small>Every claim, traced back to where it came from</small>
+</div>
+</div>
+<nav class="links" aria-label="Where to find us">
+<a class="yt" href="https://www.youtube.com/@OGSMysteryLab" target="_blank" rel="noopener">▶ YouTube</a>
+<a class="yt" href="https://www.instagram.com/ogsmysterylab/" target="_blank" rel="noopener">Instagram</a>
+<a class="yt" href="https://www.tiktok.com/@ogsmysterylab" target="_blank" rel="noopener">TikTok</a>
+<a class="yt" href="https://www.facebook.com/ogsmysterylab1" target="_blank" rel="noopener">Facebook</a>
+<a class="yt" href="/test/">Take the test</a>
+</nav>
 </header>
 
 <section class="intro">
-  <div>
-    <h2>Short videos, <span class="hl">long receipts.</span></h2>
-    <p>Each episode runs under three minutes, which leaves no room for footnotes. This page is the footnotes. Find your episode below and you get the studies, archives, books and articles the script was built from — so you can check us, go deeper, or argue with us in the comments.</p>
-  </div>
-  <aside class="rules">
-    <h3>How we source</h3>
-    <ol>
-      <li>Primary sources first: peer-reviewed papers, archives, official records.</li>
-      <li>Where experts disagree, we say so in the video and list both sides here.</li>
-      <li>WHAT IF episodes are thought experiments; sources cover the real facts they start from.</li>
-      <li>Visuals are illustrations, never photographic evidence.</li>
-    </ol>
-  </aside>
+<div>
+<h2>Short videos, <span class="hl">long receipts.</span></h2>
+<p>Each episode runs under three minutes, which leaves no room for footnotes. This page is the footnotes. Find your episode below and you get the studies, archives, books and articles the script was built from — so you can check us, go deeper, or argue with us in the comments.</p>
+<p class="testline"><a href="/test/">You believe things that aren't true. Find out how many <span class="hl">→ Take the test</span></a></p>
+</div>
+<aside class="rules">
+<h3>How we source</h3>
+<ol>
+<li>Primary sources first: peer-reviewed papers, archives, official records.</li>
+<li>Where experts disagree, we say so in the video and list both sides here.</li>
+<li>WHAT IF episodes are thought experiments; sources cover the real facts they start from.</li>
+<li>Visuals are illustrations, never photographic evidence.</li>
+</ol>
+</aside>
 </section>
 
 <div class="tools" role="search">
-  <label class="search">
-    <span aria-hidden="true">⌕</span>
-    <input id="q" type="search" placeholder="Search an episode or a source…" autocomplete="off">
-  </label>
-  <div class="chips" role="group" aria-label="Filter by format">
-    <button class="chip" id="f-all" data-f="ALL" aria-pressed="true">ALL</button>
-    <button class="chip" id="f-fact" data-f="FACT" aria-pressed="false">FACT</button>
-    <button class="chip" id="f-myth" data-f="MYTH" aria-pressed="false">MYTH CHECK</button>
-    <button class="chip" id="f-whatif" data-f="WHATIF" aria-pressed="false">WHAT IF</button>
-  </div>
-  <span class="count" id="count"></span>
+<label class="search">
+<span aria-hidden="true">⌕</span>
+<input id="q" type="search" placeholder="Search an episode or a source…" autocomplete="off">
+</label>
+<div class="chips" role="group" aria-label="Filter by format">
+<button class="chip" id="f-all" data-f="ALL" aria-pressed="true">ALL</button>
+<button class="chip" id="f-fact" data-f="FACT" aria-pressed="false">FACT</button>
+<button class="chip" id="f-myth" data-f="MYTH" aria-pressed="false">MYTH CHECK</button>
+<button class="chip" id="f-whatif" data-f="WHATIF" aria-pressed="false">WHAT IF</button>
+</div>
+<span class="count" id="count"></span>
 </div>
 
 <main class="list" id="list" aria-live="polite"></main>
 
 <footer class="foot">
-  <span>Spotted a mistake or a better source? Leave a comment on the video — corrections get pinned.</span>
-  <span>© OGS Mystery Lab</span>
+<span>Spotted a mistake or a better source? Leave a comment on the video — corrections get pinned.</span>
+<span>© OGS Mystery Lab</span>
 </footer>
 </div>
 
 <script>
 (function(){
-  var episodes = [];
-  var list = document.getElementById('list'), q = document.getElementById('q'), count = document.getElementById('count');
-  var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
-  var fmtLabel = {FACT:'FACT', MYTH:'MYTH CHECK', WHATIF:'WHAT IF'};
-  var filter = 'ALL';
+var episodes = [];
+var list = document.getElementById('list'), q = document.getElementById('q'), count = document.getElementById('count');
+var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
+var fmtLabel = {FACT:'FACT', MYTH:'MYTH CHECK', WHATIF:'WHAT IF'};
+var filter = 'ALL';
 
-  function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
-  function clean(t){ return String(t || '').split('#')[0].replace(/[\s|–-]+$/,'').trim(); }
-  function host(u){ try { return new URL(u).hostname.replace(/^www\./,''); } catch(e){ return ''; } }
-  function fmtDate(d){ if(!d) return ''; var p=d.split('-'); var m=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']; return (+p[2])+' '+m[+p[1]-1]+' '+p[0]; }
+function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+function clean(t){ return String(t || '').split('#')[0].replace(/[\s|–-]+$/,'').trim(); }
+function host(u){ try { return new URL(u).hostname.replace(/^www\./,''); } catch(e){ return ''; } }
+function fmtDate(d){ if(!d) return ''; var p=d.split('-'); var m=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']; return (+p[2])+' '+m[+p[1]-1]+' '+p[0]; }
 
-  function render(){
-    var term = q.value.trim().toLowerCase();
-    var shown = episodes.filter(function(e){
-      if(filter !== 'ALL' && e.format !== filter) return false;
-      if(!term) return true;
-      var hay = [clean(e.title), e.claim, e.verdict, (e.sources||[]).map(function(s){ return s.title+' '+s.publisher+' '+s.note; }).join(' ')].join(' ').toLowerCase();
-      return hay.indexOf(term) !== -1;
-    }).sort(function(a,b){ return (b.ep||0)-(a.ep||0); });
+function render(){
+var term = q.value.trim().toLowerCase();
+var shown = episodes.filter(function(e){
+if(filter !== 'ALL' && e.format !== filter) return false;
+if(!term) return true;
+var hay = [clean(e.title), e.claim, e.verdict, (e.sources||[]).map(function(s){ return s.title+' '+s.publisher+' '+s.note; }).join(' ')].join(' ').toLowerCase();
+return hay.indexOf(term) !== -1;
+}).sort(function(a,b){ return (b.ep||0)-(a.ep||0); });
 
-    count.textContent = shown.length + ' of ' + episodes.length + ' episode' + (episodes.length===1?'':'s');
-    if(!shown.length){ list.innerHTML = '<div class="empty">No episode matches that. Try another word, or clear the filter.</div>'; return; }
+count.textContent = shown.length + ' of ' + episodes.length + ' episode' + (episodes.length===1?'':'s');
+if(!shown.length){ list.innerHTML = '<div class="empty">No episode matches that. Try another word, or clear the filter.</div>'; return; }
 
-    list.innerHTML = shown.map(function(e){
-      var srcs = (e.sources||[]);
-      var open = ('#'+e.id) === location.hash ? ' open' : '';
-      var body = srcs.length
-        ? '<details class="srcbox"'+open+'><summary>Sources ('+srcs.length+')</summary><ul class="src">' + srcs.map(function(s){
-            return '<li><span class="tag">'+esc(s.type||'source')+'</span><div><a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.title)+'</a> <span class="pub">— '+esc(s.publisher||host(s.url))+'</span>'+(s.note?'<span class="note">'+esc(s.note)+'</span>':'')+'</div></li>';
-          }).join('') + '</ul></details>'
-        : '<p class="pending">The full source list for this episode is being added here. Until then, the sources are in the video description on YouTube.</p>';
-      return '<article class="ep f-'+esc(e.format)+'" id="'+esc(e.id)+'">'
-        + '<div class="ep-head"><div>'
-        + '<div class="eyebrow"><span class="fmt '+esc(e.format)+'">'+esc(fmtLabel[e.format]||e.format)+'</span><span>EP '+String(e.ep).padStart(3,'0')+'</span><span>'+esc(fmtDate(e.date))+'</span></div>'
-        + '<h3>'+esc(clean(e.title))+'</h3>'
-        + (e.claim?'<p class="claim">'+esc(e.claim)+'</p>':'')
-        + (e.verdict?'<div class="verdict"><span>VERDICT</span><b>'+esc(e.verdict)+'</b></div>':'')
-        + '</div>'
-        + '<div class="acts">'
-        + (e.youtube?'<a class="watch" href="'+esc(e.youtube)+'" target="_blank" rel="noopener">Watch ▶</a>':'')
-        + '<button class="copy" type="button" data-link="'+esc(e.id)+'">Copy source link</button>'
-        + '</div>'
-        + '</div>' + body + '</article>';
-    }).join('');
+list.innerHTML = shown.map(function(e){
+var srcs = (e.sources||[]);
+var open = ('#'+e.id) === location.hash ? ' open' : '';
+var body = srcs.length
+? '<details class="srcbox"'+open+'><summary>Sources ('+srcs.length+')</summary><ul class="src">' + srcs.map(function(s){
+return '<li><span class="tag">'+esc(s.type||'source')+'</span><div><a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.title)+'</a> <span class="pub">— '+esc(s.publisher||host(s.url))+'</span>'+(s.note?'<span class="note">'+esc(s.note)+'</span>':'')+'</div></li>';
+}).join('') + '</ul></details>'
+: '<p class="pending">The full source list for this episode is being added here. Until then, the sources are in the video description on YouTube.</p>';
+return '<article class="ep f-'+esc(e.format)+'" id="'+esc(e.id)+'">'
++ '<div class="ep-head"><div>'
++ '<div class="eyebrow"><span class="fmt '+esc(e.format)+'">'+esc(fmtLabel[e.format]||e.format)+'</span><span>EP '+String(e.ep).padStart(3,'0')+'</span><span>'+esc(fmtDate(e.date))+'</span></div>'
++ '<h3>'+esc(clean(e.title))+'</h3>'
++ (e.claim?'<p class="claim">'+esc(e.claim)+'</p>':'')
++ (e.verdict?'<div class="verdict"><span>VERDICT</span><b>'+esc(e.verdict)+'</b></div>':'')
++ '</div>'
++ '<div class="acts">'
++ (e.youtube?'<a class="watch" href="'+esc(e.youtube)+'" target="_blank" rel="noopener">Watch ▶</a>':'')
++ '<button class="copy" type="button" data-link="'+esc(e.id)+'">Copy source link</button>'
++ '</div>'
++ '</div>' + body + '</article>';
+}).join('');
 
-    if(location.hash){ var t=document.getElementById(location.hash.slice(1)); if(t) t.scrollIntoView({block:'start'}); }
-  }
+if(location.hash){ var t=document.getElementById(location.hash.slice(1)); if(t) t.scrollIntoView({block:'start'}); }
+}
 
-  chips.forEach(function(c){ c.addEventListener('click', function(){
-    filter = c.getAttribute('data-f');
-    chips.forEach(function(x){ x.setAttribute('aria-pressed', x===c ? 'true' : 'false'); });
-    render();
-  }); });
-  q.addEventListener('input', render);
-  window.addEventListener('hashchange', render);
-  list.addEventListener('click', function(ev){
-    var b = ev.target.closest('.copy'); if(!b) return;
-    var url = location.origin + location.pathname + '#' + b.getAttribute('data-link');
-    var done = function(){ b.textContent = 'Copied'; b.setAttribute('data-done','1'); setTimeout(function(){ b.textContent='Copy source link'; b.removeAttribute('data-done'); }, 1800); };
-    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done, function(){ prompt('Copy this link:', url); }); }
-    else { prompt('Copy this link:', url); }
-  });
-  fetch('episodes.json', {cache:'no-store'}).then(function(r){ return r.json(); }).then(function(d){ episodes = d; render(); })
-    .catch(function(){ list.innerHTML = '<div class="empty">Could not load episodes.json.</div>'; });
+chips.forEach(function(c){ c.addEventListener('click', function(){
+filter = c.getAttribute('data-f');
+chips.forEach(function(x){ x.setAttribute('aria-pressed', x===c ? 'true' : 'false'); });
+render();
+}); });
+q.addEventListener('input', render);
+window.addEventListener('hashchange', render);
+list.addEventListener('click', function(ev){
+var b = ev.target.closest('.copy'); if(!b) return;
+var url = location.origin + location.pathname + '#' + b.getAttribute('data-link');
+var done = function(){ b.textContent = 'Copied'; b.setAttribute('data-done','1'); setTimeout(function(){ b.textContent='Copy source link'; b.removeAttribute('data-done'); }, 1800); };
+if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done, function(){ prompt('Copy this link:', url); }); }
+else { prompt('Copy this link:', url); }
+});
+fetch('episodes.json', {cache:'no-store'}).then(function(r){ return r.json(); }).then(function(d){ episodes = d; render(); })
+.catch(function(){ list.innerHTML = '<div class="empty">Could not load episodes.json.</div>'; });
 })();
 </script>
 <script data-goatcounter="https://ogsmysterylab.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
