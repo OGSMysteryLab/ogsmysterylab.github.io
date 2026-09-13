@@ -1,5 +1,162 @@
 [
   {
+    "id": "goldfish-forget-everything-in-3-seconds-verdict-bu",
+    "video": "snF6I2wdTY4",
+    "ep": 5,
+    "format": "MYTH",
+    "title": "Goldfish forget everything in 3 seconds. Verdict: BUSTED. #shorts #mythbusting #science #goldfish",
+    "claim": "Goldfish forget everything after three seconds.",
+    "verdict": "BUSTED",
+    "date": "2026-09-13",
+    "youtube": "https://www.youtube.com/watch?v=snF6I2wdTY4",
+    "sources": [
+      {
+        "type": "paper",
+        "url": "https://www.wellbeingintlstudiesrepository.org/cgi/viewcontent.cgi?article=1074&context=acwp_asie",
+        "title": "Fish intelligence, sentience and ethics",
+        "publisher": "Animal Cognition (Springer); open copy via WellBeing International Studies Repository"
+      },
+      {
+        "type": "paper",
+        "url": "https://www.jneurosci.org/content/24/9/2335",
+        "title": "Avoidance Response in Goldfish: Emotional and Temporal Involvement of Medial and Lateral Telencephalic Pallium",
+        "publisher": "Journal of Neuroscience (Society for Neuroscience)"
+      },
+      {
+        "type": "press",
+        "url": "https://www.livescience.com/goldfish-memory.html",
+        "title": "Do goldfish really have a 3-second memory?",
+        "publisher": "Live Science (Future plc), article by Harry Baker, quoting Prof. Culum Brown (Macquarie University)"
+      },
+      {
+        "type": "paper",
+        "url": "https://researchportal.plymouth.ac.uk/en/publications/temporal-discrimination-learning-of-operant-feeding-in-goldfish-c/",
+        "title": "Temporal discrimination learning of operant feeding in goldfish (Carassius auratus)",
+        "publisher": "Journal of the Experimental Analysis of Behavior 62(1):1-13; record and abstract via University of Plymouth research portal"
+      },
+      {
+        "type": "paper",
+        "url": "https://abel.mcmaster.ca/publications/pdfs/Salena2021_Article_UnderstandingFishCognitionARev.pdf",
+        "title": "Understanding fish cognition: a review and appraisal of current practices",
+        "publisher": "Animal Cognition 24:395-406; author copy via McMaster University (Balshine Lab)"
+      },
+      {
+        "type": "paper",
+        "url": "https://www.cs.bgu.ac.il/~ben-shahar/Publications/2022-Givon_etal-From_Fish_Out_of_Water.pdf",
+        "title": "From fish out of water to new insights on navigation mechanisms in animals",
+        "publisher": "Behavioural Brain Research 419:113711 (Elsevier); author copy via Ben-Gurion University of the Negev"
+      },
+      {
+        "type": "paper",
+        "url": "https://eeb.tamu.edu/wp-content/uploads/2018/11/RoseEtAl_2014.pdf",
+        "title": "Can fish really feel pain?",
+        "publisher": "Fish and Fisheries 15(1):97-133 (Wiley); copy hosted by Texas A&M University Department of Ecology and Evolutionary Biology"
+      },
+      {
+        "type": "paper",
+        "url": "https://archimer.ifremer.fr/doc/00839/95112/102764.pdf",
+        "title": "Cognitive enrichment to increase fish welfare in aquaculture: A review",
+        "publisher": "Aquaculture 575:739654 (Elsevier); author copy via Archimer, IFREMER institutional repository"
+      },
+      {
+        "type": "paper",
+        "url": "https://www.cambridge.org/core/books/abs/cambridge-handbook-of-animal-cognition/fish-memory-tale/7AA8C41A2409527A4791A11101570FB3",
+        "title": "A Fish Memory Tale: Memory and Recall in Fish and Sharks (Chapter 7)",
+        "publisher": "The Cambridge Handbook of Animal Cognition, Cambridge University Press, pp. 140-173; Vila Pouca, Tosetto & Brown"
+      },
+      {
+        "type": "official",
+        "url": "https://www.woah.org/app/uploads/2026/03/welfare-review-science-feb2026.pdf",
+        "title": "Welfare of farmed fish: review of the relevant scientific literature",
+        "publisher": "World Organisation for Animal Health (WOAH), intergovernmental body"
+      },
+      {
+        "type": "official",
+        "url": "https://www.gov.scot/publications/ascribing-sentience-fish-potential-policy-implications-scottish-animal-welfare-commission/pages/4/",
+        "title": "Ascribing sentience to fish: potential policy implications - 3. Evidence in relation to fish sentience",
+        "publisher": "Scottish Government / Scottish Animal Welfare Commission"
+      },
+      {
+        "type": "museum",
+        "url": "https://www.amnh.org/learn-teach/curriculum-collections/young-naturalist-awards/goldfish-as-a-model-for-understanding-learning-and-memory-more-complex-than-you-think",
+        "title": "Goldfish as a Model for Understanding Learning and Memory: More Complex Than You Think",
+        "publisher": "American Museum of Natural History, Young Naturalist Awards (Grade 9 student essay, not peer-reviewed)"
+      },
+      {
+        "type": "press",
+        "url": "https://mythresults.com/episode11",
+        "title": "MythBusters Episode 11: Sinking Titanic, Goldfish Memory, Trombone Explosion",
+        "publisher": "MythResults (episode index for the Discovery Channel series MythBusters)"
+      },
+      {
+        "type": "university",
+        "url": "https://www.biology.ox.ac.uk/article/goldfish-show-a-keen-ability-to-estimate-distances",
+        "title": "Goldfish show a keen ability to estimate distances",
+        "publisher": "University of Oxford, Department of Biology (news item on Sibeaux et al., Proceedings of the Royal Society B 289:20221220)"
+      },
+      {
+        "type": "press",
+        "url": "https://www.spca.nz/advice-and-welfare/article/debunking-goldfish-myths",
+        "title": "Advice & welfare: Debunking goldfish myths",
+        "publisher": "SPCA New Zealand (animal welfare NGO)"
+      },
+      {
+        "type": "paper",
+        "url": "https://libra.unine.ch/server/api/core/bitstreams/10ad22f7-8599-444e-a31e-df7a6a72615f/content",
+        "title": "Fish cognition: a primate's eye view",
+        "publisher": "Animal Cognition 5(1):1-13 (Springer); author copy via University of Neuchatel repository"
+      },
+      {
+        "type": "paper",
+        "url": "https://journals.sagepub.com/doi/10.1177/074873040101600106",
+        "title": "Influence of Light on Feeding Anticipatory Activity in Goldfish",
+        "publisher": "Journal of Biological Rhythms 16(1):50-57 (SAGE)"
+      },
+      {
+        "type": "paper",
+        "url": "https://www.mdpi.com/2073-4441/15/1/71",
+        "title": "Research on the Acoustic Conditioning Taming on Fish and Application in Marine Ranching",
+        "publisher": "Water 15(1):71 (MDPI)"
+      },
+      {
+        "type": "paper",
+        "url": "https://link.springer.com/article/10.1007/s10071-025-01959-w",
+        "title": "Cleaner wrasse failed in early testing stages of both visual and spatial working memory paradigms",
+        "publisher": "Animal Cognition 28(1):43 (Springer)"
+      },
+      {
+        "type": "university",
+        "url": "https://law.temple.edu/aer/2024/01/06/are-we-no-better-than-goldfish/",
+        "title": "Are We No Better Than Goldfish?",
+        "publisher": "Temple University Beasley School of Law, Advocacy and Evidence Resources (Jules M. Epstein)"
+      },
+      {
+        "type": "paper",
+        "url": "https://frontiersin.org/articles/10.3389/fnbeh.2016.00157/full",
+        "title": "Twelve-Day Reinforcement-Based Memory Retention in African Cichlids (Labidochromis caeruleus)",
+        "publisher": "Frontiers in Behavioral Neuroscience 10:157"
+      },
+      {
+        "type": "paper",
+        "url": "https://link.springer.com/article/10.1007/BF00429577",
+        "title": "Modification of learning and memory in goldfish through the use of stimulant and depressant drugs",
+        "publisher": "Psychopharmacologia (Springer); Liu & Braud"
+      },
+      {
+        "type": "paper",
+        "url": "https://www.frontiersin.org/journals/neuroanatomy/articles/10.3389/fnana.2022.943504/full",
+        "title": "Quantity as a Fish Views It: Behavior and Neurobiology",
+        "publisher": "Frontiers in Neuroanatomy 16:943504"
+      },
+      {
+        "type": "press",
+        "url": "https://faunalytics.org/fishes-remember-being-caught-for-a-long-time/",
+        "title": "Fishes Remember Being Caught For A Long Time",
+        "publisher": "Faunalytics (summary of Triki & Bshary, Ethology, on Labroides dimidiatus)"
+      }
+    ]
+  },
+  {
     "id": "what-would-a-real-dragon-need-to-fly-science-drago",
     "video": "lf2QO6QNREc",
     "ep": 4,
