@@ -61,13 +61,18 @@ header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:spac
 .yt.test:hover{background:var(--yellow);border-color:var(--yellow);color:var(--yellow-ink)}
 .links{display:flex;gap:8px;flex-wrap:wrap}
 
-.intro{display:grid;grid-template-columns:1.4fr 1fr;gap:24px 40px;padding-block:30px 8px}
-.intro h2{font-family:var(--display);font-weight:700;font-size:clamp(26px,4.2vw,40px);line-height:1.05;margin:0 0 14px;text-wrap:balance;letter-spacing:-.02em;text-shadow:0 0 42px rgba(53,208,127,.28)}
-.intro p{margin:0;max-width:60ch;color:var(--ink-2)}
+.intro{padding-block:26px 4px}
+.intro h2{font-family:var(--display);font-weight:700;font-size:clamp(24px,3.6vw,34px);line-height:1.05;margin:0 0 10px;text-wrap:balance;letter-spacing:-.02em;text-shadow:0 0 42px rgba(53,208,127,.28)}
+.intro .sub{margin:0;max-width:66ch;color:var(--ink-2);font-size:14.5px}
 .hl{background:var(--yellow);color:var(--yellow-ink);padding:0 .2em;box-decoration-break:clone;-webkit-box-decoration-break:clone;box-shadow:0 0 30px -2px rgba(245,217,10,.55)}
-.rules{border:1px solid var(--line);border-radius:12px;padding:18px 20px;background:var(--panel);align-self:start}
-.rules h3{margin:0 0 10px;font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--green);font-weight:600}
-.rules ol{margin:0;padding-left:18px;color:var(--ink-2);font-size:14.5px;display:grid;gap:7px}
+.testwrap{margin-top:18px;border:1px solid var(--line);border-radius:14px;background:var(--panel);padding:20px 22px}
+.testwrap iframe{display:block;width:100%;border:0;height:360px;transition:height .18s}
+.rules{border:1px solid var(--line);border-radius:12px;background:var(--panel);margin-top:18px;padding:12px 16px}
+.rules>summary{list-style:none;cursor:pointer;font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--green);font-weight:600;display:inline-flex;align-items:center;gap:8px}
+.rules>summary::-webkit-details-marker{display:none}
+.rules>summary::before{content:"\25B8";font-size:12px;line-height:1}
+.rules[open]>summary::before{content:"\25BE"}
+.rules ol{margin:12px 0 2px;padding-left:18px;color:var(--ink-2);font-size:14px;display:grid;gap:7px}
 
 .tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding-block:24px 12px;position:sticky;top:0;background:linear-gradient(var(--bg) 72%,rgba(10,16,13,0));z-index:2}
 .search{flex:1 1 220px;display:flex;align-items:center;gap:9px;border:1px solid var(--line-2);background:var(--panel);border-radius:9px;padding:0 13px}
@@ -80,8 +85,8 @@ header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:spac
 .chip[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:#04170D;box-shadow:0 0 18px -4px rgba(53,208,127,.85)}
 .count{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);margin-left:auto}
 
-.list{display:grid;gap:10px;padding-block:8px}
-.ep{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:14px 16px 14px 18px;scroll-margin-top:80px;position:relative;overflow:hidden}
+.list{display:grid;gap:7px;padding-block:6px}
+.ep{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 14px 10px 16px;scroll-margin-top:80px;position:relative;overflow:hidden}
 .ep::before{content:"";position:absolute;inset:0 auto 0 0;width:3px;background:var(--line-2)}
 .ep.f-MYTH::before{background:var(--yellow)}
 .ep.f-WHATIF::before{background:var(--green)}
@@ -91,15 +96,15 @@ header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:spac
 .ep.f-MYTH:hover::before{box-shadow:0 0 18px 1px rgba(245,217,10,.7)}
 .ep.f-WHATIF:hover::before{box-shadow:0 0 18px 1px rgba(53,208,127,.7)}
 .ep.f-FACT:hover::before{box-shadow:0 0 18px 1px rgba(79,168,255,.7)}
-.ep-head{display:grid;grid-template-columns:1fr auto;gap:10px 16px;align-items:start}
-.eyebrow{display:flex;gap:9px;align-items:center;flex-wrap:wrap;font-family:var(--mono);font-size:11.5px;letter-spacing:.07em;font-weight:600;color:var(--ink-3)}
+.ep-head{display:grid;grid-template-columns:1fr auto;gap:6px 14px;align-items:start}
+.eyebrow{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-family:var(--mono);font-size:10.5px;letter-spacing:.07em;font-weight:600;color:var(--ink-3)}
 .fmt{padding:3px 9px;border-radius:5px;background:var(--panel-2);color:var(--ink-2);border:1px solid var(--line-2)}
 .fmt.MYTH{background:var(--yellow);color:var(--yellow-ink);border-color:var(--yellow)}
 .fmt.WHATIF{background:rgba(53,208,127,.16);color:var(--green);border-color:rgba(53,208,127,.4)}
 .fmt.FACT{background:rgba(79,168,255,.14);color:#8CC6FF;border-color:rgba(79,168,255,.35)}
-.ep h3{font-family:var(--display);font-weight:700;font-size:clamp(17px,2vw,20px);line-height:1.2;margin:6px 0 4px;letter-spacing:-.01em;text-wrap:balance}
-.ep .claim{margin:0;color:var(--ink-2);max-width:70ch;font-size:14px;line-height:1.45}
-.verdict{margin-top:8px;display:inline-flex;gap:9px;align-items:baseline;font-family:var(--mono);font-size:12.5px;font-weight:600;color:var(--ink-3)}
+.ep h3{font-family:var(--display);font-weight:700;font-size:clamp(15.5px,1.7vw,17.5px);line-height:1.2;margin:4px 0 2px;letter-spacing:-.01em;text-wrap:balance}
+.ep .claim{margin:0;color:var(--ink-2);max-width:70ch;font-size:13px;line-height:1.4}
+.verdict{margin-top:5px;display:inline-flex;gap:8px;align-items:baseline;font-family:var(--mono);font-size:11.5px;font-weight:600;color:var(--ink-3)}
 .verdict b{color:var(--yellow)}
 .watch{font-family:var(--mono);font-size:11.5px;font-weight:600;text-decoration:none;border:1px solid var(--line-2);border-radius:7px;padding:6px 10px;color:var(--ink);white-space:nowrap;background:var(--panel-2)}
 .watch:hover{background:var(--green);border-color:var(--green);color:#04170D}
@@ -107,7 +112,7 @@ header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:spac
 .copy{font-family:var(--mono);font-size:11.5px;font-weight:600;border:1px solid var(--line-2);border-radius:7px;padding:6px 10px;color:var(--ink-2);background:transparent;cursor:pointer;white-space:nowrap}
 .copy:hover{border-color:var(--yellow);color:var(--yellow)}
 .copy[data-done="1"]{border-color:var(--green);color:var(--green)}
-details.srcbox{margin-top:10px;border-top:1px dashed var(--line-2);padding-top:8px}
+details.srcbox{margin-top:8px;border-top:1px dashed var(--line-2);padding-top:6px}
 details.srcbox>summary{list-style:none;cursor:pointer;font-family:var(--mono);font-size:11.5px;font-weight:600;letter-spacing:.06em;color:var(--ink-3);display:inline-flex;align-items:center;gap:7px;padding:2px 0}
 details.srcbox>summary::-webkit-details-marker{display:none}
 details.srcbox>summary::before{content:"\25B8";color:var(--green);font-size:12px;line-height:1}
@@ -123,7 +128,7 @@ details.srcbox>summary:hover{color:var(--green)}
 .foot{margin-top:30px;padding-top:20px;border-top:1px solid var(--line);color:var(--ink-3);font-size:14px;display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
 .empty{padding:34px;text-align:center;color:var(--ink-3);border:1px dashed var(--line-2);border-radius:12px}
 
-@media (max-width:640px){.intro{grid-template-columns:1fr}.ep-head{grid-template-columns:1fr}.count{margin-left:0}}
+@media (max-width:640px){.ep-head{grid-template-columns:1fr}.count{margin-left:0}.testwrap{padding:16px 14px}}
 @media (prefers-reduced-motion:no-preference){.ep,.chip,.watch,.yt{transition:border-color .2s,background .2s,color .2s,box-shadow .2s}}
 </style>
 </head>
@@ -147,19 +152,11 @@ details.srcbox>summary:hover{color:var(--green)}
 </header>
 
 <section class="intro">
-<div>
 <h2>Short videos, <span class="hl">long receipts.</span></h2>
-<p>Each episode runs under three minutes, which leaves no room for footnotes. This page is the footnotes. Find your episode below and you get the studies, archives, books and articles the script was built from — so you can check us, go deeper, or argue with us in the comments.</p>
+<p class="sub">Every claim in every episode, traced back to where it came from. Start with the test — then find your episode below.</p>
+<div class="testwrap">
+<iframe id="testframe" src="/test/?embed=1" title="How wrong are you? Ten statements, every answer sourced." loading="lazy" scrolling="no"></iframe>
 </div>
-<aside class="rules">
-<h3>How we source</h3>
-<ol>
-<li>Primary sources first: peer-reviewed papers, archives, official records.</li>
-<li>Where experts disagree, we say so in the video and list both sides here.</li>
-<li>WHAT IF episodes are thought experiments; sources cover the real facts they start from.</li>
-<li>Visuals are illustrations, never photographic evidence.</li>
-</ol>
-</aside>
 </section>
 
 <div class="tools" role="search">
@@ -177,6 +174,16 @@ details.srcbox>summary:hover{color:var(--green)}
 </div>
 
 <main class="list" id="list" aria-live="polite"></main>
+
+<details class="rules">
+<summary>How we source</summary>
+<ol>
+<li>Primary sources first: peer-reviewed papers, archives, official records.</li>
+<li>Where experts disagree, we say so in the video and list both sides here.</li>
+<li>WHAT IF episodes are thought experiments; sources cover the real facts they start from.</li>
+<li>Visuals are illustrations, never photographic evidence.</li>
+</ol>
+</details>
 
 <footer class="foot">
 <span>Spotted a mistake or a better source? Leave a comment on the video — corrections get pinned.</span>
@@ -248,6 +255,14 @@ var done = function(){ b.textContent = 'Copied'; b.setAttribute('data-done','1')
 if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done, function(){ prompt('Copy this link:', url); }); }
 else { prompt('Copy this link:', url); }
 });
+// De test staat in een kader op deze pagina. Hij laat zelf weten hoe hoog hij is, zodat er geen scrollbalk
+// binnen een scrollbalk ontstaat als een vraag langer of korter is.
+window.addEventListener('message', function(ev){
+var h = ev && ev.data && ev.data.ogsTestHeight;
+var f = document.getElementById('testframe');
+if (h && f && h > 120 && h < 4000) f.style.height = (h + 4) + 'px';
+});
+
 fetch('episodes.json', {cache:'no-store'}).then(function(r){ return r.json(); }).then(function(d){ episodes = d; render(); })
 .catch(function(){ list.innerHTML = '<div class="empty">Could not load episodes.json.</div>'; });
 })();
