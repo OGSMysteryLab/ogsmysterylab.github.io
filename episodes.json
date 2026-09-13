@@ -1,10 +1,179 @@
 [
   {
+    "id": "the-great-wall-is-the-only-thing-visible-from-spac",
+    "video": "lJyIBjOmbyw",
+    "ep": 6,
+    "format": "MYTH",
+    "title": "The Great Wall is the only thing visible from space. Verdict: BUSTED. #shorts #mythbusting #history",
+    "claim": "The Great Wall is the only human structure visible from space.",
+    "verdict": "BUSTED",
+    "date": "2026-09-13",
+    "youtube": "https://www.youtube.com/watch?v=lJyIBjOmbyw",
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://www.nasa.gov/wp-content/uploads/static/history/PDFs/great_wall_less_great_from_space.pdf",
+        "title": "China's Wall Less Great in View from Space",
+        "publisher": "NASA (News & Features; archived PDF in the NASA History collection), quoting Kamlesh P. Lulla, NASA chief scientist for Earth observation at Johnson Space Center, and Apollo 12 astronaut Alan Bean"
+      },
+      {
+        "type": "official",
+        "url": "https://www.jpl.nasa.gov/news/space-radar-reveals-ancient-segments-of-chinas-great-wall/",
+        "title": "Space Radar Reveals Ancient Segments of China's Great Wall",
+        "publisher": "NASA Jet Propulsion Laboratory (press release on SIR-C/X-SAR aboard Space Shuttle Endeavour)"
+      },
+      {
+        "type": "official",
+        "url": "https://www.nasa.gov/image-article/great-wall/",
+        "title": "Great Wall (image feature: Expedition 10 Commander Leroy Chiao's photograph of the Great Wall and Inner Mongolia)",
+        "publisher": "NASA image feature"
+      },
+      {
+        "type": "official",
+        "url": "https://www.esa.int/ESA_Multimedia/Images/2021/05/Great_Wall_of_China_from_space",
+        "title": "Great Wall of China from space (ISS photograph and caption by ESA astronaut Thomas Pesquet)",
+        "publisher": "European Space Agency (ESA Multimedia)"
+      },
+      {
+        "type": "official",
+        "url": "https://www.esa.int/ESA_Multimedia/Images/2018/06/Great_Wall_of_China",
+        "title": "Great Wall of China (ISS photograph and caption quoting ESA astronaut Alexander Gerst)",
+        "publisher": "European Space Agency (ESA Multimedia)"
+      },
+      {
+        "type": "press",
+        "url": "https://spaceflightnow.com/news/n0405/15greatwall/",
+        "title": "European satellite sees Great Wall of China from space",
+        "publisher": "Spaceflight Now, reproducing an ESA news release of 2004 (Proba satellite / High Resolution Camera), quoting Apollo 17 astronaut Eugene Cernan"
+      },
+      {
+        "type": "press",
+        "url": "https://www.timeshighereducation.com/news/correction-great-wall-of-china-image-was-a-river/188872.article",
+        "title": "Correction: 'Great Wall of China' image was a river",
+        "publisher": "Times Higher Education, reporting ESA's correction of its 11 May 2004 release"
+      },
+      {
+        "type": "paper",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3972694",
+        "title": "Is it Really Possible to See the Great Wall of China from Space with a Naked Eye?",
+        "publisher": "Journal of Optometry (Spanish General Council of Optometry), author Norberto Lopez-Gil, University of Murcia; open copy via PubMed Central"
+      },
+      {
+        "type": "press",
+        "url": "https://www.scientificamerican.com/article/no-you-cant-see-the-great-wall-of-china-from-space/",
+        "title": "No, You Can't See the Great Wall of China from Space",
+        "publisher": "Scientific American, column by astronomer Phil Plait"
+      },
+      {
+        "type": "press",
+        "url": "https://www.scientificamerican.com/article/is-chinas-great-wall-visible-from-space/",
+        "title": "Is China's Great Wall Visible from Space?",
+        "publisher": "Scientific American, article by Mara Hvistendahl, quoting former NASA astronaut Jeffrey Hoffman"
+      },
+      {
+        "type": "press",
+        "url": "https://www.universetoday.com/articles/can-you-see-the-great-wall-of-china-from-space",
+        "title": "Can You See the Great Wall of China from Space?",
+        "publisher": "Universe Today, article by Nancy Atkinson, quoting Canadian astronaut Chris Hadfield"
+      },
+      {
+        "type": "press",
+        "url": "https://www.nbcnews.com/news/amp/wbna3131136",
+        "title": "What can you really see from space?",
+        "publisher": "NBC News, quoting NASA astronaut Ed Lu, ISS Expedition 7 science officer"
+      },
+      {
+        "type": "press",
+        "url": "https://www.nbcnews.com/id/wbna4515544",
+        "title": "Great-Wall-in-space myth comes crumbling down",
+        "publisher": "NBC News, on the removal of the claim from Chinese primary-school textbooks"
+      },
+      {
+        "type": "press",
+        "url": "https://www.aljazeera.com/news/2003/10/17/chinas-spaceman-shatters-a-myth",
+        "title": "China's spaceman shatters a myth",
+        "publisher": "Al Jazeera, reporting Yang Liwei's post-flight press remarks after Shenzhou 5"
+      },
+      {
+        "type": "press",
+        "url": "https://www.snopes.com/fact-check/great-wall-from-moon/",
+        "title": "Is the Great Wall of China Visible from the Moon?",
+        "publisher": "Snopes, citing Richard Halliburton's Second Book of Marvels and Henry Norman's The People and Politics of the Far East"
+      },
+      {
+        "type": "press",
+        "url": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+        "title": "Great Wall of China - section 'Visibility from space'",
+        "publisher": "Wikipedia (English), encyclopedic tertiary source used here only for the William Stukeley 1754 and Henry Norman 1895 wordings and for section dimensions"
+      },
+      {
+        "type": "press",
+        "url": "https://en.wikipedia.org/wiki/Artificial_structures_visible_from_space",
+        "title": "Artificial structures visible from space",
+        "publisher": "Wikipedia (English), encyclopedic tertiary source used here for the Henry Norman quote and the 280-microradian / 112 m resolution figure"
+      },
+      {
+        "type": "press",
+        "url": "https://www.britannica.com/question/Can-you-see-the-Great-Wall-of-China-from-space",
+        "title": "Can you see the Great Wall of China from space?",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "type": "press",
+        "url": "https://www.skyatnightmagazine.com/space-science/can-you-see-great-wall-china-from-space",
+        "title": "Can you see the Great Wall of China from space?",
+        "publisher": "BBC Sky at Night Magazine, article by Iain Todd, quoting Alan Bean, Yang Liwei and Alexander Gerst"
+      },
+      {
+        "type": "press",
+        "url": "https://www.livescience.com/34212-great-wall-of-china-only-manmade-object-visible-from-space.html",
+        "title": "Is the Great Wall of China Really Visible from Space?",
+        "publisher": "Live Science, article by Nicholas Gerbis, citing vision scientist Norberto Lopez-Gil"
+      },
+      {
+        "type": "press",
+        "url": "https://www.livescience.com/human-made-structures-seen-from-space",
+        "title": "What human-made structures can be seen from space?",
+        "publisher": "Live Science, article by Joe Phelan, quoting former NASA astronauts Leroy Chiao and Clayton Anderson"
+      },
+      {
+        "type": "press",
+        "url": "https://www.scmp.com/article/630124/fyi-chinas-great-wall-really-only-man-made-object-visible-space",
+        "title": "FYI: Is China's Great Wall really the only man-made object visible from space?",
+        "publisher": "South China Morning Post, article by Jonathan Hopfner"
+      },
+      {
+        "type": "press",
+        "url": "https://www.theregister.com/2006/12/01/the_odd_body_wall_china_moon/",
+        "title": "The Odd Body: The Great Wall of China from the Moon",
+        "publisher": "The Register, column by Dr Stephen Juan, collecting Apollo-era astronaut statements"
+      },
+      {
+        "type": "press",
+        "url": "https://www.vibrationdata.com/space/greatwall.htm",
+        "title": "Can Astronauts See the Great Wall of China from Space?",
+        "publisher": "Vibrationdata (Tom Irvine), a personal compilation page citing William Pogue's How Do You Go To the Bathroom in Space? (1991) and Jay Apt in National Geographic (November 1996)"
+      },
+      {
+        "type": "press",
+        "url": "https://archaeology-travel.com/asia/china/great-wall-of-china/",
+        "title": "Can You See the Great Wall of China from Space?",
+        "publisher": "Archaeology Travel, article by archaeologist Thomas Dowson, quoting William Stukeley's 1754 letter"
+      },
+      {
+        "type": "press",
+        "url": "https://www.pixalytics.com/can-you-see-gwc-space/",
+        "title": "Can You See The Great Wall of China From Space?",
+        "publisher": "Pixalytics Ltd (UK Earth-observation consultancy)"
+      }
+    ]
+  },
+  {
     "id": "goldfish-forget-everything-in-3-seconds-verdict-bu",
     "video": "snF6I2wdTY4",
     "ep": 5,
     "format": "MYTH",
-    "title": "Goldfish forget everything in 3 seconds. Verdict: BUSTED. #shorts #mythbusting #science #goldfis",
+    "title": "Goldfish forget everything in 3 seconds. Verdict: BUSTED. #shorts #mythbusting #science #goldfish",
     "claim": "Goldfish forget everything after three seconds.",
     "verdict": "BUSTED",
     "date": "2026-09-13",
