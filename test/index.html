@@ -99,6 +99,22 @@ h1 .hl{background:var(--yellow);color:var(--yellow-ink);padding:0 .14em;box-deco
 .r .t a{font-family:var(--mono);font-size:11px}
 footer{margin-top:30px;padding-top:16px;border-top:1px solid var(--line);color:var(--ink3);font-size:13px}
 @media (prefers-reduced-motion:no-preference){.card,.choice,.btn{transition:border-color .2s,color .2s,filter .2s}}
+
+/* ingesloten op de voorpagina: geen eigen kop, geen eigen achtergrond, geen dubbele marge */
+html.embed body{padding-inline:0;padding-block:0;background:none}
+html.embed header,html.embed footer{display:none}
+html.embed .wrap{max-width:none}
+html.embed h1{font-size:clamp(24px,5.2vw,34px);margin-top:0}
+html.embed .lede{font-size:15px;margin-top:14px}
+html.embed .start{margin-top:20px}
+html.embed .card{padding:20px 18px}
+/* op een breed scherm staat de startknop naast de tekst, anders blijft de halve breedte leeg */
+@media (min-width:720px){
+  html.embed #app:has(.start){display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;column-gap:34px}
+  html.embed #app:has(.start) h1{grid-column:1;margin:0}
+  html.embed #app:has(.start) .lede{grid-column:1;margin-top:12px;max-width:52ch}
+  html.embed #app:has(.start) .start{grid-column:2;grid-row:1 / span 2;margin-top:0;align-items:center;text-align:center}
+}
 </style>
 
 </head>
@@ -169,6 +185,15 @@ const app = document.getElementById('app');
 const foot = document.getElementById('foot');
 let i = 0, results = [];
 
+// Deze pagina staat ook ingesloten op de voorpagina. Daar hoort geen tweede kop en geen eigen achtergrond, en moet
+// het kader meegroeien met de vraag die in beeld staat — anders krijg je een scrollbalk in een scrollbalk.
+const EMBED = new URLSearchParams(location.search).has('embed');
+if (EMBED) document.documentElement.classList.add('embed');
+function meldHoogte(){
+  if (!EMBED) return;
+  try { parent.postMessage({ogsTestHeight: Math.ceil(document.documentElement.getBoundingClientRect().height)}, '*'); } catch (e) {}
+}
+
 function intro(){
   foot.hidden = true;
   app.innerHTML = `
@@ -179,6 +204,7 @@ function intro(){
       <span class="note">Takes 2 minutes · every answer is sourced</span>
     </div>`;
   document.getElementById('go').onclick = () => { i = 0; results = []; question(); };
+  meldHoogte();
 }
 
 function bar(){
@@ -203,6 +229,7 @@ function question(){
   app.querySelectorAll('.choice').forEach(b=>{
     b.onclick = () => answer(b.dataset.a === 'myth');
   });
+  meldHoogte();
 }
 
 function answer(saidMyth){
@@ -221,6 +248,7 @@ function answer(saidMyth){
     </div>`);
   app.querySelector('.bar').replaceWith(document.createRange().createContextualFragment(bar()).firstChild);
   document.getElementById('nx').onclick = () => { i++; (i < Q.length) ? question() : result(); };
+  meldHoogte();
 }
 
 function result(){
@@ -257,9 +285,11 @@ function result(){
     if (navigator.clipboard) navigator.clipboard.writeText(txt).then(done, ()=>prompt('Copy this:', txt));
     else prompt('Copy this:', txt);
   };
+  meldHoogte();
 }
 
 intro();
+window.addEventListener('resize', meldHoogte);
 </script>
 
 <script data-goatcounter="https://ogsmysterylab.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
