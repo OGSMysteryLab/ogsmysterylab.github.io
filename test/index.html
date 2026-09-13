@@ -4,21 +4,21 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#0A100D">
-<meta name="description" content="Eight of these ten are myths. Two are completely true. Which two? Every answer comes with its source.">
+<meta name="description" content="Ten statements, eight myths and two surprising truths. Two minutes, no account, and every answer comes with the source it came from.">
 <title>How wrong are you? — OGS Mystery Lab</title>
 <link rel="canonical" href="https://ogsmysterylab.github.io/test/">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23F5D90A'/><clipPath id='d'><circle cx='50' cy='50' r='33'/></clipPath><circle cx='50' cy='50' r='33' fill='%23111B2E'/><g clip-path='url(%23d)'><rect x='0' y='58' width='100' height='45' fill='%233DFF2E'/></g><circle cx='39' cy='28' r='4' fill='none' stroke='%233DFF2E' stroke-width='3.4'/><circle cx='57' cy='40' r='6.6' fill='none' stroke='%233DFF2E' stroke-width='5'/></svg>">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="OGS Mystery Lab">
 <meta property="og:url" content="https://ogsmysterylab.github.io/test/">
-<meta property="og:title" content="How wrong are you? — OGS Mystery Lab">
-<meta property="og:description" content="Eight of these ten are myths. Two are completely true. Which two? Every answer comes with its source.">
+<meta property="og:title" content="The OGS Mystery Lab myth test — can you beat this score?">
+<meta property="og:description" content="Ten statements. Eight are myths, two are completely true. Two minutes, no account, every answer sourced.">
 <meta property="og:image" content="https://ogsmysterylab.github.io/test/test-og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="How wrong are you? — OGS Mystery Lab">
-<meta name="twitter:description" content="Eight of these ten are myths. Two are completely true. Which two? Every answer comes with its source.">
+<meta name="twitter:title" content="The OGS Mystery Lab myth test — can you beat this score?">
+<meta name="twitter:description" content="Ten statements. Eight are myths, two are completely true. Two minutes, no account, every answer sourced.">
 <meta name="twitter:image" content="https://ogsmysterylab.github.io/test/test-og.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -108,7 +108,51 @@ html.embed .kbd{display:none}
 /* result */
 .score{font-family:var(--display);font-weight:800;font-size:clamp(34px,9vw,54px);line-height:1;letter-spacing:-.02em;margin:6px 0 0}
 .score em{font-style:normal;color:var(--yellow)}
-.verdicttxt{color:var(--ink2);margin-top:14px;max-width:44ch}
+.breakdown{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.bd{font-family:var(--mono);font-size:11.5px;font-weight:600;letter-spacing:.04em;
+  border:1px solid var(--line2);border-radius:999px;padding:7px 13px;color:var(--ink2);background:var(--panel)}
+.bd b{font-weight:700}
+.bd.miss{border-color:rgba(255,107,90,.4);color:var(--red)}
+.bd.good{border-color:rgba(53,208,127,.4);color:var(--green)}
+.verdicttxt{color:var(--ink2);margin-top:14px;max-width:46ch}
+
+/* iemand daagde je uit */
+.challenge{display:flex;align-items:flex-start;gap:12px;margin-top:18px;padding:13px 15px;
+  border:1px solid var(--line2);border-left:3px solid var(--yellow);border-radius:12px;background:var(--panel)}
+.challenge .n{font-family:var(--display);font-weight:800;font-size:22px;color:var(--yellow);line-height:1.1;flex:0 0 auto}
+.challenge .t{font-size:14px;color:var(--ink2)}
+.challenge .t b{color:var(--ink);font-weight:600}
+
+/* delen */
+.sharebox{margin-top:14px;border:1px solid var(--line2);border-radius:13px;background:var(--panel);padding:15px 16px}
+.sharetxt{font-family:var(--mono);font-size:12.5px;color:var(--ink2);line-height:1.6;
+  border-left:2px solid var(--line2);padding-left:12px;margin-bottom:14px;word-break:break-word}
+.shareopts{display:flex;gap:9px;flex-wrap:wrap}
+.sopt{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:12.5px;font-weight:600;
+  border:1px solid var(--line2);border-radius:999px;padding:10px 16px;cursor:pointer;text-decoration:none;
+  background:var(--panel2);color:var(--ink);transition:border-color .16s,color .16s,transform .16s}
+.sopt:hover{transform:translateY(-1px);border-color:var(--green);color:var(--green)}
+.sopt.wa:hover{border-color:#4FE07A;color:#4FE07A}
+.sopt svg{width:15px;height:15px;display:block}
+.livemsg{font-family:var(--mono);font-size:11.5px;color:var(--green);margin:12px 0 0;min-height:1.2em}
+.livemsg:empty{margin:0;min-height:0}
+
+/* socials */
+.socials{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}
+.soc{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:12px;font-weight:600;
+  text-decoration:none;color:var(--ink2);border:1px solid var(--line2);background:var(--panel);
+  border-radius:999px;padding:9px 14px 9px 11px;white-space:nowrap;
+  transition:transform .16s,border-color .16s,color .16s,box-shadow .16s}
+.soc .ico{display:grid;place-items:center;width:15px;height:15px;color:var(--ink3);transition:color .16s}
+.soc .ico svg{width:100%;height:100%;display:block}
+.soc:hover{transform:translateY(-2px);color:var(--ink)}
+.soc.yt:hover{border-color:#FF4D4D;box-shadow:0 8px 22px -14px #FF4D4D} .soc.yt:hover .ico{color:#FF4D4D}
+.soc.ig:hover{border-color:#E56AA8;box-shadow:0 8px 22px -14px #E56AA8} .soc.ig:hover .ico{color:#E56AA8}
+.soc.tt:hover{border-color:#3FE4D8;box-shadow:0 8px 22px -14px #3FE4D8} .soc.tt:hover .ico{color:#3FE4D8}
+.soc.fb:hover{border-color:#5B9BFF;box-shadow:0 8px 22px -14px #5B9BFF} .soc.fb:hover .ico{color:#5B9BFF}
+.socnote{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);margin:20px 0 0}
+html.embed .socials,html.embed .socnote,html.embed .challenge{display:none}
+@media (max-width:420px){.soc{font-size:11.5px;padding:9px 12px 9px 10px}}
 .grid{font-family:var(--mono);font-size:22px;letter-spacing:2px;margin:20px 0 4px;word-break:break-word}
 .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
 .ghost{background:transparent;color:var(--ink);border:1px solid var(--line2);border-radius:10px;padding:13px 18px;font-weight:600;cursor:pointer;text-decoration:none;display:inline-block}
@@ -214,7 +258,39 @@ const Q = [
 
 const app = document.getElementById('app');
 const foot = document.getElementById('foot');
-let i = 0, results = [], toets = null;
+let i = 0, results = [], answers = [], toets = null, begonnen = false;
+
+const SITE  = 'https://ogsmysterylab.github.io';
+const TEST  = SITE + '/test/';
+const WOORD = ['zero','one','two','three','four','five','six','seven','eight','nine','ten'];
+const hoofdletter = (t) => t.charAt(0).toUpperCase() + t.slice(1);
+
+// De score van wie jou uitdaagde komt uit de URL en is dus onbetrouwbaar.
+// Alleen een heel getal 0 t/m 10 wordt geaccepteerd; al het andere wordt genegeerd.
+function uitdagerScore(){
+  const ruw = new URLSearchParams(location.search).get('s');
+  if (ruw === null || !/^\d{1,2}$/.test(ruw)) return null;
+  const n = Number(ruw);
+  return (Number.isInteger(n) && n >= 0 && n <= Q.length) ? n : null;
+}
+
+const SOCIALS = [
+  ['yt','YouTube',  'https://www.youtube.com/channel/UCoySACBPKhFYyq_iJarS3UA',
+   '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9.5 8.6v6.8l6-3.4-6-3.4z"/><path d="M12 4.2c3.1 0 5.6.2 6.8.4 1 .2 1.8 1 2 2 .2 1.1.3 2.7.3 5.4s-.1 4.3-.3 5.4c-.2 1-1 1.8-2 2-1.2.2-3.7.4-6.8.4s-5.6-.2-6.8-.4c-1-.2-1.8-1-2-2C3 16.3 3 14.7 3 12s.1-4.3.3-5.4c.2-1 1-1.8 2-2 1.2-.2 3.6-.4 6.7-.4zm0 1.8c-3 0-5.3.2-6.4.4-.3 0-.5.3-.6.6-.1.8-.2 2.3-.2 5s.1 4.2.2 5c0 .3.3.5.6.6 1.1.2 3.4.4 6.4.4s5.3-.2 6.4-.4c.3 0 .5-.3.6-.6.1-.8.2-2.3.2-5s-.1-4.2-.2-5c0-.3-.3-.5-.6-.6-1.1-.2-3.4-.4-6.4-.4z"/></svg>'],
+  ['ig','Instagram','https://www.instagram.com/ogsmysterylab/',
+   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5.2"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.9" r="1.15" fill="currentColor" stroke="none"/></svg>'],
+  ['tt','TikTok',   'https://www.tiktok.com/@ogsmysterylab',
+   '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 3h2.4c.2 1.6 1.1 3 2.5 3.7.7.4 1.5.6 2.3.6v2.5c-1.7 0-3.3-.5-4.7-1.5v6.4c0 3.2-2.6 5.8-5.8 5.8S5 17.9 5 14.7 7.6 8.9 10.7 8.9c.3 0 .6 0 .9.1v2.6a3.3 3.3 0 1 0 2.4 3.1V3z"/></svg>'],
+  ['fb','Facebook', 'https://www.facebook.com/ogsmysterylab1/',
+   '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.6 21v-8h2.7l.4-3.1h-3.1V7.9c0-.9.25-1.5 1.55-1.5h1.65V3.6c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.45-4 4.1v2.3H7.7V13h2.7v8h3.2z"/></svg>'],
+];
+
+function socialsHTML(kop){
+  return `<p class="socnote">${kop}</p><nav class="socials" aria-label="OGS Mystery Lab on social media">` +
+    SOCIALS.map(([k,naam,url,ic]) =>
+      `<a class="soc ${k}" href="${url}" target="_blank" rel="noopener"><span class="ico">${ic}</span>${naam}</a>`
+    ).join('') + '</nav>';
+}
 document.addEventListener('keydown', (e) => { if (toets) toets(e); });
 
 // Deze pagina staat ook ingesloten op de voorpagina. Daar hoort geen tweede kop en geen eigen achtergrond, en moet
@@ -229,15 +305,24 @@ function meldHoogte(){
 function intro(){
   foot.hidden = true;
   toets = null;
+  const uit = begonnen ? null : uitdagerScore();
+  const uitdaging = uit === null ? '' : `
+    <div class="challenge">
+      <div class="n">${uit}/${Q.length}</div>
+      <div class="t">Someone scored <b>${uit} out of ${Q.length}</b> and passed this on to you.
+      That is their score, not yours — your ten statements are still unanswered.</div>
+    </div>`;
   app.innerHTML = `
     <div class="kick"><span class="pulse"></span>Interactive &middot; 10 statements &middot; 2 min</div>
     <h1>You believe things<br> that <span class="hl">aren’t true.</span></h1>
     <p class="lede">Ten statements. Decide which are myths and which are real. Eight of them are myths — two are not. Finding those two is the hard part.</p>
+    ${uitdaging}
     <div class="start">
-      <button class="btn" id="go">Start the test <span class="arrow" aria-hidden="true">&rarr;</span></button>
-      <span class="note">Takes 2 minutes · every answer is sourced</span>
-    </div>`;
-  document.getElementById('go').onclick = () => { i = 0; results = []; question(); };
+      <button class="btn" id="go">${uit === null ? 'Start the test' : 'Start your own test'} <span class="arrow" aria-hidden="true">&rarr;</span></button>
+      <span class="note">Takes 2 minutes · no account · every answer is sourced</span>
+    </div>
+    ${socialsHTML('More from OGS Mystery Lab')}`;
+  document.getElementById('go').onclick = () => { begonnen = true; i = 0; results = []; answers = []; question(); };
   meldHoogte();
 }
 
@@ -275,6 +360,7 @@ function answer(saidMyth){
   const q = Q[i];
   const right = (saidMyth === q.myth);
   results[i] = right;
+  answers[i] = saidMyth;
   const card = app.querySelector('.card');
   app.querySelector('.choices').remove();
   const hint = app.querySelector('.kbd'); if (hint) hint.remove();
@@ -294,47 +380,177 @@ function answer(saidMyth){
   meldHoogte();
 }
 
+function telling(){
+  let goed = 0, mythesGeloofd = 0, waarhedenAfgewezen = 0;
+  Q.forEach((q, n) => {
+    const zeiMythe = answers[n];
+    if (zeiMythe === undefined) return;
+    if (zeiMythe === q.myth) goed++;
+    else if (q.myth) mythesGeloofd++;        // het was een mythe, zij zeiden "echt"
+    else waarhedenAfgewezen++;               // het was waar, zij zeiden "mythe"
+  });
+  return {goed, mythesGeloofd, waarhedenAfgewezen};
+}
+
+function oordeelTekst(t){
+  const {goed, mythesGeloofd: m, waarhedenAfgewezen: w} = t;
+  const fout = m + w;
+  if (fout === 0)
+    return "Ten out of ten. Either you already knew them, or you spotted the two that are true — and almost nobody spots those.";
+  if (m === 0)
+    return w === 1
+      ? "You spotted every myth, but one surprising truth got called a myth as well."
+      : `You spotted every myth, but missed ${WOORD[w]} surprising truths.`;
+  if (w === 0)
+    return m === 1
+      ? "You caught both true stories and only let one myth through. That is a rare combination."
+      : `You caught both true stories, but ${WOORD[m]} myths still got past you.`;
+  if (fout >= 8)
+    return "Almost every one landed the wrong way round. That is not stupidity — it is what repetition does to a claim.";
+  if (fout >= 5)
+    return `${hoofdletter(WOORD[m])} myths got past you and ${WOORD[w]} true ${w === 1 ? 'story was' : 'stories were'} written off. Both halves catch people, for opposite reasons.`;
+  return `${hoofdletter(WOORD[m])} ${m === 1 ? 'myth' : 'myths'} got past you, and ${WOORD[w]} true ${w === 1 ? 'story' : 'stories'} got written off as ${w === 1 ? 'a myth' : 'myths'}.`;
+}
+
+// Op de echte site delen we altijd het canonieke adres. Staat de pagina ergens anders
+// (een preview, een kopie), dan wijst de deellink naar diezelfde plek, zodat hij blijft werken.
+const DEELBASIS = location.hostname.endsWith('ogsmysterylab.github.io')
+  ? TEST : (location.origin + location.pathname);
+
+function deelTekst(goed){
+  const link = DEELBASIS + '?s=' + goed;
+  return {
+    tekst: `I scored ${goed}/${Q.length} on the OGS Mystery Lab myth test. Can you beat me? Take the 2-minute challenge: ${link}`,
+    link
+  };
+}
+
 function result(){
-  const wrong = results.filter(r=>!r).length;
-  const grid = results.map(r=>r?'🟩':'🟥').join('');
-  let line;
-  if (wrong === 0) line = "Nobody does that. You either knew them, or you guessed the two that are true.";
-  else if (wrong <= 2) line = "Strong score. The two that are actually true are what catch people out.";
-  else if (wrong <= 5) line = "That's the normal score. Every one of those beliefs came from somewhere traceable — usually a single book, cartoon or costume.";
-  else line = "Most of what you know about these came from repetition, not evidence. That's not stupidity; it's how myths work.";
+  const t = telling();
+  const grid = results.map(r => r ? '🟩' : '🟥').join('');
+  const {tekst: deelbaar, link: deellink} = deelTekst(t.goed);
 
   foot.hidden = false;
   toets = null;
   if (window.goatcounter && window.goatcounter.count) {
-    window.goatcounter.count({path: 'test-finished-' + wrong, title: 'Test finished', event: true});
+    window.goatcounter.count({path: 'test-score-' + t.goed, title: 'Test finished', event: true});
   }
+
+  const rij = (n) => {
+    const q = Q[n];
+    const label = q.myth ? 'You believed this one' : 'You called this a myth';
+    return `<div class="r"><span class="dot">🟥</span><span class="t">
+      <b>${q.c}</b><br>
+      <span class="bd miss" style="display:inline-block;margin:6px 0 2px">${label}</span><br>
+      ${q.truth} — ${q.e}
+      <a href="${q.u}" target="_blank" rel="noopener">source</a>${q.yt ? ` · <a href="https://www.youtube.com/watch?v=${q.yt}" target="_blank" rel="noopener">watch the episode</a>` : ''}
+    </span></div>`;
+  };
+
   app.innerHTML = `
     <div class="qn">Your result</div>
-    <div class="score">You believed <em>${wrong}</em> of 10.</div>
-    <p class="verdicttxt">${line}</p>
+    <div class="score"><em>${t.goed}</em>/${Q.length} correct</div>
+    <div class="breakdown">
+      <span class="bd ${t.mythesGeloofd ? 'miss' : 'good'}">Myths you believed: <b>${t.mythesGeloofd}</b></span>
+      <span class="bd ${t.waarhedenAfgewezen ? 'miss' : 'good'}">True stories you dismissed: <b>${t.waarhedenAfgewezen}</b></span>
+    </div>
+    <p class="verdicttxt">${oordeelTekst(t)}</p>
     <div class="grid">${grid}</div>
     <span class="note">🟩 right · 🟥 wrong</span>
     <div class="actions">
-      <button class="ghost" id="copy">Share your result</button>
+      <button class="ghost" id="share" aria-expanded="false" aria-controls="sharebox">Share your result</button>
       <button class="ghost" id="again">Try again</button>
-      <a class="ghost" href="https://ogsmysterylab.github.io" target="_blank" rel="noopener">See all the sources</a>
+      <a class="ghost" href="${SITE}" target="_blank" rel="noopener">See all the sources</a>
+    </div>
+    <div class="sharebox" id="sharebox" hidden>
+      <div class="sharetxt" id="sharetxt"></div>
+      <div class="shareopts">
+        <button class="sopt" id="s-native" hidden>Share&hellip;</button>
+        <a class="sopt wa" id="s-wa" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 1.8a8.2 8.2 0 1 1-4.2 15.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 0 1 12 3.8zm-3.2 4c-.2 0-.5 0-.7.4-.2.4-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.7 2.8 4.3 3.8 2.1.8 2.6.7 3 .6.5 0 1.4-.6 1.6-1.2.2-.6.2-1.1.1-1.2 0-.1-.2-.2-.5-.3l-1.6-.8c-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.4.1-.5l.4-.5c.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5l-.7-1.7c-.2-.4-.4-.4-.6-.4h-.2z"/></svg>
+          WhatsApp
+        </a>
+        <button class="sopt" id="s-copy">Copy link</button>
+      </div>
+      <p class="livemsg" id="livemsg" role="status" aria-live="polite"></p>
     </div>
     <div class="recap">
-      <h3>What you got wrong</h3>
-      ${results.map((r,n)=> r ? '' : `
-        <div class="r"><span class="dot">🟥</span><span class="t"><b>${Q[n].c}</b><br>${Q[n].truth} — ${Q[n].e} <a href="${Q[n].u}" target="_blank" rel="noopener">source</a>${Q[n].yt ? ` · <a href="https://www.youtube.com/watch?v=${Q[n].yt}" target="_blank" rel="noopener">watch the episode</a>` : ''}</span></div>`).join('') || '<div class="r"><span class="dot">🟩</span><span class="t">Nothing. All ten correct.</span></div>'}
-    </div>`;
+      <h3>${t.goed === Q.length ? 'Nothing got past you' : 'What you got wrong'}</h3>
+      ${results.map((r, n) => r ? '' : rij(n)).join('') ||
+        '<div class="r"><span class="dot">🟩</span><span class="t">All ten correct — both the eight myths and the two true stories.</span></div>'}
+    </div>
+    ${socialsHTML('More from OGS Mystery Lab')}`;
 
-  document.getElementById('again').onclick = intro;
-  document.getElementById('copy').onclick = (e) => {
-    const txt = `I believed ${wrong} of 10 myths.\n${grid}\nHow wrong are you? https://ogsmysterylab.github.io/test/`;
-    const done = () => { e.target.textContent = 'Copied'; setTimeout(()=>e.target.textContent='Share your result', 1800); };
-    if (navigator.share) {
-      navigator.share({text: txt}).catch(()=>{});
-    } else if (navigator.clipboard) {
-      navigator.clipboard.writeText(txt).then(done, ()=>prompt('Copy this:', txt));
-    } else prompt('Copy this:', txt);
+  document.getElementById('again').onclick = () => { i = 0; results = []; answers = []; intro(); };
+
+  const knop   = document.getElementById('share');
+  const doos   = document.getElementById('sharebox');
+  const melder = document.getElementById('livemsg');
+  document.getElementById('sharetxt').textContent = deelbaar;
+  document.getElementById('s-wa').href = 'https://wa.me/?text=' + encodeURIComponent(deelbaar);
+
+  const zegHet = (m) => { melder.textContent = m; clearTimeout(zegHet._t); zegHet._t = setTimeout(() => { melder.textContent = ''; meldHoogte(); }, 4000); };
+
+  const nativeKnop = document.getElementById('s-native');
+  if (navigator.share) {
+    nativeKnop.hidden = false;
+    nativeKnop.onclick = async () => {
+      try {
+        await navigator.share({title: 'OGS Mystery Lab — myth test', text: deelbaar, url: deellink});
+        zegHet('Shared.');
+      } catch (err) {
+        // Annuleren is geen fout: de gebruiker bedacht zich, dus geen melding.
+        if (!(err && (err.name === 'AbortError' || err.name === 'NotAllowedError'))) {
+          zegHet('Sharing did not open. Use WhatsApp or Copy link instead.');
+        }
+      }
+      meldHoogte();
+    };
+  }
+
+  const naarKlembord = async (waarde) => {
+    try {
+      if (navigator.clipboard && window.isSecureContext) { await navigator.clipboard.writeText(waarde); return true; }
+    } catch (e) {}
+    try {
+      const ta = document.createElement('textarea');
+      ta.value = waarde; ta.setAttribute('readonly', '');
+      ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0';
+      document.body.appendChild(ta); ta.select();
+      const ok = document.execCommand('copy');
+      document.body.removeChild(ta);
+      return ok;
+    } catch (e) { return false; }
   };
+
+  const kopieerKnop = document.getElementById('s-copy');
+  kopieerKnop.onclick = async () => {
+    // let op: e.currentTarget is na de eerste await null, dus we pakken de knop uit de scope
+    const ok = await naarKlembord(deelbaar);
+    if (ok) {
+      kopieerKnop.textContent = 'Copied';
+      zegHet('Copied. The link opens a fresh test for whoever you send it to.');
+      clearTimeout(kopieerKnop._t);
+      kopieerKnop._t = setTimeout(() => { kopieerKnop.textContent = 'Copy link'; }, 2500);
+    } else {
+      zegHet('Could not copy automatically — select the text above and copy it.');
+    }
+    meldHoogte();
+  };
+
+  knop.onclick = () => {
+    const open = doos.hidden;
+    doos.hidden = !open;
+    knop.setAttribute('aria-expanded', String(open));
+    knop.textContent = open ? 'Close sharing' : 'Share your result';
+    if (open) (document.getElementById('s-native').hidden ? document.getElementById('s-wa') : nativeKnop).focus();
+    meldHoogte();
+  };
+
+  toets = (e) => {
+    if (e.key === 'Escape' && !doos.hidden) { knop.click(); knop.focus(); }
+  };
+
   meldHoogte();
 }
 
