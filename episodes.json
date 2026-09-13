@@ -1,335 +1,581 @@
 [
   {
-    "id": "why-this-ancient-cave-was-a-death-trap-for-animals",
-    "video": "-8bAhUHrkMM",
+    "id": "what-would-a-real-dragon-need-to-fly-science-drago",
+    "video": "lf2QO6QNREc",
     "ep": 4,
-    "format": "FACT",
-    "title": "Why this ancient cave was a death trap for animals #ancientrome #history #science",
-    "claim": "Ancient writers said the gateway at Hierapolis killed every animal led into it. The archaeology and the gas readings say they were telling the truth.",
+    "format": "WHATIF",
+    "title": "What would a real dragon need to fly? #science #dragons #biology #whatif",
+    "claim": "A dragon big enough to carry off cattle could still fly.",
     "verdict": "",
     "date": "2026-09-12",
-    "youtube": "https://www.youtube.com/watch?v=-8bAhUHrkMM",
+    "youtube": "https://www.youtube.com/watch?v=lf2QO6QNREc",
     "sources": [
       {
-        "type": "paper",
-        "title": "Deadly CO2 gases in the Plutonium of Hierapolis (Denizli, Turkey)",
-        "publisher": "Pfanz, Yüce, Gulbay & Gokgoz — Archaeological and Anthropological Sciences 11(4): 1359–1371, Springer Nature",
-        "url": "https://link.springer.com/article/10.1007/s12520-018-0599-5"
+        "type": "archive",
+        "url": "https://archive.org/stream/OnBeingTheRightSize-J.B.S.Haldane/rightsize_djvu.txt",
+        "title": "On Being the Right Size (J. B. S. Haldane essay, full text)",
+        "publisher": "Internet Archive (text of Haldane's 1926 essay)"
       },
       {
         "type": "paper",
-        "title": "The Ploutonion of Hierapolis in light of recent research (2013–17)",
-        "publisher": "Francesco D'Andria — Journal of Roman Archaeology 31 (2018)",
-        "url": "https://journalofromanarchaeology.com/wp-content/uploads/2020/03/JRA31_04_DAndria.pdf"
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0005400",
+        "title": "Scaling of Soaring Seabirds and Implications for Flight Abilities of Giant Pterosaurs",
+        "publisher": "PLoS ONE 4(4): e5400 (Sato K, Sakamoto KQ, Watanuki Y, Takahashi A, Katsumata N, Bost C-A, Weimerskirch H)"
       },
       {
         "type": "paper",
-        "title": "New Archaeological Findings at Hierapolis Ploutonion Between Hades and Kybele",
-        "publisher": "Francesco D'Andria — Colloquium Anatolicum 16 (2017): 217–245",
-        "url": "https://dergipark.org.tr/en/pub/collan/article/919748"
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0013982",
+        "title": "On the Size and Flight Diversity of Giant Pterosaurs, the Use of Birds as Pterosaur Analogues and Comments on Pterosaur Flightlessness",
+        "publisher": "PLoS ONE 5(11): e13982 (Witton MP, Habib MB)"
+      },
+      {
+        "type": "museum",
+        "url": "https://www.nhm.ac.uk/discover/the-truth-about-pterosaurs.html",
+        "title": "Pterosaurs: The truth about these 'flying dinosaurs'",
+        "publisher": "Natural History Museum, London (Emily Osterloff)"
+      },
+      {
+        "type": "museum",
+        "url": "https://nationalzoo.si.edu/animals/kori-bustard",
+        "title": "Kori bustard",
+        "publisher": "Smithsonian's National Zoo & Conservation Biology Institute"
+      },
+      {
+        "type": "source",
+        "url": "https://www.guinnessworldrecords.com/world-records/70907-heaviest-flying-bird",
+        "title": "Heaviest flying bird",
+        "publisher": "Guinness World Records"
       },
       {
         "type": "paper",
-        "title": "Journey to the Gate of Hell: the Plutonion through the eyes of early modern European travellers",
-        "publisher": "Sevil Gözübüyük — Pamukkale Üniversitesi Sosyal Bilimler Enstitüsü Dergisi 71: 355–375",
-        "url": "https://dergipark.org.tr/tr/pub/pausbed/article/1732187"
+        "url": "https://academic.oup.com/auk/article/126/3/657/5148342",
+        "title": "The Most Extreme Sexual Size Dimorphism Among Birds: Allometry, Selection, and Early Juvenile Development in the Great Bustard (Otis tarda)",
+        "publisher": "The Auk 126(3):657 (Alonso et al.; full author list not verified by fetch)"
       },
       {
-        "type": "official",
-        "title": "Hierapolis-Pamukkale (World Heritage List no. 485)",
-        "publisher": "UNESCO World Heritage Centre",
-        "url": "https://whc.unesco.org/en/list/485"
+        "type": "reference",
+        "url": "https://www.britannica.com/animal/great-bustard",
+        "title": "Great bustard",
+        "publisher": "Encyclopaedia Britannica (Frannie Comstock)"
       },
       {
-        "type": "official",
-        "title": "Hierapolis Pamukkale archaeological site",
-        "publisher": "Republic of Türkiye, Ministry of Culture and Tourism",
-        "url": "https://muze.gov.tr/muze-detay?SectionId=PMK01&DistId=PMK"
+        "type": "paper",
+        "url": "https://epub.ub.uni-muenchen.de/12011/1/zitteliana_2008_b28_09.pdf",
+        "title": "Comparative evidence for quadrupedal launch in pterosaurs",
+        "publisher": "Zitteliana B28: 159-166 (Habib MB), hosted by LMU Munich Open Access"
+      },
+      {
+        "type": "museum",
+        "url": "https://repository.si.edu/bitstreams/2a8764d6-5f3e-4e3a-b0ca-97daf1b34451/download",
+        "title": "Locomotor mechanisms of birds (Smithsonian Miscellaneous Collections 143(1): 1-91)",
+        "publisher": "Smithsonian Institution (Frank A. Hartman), Smithsonian Research Online repository"
+      },
+      {
+        "type": "paper",
+        "url": "https://journals.biologists.com/jeb/article-abstract/130/1/235/5237/Maximum-Lift-Production-During-Takeoff-in-Flying",
+        "title": "Maximum Lift Production During Takeoff in Flying Animals",
+        "publisher": "Journal of Experimental Biology 130(1): 235 (Marden JH)"
+      },
+      {
+        "type": "paper",
+        "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0004497&type=printable",
+        "title": "Respiratory Evolution Facilitated the Origin of Pterosaur Flight and Aerial Gigantism (printable full text)",
+        "publisher": "PLoS ONE 4(2): e4497 (Claessens LPAM, O'Connor PM, Unwin DM)"
       },
       {
         "type": "archive",
-        "title": "Missione Archeologica Italiana a Hierapolis di Frigia",
-        "publisher": "Università del Salento",
-        "url": "https://www.hierapolis.unisalento.it/15"
-      },
-      {
-        "type": "archive",
-        "title": "Strabo, Geography 13.4.14 (Loeb, trans. H. L. Jones, 1928)",
-        "publisher": "LacusCurtius, University of Chicago",
-        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/13D*.html"
-      },
-      {
-        "type": "archive",
-        "title": "Cassius Dio, Roman History 68.27.3 (Loeb, trans. E. Cary)",
-        "publisher": "LacusCurtius, University of Chicago",
-        "url": "https://penelope.uchicago.edu/Thayer/e/roman/texts/cassius_dio/68*.html"
-      },
-      {
-        "type": "official",
-        "title": "Carbon dioxide — IDLH documentation",
-        "publisher": "NIOSH / U.S. Centers for Disease Control and Prevention",
-        "url": "https://www.cdc.gov/niosh/idlh/124389.html"
-      },
-      {
-        "type": "official",
-        "title": "Carbon dioxide asphyxiation hazard (HIB 06-05-96)",
-        "publisher": "U.S. Occupational Safety and Health Administration",
-        "url": "https://www.osha.gov/publications/hib19960605"
-      }
-    ]
-  },
-  {
-    "id": "vikings-didn-t-have-horns-here-s-why-we-think-they",
-    "video": "bb0Nw6Nt8ps",
-    "ep": 3,
-    "format": "MYTH",
-    "title": "Vikings didn't have horns—here's why we think they did #vikings #history #myth",
-    "claim": "No Viking grave has ever produced a horned helmet. The horns were put on their heads in the 1800s.",
-    "verdict": "BUSTED",
-    "date": "2026-09-12",
-    "youtube": "https://www.youtube.com/watch?v=bb0Nw6Nt8ps",
-    "sources": [
-      {
-        "type": "official",
-        "title": "Viking helmets",
-        "publisher": "National Museum of Denmark",
-        "url": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/weapons/helmets/"
-      },
-      {
-        "type": "official",
-        "title": "The Gjermundbu helmet",
-        "publisher": "Museum of Cultural History, University of Oslo",
-        "url": "https://www.khm.uio.no/besok-oss/vikingskipshuset/vikingtid/vapen-og-gullskatter/vapen/gjermundbu.html"
+        "url": "https://doaj.org/article/7db389d770424801833ba2efbce9183e",
+        "title": "Respiratory evolution facilitated the origin of pterosaur flight and aerial gigantism (DOAJ record with abstract)",
+        "publisher": "Directory of Open Access Journals"
       },
       {
         "type": "paper",
-        "title": "The Yarm Helmet",
-        "publisher": "Chris Caple, Medieval Archaeology 64(1) — Durham University repository",
-        "url": "https://durham-repository.worktribe.com/preview/1247660/33082.pdf"
+        "url": "https://www.bio.umass.edu/biology/dumont/Dumont_2010_Bone_density_and_bird_skeletons_ProcRoySocB.pdf",
+        "title": "Bone density and the lightweight skeletons of birds",
+        "publisher": "Proceedings of the Royal Society B (Dumont ER), author copy hosted by UMass Amherst"
+      },
+      {
+        "type": "museum",
+        "url": "https://howthingsfly.si.edu/ask-an-explainer/what-wing-loading",
+        "title": "Ask an Explainer: What is wing loading?",
+        "publisher": "Smithsonian National Air and Space Museum (How Things Fly)"
       },
       {
         "type": "official",
-        "title": "The Viksø helmets",
-        "publisher": "National Museum of Denmark",
-        "url": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-bronze-age/the-viksoe-helmets/"
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/lift-coefficient/",
+        "title": "Lift Coefficient (Beginner's Guide to Aeronautics)",
+        "publisher": "NASA Glenn Research Center"
       },
       {
-        "type": "official",
-        "title": "What were the helmets used for?",
-        "publisher": "National Museum of Denmark",
-        "url": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-bronze-age/the-viksoe-helmets/what-were-the-helmets-used-for/"
+        "type": "archive",
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1126/science.165.3888.61?fields=title,authors,year,venue,abstract",
+        "title": "Biochemistry at 100°C: Explosive Secretory Discharge of Bombardier Beetles (Brachinus) (Semantic Scholar metadata; Science 1969, DOI 10.1126/science.165.3888.61)",
+        "publisher": "Semantic Scholar record of Science paper (Aneshansley D, Eisner T, Widom JM, Widom B)"
+      },
+      {
+        "type": "archive",
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1126/science.1261166?fields=title,authors,year,venue,abstract",
+        "title": "Mechanistic origins of bombardier beetle (Brachinini) explosion-induced defensive spray pulsation (Semantic Scholar metadata with abstract; Science 2015, DOI 10.1126/science.1261166)",
+        "publisher": "Semantic Scholar record of Science paper (Arndt EM, Moore W, Lee W-K, Ortiz C)"
+      },
+      {
+        "type": "press",
+        "url": "https://cen.acs.org/articles/93/i18/Beetles-Explosive-Spray-Mechanism-Revealed.html",
+        "title": "Beetle's Explosive Spray Mechanism Revealed By X-Ray Imaging",
+        "publisher": "Chemical & Engineering News (American Chemical Society)"
+      },
+      {
+        "type": "university",
+        "url": "https://content.ces.ncsu.edu/bombardier-beetles",
+        "title": "Bombardier Beetles",
+        "publisher": "N.C. Cooperative Extension, NC State University"
+      },
+      {
+        "type": "university",
+        "url": "https://news.mit.edu/2015/how-bombardier-beetles-produce-defensive-spray-0430",
+        "title": "How some beetles produce a scalding defensive spray",
+        "publisher": "MIT News Office (David L. Chandler)"
       },
       {
         "type": "paper",
-        "title": "New study about the Viksø helmets",
-        "publisher": "Aarhus University",
-        "url": "https://arts.au.dk/en/news-and-events/news/show/artikel/new-study-about-the-viksoe-helmets"
-      },
-      {
-        "type": "official",
-        "title": "Historien om Veksøhjelmene",
-        "publisher": "ROMU (Roskilde Museum)",
-        "url": "https://romu.dk/historien-om-veksoehjelmene-et-ikonisk-oldtidsfund-fra-broens-mose/"
+        "url": "https://journals.biologists.com/jeb/article/203/8/1265/8530/Spray-Mechanism-of-the-Most-Primitive-Bombardier",
+        "title": "Spray Mechanism of the Most Primitive Bombardier Beetle (Metrius contractus)",
+        "publisher": "Journal of Experimental Biology 203(8): 1265 (Eisner T, Aneshansley DJ et al.)"
       },
       {
         "type": "archive",
-        "title": "Wagner's Ring: Forging an Epic (Doepler costume designs)",
-        "publisher": "The Morgan Library & Museum",
-        "url": "https://www.themorgan.org/exhibitions/wagners-ring"
+        "url": "https://agris.fao.org/search/en/records/65df99c57c7033e84bee67b6",
+        "title": "Flight performance of the largest volant bird (AGRIS bibliographic record with abstract; Ksepka DT, PNAS 2014)",
+        "publisher": "FAO AGRIS (record of Proceedings of the National Academy of Sciences USA paper)"
       },
       {
-        "type": "archive",
-        "title": "The horned helmet: misconceptions and misunderstandings",
-        "publisher": "World-Tree Project, University College Cork",
-        "url": "https://www.worldtreeproject.org/exhibits/show/miscon/hornvikes"
+        "type": "press",
+        "url": "https://www.nature.com/news/2007/070702/full/news070702-3.html",
+        "title": "Giant bird was a glider",
+        "publisher": "Nature News (Heidi Ledford)"
       },
       {
-        "type": "news",
-        "title": "Did this Viking helmet belong to a Norwegian warrior who served rulers in the East?",
-        "publisher": "ScienceNorway",
-        "url": "https://www.sciencenorway.no/archaeology-viking-age-vikings/did-this-viking-helmet-belong-to-a-norwegian-warrior-who-served-rulers-in-the-east/1964783"
-      },
-      {
-        "type": "news",
-        "title": "Did Vikings really wear horned helmets?",
-        "publisher": "HISTORY / A&E",
-        "url": "https://www.history.com/articles/did-vikings-really-wear-horned-helmets"
-      },
-      {
-        "type": "news",
-        "title": "Viksøhjelmene inspirerede måske myten om vikinger med horn",
-        "publisher": "Videnskab.dk",
-        "url": "https://videnskab.dk/kultur-samfund/viksoehjelmene-inspirerede-maaske-myten-om-vikinger-med-horn-men-de-er-meget-aeldre/"
+        "type": "press",
+        "url": "https://www.sciencedaily.com/releases/2014/07/140707152414.htm",
+        "title": "World's biggest-ever flying bird discovered: Twice as big as the royal albatross",
+        "publisher": "ScienceDaily (reprint of NESCent release)"
       }
     ]
   },
   {
     "id": "why-history-got-napoleon-wrong-mythbusting-history",
     "video": "CC8L0_jXpkc",
-    "ep": 2,
+    "ep": 3,
     "format": "MYTH",
     "title": "Why history got Napoleon wrong #mythbusting #history",
-    "claim": "History's most famous short man was an ordinary height for his time. The joke was British propaganda.",
+    "claim": "Napoleon was unusually short.",
     "verdict": "BUSTED",
     "date": "2026-09-12",
     "youtube": "https://www.youtube.com/watch?v=CC8L0_jXpkc",
     "sources": [
       {
         "type": "paper",
-        "title": "La taille de Napoléon",
-        "publisher": "Marcel Dunan, Revue de l'Institut Napoléon no. 89, pp. 178–179 — Fondation Napoléon",
-        "url": "https://www.napoleon.org/histoire-des-2-empires/articles/la-taille-de-napoleon/"
+        "url": "https://www.napoleon.org/histoire-des-2-empires/articles/la-taille-de-napoleon/",
+        "title": "La taille de Napoleon",
+        "publisher": "Fondation Napoleon / Revue de l'Institut Napoleon no. 89, pp. 178-179 (article by Marcel Dunan, re-published on napoleon.org)"
       },
       {
-        "type": "paper",
-        "title": "Was Napoleon small?",
-        "publisher": "Thierry Lentz, director of the Fondation Napoléon",
-        "url": "https://www.napoleon.org/en/history-of-the-two-empires/articles/was-napoleon-small/"
+        "type": "museum",
+        "url": "https://www.napoleon.org/en/history-of-the-two-empires/articles/was-napoleon-small/",
+        "title": "Bullet Point #15 - Was Napoleon small?",
+        "publisher": "Fondation Napoleon (napoleon.org), article by Thierry Lentz, director of the Fondation Napoleon"
       },
       {
-        "type": "paper",
+        "type": "source",
+        "url": "https://www.guichetdusavoir.org/question/voir/26663",
+        "title": "La taille de Napoleon Bonaparte (reference answer)",
+        "publisher": "Guichet du Savoir, Bibliotheque municipale de Lyon"
+      },
+      {
+        "type": "source",
+        "url": "https://www.sizes.com/units/pied.htm",
+        "title": "pied (unit of length) - Sizes.com reference entry",
+        "publisher": "Sizes, Inc."
+      },
+      {
+        "type": "source",
+        "url": "https://en.wikipedia.org/wiki/Traditional_French_units_of_measurement",
+        "title": "Traditional French units of measurement",
+        "publisher": "Wikipedia (English)"
+      },
+      {
+        "type": "source",
+        "url": "https://www.history.com/articles/napoleon-complex-short",
+        "title": "Was Napoleon Short? Origins of the 'Napoleon Complex'",
+        "publisher": "HISTORY (A&E Television Networks), article by Una McIlvenna"
+      },
+      {
+        "type": "source",
+        "url": "https://www.britannica.com/story/was-napoleon-short",
+        "title": "Was Napoleon Short?",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "type": "source",
+        "url": "https://www.nationalgeographic.com/history/article/napoleon-complex-height-discrimination-men-history",
+        "title": "Was Napoleon even short? Inside the history of discrimination against short men",
+        "publisher": "National Geographic, article by Erin Blakemore"
+      },
+      {
+        "type": "source",
+        "url": "https://en.wikipedia.org/wiki/Napoleon_complex",
+        "title": "Napoleon complex",
+        "publisher": "Wikipedia (English)"
+      },
+      {
+        "type": "museum",
+        "url": "https://www.musee-armee.fr/fileadmin/user_upload/Documents/Support-Visite-Fiches-Objets/Fiches-periode-napoleon/MA_redingote-chapeau.pdf",
+        "title": "La redingote et le chapeau de Napoleon Ier (fiche objet)",
+        "publisher": "Musee de l'Armee, Hotel national des Invalides, Paris"
+      },
+      {
+        "type": "source",
+        "url": "https://www.thecollector.com/how-tall-was-napoleon/",
+        "title": "Was Napoleon Short? Here's the Truth About His Height",
+        "publisher": "TheCollector, article credited to Pappas"
+      },
+      {
+        "type": "university",
+        "url": "https://epub.ub.uni-muenchen.de/54/1/france.pdf",
         "title": "An Anthropometric History of Early-Modern France",
-        "publisher": "Komlos, Hau & Bourguinat — University of Munich, Discussion Paper 2003-10",
-        "url": "https://epub.ub.uni-muenchen.de/54/1/france.pdf"
+        "publisher": "University of Munich, Department of Economics, Munich Discussion Paper 2003-10 (John Komlos, Michel Hau, Nicolas Bourguinat)"
       },
       {
-        "type": "official",
-        "title": "La redingote et le chapeau de Napoléon Ier (object sheet)",
-        "publisher": "Musée de l'Armée, Hôtel national des Invalides, Paris",
-        "url": "https://www.musee-armee.fr/fileadmin/user_upload/Documents/Support-Visite-Fiches-Objets/Fiches-periode-napoleon/MA_redingote-chapeau.pdf"
+        "type": "museum",
+        "url": "https://www.npg.org.uk/collections/search/portrait/mw62678/Napolon-Bonaparte-Maniac-ravings---or---little-Boney-in-a-strong-fit---",
+        "title": "NPG D12811; Napoleon Bonaparte ('Maniac-ravings - or - little Boney in a strong fit -') (catalogue entry)",
+        "publisher": "National Portrait Gallery, London"
       },
       {
-        "type": "archive",
-        "title": "Napoleon Bonaparte ('Maniac-ravings – or – little Boney in a strong fit'), NPG D12811",
-        "publisher": "National Portrait Gallery, London",
-        "url": "https://www.npg.org.uk/collections/search/portrait/mw62678/Napolon-Bonaparte-Maniac-ravings---or---little-Boney-in-a-strong-fit---"
+        "type": "museum",
+        "url": "https://www.npg.org.uk/collections/explore/james-gillray/napoleon",
+        "title": "Napoleon - James Gillray (collection essay)",
+        "publisher": "National Portrait Gallery, London"
       },
       {
-        "type": "archive",
-        "title": "Napoleon — James Gillray (collection essay)",
-        "publisher": "National Portrait Gallery, London",
-        "url": "https://www.npg.org.uk/collections/explore/james-gillray/napoleon"
-      },
-      {
-        "type": "archive",
+        "type": "paper",
+        "url": "https://publicdomainreview.org/essay/little-boney/",
         "title": "Little Boney: James Gillray and Napoleon's Fragile Masculinity",
-        "publisher": "Peter W. Walker — The Public Domain Review",
-        "url": "https://publicdomainreview.org/essay/little-boney/"
+        "publisher": "The Public Domain Review, essay by Peter W. Walker (historian, University of Wyoming)"
       },
       {
-        "type": "archive",
-        "title": "The King of Brobdingnag and Gulliver, James Gillray",
-        "publisher": "The Metropolitan Museum of Art, New York",
-        "url": "https://www.metmuseum.org/art/collection/search/391822"
+        "type": "museum",
+        "url": "https://www.metmuseum.org/art/collection/search/391822",
+        "title": "James Gillray, 'The King of Brobdingnag and Gulliver. - Vide. Swift's Gulliver: Voyage to Brobdingnag' (catalogue entry)",
+        "publisher": "The Metropolitan Museum of Art, New York"
       },
       {
-        "type": "archive",
-        "title": "The Empress's wish or Boney Puzzled!!",
-        "publisher": "Royal Museums Greenwich",
-        "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-108935"
+        "type": "source",
+        "url": "https://www.historyhit.com/how-did-james-gillray-attack-napoleon-as-the-little-corporal/",
+        "title": "How Did James Gillray Attack Napoleon as the 'Little Corporal'?",
+        "publisher": "History Hit, article by Alice Loxton"
+      },
+      {
+        "type": "museum",
+        "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-108935",
+        "title": "'The Empress's wish or Boney Puzzled!!' (caricature) - collection object RMGC-object-108935",
+        "publisher": "Royal Museums Greenwich"
+      },
+      {
+        "type": "source",
+        "url": "https://www.napoleon-series.org/military-info/organization/France/Guard/Infantry/Grenadiers/c_grognards.html",
+        "title": "Grognards: Grenadier a Pied de la Garde 1799-1815",
+        "publisher": "The Napoleon Series"
       },
       {
         "type": "paper",
+        "url": "https://link.springer.com/article/10.1007/s00428-021-03061-1",
+        "title": "The gastric disease of Napoleon Bonaparte: brief report for the bicentenary of Napoleon's death on St. Helena in 1821",
+        "publisher": "Virchows Archiv (Springer), Lugli et al."
+      },
+      {
+        "type": "source",
+        "url": "https://en.wikipedia.org/wiki/Death_of_Napoleon",
+        "title": "Death of Napoleon",
+        "publisher": "Wikipedia (English)"
+      },
+      {
+        "type": "museum",
+        "url": "https://www.napoleon.org/en/history-of-the-two-empires/articles/napoleons-death-new-findings-from-his-autopsy/",
         "title": "Napoleon's Death: New Findings From His Autopsy",
-        "publisher": "Arie Ribon — Fondation Napoléon",
-        "url": "https://www.napoleon.org/en/history-of-the-two-empires/articles/napoleons-death-new-findings-from-his-autopsy/"
+        "publisher": "Fondation Napoleon (napoleon.org), article by Arie Ribon"
       },
       {
-        "type": "paper",
+        "type": "museum",
+        "url": "https://www.napoleon.org/en/history-of-the-two-empires/close-up/a-close-up-on-napoleons-death/",
         "title": "A close-up on Napoleon's death",
-        "publisher": "Fondation Napoléon",
-        "url": "https://www.napoleon.org/en/history-of-the-two-empires/close-up/a-close-up-on-napoleons-death/"
+        "publisher": "Fondation Napoleon (napoleon.org)"
       },
       {
-        "type": "paper",
-        "title": "The gastric disease of Napoleon Bonaparte",
-        "publisher": "Lugli et al., Virchows Archiv — Springer",
-        "url": "https://link.springer.com/article/10.1007/s00428-021-03061-1"
+        "type": "source",
+        "url": "https://shannonselin.com/2017/09/10-myths-napoleon-bonaparte/",
+        "title": "10 Myths about Napoleon Bonaparte",
+        "publisher": "Shannon Selin (historical novelist / Napoleonic researcher), shannonselin.com"
       }
     ]
   },
   {
-    "id": "what-would-a-real-dragon-need-to-fly-science-drago",
-    "video": "lf2QO6QNREc",
-    "ep": 1,
-    "format": "WHATIF",
-    "title": "What would a real dragon need to fly? #science #dragons #biology #whatif",
-    "claim": "Take a dragon seriously as an animal and the physics turns brutal: wingspan, weight, bone density, and a way to make fire.",
-    "verdict": "",
+    "id": "vikings-didn-t-have-horns-here-s-why-we-think-they",
+    "video": "bb0Nw6Nt8ps",
+    "ep": 2,
+    "format": "MYTH",
+    "title": "Vikings didn't have horns—here's why we think they did #vikings #history #myth",
+    "claim": "Vikings wore horned helmets.",
+    "verdict": "BUSTED",
     "date": "2026-09-12",
-    "youtube": "https://www.youtube.com/watch?v=lf2QO6QNREc",
+    "youtube": "https://www.youtube.com/watch?v=bb0Nw6Nt8ps",
     "sources": [
       {
-        "type": "paper",
-        "title": "Scaling of Soaring Seabirds and Implications for Flight Abilities of Giant Pterosaurs",
-        "publisher": "Sato et al. — PLoS ONE 4(4): e5400",
-        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0005400"
+        "type": "museum",
+        "url": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/weapons/helmets/",
+        "title": "Viking helmets (Helmets with horns?)",
+        "publisher": "National Museum of Denmark (Nationalmuseet)"
+      },
+      {
+        "type": "source",
+        "url": "https://ingebretsens-blog.com/wp-content/uploads/2018/07/51267328-frank-invention-of-horned-helmet.pdf",
+        "title": "The Invention of the Viking Horned Helmet (Roberta Frank), in International Scandinavian and Medieval Studies in Memory of Gerd Wolfgang Weber, ed. Dallapiazza et al., Trieste: Edizioni Parnaso, 2000, pp. 199-208",
+        "publisher": "Edizioni Parnaso (scholarly volume); PDF hosted on a third-party retailer blog"
+      },
+      {
+        "type": "university",
+        "url": "https://www.worldtreeproject.org/exhibits/show/miscon/hornvikes",
+        "title": "The horned helmet - Misconceptions and Misunderstandings (World-Tree Project)",
+        "publisher": "World-Tree Project, University College Cork"
+      },
+      {
+        "type": "museum",
+        "url": "https://www.khm.uio.no/besok-oss/vikingskipshuset/vikingtid/vapen-og-gullskatter/vapen/gjermundbu.html",
+        "title": "Verdas einaste vikinghjelm (Gjermundbu helmet page, Vikingtidsmuseet)",
+        "publisher": "Museum of Cultural History, University of Oslo (Kulturhistorisk museum)"
       },
       {
         "type": "paper",
-        "title": "On the Size and Flight Diversity of Giant Pterosaurs, the Use of Birds as Pterosaur Analogues and Comments on Pterosaur Flightlessness",
-        "publisher": "Witton & Habib — PLoS ONE 5(11): e13982",
-        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0013982"
+        "url": "https://durham-repository.worktribe.com/preview/1247660/33082.pdf",
+        "title": "The Yarm Helmet (Chris Caple), Medieval Archaeology 64(1), DOI 10.1080/00766097.2020.1755126 - Durham repository author copy",
+        "publisher": "Durham University repository / Taylor & Francis (Society for Medieval Archaeology)"
+      },
+      {
+        "type": "press",
+        "url": "https://www.sciencenorway.no/archaeology-viking-age-vikings/did-this-viking-helmet-belong-to-a-norwegian-warrior-who-served-rulers-in-the-east/1964783",
+        "title": "Did this Viking helmet belong to a Norwegian warrior who served rulers in the East?",
+        "publisher": "ScienceNorway (Ida Irene Bergstrøm)"
+      },
+      {
+        "type": "press",
+        "url": "https://www.history.com/articles/did-vikings-really-wear-horned-helmets",
+        "title": "Did Vikings really wear horned helmets?",
+        "publisher": "HISTORY / A&E (Elizabeth Nix)"
+      },
+      {
+        "type": "source",
+        "url": "https://sagy.vikingove.cz/en/the-helmet-from-gjermundbu/",
+        "title": "The helmet from Gjermundbu (Tomáš Vlasatý)",
+        "publisher": "Projekt Forlǫg (independent researcher site)"
+      },
+      {
+        "type": "museum",
+        "url": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-bronze-age/the-viksoe-helmets/",
+        "title": "The Viksø helmets",
+        "publisher": "National Museum of Denmark (Nationalmuseet)"
+      },
+      {
+        "type": "university",
+        "url": "https://arts.au.dk/en/news-and-events/news/show/artikel/new-study-about-the-viksoe-helmets",
+        "title": "New study about the Viksø helmets",
+        "publisher": "Aarhus University, Faculty of Arts"
+      },
+      {
+        "type": "reference",
+        "url": "https://lex.dk/Viks%C3%B8hjelmene",
+        "title": "Viksøhjelmene (entry by Heide Wrobel Nørgaard)",
+        "publisher": "Lex - Danmarks Nationalleksikon"
+      },
+      {
+        "type": "museum",
+        "url": "https://romu.dk/historien-om-veksoehjelmene-et-ikonisk-oldtidsfund-fra-broens-mose/",
+        "title": "Historien om Veksøhjelmene - et ikonisk oldtidsfund fra Brøns Mose",
+        "publisher": "ROMU (Roskilde Museum)"
+      },
+      {
+        "type": "museum",
+        "url": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-bronze-age/the-viksoe-helmets/what-were-the-helmets-used-for/",
+        "title": "What were the helmets used for? (Viksø helmets sub-page)",
+        "publisher": "National Museum of Denmark (Nationalmuseet)"
+      },
+      {
+        "type": "press",
+        "url": "https://videnskab.dk/kultur-samfund/viksoehjelmene-inspirerede-maaske-myten-om-vikinger-med-horn-men-de-er-meget-aeldre/",
+        "title": "Viksøhjelmene inspirerede måske myten om vikinger med horn: Men de er meget ældre",
+        "publisher": "Videnskab.dk (Mette Mølgaard)"
+      },
+      {
+        "type": "press",
+        "url": "https://www.smithsonianmag.com/smart-news/iconic-viking-horned-helmets-actually-3000-years-old-180979339/",
+        "title": "The Horned Helmets Falsely Attributed to Vikings Are Actually Nearly 3,000 Years Old",
+        "publisher": "Smithsonian Magazine (Livia Gershon)"
+      },
+      {
+        "type": "museum",
+        "url": "https://www.themorgan.org/exhibitions/wagners-ring",
+        "title": "Wagner's Ring: Forging an Epic (exhibition page listing Doepler Figurinen)",
+        "publisher": "The Morgan Library & Museum"
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Carl_Emil_Doepler",
+        "title": "Carl Emil Doepler",
+        "publisher": "Wikipedia"
+      }
+    ]
+  },
+  {
+    "id": "why-this-ancient-cave-was-a-death-trap-for-animals",
+    "video": "-8bAhUHrkMM",
+    "ep": 1,
+    "format": "FACT",
+    "title": "Why this ancient cave was a death trap for animals #ancientrome #history #science",
+    "claim": "A cave at Hierapolis killed bulls while its priests walked out unharmed.",
+    "verdict": "TRUE",
+    "date": "2026-09-12",
+    "youtube": "https://www.youtube.com/watch?v=-8bAhUHrkMM",
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://whc.unesco.org/en/list/485",
+        "title": "Hierapolis-Pamukkale (World Heritage List no. 485)",
+        "publisher": "UNESCO World Heritage Centre"
       },
       {
         "type": "official",
-        "title": "Pterosaurs: the truth about these 'flying dinosaurs'",
-        "publisher": "Emily Osterloff — Natural History Museum, London",
-        "url": "https://www.nhm.ac.uk/discover/the-truth-about-pterosaurs.html"
+        "url": "https://muze.gov.tr/muze-detay?SectionId=PMK01&DistId=PMK",
+        "title": "Hierapolis Pamukkale Travertine Archeological Site (muze.gov.tr site page)",
+        "publisher": "T.C. Kültür ve Turizm Bakanlığı (Republic of Türkiye Ministry of Culture and Tourism), museum/site portal"
+      },
+      {
+        "type": "press",
+        "url": "https://www.iletisim.gov.tr/turkce/yerel_basin/detay/saglik-turizmiyle-unlu-kent-hierapolis",
+        "title": "Sağlık turizmiyle ünlü kent: Hierapolis",
+        "publisher": "T.C. Cumhurbaşkanlığı İletişim Başkanlığı local-press section, republishing Antalya İleri (local newspaper)"
+      },
+      {
+        "type": "paper",
+        "url": "https://dergipark.org.tr/en/pub/collan/article/919748",
+        "title": "Hades ve Kybele Arasında Hierapolis Ploutonion'unda Yeni Arkeolojik Buluntular / New Archaeological Findings at Hierapolis Ploutonion Between Hades and Kybele - Francesco D'Andria (Turkish translation by Dr. Nalan Fırat)",
+        "publisher": "Colloquium Anatolicum 16 (2017): 217-245, Türk Eskiçağ Bilimleri Enstitüsü, hosted on DergiPark (TÜBİTAK ULAKBİM); full text PDF https://dergipark.org.tr/en/download/article-file/1715247"
+      },
+      {
+        "type": "university",
+        "url": "https://www.hierapolis.unisalento.it/15",
+        "title": "Missione Hierapolis :: Il Sito",
+        "publisher": "Università del Salento - Missione Archeologica Italiana a Hierapolis di Frigia"
+      },
+      {
+        "type": "press",
+        "url": "https://www.hurriyetdailynews.com/gate-to-hell-dug-up-in-turkey--44179",
+        "title": "'Gate to Hell' dug up in Turkey",
+        "publisher": "Hürriyet Daily News ('from online dispatches')"
+      },
+      {
+        "type": "press",
+        "url": "https://www.aa.com.tr/tr/turkiye/pamukkaledeki-cehennem-kapisi-ziyarete-aciliyor/1216918",
+        "title": "Pamukkale'deki 'cehennem kapısı' ziyarete açılıyor",
+        "publisher": "Anadolu Ajansı (AA), reporter Ahmet Bayram; quotes Denizli Museum Director Hasan Hüseyin Baysal"
       },
       {
         "type": "official",
-        "title": "Kori bustard",
-        "publisher": "Smithsonian's National Zoo & Conservation Biology Institute",
-        "url": "https://nationalzoo.si.edu/animals/kori-bustard"
+        "url": "https://ambankara.esteri.it/it/news/dall_ambasciata/2018/10/missione-archeologica-italiana/",
+        "title": "Missione archeologica italiana nel sito di Hierapolis",
+        "publisher": "Ambasciata d'Italia ad Ankara (Italian Ministry of Foreign Affairs)"
       },
       {
         "type": "paper",
-        "title": "The Most Extreme Sexual Size Dimorphism Among Birds: the Great Bustard (Otis tarda)",
-        "publisher": "Alonso et al. — The Auk 126(3): 657",
-        "url": "https://academic.oup.com/auk/article/126/3/657/5148342"
+        "url": "https://link.springer.com/article/10.1007/s12520-018-0599-5",
+        "title": "Deadly CO2 gases in the Plutonium of Hierapolis (Denizli, Turkey) - Pfanz H., Yüce G., Gulbay A. H., Gokgoz A.",
+        "publisher": "Archaeological and Anthropological Sciences 11(4): 1359-1371, Springer Nature"
+      },
+      {
+        "type": "ancient text",
+        "url": "https://penelope.uchicago.edu/Thayer/e/roman/texts/strabo/13d*.html",
+        "title": "Strabo, Geography 13.4.14 (Loeb Classical Library, trans. H. L. Jones, 1928), LacusCurtius transcription",
+        "publisher": "LacusCurtius (Bill Thayer), hosted by University of Chicago"
+      },
+      {
+        "type": "ancient text",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/68*.html",
+        "title": "Cassius Dio, Roman History, Epitome of Book 68, 68.27.3 (Loeb, trans. E. Cary), LacusCurtius transcription",
+        "publisher": "LacusCurtius (Bill Thayer), hosted by University of Chicago"
+      },
+      {
+        "type": "press",
+        "url": "https://www.sciencealert.com/ancient-roman-gate-to-hell-plutonium-sacrifice-killed-carbon-dioxide",
+        "title": "Ancient Roman \"Gate to Hell\" Killed Victims With This Deadly Lake",
+        "publisher": "ScienceAlert (Michelle Starr)"
+      },
+      {
+        "type": "press",
+        "url": "https://www.cnn.com/2018/03/09/world/mystery-gates-to-hell-hierapolis",
+        "title": "Scientists unravel the mystery of the Roman 'gate to hell'",
+        "publisher": "CNN (byline not captured)"
+      },
+      {
+        "type": "press",
+        "url": "https://www.sciencemag.org/news/2018/02/roman-gate-hell-killed-its-victims-cloud-deadly-carbon-dioxide",
+        "title": "This Roman 'gate to hell' killed its victims with a cloud of deadly carbon dioxide",
+        "publisher": "Science (AAAS) news; canonical URL https://www.science.org/content/article/roman-gate-hell-killed-its-victims-cloud-deadly-carbon-dioxide (403 on direct fetch); byline not captured"
       },
       {
         "type": "paper",
-        "title": "Comparative evidence for quadrupedal launch in pterosaurs",
-        "publisher": "Habib — Zitteliana B28: 159–166, LMU Munich Open Access",
-        "url": "https://epub.ub.uni-muenchen.de/12011/1/zitteliana_2008_b28_09.pdf"
+        "url": "https://dergipark.org.tr/tr/pub/pausbed/article/1732187",
+        "title": "Denizli Cehennem Kapısına Yolculuk: Erken Modern Dönem Avrupalı Seyyahların Gözünden Plutonion - Sevil Gözübüyük",
+        "publisher": "Pamukkale Üniversitesi Sosyal Bilimler Enstitüsü Dergisi, issue 71, pp. 355-375 (DOI 10.30794/pausbed.1732187); PDF https://dergipark.org.tr/tr/download/article-file/5012021"
       },
       {
-        "type": "paper",
-        "title": "Locomotor mechanisms of birds",
-        "publisher": "Frank A. Hartman — Smithsonian Miscellaneous Collections 143(1): 1–91",
-        "url": "https://repository.si.edu/bitstreams/2a8764d6-5f3e-4e3a-b0ca-97daf1b34451/download"
-      },
-      {
-        "type": "paper",
-        "title": "Maximum Lift Production During Takeoff in Flying Animals",
-        "publisher": "Marden — Journal of Experimental Biology 130(1): 235",
-        "url": "https://journals.biologists.com/jeb/article-abstract/130/1/235/5237/Maximum-Lift-Production-During-Takeoff-in-Flying"
-      },
-      {
-        "type": "paper",
-        "title": "Respiratory Evolution Facilitated the Origin of Pterosaur Flight and Aerial Gigantism",
-        "publisher": "Claessens, O'Connor & Unwin — PLoS ONE 4(2): e4497",
-        "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0004497&type=printable"
-      },
-      {
-        "type": "paper",
-        "title": "Bone density and the lightweight skeletons of birds",
-        "publisher": "Dumont — Proceedings of the Royal Society B, copy hosted by UMass Amherst",
-        "url": "https://www.bio.umass.edu/biology/dumont/Dumont_2010_Bone_density_and_bird_skeletons_ProcRoySocB.pdf"
+        "type": "press",
+        "url": "https://blog.education.nationalgeographic.org/2018/02/20/how-a-roman-gate-to-hell-actually-worked/",
+        "title": "How a Roman 'Gate to Hell' Actually Worked",
+        "publisher": "National Geographic Education Blog"
       },
       {
         "type": "official",
-        "title": "Ask an Explainer: what is wing loading?",
-        "publisher": "Smithsonian National Air and Space Museum (How Things Fly)",
-        "url": "https://howthingsfly.si.edu/ask-an-explainer/what-wing-loading"
+        "url": "https://www.osha.gov/publications/hib19960605",
+        "title": "HIB 06-05-96 - Potential Carbon Dioxide (CO2) Asphyxiation Hazard When Filling Stationary Low Pressure CO2 Supply Systems",
+        "publisher": "U.S. Occupational Safety and Health Administration (OSHA)"
+      },
+      {
+        "type": "official",
+        "url": "https://www.cdc.gov/niosh/idlh/124389.html",
+        "title": "Carbon dioxide - IDLH",
+        "publisher": "NIOSH / U.S. Centers for Disease Control and Prevention"
       },
       {
         "type": "paper",
-        "title": "Spray Mechanism of the Most Primitive Bombardier Beetle (Metrius contractus)",
-        "publisher": "Eisner, Aneshansley et al. — Journal of Experimental Biology 203(8): 1265",
-        "url": "https://journals.biologists.com/jeb/article/203/8/1265/8530/Spray-Mechanism-of-the-Most-Primitive-Bombardier"
+        "url": "https://journalofromanarchaeology.com/wp-content/uploads/2020/03/JRA31_04_DAndria.pdf",
+        "title": "The Ploutonion of Hierapolis in light of recent research (2013-17) - Francesco D'Andria",
+        "publisher": "Journal of Roman Archaeology 31 (2018)"
+      },
+      {
+        "type": "press",
+        "url": "https://www.hurriyetdailynews.com/ancient-gate-of-hell-in-turkey-to-open-to-visitors-in-september-135188",
+        "title": "Ancient 'gate of hell' in Turkey to open to visitors in September",
+        "publisher": "Hürriyet Daily News"
+      },
+      {
+        "type": "press",
+        "url": "https://www.trtavaz.com.tr/haber/tur/turkistandan/pamukkaledeki-cehennem-kapisi-1500-yil-sonra-acildi/62b1dae101a30a2d402c478a",
+        "title": "Pamukkale'deki \"Cehennem Kapısı\" 1500 yıl sonra açıldı",
+        "publisher": "TRT Avaz (Turkish public broadcaster); same headline also published by Anadolu Ajansı at https://www.aa.com.tr/tr/kultur/pamukkaledeki-cehennem-kapisi-1500-yil-sonra-acildi/2619036"
+      },
+      {
+        "type": "press",
+        "url": "https://www.aa.com.tr/tr/kultur-sanat/plutonyumda-restorasyon-tamamlandi-/1584066",
+        "title": "'Plütonyum'da restorasyon tamamlandı",
+        "publisher": "Anadolu Ajansı (AA); quotes excavation director Prof. Dr. Grazia Semeraro"
       }
     ]
   }
