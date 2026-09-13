@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0A100D">
+<meta name="description" content="Ten statements. Which are myths? Every answer comes with its source.">
+<title>How wrong are you? — OGS Mystery Lab</title>
+<link rel="canonical" href="https://ogsmysterylab.github.io/test/">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23F5D90A'/><rect x='6' y='13' width='20' height='6' rx='2' fill='%231A1600'/></svg>">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="OGS Mystery Lab">
+<meta property="og:url" content="https://ogsmysterylab.github.io/test/">
+<meta property="og:title" content="How wrong are you? — OGS Mystery Lab">
+<meta property="og:description" content="Ten statements. Which are myths? Every answer comes with its source.">
+<meta property="og:image" content="https://ogsmysterylab.github.io/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How wrong are you? — OGS Mystery Lab">
+<meta name="twitter:description" content="Ten statements. Which are myths? Every answer comes with its source.">
+<meta name="twitter:image" content="https://ogsmysterylab.github.io/og.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=IBM+Plex+Sans:wght@0,400;0,500;0,600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --bg:#0A100D; --panel:#111C17; --panel2:#16241D;
+  --ink:#ECF3EE; --ink2:#AFC0B6; --ink3:#7A8C83;
+  --line:#223129; --line2:#2E4036;
+  --green:#35D07F; --red:#FF6B5A; --yellow:#F5D90A; --yellow-ink:#1A1600;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --body:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
+  --display:"Bricolage Grotesque","IBM Plex Sans",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5;
+  background:radial-gradient(760px 420px at 12% -6%,rgba(53,208,127,.16),transparent 60%),
+             radial-gradient(620px 360px at 88% 4%,rgba(245,217,10,.09),transparent 60%),var(--bg);
+  background-attachment:fixed;padding-inline:clamp(16px,5vw,24px);padding-block:0 56px}
+a{color:var(--green);text-underline-offset:3px}
+button{font:inherit}
+:focus-visible{outline:2px solid var(--green);outline-offset:3px;border-radius:8px}
+.wrap{max-width:600px;margin:0 auto}
+
+header{display:flex;align-items:center;gap:11px;padding-block:22px 18px}
+.mark{width:38px;height:38px;border-radius:9px;background:var(--yellow);color:var(--yellow-ink);
+  display:grid;place-items:center;font-family:var(--mono);font-weight:600;font-size:11px;
+  box-shadow:0 0 0 1px rgba(245,217,10,.35),0 8px 26px -14px rgba(245,217,10,.9)}
+header b{font-family:var(--display);font-weight:800;font-size:16px;letter-spacing:-.01em}
+header span{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--ink3);margin-top:2px}
+
+/* intro */
+h1{font-family:var(--display);font-weight:800;font-size:clamp(30px,8vw,46px);line-height:1;letter-spacing:-.022em;margin:14px 0 0;text-wrap:balance}
+h1 .hl{background:var(--yellow);color:var(--yellow-ink);padding:0 .14em;box-decoration-break:clone;-webkit-box-decoration-break:clone;box-shadow:0 0 34px -4px rgba(245,217,10,.5)}
+.lede{color:var(--ink2);margin:18px 0 0;max-width:46ch}
+.start{margin-top:26px;display:flex;flex-direction:column;gap:12px;align-items:flex-start}
+.btn{background:var(--green);color:#04170D;border:0;border-radius:11px;padding:15px 26px;font-weight:600;font-size:16px;cursor:pointer;box-shadow:0 0 30px -10px rgba(53,208,127,.9)}
+.btn:hover{filter:brightness(1.08)}
+.note{font-family:var(--mono);font-size:11.5px;color:var(--ink3);letter-spacing:.04em}
+
+/* quiz */
+.bar{display:flex;gap:4px;margin:20px 0 18px}
+.bar i{flex:1;height:4px;border-radius:2px;background:var(--line2);transition:background .25s}
+.bar i.done{background:var(--green)}
+.bar i.wrong{background:var(--red)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:24px 22px}
+.qn{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3)}
+.claim{font-family:var(--display);font-weight:700;font-size:clamp(21px,4.6vw,27px);line-height:1.18;letter-spacing:-.012em;margin:10px 0 22px;text-wrap:balance}
+.choices{display:grid;grid-template-columns:1fr 1fr;gap:11px}
+.choice{background:var(--panel2);color:var(--ink);border:1px solid var(--line2);border-radius:11px;padding:16px 12px;font-weight:600;cursor:pointer}
+.choice:hover{border-color:var(--green);color:var(--green)}
+
+.reveal{margin-top:20px;border-top:1px dashed var(--line2);padding-top:16px}
+.verdict{display:inline-block;font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.08em;padding:5px 10px;border-radius:6px}
+.verdict.ok{background:rgba(53,208,127,.15);color:var(--green);border:1px solid rgba(53,208,127,.4)}
+.verdict.no{background:rgba(255,107,90,.13);color:var(--red);border:1px solid rgba(255,107,90,.4)}
+.truth{font-family:var(--mono);font-size:11.5px;font-weight:600;letter-spacing:.06em;color:var(--yellow);margin:13px 0 8px}
+.expl{color:var(--ink2);font-size:15px}
+.srcline{font-family:var(--mono);font-size:11.5px;color:var(--ink3);margin-top:11px}
+.next{margin-top:18px;background:transparent;color:var(--ink);border:1px solid var(--line2);border-radius:10px;padding:12px 20px;font-weight:600;cursor:pointer}
+.next:hover{border-color:var(--green);color:var(--green)}
+
+/* result */
+.score{font-family:var(--display);font-weight:800;font-size:clamp(34px,9vw,54px);line-height:1;letter-spacing:-.02em;margin:6px 0 0}
+.score em{font-style:normal;color:var(--yellow)}
+.verdicttxt{color:var(--ink2);margin-top:14px;max-width:44ch}
+.grid{font-family:var(--mono);font-size:22px;letter-spacing:2px;margin:20px 0 4px;word-break:break-word}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.ghost{background:transparent;color:var(--ink);border:1px solid var(--line2);border-radius:10px;padding:13px 18px;font-weight:600;cursor:pointer;text-decoration:none;display:inline-block}
+.ghost:hover{border-color:var(--green);color:var(--green)}
+.recap{margin-top:26px;border-top:1px solid var(--line);padding-top:18px}
+.recap h3{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);font-weight:600;margin:0 0 12px}
+.r{display:grid;grid-template-columns:auto 1fr;gap:11px;align-items:baseline;padding:9px 0;border-top:1px solid var(--line)}
+.r:first-of-type{border-top:0}
+.r .dot{font-size:13px}
+.r .t{font-size:14.5px;color:var(--ink2)}
+.r .t b{color:var(--ink);font-weight:600}
+.r .t a{font-family:var(--mono);font-size:11px}
+footer{margin-top:30px;padding-top:16px;border-top:1px solid var(--line);color:var(--ink3);font-size:13px}
+@media (prefers-reduced-motion:no-preference){.card,.choice,.btn{transition:border-color .2s,color .2s,filter .2s}}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="mark" aria-hidden="true">OGS</div>
+    <div><b>OGS Mystery Lab</b><span>Every claim, sourced</span></div>
+  </header>
+  <main id="app"></main>
+  <footer id="foot" hidden>Every answer above is checked against a named source. The full list lives at <a href="https://ogsmysterylab.github.io" target="_blank" rel="noopener">ogsmysterylab.github.io</a>.</footer>
+</div>
+
+<script>
+const Q = [
+  {c:"You only use 10% of your brain.", myth:true,
+   truth:"BUSTED",
+   e:"Imaging shows activity across the whole brain, even in sleep. It is 2% of your body weight and burns about 20% of your resting energy — evolution would not pay that for dead tissue.",
+   s:"University of Washington, Neuroscience for Kids", u:"https://faculty.washington.edu/chudler/tenper.html"},
+
+  {c:"The Great Wall of China is visible from space with the naked eye.", myth:true,
+   truth:"BUSTED",
+   e:"From the Moon it would be like spotting a human hair from a kilometre away. China's first astronaut confirmed in 2003 that he could not see it from orbit either.",
+   s:"NASA History Office", u:"https://www.nasa.gov/wp-content/uploads/static/history/PDFs/great_wall_less_great_from_space.pdf"},
+
+  {c:"Goldfish forget everything after three seconds.", myth:true,
+   truth:"BUSTED",
+   e:"Goldfish still solved a maze faster than on their last training day after a six-month gap. No scientific source has ever stated the three-second figure.",
+   s:"American Museum of Natural History", u:"https://www.amnh.org/learn-teach/curriculum-collections/young-naturalist-awards"},
+
+  {c:"Bulls charge because they see red.", myth:true,
+   truth:"BUSTED",
+   e:"Cattle are dichromats and lack the red-sensitive cone. The cape reads as dull yellow-grey — it is the movement that provokes them. Red is tradition, and it hides blood.",
+   s:"West Texas A&M University", u:"https://www.wtamu.edu/~cbaird/sq/2012/12/12/what-is-it-about-red-that-makes-bulls-so-angry/"},
+
+  {c:"Lightning never strikes the same place twice.", myth:true,
+   truth:"BUSTED",
+   e:"Charge concentrates at tall, isolated points, so the same places get hit again and again. The Empire State Building takes roughly 23 strikes a year.",
+   s:"National Weather Service (NOAA)", u:"https://www.weather.gov/safety/lightning-myths"},
+
+  {c:"Vikings wore horned helmets.", myth:true,
+   truth:"BUSTED",
+   e:"Not one horned helmet has ever been found in a Viking grave. A costume designer put them on stage for Wagner's Ring cycle in 1876, and the image stuck for 150 years.",
+   s:"National Museum of Denmark", u:"https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/weapons/helmets/"},
+
+  {c:"Napoleon was unusually short for his time.", myth:true,
+   truth:"BUSTED",
+   e:"He was 1.68 m — average, even slightly above it, for a Frenchman of his generation. French inches were longer than British ones, and British cartoonists did the rest.",
+   s:"Fondation Napoléon", u:"https://www.napoleon.org/en/history-of-the-two-empires/articles/was-napoleon-small/"},
+
+  {c:"There is a doorway in Turkey where bulls dropped dead and priests walked out unharmed.", myth:false,
+   truth:"TRUE",
+   e:"The Ploutonion at Hierapolis sits on a fault that releases carbon dioxide. It pools at ground level, so the animals suffocated while the priests' heads stayed above the gas.",
+   s:"Pfanz et al., Archaeological and Anthropological Sciences", u:"https://link.springer.com/article/10.1007/s12520-018-0599-5"},
+
+  {c:"Norse sailors reached America centuries before Columbus.", myth:false,
+   truth:"TRUE",
+   e:"A cosmic-ray radiocarbon spike dated Norse-cut wood in Newfoundland to exactly AD 1021 — 471 years early. Though Indigenous peoples had been there for over ten thousand years.",
+   s:"Nature (2021)", u:"https://www.nature.com/articles/s41586-021-03972-8"},
+
+  {c:"Medieval Europeans believed the Earth was flat.", myth:true,
+   truth:"BUSTED",
+   e:"Educated Europeans knew it was a sphere throughout the Middle Ages. Washington Irving's largely fictional 1828 life of Columbus invented the scene everyone remembers.",
+   s:"Library of Congress", u:"https://guides.loc.gov/flat-earth/books"}
+];
+
+const app = document.getElementById('app');
+const foot = document.getElementById('foot');
+let i = 0, results = [];
+
+function intro(){
+  foot.hidden = true;
+  app.innerHTML = `
+    <h1>You believe things<br>that <span class="hl">aren't true.</span></h1>
+    <p class="lede">Ten statements. Decide which are myths and which are real. Most people get four of them wrong — and two of the ten are not myths at all.</p>
+    <div class="start">
+      <button class="btn" id="go">Start the test</button>
+      <span class="note">Takes 2 minutes · every answer is sourced</span>
+    </div>`;
+  document.getElementById('go').onclick = () => { i = 0; results = []; question(); };
+}
+
+function bar(){
+  return '<div class="bar">' + Q.map((_,n)=>{
+    const r = results[n];
+    return `<i class="${r===undefined?'':(r?'done':'wrong')}"></i>`;
+  }).join('') + '</div>';
+}
+
+function question(){
+  foot.hidden = true;
+  const q = Q[i];
+  app.innerHTML = bar() + `
+    <div class="card">
+      <div class="qn">Statement ${i+1} of ${Q.length}</div>
+      <div class="claim">${q.c}</div>
+      <div class="choices">
+        <button class="choice" data-a="myth">That's a myth</button>
+        <button class="choice" data-a="real">That's real</button>
+      </div>
+    </div>`;
+  app.querySelectorAll('.choice').forEach(b=>{
+    b.onclick = () => answer(b.dataset.a === 'myth');
+  });
+}
+
+function answer(saidMyth){
+  const q = Q[i];
+  const right = (saidMyth === q.myth);
+  results[i] = right;
+  const card = app.querySelector('.card');
+  app.querySelector('.choices').remove();
+  card.insertAdjacentHTML('beforeend', `
+    <div class="reveal">
+      <span class="verdict ${right?'ok':'no'}">${right?'You were right':'You were wrong'}</span>
+      <div class="truth">VERDICT: ${q.truth}</div>
+      <p class="expl">${q.e}</p>
+      <div class="srcline">Source: <a href="${q.u}" target="_blank" rel="noopener">${q.s}</a></div>
+      <button class="next" id="nx">${i === Q.length-1 ? 'See your score' : 'Next statement'}</button>
+    </div>`);
+  app.querySelector('.bar').replaceWith(document.createRange().createContextualFragment(bar()).firstChild);
+  document.getElementById('nx').onclick = () => { i++; (i < Q.length) ? question() : result(); };
+}
+
+function result(){
+  const wrong = results.filter(r=>!r).length;
+  const grid = results.map(r=>r?'🟩':'🟥').join('');
+  let line;
+  if (wrong === 0) line = "Nobody does that. You either knew them, or you guessed the two that are true.";
+  else if (wrong <= 2) line = "Better than almost everyone. The two true ones catch most people out.";
+  else if (wrong <= 5) line = "That's the normal score. Every one of those beliefs came from somewhere traceable — usually a single book, cartoon or costume.";
+  else line = "Most of what you know about these came from repetition, not evidence. That's not stupidity; it's how myths work.";
+
+  foot.hidden = false;
+  app.innerHTML = `
+    <div class="qn">Your result</div>
+    <div class="score">You believed <em>${wrong}</em> of 10.</div>
+    <p class="verdicttxt">${line}</p>
+    <div class="grid">${grid}</div>
+    <span class="note">🟩 right · 🟥 wrong</span>
+    <div class="actions">
+      <button class="ghost" id="copy">Copy result to share</button>
+      <button class="ghost" id="again">Try again</button>
+      <a class="ghost" href="https://ogsmysterylab.github.io" target="_blank" rel="noopener">See all the sources</a>
+    </div>
+    <div class="recap">
+      <h3>What you got wrong</h3>
+      ${results.map((r,n)=> r ? '' : `
+        <div class="r"><span class="dot">🟥</span><span class="t"><b>${Q[n].c}</b><br>${Q[n].truth} — ${Q[n].e} <a href="${Q[n].u}" target="_blank" rel="noopener">source</a></span></div>`).join('') || '<div class="r"><span class="dot">🟩</span><span class="t">Nothing. All ten correct.</span></div>'}
+    </div>`;
+
+  document.getElementById('again').onclick = intro;
+  document.getElementById('copy').onclick = (e) => {
+    const txt = `I believed ${wrong} of 10 myths.\n${grid}\nHow wrong are you? ogsmysterylab.github.io`;
+    const done = () => { e.target.textContent = 'Copied'; setTimeout(()=>e.target.textContent='Copy result to share', 1800); };
+    if (navigator.clipboard) navigator.clipboard.writeText(txt).then(done, ()=>prompt('Copy this:', txt));
+    else prompt('Copy this:', txt);
+  };
+}
+
+intro();
+</script>
+
+<script data-goatcounter="https://ogsmysterylab.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>
