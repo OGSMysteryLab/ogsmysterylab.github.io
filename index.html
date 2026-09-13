@@ -57,16 +57,14 @@ header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:spac
 .brand small{display:block;font-family:var(--mono);font-size:11.5px;color:var(--ink-3);letter-spacing:.07em;text-transform:uppercase;margin-top:5px;font-weight:500}
 .yt{font-family:var(--mono);font-size:13px;font-weight:500;color:var(--ink);text-decoration:none;border:1px solid var(--line-2);background:var(--panel);padding:9px 13px;border-radius:8px;white-space:nowrap}
 .yt:hover{border-color:var(--green);color:var(--green)}
+.yt.test{border-color:var(--yellow);color:var(--yellow)}
+.yt.test:hover{background:var(--yellow);border-color:var(--yellow);color:var(--yellow-ink)}
 .links{display:flex;gap:8px;flex-wrap:wrap}
 
 .intro{display:grid;grid-template-columns:1.4fr 1fr;gap:24px 40px;padding-block:30px 8px}
 .intro h2{font-family:var(--display);font-weight:700;font-size:clamp(26px,4.2vw,40px);line-height:1.05;margin:0 0 14px;text-wrap:balance;letter-spacing:-.02em;text-shadow:0 0 42px rgba(53,208,127,.28)}
 .intro p{margin:0;max-width:60ch;color:var(--ink-2)}
 .hl{background:var(--yellow);color:var(--yellow-ink);padding:0 .2em;box-decoration-break:clone;-webkit-box-decoration-break:clone;box-shadow:0 0 30px -2px rgba(245,217,10,.55)}
-.testline{margin:18px 0 0;font-family:var(--display);font-weight:700;font-size:clamp(17px,2.4vw,21px);line-height:1.3;letter-spacing:-.012em;text-wrap:balance}
-.testline a{color:var(--ink);text-decoration:none}
-.testline a .hl{white-space:nowrap}
-.testline a:hover .hl{filter:brightness(1.07)}
 .rules{border:1px solid var(--line);border-radius:12px;padding:18px 20px;background:var(--panel);align-self:start}
 .rules h3{margin:0 0 10px;font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--green);font-weight:600}
 .rules ol{margin:0;padding-left:18px;color:var(--ink-2);font-size:14.5px;display:grid;gap:7px}
@@ -144,7 +142,7 @@ details.srcbox>summary:hover{color:var(--green)}
 <a class="yt" href="https://www.instagram.com/ogsmysterylab/" target="_blank" rel="noopener">Instagram</a>
 <a class="yt" href="https://www.tiktok.com/@ogsmysterylab" target="_blank" rel="noopener">TikTok</a>
 <a class="yt" href="https://www.facebook.com/ogsmysterylab1" target="_blank" rel="noopener">Facebook</a>
-<a class="yt" href="/test/">Take the test</a>
+<a class="yt test" href="/test/">Take the test</a>
 </nav>
 </header>
 
@@ -152,7 +150,6 @@ details.srcbox>summary:hover{color:var(--green)}
 <div>
 <h2>Short videos, <span class="hl">long receipts.</span></h2>
 <p>Each episode runs under three minutes, which leaves no room for footnotes. This page is the footnotes. Find your episode below and you get the studies, archives, books and articles the script was built from — so you can check us, go deeper, or argue with us in the comments.</p>
-<p class="testline"><a href="/test/">You believe things that aren't true. Find out how many <span class="hl">→ Take the test</span></a></p>
 </div>
 <aside class="rules">
 <h3>How we source</h3>
