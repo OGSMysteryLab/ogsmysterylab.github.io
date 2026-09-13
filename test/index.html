@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#0A100D">
-<meta name="description" content="Ten statements, eight myths and two surprising truths. Two minutes, no account, and every answer comes with the source it came from.">
+<meta name="description" content="Ten statements. Some are myths, some are true — we won't say how many. The mix changes every time you play, and every answer comes with the source it came from.">
 <title>How wrong are you? — OGS Mystery Lab</title>
 <link rel="canonical" href="https://ogsmysterylab.github.io/test/">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23F5D90A'/><clipPath id='d'><circle cx='50' cy='50' r='33'/></clipPath><circle cx='50' cy='50' r='33' fill='%23111B2E'/><g clip-path='url(%23d)'><rect x='0' y='58' width='100' height='45' fill='%233DFF2E'/></g><circle cx='39' cy='28' r='4' fill='none' stroke='%233DFF2E' stroke-width='3.4'/><circle cx='57' cy='40' r='6.6' fill='none' stroke='%233DFF2E' stroke-width='5'/></svg>">
@@ -12,13 +12,13 @@
 <meta property="og:site_name" content="OGS Mystery Lab">
 <meta property="og:url" content="https://ogsmysterylab.github.io/test/">
 <meta property="og:title" content="The OGS Mystery Lab myth test — can you beat this score?">
-<meta property="og:description" content="Ten statements. Eight are myths, two are completely true. Two minutes, no account, every answer sourced.">
+<meta property="og:description" content="Ten statements. Some are myths, some are true — we won't say how many. Two minutes, no account, every answer sourced.">
 <meta property="og:image" content="https://ogsmysterylab.github.io/test/test-og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="The OGS Mystery Lab myth test — can you beat this score?">
-<meta name="twitter:description" content="Ten statements. Eight are myths, two are completely true. Two minutes, no account, every answer sourced.">
+<meta name="twitter:description" content="Ten statements. Some are myths, some are true — we won't say how many. Two minutes, no account, every answer sourced.">
 <meta name="twitter:image" content="https://ogsmysterylab.github.io/test/test-og.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -115,6 +115,8 @@ html.embed .kbd{display:none}
 .bd.miss{border-color:rgba(255,107,90,.4);color:var(--red)}
 .bd.good{border-color:rgba(53,208,127,.4);color:var(--green)}
 .verdicttxt{color:var(--ink2);margin-top:14px;max-width:46ch}
+.mixnote{font-family:var(--mono);font-size:11.5px;letter-spacing:.03em;color:var(--ink3);
+  margin:9px 0 0;max-width:52ch;border-left:2px solid var(--line2);padding-left:10px}
 
 /* iemand daagde je uit */
 .challenge{display:flex;align-items:flex-start;gap:12px;margin-top:18px;padding:13px 15px;
@@ -204,18 +206,34 @@ html.embed .bar{margin-bottom:12px}
 </div>
 
 <script>
-const Q = [
-  {c:"You only use 10% of your brain.", myth:true,
+// ---------------------------------------------------------------------------
+// DE POOL
+//
+// Elke aflevering levert precies een stelling. Zet hem hier neer zodra het
+// script af is; laat `yt` weg tot de video live staat en vul hem dan aan.
+// `ep` is de projectcode, puur om te zien welke aflevering erbij hoort.
+//
+// Per ronde trekt de test er AANTAL uit, met een wisselend aantal mythes
+// (zie trekVragen). Hoe voller de pool, hoe minder herhaling. Vooral de
+// ware stellingen zijn schaars - die zijn het moeilijkst en het waardevolst.
+// ---------------------------------------------------------------------------
+const POOL = [
+
+  // ---- gepubliceerde en geschreven afleveringen --------------------------
+
+  {c:"You only use 10% of your brain.", ep:"OGS_006", myth:true,
    truth:"BUSTED",
    e:"Imaging shows activity across the whole brain, even in sleep. It is 2% of your body weight and burns about 20% of your resting energy — evolution would not pay that for dead tissue.",
    s:"University of Washington, Neuroscience for Kids", u:"https://faculty.washington.edu/chudler/tenper.html"},
 
-  {c:"The Great Wall of China is visible from space with the naked eye.", myth:true,
+  {c:"The Great Wall of China is visible from space with the naked eye.", ep:"OGS_007",
+   yt:"lJyIBjOmbyw", ytt:"The claim is older than the rocket", myth:true,
    truth:"BUSTED",
    e:"From the Moon it would be like spotting a human hair from a kilometre away. China's first astronaut confirmed in 2003 that he could not see it from orbit either.",
    s:"NASA History Office", u:"https://www.nasa.gov/wp-content/uploads/static/history/PDFs/great_wall_less_great_from_space.pdf"},
 
-  {c:"Goldfish forget everything after three seconds.", myth:true,
+  {c:"Goldfish forget everything after three seconds.", ep:"OGS_002",
+   yt:"snF6I2wdTY4", ytt:"Nobody can find the three-second study", myth:true,
    truth:"BUSTED",
    e:"Goldfish still solved a maze faster than on their last training day after a six-month gap. No scientific source has ever stated the three-second figure.",
    s:"American Museum of Natural History", u:"https://www.amnh.org/learn-teach/curriculum-collections/young-naturalist-awards"},
@@ -230,17 +248,18 @@ const Q = [
    e:"Charge concentrates at tall, isolated points, so the same places get hit again and again. The Empire State Building takes roughly 23 strikes a year.",
    s:"National Weather Service (NOAA)", u:"https://www.weather.gov/safety/lightning-myths"},
 
-  {c:"Vikings wore horned helmets.", yt:"bb0Nw6Nt8ps", ytt:"Vikings didn't have horns", myth:true,
+  {c:"Vikings wore horned helmets.", ep:"OGS_001", yt:"bb0Nw6Nt8ps", ytt:"Vikings didn't have horns", myth:true,
    truth:"BUSTED",
    e:"Not one horned helmet has ever been found in a Viking grave. A costume designer put them on stage for Wagner's Ring cycle in 1876, and the image stuck for 150 years.",
    s:"National Museum of Denmark", u:"https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/weapons/helmets/"},
 
-  {c:"Napoleon was unusually short for his time.", yt:"CC8L0_jXpkc", ytt:"Why history got Napoleon wrong", myth:true,
+  {c:"Napoleon was unusually short for his time.", ep:"OGS_005", yt:"CC8L0_jXpkc", ytt:"Why history got Napoleon wrong", myth:true,
    truth:"BUSTED",
    e:"He was 1.68 m — average, even slightly above it, for a Frenchman of his generation. French inches were longer than British ones, and British cartoonists did the rest.",
    s:"Fondation Napoléon", u:"https://www.napoleon.org/en/history-of-the-two-empires/articles/was-napoleon-small/"},
 
-  {c:"There is a doorway in Turkey where bulls dropped dead and priests walked out unharmed.", yt:"-8bAhUHrkMM", ytt:"Why this cave was a death trap", myth:false,
+  {c:"There is a doorway in Turkey where bulls dropped dead and priests walked out unharmed.", ep:"OGS_003",
+   yt:"-8bAhUHrkMM", ytt:"Why this cave was a death trap", myth:false,
    truth:"TRUE",
    e:"The Ploutonion at Hierapolis sits on a fault that releases carbon dioxide. It pools at ground level, so the animals suffocated while the priests' heads stayed above the gas.",
    s:"Pfanz et al., Archaeological and Anthropological Sciences", u:"https://link.springer.com/article/10.1007/s12520-018-0599-5"},
@@ -253,11 +272,118 @@ const Q = [
   {c:"Medieval Europeans believed the Earth was flat.", myth:true,
    truth:"BUSTED",
    e:"Educated Europeans knew it was a sphere throughout the Middle Ages. Washington Irving's largely fictional 1828 life of Columbus invented the scene everyone remembers.",
-   s:"Library of Congress", u:"https://guides.loc.gov/flat-earth/books"}
+   s:"Library of Congress", u:"https://guides.loc.gov/flat-earth/books"},
+
+  // ---- nieuw: klinkt waar, is een mythe ----------------------------------
+
+  {c:"Cracking your knuckles causes arthritis.", myth:true,
+   truth:"BUSTED",
+   e:"Studies comparing regular knuckle crackers with non-crackers find the same rate of arthritis in both groups. One doctor cracked only his left hand for over sixty years and the x-rays came out identical.",
+   s:"Harvard Health Publishing", u:"https://www.health.harvard.edu/blog/knuckle-cracking-annoying-and-harmful-or-just-annoying-2018051413797"},
+
+  {c:"Sugar makes children hyperactive.", myth:true,
+   truth:"BUSTED",
+   e:"A meta-analysis of twenty-three controlled trials found that sugar does not affect children's behaviour or cognition. What it does change is what the adults expect to see.",
+   s:"The effect of sugar on behavior or cognition in children, JAMA (1995)", u:"https://jamanetwork.com/journals/jama/fullarticle/391812"},
+
+  {c:"Different parts of your tongue taste sweet, sour, salty and bitter.", myth:true,
+   truth:"BUSTED",
+   e:"Every area of the mouth that has taste buds responds to every taste. The map is a 1901 German sensitivity graph, redrawn without its scale by a Harvard psychologist in the 1940s.",
+   s:"Smithsonian Magazine", u:"https://www.smithsonianmag.com/science-nature/neat-and-tidy-map-tastes-tongue-you-learned-school-all-wrong-180963407/"},
+
+  {c:"Old cathedral windows are thicker at the bottom because glass slowly flows downwards.", myth:true,
+   truth:"BUSTED",
+   e:"Glass is an amorphous solid, not a slow liquid; at room temperature that sagging would take longer than the universe has existed. The panes were uneven when made, and the glaziers put the heavy edge down.",
+   s:"Scientific American", u:"https://www.scientificamerican.com/article/fact-fiction-glass-liquid/"},
+
+  {c:"A penny dropped from a skyscraper can kill someone on the pavement.", myth:true,
+   truth:"BUSTED",
+   e:"Air resistance caps a tumbling penny at roughly 25 to 70 miles per hour, and it weighs almost nothing. The impact stings about as much as gravel thrown up by a passing car.",
+   s:"West Texas A&M University", u:"https://www.wtamu.edu/~cbaird/sq/2012/12/10/how-high-does-a-building-have-to-be-for-a-penny-dropped-from-the-top-to-kill-a-person-on-the-ground/"},
+
+  {c:"Dogs see the world in black and white.", myth:true,
+   truth:"BUSTED",
+   e:"Dogs have two types of cone instead of three. They see blues and yellows clearly and confuse red with green — closer to red-green colour blindness than to a black-and-white film.",
+   s:"VCA Animal Hospitals", u:"https://vcahospitals.com/know-your-pet/do-dogs-see-color"},
+
+  // ---- nieuw: klinkt als een mythe, is waar ------------------------------
+
+  {c:"In 1859 telegraph operators unplugged their batteries and kept sending messages on the current from a solar storm.", ep:"OGS_008", myth:false,
+   truth:"TRUE",
+   e:"Boston and Portland worked the line for about two hours with the batteries disconnected, on the auroral current alone. Elsewhere sparks jumped from the keys and the telegraph paper caught fire.",
+   s:"Green & Boardsen, NASA Technical Reports Server", u:"https://ntrs.nasa.gov/api/citations/20050210157/downloads/20050210157.pdf"},
+
+  {c:"A wave of molasses once killed twenty-one people in an American city.", ep:"OGS_009", myth:false,
+   truth:"TRUE",
+   e:"A storage tank in Boston's North End burst in January 1919 and released 2.3 million gallons. The wave went through the streets at about 35 miles per hour; 21 people died and 150 were injured.",
+   s:"City of Boston", u:"https://www.boston.gov/news/100-years-ago-today-molasses-crashes-through-bostons-north-end"},
+
+  {c:"There is a city carved out under a Turkish town that goes eighteen levels down.", ep:"OGS_010", myth:false,
+   truth:"TRUE",
+   e:"Derinkuyu descends about 85 metres and could shelter something like twenty thousand people along with their livestock. A resident found the entrance while renovating his basement in 1963.",
+   s:"Roberto Bixio, Centro Studi Sotterranei, via HISTORY", u:"https://www.history.com/articles/derinkuyu-turkey-underground-city"},
+
+  {c:"Troy is a real place that archaeologists have been digging up for more than a century.", ep:"OGS_011", myth:false,
+   truth:"TRUE",
+   e:"The mound at Hisarlik in Turkey holds 4,000 years of settlement and has had 24 excavation campaigns since 1870. It is a UNESCO World Heritage site — which still says nothing about the horse.",
+   s:"UNESCO World Heritage Centre", u:"https://whc.unesco.org/en/list/849/"},
+
+  {c:"Greek soldiers put Medusa's face on their armour on purpose.", ep:"OGS_012", myth:false,
+   truth:"TRUE",
+   e:"The gorgoneion was apotropaic — evil placed there to repel evil, like a modern evil eye. It turns up on helmets, shields, greaves, temple roof tiles and doorways right through the Archaic period.",
+   s:"The Metropolitan Museum of Art", u:"https://www.metmuseum.org/essays/medusa-in-ancient-greek-art"},
+
+  {c:"The largest animal that ever flew had wings as wide as a bus is long.", ep:"OGS_004",
+   yt:"lf2QO6QNREc", ytt:"What a real dragon would need to fly", myth:false,
+   truth:"TRUE",
+   e:"Quetzalcoatlus northropi had a wingspan of around 11 metres and is the largest animal ever to take to the air. It probably leapt into flight rather than running up to it.",
+   s:"Natural History Museum, London", u:"https://www.nhm.ac.uk/discover/news/2021/december/largest-ever-flying-animal-behaved-like-giant-heron.html"}
+
+  // ---- reserve: gecontroleerd, nog niet in gebruik ------------------------
+  // Zet de komma hierboven goed als je er een aanzet.
+  //
+  // ,{c:"Sharks were swimming before the first tree grew.", myth:false, truth:"TRUE",
+  //  e:"The oldest shark scales date to about 450 million years ago. Land plants only arrived around 420 million years ago, and true trees later still.",
+  //  s:"Natural History Museum, London", u:"https://www.nhm.ac.uk/discover/shark-evolution-a-450-million-year-timeline.html"}
+  //
+  // ,{c:"Oxford was already teaching students before the Aztec empire existed.", myth:false, truth:"TRUE",
+  //  e:"Teaching existed at Oxford in some form in 1096. Tenochtitlan, the Aztec capital, was founded around 1325 — well over two centuries later.",
+  //  s:"University of Oxford", u:"https://www.ox.ac.uk/about/the-university/history"}
+
 ];
+
+
+// Hoeveel stellingen per ronde, en hoeveel daarvan mythes mogen zijn.
+// De ondergrens en bovengrens liggen ver uit elkaar, zodat "altijd mythe
+// antwoorden" geen winnende strategie meer is. Het aantal wordt nergens
+// verklapt - niet in de intro, niet in de meta, niet in de uitslag vooraf.
+const AANTAL = 10, MYTHE_MIN = 4, MYTHE_MAX = 7;
+
+function hussel(a){
+  const r = a.slice();
+  for (let n = r.length - 1; n > 0; n--) {
+    const k = Math.floor(Math.random() * (n + 1));
+    const h = r[n]; r[n] = r[k]; r[k] = h;
+  }
+  return r;
+}
+
+// Trekt een ronde: eerst het aantal mythes, dan de stellingen zelf.
+// De grenzen worden bijgesteld als de pool te klein is, zodat een halve
+// pool nooit een lege of te korte test oplevert.
+function trekVragen(){
+  const mythes = POOL.filter(q => q.myth);
+  const waar   = POOL.filter(q => !q.myth);
+  const aantal = Math.min(AANTAL, POOL.length);
+  const boven  = Math.min(MYTHE_MAX, mythes.length, aantal);
+  const onder  = Math.max(MYTHE_MIN, aantal - waar.length, 0);
+  const m      = onder >= boven ? boven : onder + Math.floor(Math.random() * (boven - onder + 1));
+  return hussel(hussel(mythes).slice(0, m).concat(hussel(waar).slice(0, aantal - m)));
+}
 
 const app = document.getElementById('app');
 const foot = document.getElementById('foot');
+let Q = trekVragen();
 let i = 0, results = [], answers = [], toets = null, begonnen = false;
 
 const SITE  = 'https://ogsmysterylab.github.io';
@@ -271,7 +397,7 @@ function uitdagerScore(){
   const ruw = new URLSearchParams(location.search).get('s');
   if (ruw === null || !/^\d{1,2}$/.test(ruw)) return null;
   const n = Number(ruw);
-  return (Number.isInteger(n) && n >= 0 && n <= Q.length) ? n : null;
+  return (Number.isInteger(n) && n >= 0 && n <= AANTAL) ? n : null;
 }
 
 const SOCIALS = [
@@ -308,21 +434,21 @@ function intro(){
   const uit = begonnen ? null : uitdagerScore();
   const uitdaging = uit === null ? '' : `
     <div class="challenge">
-      <div class="n">${uit}/${Q.length}</div>
-      <div class="t">Someone scored <b>${uit} out of ${Q.length}</b> and passed this on to you.
-      That is their score, not yours — your ten statements are still unanswered.</div>
+      <div class="n">${uit}/${AANTAL}</div>
+      <div class="t">Someone scored <b>${uit} out of ${AANTAL}</b> and passed this on to you.
+      That is their score, not yours — and you will not get the same ten statements they did.</div>
     </div>`;
   app.innerHTML = `
     <div class="kick"><span class="pulse"></span>Interactive &middot; 10 statements &middot; 2 min</div>
     <h1>You believe things<br> that <span class="hl">aren’t true.</span></h1>
-    <p class="lede">Ten statements. Decide which are myths and which are real. Eight of them are myths — two are not. Finding those two is the hard part.</p>
+    <p class="lede">Ten statements. Decide which are myths and which are real. Some are myths, some are true — we won’t say how many. The mix is drawn fresh every time, so guessing one way stops working.</p>
     ${uitdaging}
     <div class="start">
       <button class="btn" id="go">${uit === null ? 'Start the test' : 'Start your own test'} <span class="arrow" aria-hidden="true">&rarr;</span></button>
-      <span class="note">Takes 2 minutes · no account · every answer is sourced</span>
+      <span class="note">Takes 2 minutes · no account · new mix every time · every answer is sourced</span>
     </div>
     ${socialsHTML('More from OGS Mystery Lab')}`;
-  document.getElementById('go').onclick = () => { begonnen = true; i = 0; results = []; answers = []; question(); };
+  document.getElementById('go').onclick = () => { begonnen = true; Q = trekVragen(); i = 0; results = []; answers = []; question(); };
   meldHoogte();
 }
 
@@ -395,21 +521,39 @@ function telling(){
 function oordeelTekst(t){
   const {goed, mythesGeloofd: m, waarhedenAfgewezen: w} = t;
   const fout = m + w;
+  const mythes = Q.filter(q => q.myth).length;   // hoeveel mythes zaten er deze ronde in
+  const waar   = Q.length - mythes;
+  const mw = (n) => WOORD[n] || String(n);
+
   if (fout === 0)
-    return "Ten out of ten. Either you already knew them, or you spotted the two that are true — and almost nobody spots those.";
+    return waar === 0
+      ? `${hoofdletter(mw(goed))} out of ${mw(Q.length)}. Every statement in this round was a myth, and not one of them got through.`
+      : `${hoofdletter(mw(goed))} out of ${mw(Q.length)}. ${hoofdletter(mw(waar))} of them ${waar === 1 ? 'was' : 'were'} true, and you believed ${waar === 1 ? 'it' : 'them'}. Almost nobody does.`;
   if (m === 0)
     return w === 1
-      ? "You spotted every myth, but one surprising truth got called a myth as well."
-      : `You spotted every myth, but missed ${WOORD[w]} surprising truths.`;
+      ? "Every myth spotted. One true story got written off as a myth as well — that is the half that catches people."
+      : `Every myth spotted. But ${mw(w)} true stories got written off as myths — that is the half that catches people.`;
   if (w === 0)
-    return m === 1
-      ? "You caught both true stories and only let one myth through. That is a rare combination."
-      : `You caught both true stories, but ${WOORD[m]} myths still got past you.`;
+    return waar === 0
+      ? (m === 1 ? "Every statement here was a myth, and exactly one got past you." : `Every statement here was a myth. ${hoofdletter(mw(m))} of them got past you.`)
+      : (m === 1 ? "You believed every true story and only let one myth through. That is a rare combination."
+                 : `You believed every true story, but ${mw(m)} myths still got past you.`);
   if (fout >= 8)
     return "Almost every one landed the wrong way round. That is not stupidity — it is what repetition does to a claim.";
   if (fout >= 5)
-    return `${hoofdletter(WOORD[m])} myths got past you and ${WOORD[w]} true ${w === 1 ? 'story was' : 'stories were'} written off. Both halves catch people, for opposite reasons.`;
-  return `${hoofdletter(WOORD[m])} ${m === 1 ? 'myth' : 'myths'} got past you, and ${WOORD[w]} true ${w === 1 ? 'story' : 'stories'} got written off as ${w === 1 ? 'a myth' : 'myths'}.`;
+    return `${hoofdletter(mw(m))} ${m === 1 ? 'myth' : 'myths'} got past you and ${mw(w)} true ${w === 1 ? 'story was' : 'stories were'} written off. Both halves catch people, for opposite reasons.`;
+  return `${hoofdletter(mw(m))} ${m === 1 ? 'myth' : 'myths'} got past you, and ${mw(w)} true ${w === 1 ? 'story' : 'stories'} got written off as ${w === 1 ? 'a myth' : 'myths'}.`;
+}
+
+// Eén regel onder de uitslag die laat zien hoe deze ronde was samengesteld.
+// Dat mag pas achteraf: vooraf zou het de test weggeven.
+function mixTekst(){
+  const mythes = Q.filter(q => q.myth).length;
+  const waar   = Q.length - mythes;
+  const mw = (n) => WOORD[n] || String(n);
+  if (waar === 0) return `This round was ${mw(mythes)} myths and nothing else. The next one will be mixed differently.`;
+  if (mythes === 0) return `This round was ${mw(waar)} true statements and nothing else. The next one will be mixed differently.`;
+  return `This round was ${mw(mythes)} ${mythes === 1 ? 'myth' : 'myths'} and ${mw(waar)} true ${waar === 1 ? 'statement' : 'statements'}, drawn at random. The next one will not be the same.`;
 }
 
 // Op de echte site delen we altijd het canonieke adres. Staat de pagina ergens anders
@@ -420,7 +564,7 @@ const DEELBASIS = location.hostname.endsWith('ogsmysterylab.github.io')
 function deelTekst(goed){
   const link = DEELBASIS + '?s=' + goed;
   return {
-    tekst: `I scored ${goed}/${Q.length} on the OGS Mystery Lab myth test. Can you beat me? Take the 2-minute challenge: ${link}`,
+    tekst: `I scored ${goed}/${AANTAL} on the OGS Mystery Lab myth test. Can you beat me? Take the 2-minute challenge: ${link}`,
     link
   };
 }
@@ -455,6 +599,7 @@ function result(){
       <span class="bd ${t.waarhedenAfgewezen ? 'miss' : 'good'}">True stories you dismissed: <b>${t.waarhedenAfgewezen}</b></span>
     </div>
     <p class="verdicttxt">${oordeelTekst(t)}</p>
+    <p class="mixnote">${mixTekst()}</p>
     <div class="grid">${grid}</div>
     <span class="note">🟩 right · 🟥 wrong</span>
     <div class="actions">
@@ -477,7 +622,7 @@ function result(){
     <div class="recap">
       <h3>${t.goed === Q.length ? 'Nothing got past you' : 'What you got wrong'}</h3>
       ${results.map((r, n) => r ? '' : rij(n)).join('') ||
-        '<div class="r"><span class="dot">🟩</span><span class="t">All ten correct — both the eight myths and the two true stories.</span></div>'}
+        '<div class="r"><span class="dot">🟩</span><span class="t">All ten correct — every myth caught, every true story believed.</span></div>'}
     </div>
     ${socialsHTML('More from OGS Mystery Lab')}`;
 
