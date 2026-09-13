@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#0A100D">
-<meta name="description" content="Ten statements. Which are myths? Every answer comes with its source.">
+<meta name="description" content="Eight of these ten are myths. Two are completely true. Which two? Every answer comes with its source.">
 <title>How wrong are you? — OGS Mystery Lab</title>
 <link rel="canonical" href="https://ogsmysterylab.github.io/test/">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23F5D90A'/><rect x='6' y='13' width='20' height='6' rx='2' fill='%231A1600'/></svg>">
@@ -12,14 +12,14 @@
 <meta property="og:site_name" content="OGS Mystery Lab">
 <meta property="og:url" content="https://ogsmysterylab.github.io/test/">
 <meta property="og:title" content="How wrong are you? — OGS Mystery Lab">
-<meta property="og:description" content="Ten statements. Which are myths? Every answer comes with its source.">
-<meta property="og:image" content="https://ogsmysterylab.github.io/og.png">
+<meta property="og:description" content="Eight of these ten are myths. Two are completely true. Which two? Every answer comes with its source.">
+<meta property="og:image" content="https://ogsmysterylab.github.io/test/test-og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="How wrong are you? — OGS Mystery Lab">
-<meta name="twitter:description" content="Ten statements. Which are myths? Every answer comes with its source.">
-<meta name="twitter:image" content="https://ogsmysterylab.github.io/og.png">
+<meta name="twitter:description" content="Eight of these ten are myths. Two are completely true. Which two? Every answer comes with its source.">
+<meta name="twitter:image" content="https://ogsmysterylab.github.io/test/test-og.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=IBM+Plex+Sans:wght@0,400;0,500;0,600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
@@ -78,6 +78,10 @@ h1 .hl{background:var(--yellow);color:var(--yellow-ink);padding:0 .14em;box-deco
 .truth{font-family:var(--mono);font-size:11.5px;font-weight:600;letter-spacing:.06em;color:var(--yellow);margin:13px 0 8px}
 .expl{color:var(--ink2);font-size:15px}
 .srcline{font-family:var(--mono);font-size:11.5px;color:var(--ink3);margin-top:11px}
+.watch{display:inline-flex;align-items:center;gap:8px;margin-top:14px;font-family:var(--mono);font-size:12px;font-weight:600;letter-spacing:.03em;text-decoration:none;color:var(--yellow);border:1px solid var(--yellow);border-radius:999px;padding:9px 15px}
+.watch:hover{background:var(--yellow);color:#1A1600}
+.kbd{font-family:var(--mono);font-size:10.5px;color:var(--ink3);letter-spacing:.06em;margin-top:12px}
+html.embed .kbd{display:none}
 .next{margin-top:18px;background:transparent;color:var(--ink);border:1px solid var(--line2);border-radius:10px;padding:12px 20px;font-weight:600;cursor:pointer}
 .next:hover{border-color:var(--green);color:var(--green)}
 
@@ -104,15 +108,17 @@ footer{margin-top:30px;padding-top:16px;border-top:1px solid var(--line);color:v
 html.embed body{padding-inline:0;padding-block:0;background:none}
 html.embed header,html.embed footer{display:none}
 html.embed .wrap{max-width:none}
-html.embed h1{font-size:clamp(24px,5.2vw,34px);margin-top:0}
-html.embed .lede{font-size:15px;margin-top:14px}
-html.embed .start{margin-top:20px}
-html.embed .card{padding:20px 18px}
+html.embed h1{font-size:clamp(19px,3.6vw,23px);margin-top:0;line-height:1.08}
+html.embed .lede{font-size:13px;margin-top:8px}
+html.embed .start{margin-top:13px}
+html.embed .card{padding:15px 15px}
+html.embed .claim{font-size:clamp(17px,2.5vw,21px)}
+html.embed .bar{margin-bottom:12px}
 /* op een breed scherm staat de startknop naast de tekst, anders blijft de halve breedte leeg */
 @media (min-width:720px){
-  html.embed #app:has(.start){display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;column-gap:34px}
+  html.embed #app:has(.start){display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;column-gap:28px}
   html.embed #app:has(.start) h1{grid-column:1;margin:0}
-  html.embed #app:has(.start) .lede{grid-column:1;margin-top:12px;max-width:52ch}
+  html.embed #app:has(.start) .lede{grid-column:1;margin-top:9px;max-width:52ch}
   html.embed #app:has(.start) .start{grid-column:2;grid-row:1 / span 2;margin-top:0;align-items:center;text-align:center}
 }
 </style>
@@ -155,17 +161,17 @@ const Q = [
    e:"Charge concentrates at tall, isolated points, so the same places get hit again and again. The Empire State Building takes roughly 23 strikes a year.",
    s:"National Weather Service (NOAA)", u:"https://www.weather.gov/safety/lightning-myths"},
 
-  {c:"Vikings wore horned helmets.", myth:true,
+  {c:"Vikings wore horned helmets.", yt:"bb0Nw6Nt8ps", ytt:"Vikings didn't have horns", myth:true,
    truth:"BUSTED",
    e:"Not one horned helmet has ever been found in a Viking grave. A costume designer put them on stage for Wagner's Ring cycle in 1876, and the image stuck for 150 years.",
    s:"National Museum of Denmark", u:"https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/weapons/helmets/"},
 
-  {c:"Napoleon was unusually short for his time.", myth:true,
+  {c:"Napoleon was unusually short for his time.", yt:"CC8L0_jXpkc", ytt:"Why history got Napoleon wrong", myth:true,
    truth:"BUSTED",
    e:"He was 1.68 m — average, even slightly above it, for a Frenchman of his generation. French inches were longer than British ones, and British cartoonists did the rest.",
    s:"Fondation Napoléon", u:"https://www.napoleon.org/en/history-of-the-two-empires/articles/was-napoleon-small/"},
 
-  {c:"There is a doorway in Turkey where bulls dropped dead and priests walked out unharmed.", myth:false,
+  {c:"There is a doorway in Turkey where bulls dropped dead and priests walked out unharmed.", yt:"-8bAhUHrkMM", ytt:"Why this cave was a death trap", myth:false,
    truth:"TRUE",
    e:"The Ploutonion at Hierapolis sits on a fault that releases carbon dioxide. It pools at ground level, so the animals suffocated while the priests' heads stayed above the gas.",
    s:"Pfanz et al., Archaeological and Anthropological Sciences", u:"https://link.springer.com/article/10.1007/s12520-018-0599-5"},
@@ -183,7 +189,8 @@ const Q = [
 
 const app = document.getElementById('app');
 const foot = document.getElementById('foot');
-let i = 0, results = [];
+let i = 0, results = [], toets = null;
+document.addEventListener('keydown', (e) => { if (toets) toets(e); });
 
 // Deze pagina staat ook ingesloten op de voorpagina. Daar hoort geen tweede kop en geen eigen achtergrond, en moet
 // het kader meegroeien met de vraag die in beeld staat — anders krijg je een scrollbalk in een scrollbalk.
@@ -196,9 +203,10 @@ function meldHoogte(){
 
 function intro(){
   foot.hidden = true;
+  toets = null;
   app.innerHTML = `
     <h1>You believe things<br>that <span class="hl">aren't true.</span></h1>
-    <p class="lede">Ten statements. Decide which are myths and which are real. Most people get four of them wrong — and two of the ten are not myths at all.</p>
+    <p class="lede">Ten statements. Decide which are myths and which are real. Eight of them are myths — two are not. Finding those two is the hard part.</p>
     <div class="start">
       <button class="btn" id="go">Start the test</button>
       <span class="note">Takes 2 minutes · every answer is sourced</span>
@@ -225,10 +233,15 @@ function question(){
         <button class="choice" data-a="myth">That's a myth</button>
         <button class="choice" data-a="real">That's real</button>
       </div>
+      <div class="kbd">Press 1 for myth, 2 for real</div>
     </div>`;
   app.querySelectorAll('.choice').forEach(b=>{
     b.onclick = () => answer(b.dataset.a === 'myth');
   });
+  toets = (e) => {
+    if (e.key === '1') answer(true);
+    else if (e.key === '2') answer(false);
+  };
   meldHoogte();
 }
 
@@ -238,16 +251,20 @@ function answer(saidMyth){
   results[i] = right;
   const card = app.querySelector('.card');
   app.querySelector('.choices').remove();
+  const hint = app.querySelector('.kbd'); if (hint) hint.remove();
   card.insertAdjacentHTML('beforeend', `
     <div class="reveal">
       <span class="verdict ${right?'ok':'no'}">${right?'You were right':'You were wrong'}</span>
       <div class="truth">VERDICT: ${q.truth}</div>
       <p class="expl">${q.e}</p>
       <div class="srcline">Source: <a href="${q.u}" target="_blank" rel="noopener">${q.s}</a></div>
+      ${q.yt ? `<div><a class="watch" href="https://www.youtube.com/watch?v=${q.yt}" target="_blank" rel="noopener">▶ Watch the episode · ${q.ytt}</a></div>` : ''}
       <button class="next" id="nx">${i === Q.length-1 ? 'See your score' : 'Next statement'}</button>
     </div>`);
   app.querySelector('.bar').replaceWith(document.createRange().createContextualFragment(bar()).firstChild);
-  document.getElementById('nx').onclick = () => { i++; (i < Q.length) ? question() : result(); };
+  const verder = () => { i++; (i < Q.length) ? question() : result(); };
+  document.getElementById('nx').onclick = verder;
+  toets = (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); verder(); } };
   meldHoogte();
 }
 
@@ -256,11 +273,15 @@ function result(){
   const grid = results.map(r=>r?'🟩':'🟥').join('');
   let line;
   if (wrong === 0) line = "Nobody does that. You either knew them, or you guessed the two that are true.";
-  else if (wrong <= 2) line = "Better than almost everyone. The two true ones catch most people out.";
+  else if (wrong <= 2) line = "Strong score. The two that are actually true are what catch people out.";
   else if (wrong <= 5) line = "That's the normal score. Every one of those beliefs came from somewhere traceable — usually a single book, cartoon or costume.";
   else line = "Most of what you know about these came from repetition, not evidence. That's not stupidity; it's how myths work.";
 
   foot.hidden = false;
+  toets = null;
+  if (window.goatcounter && window.goatcounter.count) {
+    window.goatcounter.count({path: 'test-finished-' + wrong, title: 'Test finished', event: true});
+  }
   app.innerHTML = `
     <div class="qn">Your result</div>
     <div class="score">You believed <em>${wrong}</em> of 10.</div>
@@ -268,22 +289,25 @@ function result(){
     <div class="grid">${grid}</div>
     <span class="note">🟩 right · 🟥 wrong</span>
     <div class="actions">
-      <button class="ghost" id="copy">Copy result to share</button>
+      <button class="ghost" id="copy">Share your result</button>
       <button class="ghost" id="again">Try again</button>
       <a class="ghost" href="https://ogsmysterylab.github.io" target="_blank" rel="noopener">See all the sources</a>
     </div>
     <div class="recap">
       <h3>What you got wrong</h3>
       ${results.map((r,n)=> r ? '' : `
-        <div class="r"><span class="dot">🟥</span><span class="t"><b>${Q[n].c}</b><br>${Q[n].truth} — ${Q[n].e} <a href="${Q[n].u}" target="_blank" rel="noopener">source</a></span></div>`).join('') || '<div class="r"><span class="dot">🟩</span><span class="t">Nothing. All ten correct.</span></div>'}
+        <div class="r"><span class="dot">🟥</span><span class="t"><b>${Q[n].c}</b><br>${Q[n].truth} — ${Q[n].e} <a href="${Q[n].u}" target="_blank" rel="noopener">source</a>${Q[n].yt ? ` · <a href="https://www.youtube.com/watch?v=${Q[n].yt}" target="_blank" rel="noopener">watch the episode</a>` : ''}</span></div>`).join('') || '<div class="r"><span class="dot">🟩</span><span class="t">Nothing. All ten correct.</span></div>'}
     </div>`;
 
   document.getElementById('again').onclick = intro;
   document.getElementById('copy').onclick = (e) => {
-    const txt = `I believed ${wrong} of 10 myths.\n${grid}\nHow wrong are you? ogsmysterylab.github.io`;
-    const done = () => { e.target.textContent = 'Copied'; setTimeout(()=>e.target.textContent='Copy result to share', 1800); };
-    if (navigator.clipboard) navigator.clipboard.writeText(txt).then(done, ()=>prompt('Copy this:', txt));
-    else prompt('Copy this:', txt);
+    const txt = `I believed ${wrong} of 10 myths.\n${grid}\nHow wrong are you? https://ogsmysterylab.github.io/test/`;
+    const done = () => { e.target.textContent = 'Copied'; setTimeout(()=>e.target.textContent='Share your result', 1800); };
+    if (navigator.share) {
+      navigator.share({text: txt}).catch(()=>{});
+    } else if (navigator.clipboard) {
+      navigator.clipboard.writeText(txt).then(done, ()=>prompt('Copy this:', txt));
+    } else prompt('Copy this:', txt);
   };
   meldHoogte();
 }
