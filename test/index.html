@@ -100,6 +100,11 @@ h1 .hl::before{content:"";position:absolute;z-index:-1;inset:.04em -.02em .08em;
 .srcline{font-family:var(--mono);font-size:11.5px;color:var(--ink3);margin-top:11px}
 .watch{display:inline-flex;align-items:center;gap:8px;margin-top:14px;font-family:var(--mono);font-size:12px;font-weight:600;letter-spacing:.03em;text-decoration:none;color:var(--yellow);border:1px solid var(--yellow);border-radius:999px;padding:9px 15px}
 .watch:hover{background:var(--yellow);color:#1A1600}
+.soon{margin-top:15px;padding-top:13px;border-top:1px solid var(--line)}
+.soonlbl{font-family:var(--mono);font-size:11px;letter-spacing:.05em;color:var(--ink3);margin:0}
+.socmini{display:flex;gap:6px;flex-wrap:wrap;margin-top:9px}
+.socmini .soc{font-size:11px;padding:7px 11px 7px 9px;gap:6px}
+.socmini .soc .ico{width:13px;height:13px}
 .kbd{font-family:var(--mono);font-size:10.5px;color:var(--ink3);letter-spacing:.06em;margin-top:12px}
 html.embed .kbd{display:none}
 .next{margin-top:18px;background:transparent;color:var(--ink);border:1px solid var(--line2);border-radius:10px;padding:12px 20px;font-weight:600;cursor:pointer}
@@ -211,7 +216,7 @@ html.embed .bar{margin-bottom:12px}
 //
 // Elke aflevering levert precies een stelling. Zet hem hier neer zodra het
 // script af is; laat `yt` weg tot de video live staat en vul hem dan aan.
-// `ep` is de projectcode, puur om te zien welke aflevering erbij hoort.
+// Zolang `yt` ontbreekt, wijst de test onder het antwoord naar de socials.
 //
 // Per ronde trekt de test er AANTAL uit, met een wisselend aantal mythes
 // (zie trekVragen). Hoe voller de pool, hoe minder herhaling. Vooral de
@@ -221,18 +226,18 @@ const POOL = [
 
   // ---- gepubliceerde en geschreven afleveringen --------------------------
 
-  {c:"You only use 10% of your brain.", ep:"OGS_006", myth:true,
+  {c:"You only use 10% of your brain.", myth:true,
    truth:"BUSTED",
    e:"Imaging shows activity across the whole brain, even in sleep. It is 2% of your body weight and burns about 20% of your resting energy — evolution would not pay that for dead tissue.",
    s:"University of Washington, Neuroscience for Kids", u:"https://faculty.washington.edu/chudler/tenper.html"},
 
-  {c:"The Great Wall of China is visible from space with the naked eye.", ep:"OGS_007",
+  {c:"The Great Wall of China is visible from space with the naked eye.",
    yt:"lJyIBjOmbyw", ytt:"The claim is older than the rocket", myth:true,
    truth:"BUSTED",
    e:"From the Moon it would be like spotting a human hair from a kilometre away. China's first astronaut confirmed in 2003 that he could not see it from orbit either.",
    s:"NASA History Office", u:"https://www.nasa.gov/wp-content/uploads/static/history/PDFs/great_wall_less_great_from_space.pdf"},
 
-  {c:"Goldfish forget everything after three seconds.", ep:"OGS_002",
+  {c:"Goldfish forget everything after three seconds.",
    yt:"snF6I2wdTY4", ytt:"Nobody can find the three-second study", myth:true,
    truth:"BUSTED",
    e:"Goldfish still solved a maze faster than on their last training day after a six-month gap. No scientific source has ever stated the three-second figure.",
@@ -248,17 +253,17 @@ const POOL = [
    e:"Charge concentrates at tall, isolated points, so the same places get hit again and again. The Empire State Building takes roughly 23 strikes a year.",
    s:"National Weather Service (NOAA)", u:"https://www.weather.gov/safety/lightning-myths"},
 
-  {c:"Vikings wore horned helmets.", ep:"OGS_001", yt:"bb0Nw6Nt8ps", ytt:"Vikings didn't have horns", myth:true,
+  {c:"Vikings wore horned helmets.", yt:"bb0Nw6Nt8ps", ytt:"Vikings didn't have horns", myth:true,
    truth:"BUSTED",
    e:"Not one horned helmet has ever been found in a Viking grave. A costume designer put them on stage for Wagner's Ring cycle in 1876, and the image stuck for 150 years.",
    s:"National Museum of Denmark", u:"https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/weapons/helmets/"},
 
-  {c:"Napoleon was unusually short for his time.", ep:"OGS_005", yt:"CC8L0_jXpkc", ytt:"Why history got Napoleon wrong", myth:true,
+  {c:"Napoleon was unusually short for his time.", yt:"CC8L0_jXpkc", ytt:"Why history got Napoleon wrong", myth:true,
    truth:"BUSTED",
    e:"He was 1.68 m — average, even slightly above it, for a Frenchman of his generation. French inches were longer than British ones, and British cartoonists did the rest.",
    s:"Fondation Napoléon", u:"https://www.napoleon.org/en/history-of-the-two-empires/articles/was-napoleon-small/"},
 
-  {c:"There is a doorway in Turkey where bulls dropped dead and priests walked out unharmed.", ep:"OGS_003",
+  {c:"There is a doorway in Turkey where bulls dropped dead and priests walked out unharmed.",
    yt:"-8bAhUHrkMM", ytt:"Why this cave was a death trap", myth:false,
    truth:"TRUE",
    e:"The Ploutonion at Hierapolis sits on a fault that releases carbon dioxide. It pools at ground level, so the animals suffocated while the priests' heads stayed above the gas.",
@@ -308,32 +313,32 @@ const POOL = [
 
   // ---- nieuw: klinkt als een mythe, is waar ------------------------------
 
-  {c:"In 1859 telegraph operators unplugged their batteries and kept sending messages on the current from a solar storm.", ep:"OGS_008", myth:false,
+  {c:"In 1859 telegraph operators unplugged their batteries and kept sending messages on the current from a solar storm.", myth:false,
    truth:"TRUE",
    e:"Boston and Portland worked the line for about two hours with the batteries disconnected, on the auroral current alone. Elsewhere sparks jumped from the keys and the telegraph paper caught fire.",
    s:"Green & Boardsen, NASA Technical Reports Server", u:"https://ntrs.nasa.gov/api/citations/20050210157/downloads/20050210157.pdf"},
 
-  {c:"A wave of molasses once killed twenty-one people in an American city.", ep:"OGS_009", myth:false,
+  {c:"A wave of molasses once killed twenty-one people in an American city.", myth:false,
    truth:"TRUE",
    e:"A storage tank in Boston's North End burst in January 1919 and released 2.3 million gallons. The wave went through the streets at about 35 miles per hour; 21 people died and 150 were injured.",
    s:"City of Boston", u:"https://www.boston.gov/news/100-years-ago-today-molasses-crashes-through-bostons-north-end"},
 
-  {c:"There is a city carved out under a Turkish town that goes eighteen levels down.", ep:"OGS_010", myth:false,
+  {c:"There is a city carved out under a Turkish town that goes eighteen levels down.", myth:false,
    truth:"TRUE",
    e:"Derinkuyu descends about 85 metres and could shelter something like twenty thousand people along with their livestock. A resident found the entrance while renovating his basement in 1963.",
    s:"Roberto Bixio, Centro Studi Sotterranei, via HISTORY", u:"https://www.history.com/articles/derinkuyu-turkey-underground-city"},
 
-  {c:"Troy is a real place that archaeologists have been digging up for more than a century.", ep:"OGS_011", myth:false,
+  {c:"Troy is a real place that archaeologists have been digging up for more than a century.", myth:false,
    truth:"TRUE",
    e:"The mound at Hisarlik in Turkey holds 4,000 years of settlement and has had 24 excavation campaigns since 1870. It is a UNESCO World Heritage site — which still says nothing about the horse.",
    s:"UNESCO World Heritage Centre", u:"https://whc.unesco.org/en/list/849/"},
 
-  {c:"Greek soldiers put Medusa's face on their armour on purpose.", ep:"OGS_012", myth:false,
+  {c:"Greek soldiers put Medusa's face on their armour on purpose.", myth:false,
    truth:"TRUE",
    e:"The gorgoneion was apotropaic — evil placed there to repel evil, like a modern evil eye. It turns up on helmets, shields, greaves, temple roof tiles and doorways right through the Archaic period.",
    s:"The Metropolitan Museum of Art", u:"https://www.metmuseum.org/essays/medusa-in-ancient-greek-art"},
 
-  {c:"The largest animal that ever flew had wings as wide as a bus is long.", ep:"OGS_004",
+  {c:"The largest animal that ever flew had wings as wide as a bus is long.",
    yt:"lf2QO6QNREc", ytt:"What a real dragon would need to fly", myth:false,
    truth:"TRUE",
    e:"Quetzalcoatlus northropi had a wingspan of around 11 metres and is the largest animal ever to take to the air. It probably leapt into flight rather than running up to it.",
@@ -417,6 +422,16 @@ function socialsHTML(kop){
       `<a class="soc ${k}" href="${url}" target="_blank" rel="noopener"><span class="ico">${ic}</span>${naam}</a>`
     ).join('') + '</nav>';
 }
+// Staat onder een antwoord waar nog geen aflevering van is: de bron staat er al
+// boven, hier komt alleen de aankondiging en waar je die aflevering straks ziet.
+function socialsBlok(){
+  return `<div class="soon"><p class="soonlbl">An episode on this one is coming — it lands here first</p>` +
+    `<nav class="socmini" aria-label="OGS Mystery Lab on social media">` +
+    SOCIALS.map(([k,naam,url,ic]) =>
+      `<a class="soc ${k}" href="${url}" target="_blank" rel="noopener"><span class="ico">${ic}</span>${naam}</a>`
+    ).join('') + '</nav></div>';
+}
+
 document.addEventListener('keydown', (e) => { if (toets) toets(e); });
 
 // Deze pagina staat ook ingesloten op de voorpagina. Daar hoort geen tweede kop en geen eigen achtergrond, en moet
@@ -496,7 +511,9 @@ function answer(saidMyth){
       <div class="truth">VERDICT: ${q.truth}</div>
       <p class="expl">${q.e}</p>
       <div class="srcline">Source: <a href="${q.u}" target="_blank" rel="noopener">${q.s}</a></div>
-      ${q.yt ? `<div><a class="watch" href="https://www.youtube.com/watch?v=${q.yt}" target="_blank" rel="noopener">▶ Watch the episode · ${q.ytt}</a></div>` : ''}
+      ${q.yt
+        ? `<div><a class="watch" href="https://www.youtube.com/watch?v=${q.yt}" target="_blank" rel="noopener">▶ Watch the episode · ${q.ytt}</a></div>`
+        : socialsBlok()}
       <button class="next" id="nx">${i === Q.length-1 ? 'See your score' : 'Next statement'}</button>
     </div>`);
   app.querySelector('.bar').replaceWith(document.createRange().createContextualFragment(bar()).firstChild);
