@@ -7,7 +7,7 @@
 <meta name="description" content="Eight of these ten are myths. Two are completely true. Which two? Every answer comes with its source.">
 <title>How wrong are you? — OGS Mystery Lab</title>
 <link rel="canonical" href="https://ogsmysterylab.github.io/test/">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23F5D90A'/><rect x='6' y='13' width='20' height='6' rx='2' fill='%231A1600'/></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23F5D90A'/><clipPath id='d'><circle cx='50' cy='50' r='33'/></clipPath><circle cx='50' cy='50' r='33' fill='%23111B2E'/><g clip-path='url(%23d)'><rect x='0' y='58' width='100' height='45' fill='%233DFF2E'/></g><circle cx='39' cy='28' r='4' fill='none' stroke='%233DFF2E' stroke-width='3.4'/><circle cx='57' cy='40' r='6.6' fill='none' stroke='%233DFF2E' stroke-width='5'/></svg>">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="OGS Mystery Lab">
 <meta property="og:url" content="https://ogsmysterylab.github.io/test/">
@@ -44,19 +44,35 @@ button{font:inherit}
 .wrap{max-width:600px;margin:0 auto}
 
 header{display:flex;align-items:center;gap:11px;padding-block:22px 18px}
-.mark{width:38px;height:38px;border-radius:9px;background:var(--yellow);color:var(--yellow-ink);
-  display:grid;place-items:center;font-family:var(--mono);font-weight:600;font-size:11px;
-  box-shadow:0 0 0 1px rgba(245,217,10,.35),0 8px 26px -14px rgba(245,217,10,.9)}
+.mark{width:38px;height:38px;border-radius:10px;background:var(--yellow);display:grid;place-items:center;flex:0 0 auto;
+  box-shadow:0 0 0 1px rgba(245,217,10,.35),0 9px 28px -14px rgba(245,217,10,.9)}
+.mark svg{width:80%;height:80%;display:block}
 header b{font-family:var(--display);font-weight:800;font-size:16px;letter-spacing:-.01em}
 header span{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--ink3);margin-top:2px}
 
 /* intro */
 h1{font-family:var(--display);font-weight:800;font-size:clamp(30px,8vw,46px);line-height:1;letter-spacing:-.022em;margin:14px 0 0;text-wrap:balance}
-h1 .hl{background:var(--yellow);color:var(--yellow-ink);padding:0 .14em;box-decoration-break:clone;-webkit-box-decoration-break:clone;box-shadow:0 0 34px -4px rgba(245,217,10,.5)}
-.lede{color:var(--ink2);margin:18px 0 0;max-width:46ch}
+h1 .hl{position:relative;z-index:0;color:var(--yellow-ink);padding:0 .16em;white-space:nowrap}
+h1 .hl::before{content:"";position:absolute;z-index:-1;inset:-.03em -.05em -.11em;background:var(--yellow);
+  border-radius:2px 6px 3px 7px/7px 3px 7px 2px;transform:rotate(-.8deg);
+  box-shadow:0 14px 42px -16px rgba(245,217,10,.9)}
+.kick{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:11px;font-weight:600;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--ink3)}
+.pulse{width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 0 0 rgba(53,208,127,.55);flex:0 0 auto}
+@media (prefers-reduced-motion:no-preference){.pulse{animation:pulse 2.4s ease-out infinite}}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(53,208,127,.55)}70%{box-shadow:0 0 0 9px rgba(53,208,127,0)}100%{box-shadow:0 0 0 0 rgba(53,208,127,0)}}
+.lede{color:var(--ink2);margin:14px 0 0;max-width:46ch}
 .start{margin-top:26px;display:flex;flex-direction:column;gap:12px;align-items:flex-start}
-.btn{background:var(--green);color:#04170D;border:0;border-radius:11px;padding:15px 26px;font-weight:600;font-size:16px;cursor:pointer;box-shadow:0 0 30px -10px rgba(53,208,127,.9)}
-.btn:hover{filter:brightness(1.08)}
+.btn{position:relative;display:inline-flex;align-items:center;gap:11px;cursor:pointer;border:0;
+  background:linear-gradient(135deg,#FFE94A 0%,var(--yellow) 46%,#E0C400 100%);color:var(--yellow-ink);
+  border-radius:999px;padding:15px 22px 15px 26px;font-weight:700;font-size:16px;letter-spacing:-.01em;
+  box-shadow:0 0 0 1px rgba(245,217,10,.55),0 14px 34px -14px rgba(245,217,10,.95),inset 0 1px 0 rgba(255,255,255,.45);
+  transition:transform .18s cubic-bezier(.2,.8,.3,1),box-shadow .18s}
+.btn .arrow{display:grid;place-items:center;width:26px;height:26px;border-radius:50%;
+  background:rgba(26,22,0,.14);font-size:14px;line-height:1;transition:transform .18s cubic-bezier(.2,.8,.3,1)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 0 0 1px rgba(245,217,10,.7),0 20px 44px -14px rgba(245,217,10,1),inset 0 1px 0 rgba(255,255,255,.5)}
+.btn:hover .arrow{transform:translateX(3px)}
+.btn:active{transform:translateY(0)}
 .note{font-family:var(--mono);font-size:11.5px;color:var(--ink3);letter-spacing:.04em}
 
 /* quiz */
@@ -68,8 +84,13 @@ h1 .hl{background:var(--yellow);color:var(--yellow-ink);padding:0 .14em;box-deco
 .qn{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3)}
 .claim{font-family:var(--display);font-weight:700;font-size:clamp(21px,4.6vw,27px);line-height:1.18;letter-spacing:-.012em;margin:10px 0 22px;text-wrap:balance}
 .choices{display:grid;grid-template-columns:1fr 1fr;gap:11px}
-.choice{background:var(--panel2);color:var(--ink);border:1px solid var(--line2);border-radius:11px;padding:16px 12px;font-weight:600;cursor:pointer}
-.choice:hover{border-color:var(--green);color:var(--green)}
+.choice{position:relative;background:var(--panel2);color:var(--ink);border:1px solid var(--line2);border-radius:12px;
+  padding:16px 12px;font-weight:600;cursor:pointer;overflow:hidden;
+  transition:border-color .18s,color .18s,transform .18s cubic-bezier(.2,.8,.3,1),box-shadow .18s}
+.choice::after{content:"";position:absolute;inset:0;opacity:0;transition:opacity .18s;
+  background:radial-gradient(120% 130% at 50% 120%, rgba(53,208,127,.20), transparent 62%)}
+.choice:hover{border-color:var(--green);color:var(--green);transform:translateY(-2px);box-shadow:0 12px 30px -18px rgba(53,208,127,.9)}
+.choice:hover::after{opacity:1}
 
 .reveal{margin-top:20px;border-top:1px dashed var(--line2);padding-top:16px}
 .verdict{display:inline-block;font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.08em;padding:5px 10px;border-radius:6px}
@@ -110,6 +131,7 @@ html.embed header,html.embed footer{display:none}
 html.embed .wrap{max-width:none}
 html.embed h1{font-size:clamp(19px,3.6vw,23px);margin-top:0;line-height:1.08}
 html.embed .lede{font-size:13px;margin-top:8px}
+html.embed .kick{font-size:10px;letter-spacing:.12em}
 html.embed .start{margin-top:13px}
 html.embed .card{padding:15px 15px}
 html.embed .claim{font-size:clamp(17px,2.5vw,21px)}
@@ -117,9 +139,10 @@ html.embed .bar{margin-bottom:12px}
 /* op een breed scherm staat de startknop naast de tekst, anders blijft de halve breedte leeg */
 @media (min-width:720px){
   html.embed #app:has(.start){display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;column-gap:28px}
-  html.embed #app:has(.start) h1{grid-column:1;margin:0}
+  html.embed #app:has(.start) .kick{grid-column:1;margin:0}
+  html.embed #app:has(.start) h1{grid-column:1;margin:6px 0 0}
   html.embed #app:has(.start) .lede{grid-column:1;margin-top:9px;max-width:52ch}
-  html.embed #app:has(.start) .start{grid-column:2;grid-row:1 / span 2;margin-top:0;align-items:center;text-align:center}
+  html.embed #app:has(.start) .start{grid-column:2;grid-row:1 / span 3;margin-top:0;align-items:center;text-align:center}
 }
 </style>
 
@@ -127,7 +150,7 @@ html.embed .bar{margin-bottom:12px}
 <body>
 <div class="wrap">
   <header>
-    <div class="mark" aria-hidden="true">OGS</div>
+    <div class="mark"><svg viewBox="0 0 100 100" aria-hidden="true" focusable="false"><defs><clipPath id="ogsdisht"><circle cx="50" cy="50" r="31.6"/></clipPath></defs><circle cx="50" cy="50" r="31.6" fill="#111B2E"/><g clip-path="url(#ogsdisht)"><rect x="0" y="58.6" width="100" height="4" fill="#7FFF74"/><rect x="0" y="62.6" width="100" height="40" fill="#3DFF2E"/></g><circle cx="40.4" cy="29.3" r="3.7" fill="none" stroke="#3DFF2E" stroke-width="3.1"/><circle cx="56.3" cy="41" r="6.1" fill="none" stroke="#3DFF2E" stroke-width="4.6"/><circle cx="40.2" cy="67.8" r="2.3" fill="#217D26"/><circle cx="62.1" cy="73.8" r="1.8" fill="#269527"/></svg></div>
     <div><b>OGS Mystery Lab</b><span>Every claim, sourced</span></div>
   </header>
   <main id="app"></main>
@@ -205,10 +228,11 @@ function intro(){
   foot.hidden = true;
   toets = null;
   app.innerHTML = `
+    <div class="kick"><span class="pulse"></span>Interactive &middot; 10 statements &middot; 2 min</div>
     <h1>You believe things<br>that <span class="hl">aren't true.</span></h1>
     <p class="lede">Ten statements. Decide which are myths and which are real. Eight of them are myths — two are not. Finding those two is the hard part.</p>
     <div class="start">
-      <button class="btn" id="go">Start the test</button>
+      <button class="btn" id="go">Start the test <span class="arrow" aria-hidden="true">&rarr;</span></button>
       <span class="note">Takes 2 minutes · every answer is sourced</span>
     </div>`;
   document.getElementById('go').onclick = () => { i = 0; results = []; question(); };
