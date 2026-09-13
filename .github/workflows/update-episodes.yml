@@ -65,12 +65,22 @@ jobs:
           max_ep = max([e.get("ep", 0) for e in existing] or [0])
 
           added = 0
+          filled = 0
           for item in feed:
               cur = by_video.get(item["video"])
               if cur:
-                  cur["title"] = item["title"]
-                  cur["date"] = item["date"] or cur.get("date", "")
-                  cur["youtube"] = "https://www.youtube.com/watch?v=" + item["video"]
+                  # Bestaande regels worden met de hand bijgehouden: titel, claim, oordeel en bronnen.
+                  # De feed vult hier alleen nog lege velden op en overschrijft nooit iets wat er al staat.
+                  # (YouTube kapt titels in de RSS-feed af op 100 tekens; zonder deze regel werd een
+                  #  handmatig ingevulde titel elke zes uur vervangen door de afgekapte versie.)
+                  for key, value in (
+                      ("title", item["title"]),
+                      ("date", item["date"]),
+                      ("youtube", "https://www.youtube.com/watch?v=" + item["video"]),
+                  ):
+                      if value and not cur.get(key):
+                          cur[key] = value
+                          filled += 1
                   continue
               base = slug(item["title"])
               sid, n = base, 2
@@ -98,7 +108,7 @@ jobs:
           with open(path, "w", encoding="utf-8") as f:
               json.dump(existing, f, ensure_ascii=False, indent=2)
               f.write("\n")
-          print("new episodes added:", added, "| total:", len(existing))
+          print("new episodes added:", added, "| empty fields filled:", filled, "| total:", len(existing))
           PY
 
       - name: Commit when something changed
