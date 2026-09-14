@@ -51,9 +51,12 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
 .wrap{max-width:880px;margin:0 auto}
 
 header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 20px;padding-block:20px 13px;border-bottom:1px solid var(--line-2)}
-.brand{display:flex;align-items:center;gap:13px}
+.brand{display:flex;align-items:center;gap:13px;text-decoration:none;color:inherit;border-radius:12px}
+.brand h1{transition:color .16s}
+.brand:hover h1{color:var(--green)}
+.brand:hover .mark{filter:drop-shadow(0 0 30px rgba(61,255,46,.45)) drop-shadow(0 8px 20px rgba(0,0,0,.55))}
 .mark{width:52px;height:52px;flex:0 0 auto;border-radius:50%;
-filter:drop-shadow(0 0 24px rgba(61,255,46,.28)) drop-shadow(0 8px 20px rgba(0,0,0,.5))}
+filter:drop-shadow(0 0 24px rgba(61,255,46,.28)) drop-shadow(0 8px 20px rgba(0,0,0,.5));transition:filter .16s}
 .mark svg{width:100%;height:100%;display:block}
 .brand h1{font-family:var(--display);font-weight:800;font-size:clamp(22px,3.4vw,30px);margin:0;line-height:1.05;letter-spacing:-.015em}
 .brand small{display:block;font-family:var(--mono);font-size:11.5px;color:var(--ink-3);letter-spacing:.07em;text-transform:uppercase;margin-top:5px;font-weight:500}
@@ -190,13 +193,13 @@ details.srcbox>summary:hover{color:var(--green);border-color:rgba(53,208,127,.32
 <body>
 <div class="wrap">
 <header class="top">
-<div class="brand">
+<a class="brand" href="/" aria-label="OGS Mystery Lab — back to the homepage">
 <div class="mark"><svg viewBox="0 0 100 100" aria-hidden="true" focusable="false"><defs><clipPath id="ogsdisha"><circle cx="50" cy="50" r="31.6"/></clipPath></defs><circle cx="50" cy="50" r="45" fill="#E3DCC7"/><circle cx="50" cy="50" r="31.6" fill="#111B2E"/><g clip-path="url(#ogsdisha)"><rect x="0" y="58.6" width="100" height="4" fill="#7FFF74"/><rect x="0" y="62.6" width="100" height="40" fill="#3DFF2E"/></g><circle cx="40.4" cy="29.3" r="3.7" fill="none" stroke="#3DFF2E" stroke-width="3.1"/><circle cx="56.3" cy="41" r="6.1" fill="none" stroke="#3DFF2E" stroke-width="4.6"/><circle cx="40.2" cy="67.8" r="2.3" fill="#217D26"/><circle cx="62.1" cy="73.8" r="1.8" fill="#269527"/></svg></div>
 <div>
 <h1>OGS Mystery Lab — Sources</h1>
 <small>Every claim, traced back to where it came from</small>
 </div>
-</div>
+</a>
 <nav class="links" aria-label="Where to find us">
 <a class="yt yt-x" href="https://www.youtube.com/@OGSMysteryLab" target="_blank" rel="noopener"><span class="ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9.5 8.6v6.8l6-3.4-6-3.4z"/><path d="M12 4.2c3.1 0 5.6.2 6.8.4 1 .2 1.8 1 2 2 .2 1.1.3 2.7.3 5.4s-.1 4.3-.3 5.4c-.2 1-1 1.8-2 2-1.2.2-3.7.4-6.8.4s-5.6-.2-6.8-.4c-1-.2-1.8-1-2-2C3 16.3 3 14.7 3 12s.1-4.3.3-5.4c.2-1 1-1.8 2-2 1.2-.2 3.6-.4 6.7-.4zm0 1.8c-3 0-5.3.2-6.4.4-.3 0-.5.3-.6.6-.1.8-.2 2.3-.2 5s.1 4.2.2 5c0 .3.3.5.6.6 1.1.2 3.4.4 6.4.4s5.3-.2 6.4-.4c.3 0 .5-.3.6-.6.1-.8.2-2.3.2-5s-.1-4.2-.2-5c0-.3-.3-.5-.6-.6-1.1-.2-3.4-.4-6.4-.4z"/></svg></span>YouTube</a>
 <a class="yt yt-x" href="https://www.instagram.com/ogsmysterylab/" target="_blank" rel="noopener"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5.2"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.9" r="1.15" fill="currentColor" stroke="none"/></svg></span>Instagram</a>
@@ -210,7 +213,7 @@ details.srcbox>summary:hover{color:var(--green);border-color:rgba(53,208,127,.32
 <h2>Short videos, <span class="hl">long receipts.</span></h2>
 <p class="sub">Every claim in every episode, traced back to where it came from. Start with the test — then find your episode below.</p>
 <div class="testwrap">
-<iframe id="testframe" src="/test/?embed=1&amp;v=8" title="How wrong are you? Ten statements, every answer sourced." loading="lazy" scrolling="no"></iframe>
+<iframe id="testframe" src="/test/?embed=1&amp;v=9" title="How wrong are you? Ten statements, every answer sourced." loading="lazy" scrolling="no"></iframe>
 </div>
 </section>
 
