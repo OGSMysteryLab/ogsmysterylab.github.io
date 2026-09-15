@@ -5,11 +5,138 @@
     "ep": 7,
     "format": "MYTH",
     "title": "We only use 10% of our brain. Verdict: BUSTED",
-    "claim": "",
-    "verdict": "",
+    "claim": "We only use 10% of our brain.",
+    "verdict": "BUSTED",
     "date": "2026-09-14",
     "youtube": "https://www.youtube.com/watch?v=uyBqh-PqkN8",
-    "sources": []
+    "sources": [
+      {
+        "type": "journal",
+        "url": "https://journals.sagepub.com/doi/pdf/10.1097/00004647-200110000-00001",
+        "title": "An Energy Budget for Signaling in the Grey Matter of the Brain",
+        "publisher": "David Attwell & Simon B. Laughlin, Journal of Cerebral Blood Flow and Metabolism 21(10):1133-1145"
+      },
+      {
+        "type": "journal",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC124895",
+        "title": "Appraising the brain's energy budget",
+        "publisher": "Marcus E. Raichle & Debra A. Gusnard; PNAS 99(16):10237-10239"
+      },
+      {
+        "type": "journal",
+        "url": "https://linguistics.ucla.edu/people/curtiss/2001%20-%20Spoken%20language%20outcomes%20after%20hemispherectomy.pdf",
+        "title": "Spoken Language Outcomes After Hemispherectomy: Factoring in Etiology",
+        "publisher": "Susan Curtiss, Stella de Bode, Gary W. Mathern; Brain and Language (hosted by UCLA Linguistics)"
+      },
+      {
+        "type": "journal",
+        "url": "https://www2.bcs.rochester.edu/sites/plennie/pdfs/Lennie03a.pdf",
+        "title": "The Cost of Cortical Computation",
+        "publisher": "Peter Lennie, Current Biology 13:493-497"
+      },
+      {
+        "type": "journal",
+        "url": "https://link.springer.com/article/10.1007/s00359-006-0117-6",
+        "title": "How silent is the brain: is there a \"dark matter\" problem in neuroscience?",
+        "publisher": "Shy Shoham, Daniel H. O'Connor, Ronen Segev; Journal of Comparative Physiology A 192:777-784"
+      },
+      {
+        "type": "journal",
+        "url": "https://www.sociostudies.org/upload/socionauki.ru/journal/seh/2024_2/002_Anum.pdf",
+        "title": "Evolution of the Human Brain and the Myth of its Ten-Percent Use",
+        "publisher": "Shahzadi Raheela Anum et al.; Social Evolution & History 23(2):44-69, 'Uchitel' Publishing House"
+      },
+      {
+        "type": "university",
+        "url": "https://faculty.washington.edu/chudler/tenper.html",
+        "title": "Neuroscience For Kids - 10% of the Brain Myth",
+        "publisher": "Eric H. Chudler, University of Washington"
+      },
+      {
+        "type": "university",
+        "url": "https://mcgovern.mit.edu/2024/01/26/do-we-use-only-10-percent-of-our-brain/",
+        "title": "Do we only use 10 percent of our brain?",
+        "publisher": "MIT McGovern Institute for Brain Research (answer by Mila Halgren, MIT Dept. of Brain and Cognitive Sciences)"
+      },
+      {
+        "type": "university",
+        "url": "https://hub.jhu.edu/2014/07/24/busting-a-brain-myth/",
+        "title": "Busting a brain myth",
+        "publisher": "Johns Hopkins University Hub (Barry Gordon, Professor of Neurology and Cognitive Science)"
+      },
+      {
+        "type": "university",
+        "url": "https://faculty.washington.edu/chudler/pdf/tenper.pdf",
+        "title": "Do We Use Only 10% of Our Brain? (PDF)",
+        "publisher": "Eric H. Chudler, University of Washington"
+      },
+      {
+        "type": "media",
+        "url": "https://www.scientificamerican.com/article/do-people-only-use-10-percent-of-their-brains/",
+        "title": "Do People Only Use 10 Percent of Their Brains?",
+        "publisher": "Scientific American (Robynne Boyd; quoting Barry Gordon, Johns Hopkins, and John Henley, Mayo Clinic)"
+      },
+      {
+        "type": "media",
+        "url": "https://www.brainfacts.org/thinking-sensing-and-behaving/thinking-and-awareness/2019/debunked-the-10-percent-brain-myth-061719",
+        "title": "Debunked: The 10 Percent Brain Myth",
+        "publisher": "BrainFacts.org (Society for Neuroscience); Nick Spitzer, UC San Diego"
+      },
+      {
+        "type": "book",
+        "url": "https://ruscio.pages.tcnj.edu/files/2016/08/Lilienfeld-et-al-2010-S-Top-Ten-Myths.pdf",
+        "title": "50 Great Myths of Popular Psychology: Shattering Widespread Misconceptions about Human Behavior (excerpt: The Top Ten Myths of Popular Psychology)",
+        "publisher": "Scott O. Lilienfeld, Steven Jay Lynn, John Ruscio, Barry L. Beyerstein; Wiley-Blackwell"
+      },
+      {
+        "type": "book",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK28194/",
+        "title": "Regulation of Cerebral Metabolic Rate (Basic Neurochemistry: Molecular, Cellular and Medical Aspects, 6th edition)",
+        "publisher": "Donald D. Clarke & Louis Sokoloff; Lippincott-Raven, hosted by NCBI Bookshelf (NIH)"
+      },
+      {
+        "type": "media",
+        "url": "https://www.scientificamerican.com/article/do-we-really-use-only-10/",
+        "title": "Do we really use only 10 percent of our brains?",
+        "publisher": "Scientific American (answer by Barry L. Beyerstein, Brain Behavior Laboratory, Simon Fraser University)"
+      },
+      {
+        "type": "media",
+        "url": "https://www.nbcnews.com/healthmain/myth-busted-you-only-use-10-percent-brain-1c9386687",
+        "title": "Myth busted: You only use 10 percent of your brain",
+        "publisher": "NBC News (Brian Alexander; quoting Eric Chudler, University of Washington, and Larry Squire, UC San Diego / VA San Diego)"
+      },
+      {
+        "type": "media",
+        "url": "https://www.scientificamerican.com/article/the-brains-dark-energy/",
+        "title": "The Brain's Dark Energy",
+        "publisher": "Scientific American (authored by Marcus E. Raichle, Washington University)"
+      },
+      {
+        "type": "media",
+        "url": "https://www.brainfacts.org/brain-anatomy-and-function/anatomy/2014/lucy-and-the-10-percent-brain-myth",
+        "title": "Lucy and the 10 Percent Brain Myth",
+        "publisher": "BrainFacts.org (Society for Neuroscience) / Andrew Kahn, Dana Foundation"
+      },
+      {
+        "type": "media",
+        "url": "https://www.foxnews.com/health/think-you-use-just-10-percent-of-your-brain-thats-a-myth",
+        "title": "Think you use just 10 percent of your brain? That's a myth",
+        "publisher": "Fox News / Newser"
+      },
+      {
+        "type": "media",
+        "url": "https://en.wikipedia.org/wiki/Ten-percent-of-the-brain_myth",
+        "title": "Ten-percent-of-the-brain myth",
+        "publisher": "Wikipedia"
+      },
+      {
+        "type": "media",
+        "url": "https://www.nm.org/healthbeat/healthy-tips/ten-surprising-facts-about-your-brain",
+        "title": "10 Surprising Facts About Your Brain",
+        "publisher": "Northwestern Medicine (Borna Bonakdarpour, MD, behavioral neurologist)"
+      }
+    ]
   },
   {
     "id": "the-great-wall-is-the-only-thing-visible-from-spac",
