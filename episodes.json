@@ -4,12 +4,61 @@
     "video": "foiiciVFGgI",
     "ep": 8,
     "format": "MYTH",
-    "title": "20,000 people lived in Derinkuyu's underground city. Verdict: BUSTED. #Archaeology #Cappadocia #Myth",
-    "claim": "",
-    "verdict": "",
+    "title": "20,000 people lived in Derinkuyu's underground city. Verdict: BUSTED.",
+    "claim": "20,000 people lived in Derinkuyu's underground city.",
+    "verdict": "BUSTED",
     "date": "2026-09-16",
     "youtube": "https://www.youtube.com/watch?v=foiiciVFGgI",
-    "sources": []
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://whc.unesco.org/en/documents/118594",
+        "title": "UNESCO World Heritage Centre - Document - Goreme National Park and the Rock Sites of Cappadocia. Map showing the subterranean city of Derinkuyu",
+        "publisher": "UNESCO World Heritage Centre"
+      },
+      {
+        "type": "official",
+        "url": "https://muze.gov.tr/muze-detay?DistId=DKY&SectionId=DKY01",
+        "title": "DERİNKUYU UNDERGROUND CITY",
+        "publisher": "Turkish Ministry of Culture and Tourism (muze.gov.tr)"
+      },
+      {
+        "type": "paper",
+        "url": "https://link.springer.com/article/10.1007/s00603-012-0301-7",
+        "title": "Geomechanical Evaluation of Derinkuyu Antique Underground City and its Implications in Geoengineering | Rock Mechanics and Rock Engineering | Springer Nature Link",
+        "publisher": "Springer Nature (Rock Mechanics and Rock Engineering)"
+      },
+      {
+        "type": "archive",
+        "url": "https://web.archive.org/web/20210221115607/https://www.nationalgeographic.com/adventure/article/150325-underground-city-cappadocia-turkey-archaeology",
+        "title": "Massive Underground City Found in Cappadocia Region of Turkey (archived copy)",
+        "publisher": "National Geographic, via the Internet Archive"
+      },
+      {
+        "type": "archive",
+        "url": "https://web.archive.org/web/20070109200133/http://www.nevsehir.gov.tr/ing_nevsehir_detay.php?id=113",
+        "title": "T.C. Nevşehir Valiliği (archived copy)",
+        "publisher": "T.C. Nevşehir Valiliği (Governor's Office of Nevşehir), via the Internet Archive"
+      },
+      {
+        "type": "press",
+        "url": "https://www.nationalgeographic.com/history/article/150325-underground-city-cappadocia-turkey-archaeology",
+        "title": "Massive Underground City Found in Cappadocia Region of Turkey",
+        "publisher": "National Geographic"
+      },
+      {
+        "type": "press",
+        "url": "https://www.smithsonianmag.com/smart-news/archaeologists-unfold-worlds-largest-underground-city-turkey-180954895/",
+        "title": "Archaeologists Unfold World's Largest Underground City in Turkey",
+        "publisher": "Smithsonian Magazine"
+      },
+      {
+        "type": "press",
+        "url": "https://www.smithsonianmag.com/smart-news/huge-underground-city-refuge-early-christians-turkey-180980090/",
+        "title": "This Huge Underground City May Have Been a Refuge for 70,000 Early Christians",
+        "publisher": "Smithsonian Magazine"
+      }
+    ]
   },
   {
     "id": "the-10-brain-myth-dies-on-the-energy-bill-mythbust",
