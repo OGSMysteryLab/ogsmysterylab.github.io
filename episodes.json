@@ -1,15 +1,131 @@
 [
   {
+    "id": "the-cold-not-the-speed-made-the-molasses-flood-let",
+    "video": "wSXCIgH7edk",
+    "ep": 10,
+    "format": "FACT",
+    "title": "The cold, not the speed, made the molasses flood lethal. Verdict: TRUE",
+    "claim": "The cold, not the speed, made the molasses flood lethal.",
+    "verdict": "TRUE",
+    "date": "2026-09-17",
+    "youtube": "https://www.youtube.com/watch?v=wSXCIgH7edk",
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://www.boston.gov/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+        "title": "100 years ago today: Molasses crashes through Boston's North End",
+        "publisher": "City of Boston (Boston City Archives)"
+      },
+      {
+        "type": "official",
+        "url": "https://www.sec.state.ma.us/divisions/state-house-tours/did-you-know/Molasses-Flood.htm",
+        "title": "The Boston Molasses Flood",
+        "publisher": "Secretary of the Commonwealth of Massachusetts"
+      },
+      {
+        "type": "paper",
+        "url": "https://www.sciencedaily.com/releases/2016/11/161121090721.htm",
+        "title": "Molasses creates a sticky situation (fluid-dynamics study presented at APS DFD 2016)",
+        "publisher": "American Physical Society, Division of Fluid Dynamics, via ScienceDaily"
+      },
+      {
+        "type": "university",
+        "url": "https://alum.mit.edu/slice/solving-great-molasses-flood-mystery",
+        "title": "Solving the Great Molasses Flood Mystery",
+        "publisher": "MIT Alumni Association"
+      },
+      {
+        "type": "university",
+        "url": "https://mse.engin.umich.edu/internal/demos/case-study-molasses-tank-failure",
+        "title": "Case Study: Molasses Tank Failure",
+        "publisher": "University of Michigan, Department of Materials Science and Engineering"
+      },
+      {
+        "type": "museum",
+        "url": "https://www.bpl.org/blogs/post/bostons-great-molasses-flood/",
+        "title": "Boston's Great Molasses Flood",
+        "publisher": "Boston Public Library"
+      },
+      {
+        "type": "museum",
+        "url": "https://www.massmoments.org/moment-details/great-molasses-flood/submoment/hugh-ogden-issues-report-on-cause-of-the-molasses-flood.html",
+        "title": "Hugh Ogden issues his report on the cause of the molasses flood",
+        "publisher": "Mass Moments / Mass Humanities"
+      },
+      {
+        "type": "press",
+        "url": "https://www.scientificamerican.com/article/molasses-flood-physics-science/",
+        "title": "The Science of the Great Molasses Flood",
+        "publisher": "Scientific American"
+      },
+      {
+        "type": "press",
+        "url": "https://www.smithsonianmag.com/smart-news/why-boston-molasses-disaster-was-so-deadly-180961209/",
+        "title": "The Sticky Science Behind the Deadly Boston Molasses Disaster",
+        "publisher": "Smithsonian Magazine"
+      },
+      {
+        "type": "press",
+        "url": "https://www.bostonglobe.com/metro/2015/01/14/nearly-century-later-new-insight-into-cause-great-molasses-flood/CNqLYc0T58kNo3MxP872iM/story.html",
+        "title": "Nearly a century later, structural flaw in molasses tank revealed",
+        "publisher": "The Boston Globe"
+      },
+      {
+        "type": "book",
+        "url": "https://erenow.org/common/dark-tide-great-boston-molasses-flood-1919/2.php",
+        "title": "Dark Tide: The Great Boston Molasses Flood of 1919 (chapter reproduction)",
+        "publisher": "Stephen Puleo, Beacon Press"
+      },
+      {
+        "type": "press",
+        "url": "https://www.britannica.com/topic/Great-Molasses-Flood",
+        "title": "Great Molasses Flood",
+        "publisher": "Encyclopaedia Britannica"
+      }
+    ]
+  },
+  {
     "id": "what-if-the-mediterranean-sea-dried-up-again-geolo",
     "video": "xptjb99BATk",
     "ep": 9,
     "format": "WHATIF",
-    "title": "What if the Mediterranean Sea dried up again? #geology #whatif #science #earth",
-    "claim": "",
+    "title": "What if the Mediterranean Sea dried up again?",
+    "claim": "If the Strait of Gibraltar closed, the Mediterranean would dry up again.",
     "verdict": "",
     "date": "2026-09-17",
     "youtube": "https://www.youtube.com/watch?v=xptjb99BATk",
-    "sources": []
+    "sources": [
+      {
+        "type": "paper",
+        "url": "https://www.nature.com/articles/23231",
+        "title": "Chronology, causes and progression of the Messinian salinity crisis",
+        "publisher": "Nature 400:652-655 (1999); Krijgsman, Hilgen, Raffi, Sierro, Wilson"
+      },
+      {
+        "type": "paper",
+        "url": "https://www.nature.com/articles/s43017-024-00533-1",
+        "title": "Causes and consequences of the Messinian salinity crisis (review)",
+        "publisher": "Nature Reviews Earth & Environment (2024); Krijgsman, Rohling, Palcu, Raad, Amarathunga, Flecker, Florindo, Roberts, Sierro, Aloisi"
+      },
+      {
+        "type": "paper",
+        "url": "https://www.nature.com/articles/nature08555",
+        "title": "Catastrophic flood of the Mediterranean after the Messinian salinity crisis",
+        "publisher": "Nature 462:778-781 (2009); Garcia-Castellanos, Estrada, Jimenez-Munt, Gorini, Fernandez, Verges, De Vicente"
+      },
+      {
+        "type": "press",
+        "url": "https://news.cnrs.fr/articles/when-the-mediterranean-was-empty",
+        "title": "When the Mediterranean was empty",
+        "publisher": "CNRS News (French National Centre for Scientific Research)"
+      },
+      {
+        "type": "press",
+        "url": "https://en.wikipedia.org/wiki/Messinian_salinity_crisis",
+        "title": "Messinian salinity crisis",
+        "publisher": "Wikipedia (English), tertiary source, background only"
+      }
+    ]
   },
   {
     "id": "20-000-people-lived-in-derinkuyu-s-underground-cit",
