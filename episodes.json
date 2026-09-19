@@ -4,12 +4,97 @@
     "video": "son7EySH6IQ",
     "ep": 11,
     "format": "FACT",
-    "title": "What did the solar storm of 1859 actually do? #history #science #space",
-    "claim": "",
+    "title": "What did the solar storm of 1859 actually do?",
+    "claim": "In 1859 a solar storm crossed to Earth in about seventeen hours and telegraph lines worked without batteries.",
     "verdict": "",
     "date": "2026-09-18",
     "youtube": "https://www.youtube.com/watch?v=son7EySH6IQ",
-    "sources": []
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://pwg.gsfc.nasa.gov/Education/whcarr.html",
+        "title": "The Great Solar Storm of 1859 (Carrington's observation)",
+        "publisher": "NASA Goddard Space Flight Center"
+      },
+      {
+        "type": "official",
+        "url": "https://geomag.bgs.ac.uk/education/carrington.html",
+        "title": "The Largest Magnetic Storm on Record - Carrington Event 1859 ...or is it?",
+        "publisher": "British Geological Survey, Geomagnetism"
+      },
+      {
+        "type": "official",
+        "url": "https://www.nesdis.noaa.gov/about/k-12-education/space-weather/what-was-the-carrington-event",
+        "title": "What Was the Carrington Event?",
+        "publisher": "NOAA National Environmental Satellite, Data, and Information Service"
+      },
+      {
+        "type": "official",
+        "url": "https://ntrs.nasa.gov/api/citations/20050212156/downloads/20050212156.pdf",
+        "title": "Duration and Extent of the Great Auroral Storm of 1859",
+        "publisher": "Green & Boardsen, NASA Technical Reports Server"
+      },
+      {
+        "type": "official",
+        "url": "https://ntrs.nasa.gov/citations/20050210157",
+        "title": "Eyewitness Reports of the Great Auroral Storm of 1859",
+        "publisher": "Green, Boardsen, Odenwald, Humble & Pazamickas, NASA Technical Reports Server"
+      },
+      {
+        "type": "paper",
+        "url": "https://iopscience.iop.org/article/10.3847/2041-8213/acd853",
+        "title": "Magnitude Estimates for the Carrington Flare in 1859 September: As Seen from the Original Records",
+        "publisher": "The Astrophysical Journal Letters (IOP Publishing)"
+      },
+      {
+        "type": "paper",
+        "url": "https://zenodo.org/records/1000695",
+        "title": "The extreme magnetic storm of 1-2 September 1859",
+        "publisher": "Tsurutani, Gonzalez, Lakhina & Alex; Journal of Geophysical Research: Space Physics 108(A7)"
+      },
+      {
+        "type": "paper",
+        "url": "https://www.swsc-journal.org/articles/swsc/pdf/2013/01/swsc130015.pdf",
+        "title": "The 1859 space weather event revisited: limits of extreme activity",
+        "publisher": "Cliver & Dietrich; Journal of Space Weather and Space Climate 3, A31"
+      },
+      {
+        "type": "paper",
+        "url": "https://www.swsc-journal.org/articles/swsc/full_html/2024/01/swsc230032/swsc230032.html",
+        "title": "On the uncertain intensity estimate of the 1859 Carrington storm",
+        "publisher": "Love et al.; Journal of Space Weather and Space Climate 14, 21"
+      },
+      {
+        "type": "paper",
+        "url": "https://arxiv.org/pdf/1807.05186",
+        "title": "The Great Space Weather Event during February 1872 Recorded in East Asia",
+        "publisher": "Hayakawa, Ebihara, Willis et al.; The Astrophysical Journal (preprint)"
+      },
+      {
+        "type": "paper",
+        "url": "https://ajsonline.org/article/64597",
+        "title": "The Great Auroral Exhibition of Aug. 28th to Sept. 4th, 1859",
+        "publisher": "Elias Loomis; American Journal of Science s2-30(90):339-361"
+      },
+      {
+        "type": "book",
+        "url": "https://earlyradiohistory.us/1860auro.htm",
+        "title": "History, Theory and Practice of the Electric Telegraph (1860) - aurora extract, pp. 318-326",
+        "publisher": "George B. Prescott, Ticknor and Fields; transcription at EarlyRadioHistory.us"
+      },
+      {
+        "type": "museum",
+        "url": "https://www.sciencemuseum.org.uk/objects-and-stories/how-does-space-weather-affect-earth",
+        "title": "From the Northern Lights to communication breakdown: how does space weather affect the Earth?",
+        "publisher": "Science Museum, London"
+      },
+      {
+        "type": "press",
+        "url": "https://www.britannica.com/event/geomagnetic-storm-of-1859",
+        "title": "Geomagnetic storm of 1859",
+        "publisher": "Encyclopaedia Britannica"
+      }
+    ]
   },
   {
     "id": "the-cold-not-the-speed-made-the-molasses-flood-let",
