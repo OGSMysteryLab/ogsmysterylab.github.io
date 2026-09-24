@@ -4,24 +4,98 @@
     "video": "MoBdjVR3iUE",
     "ep": 13,
     "format": "FACT",
-    "title": "NASA Just Found a Fresh Crater on the Moon (222 Meters Wide)  #NASA #Moon",
-    "claim": "",
+    "title": "NASA Just Found a Fresh Crater on the Moon (222 Meters Wide)",
+    "claim": "A 222-metre crater appeared on the Moon between April and May 2024, and the ground around it now cools faster than its surroundings.",
     "verdict": "",
     "date": "2026-09-20",
     "youtube": "https://www.youtube.com/watch?v=MoBdjVR3iUE",
-    "sources": []
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://planetarynames.wr.usgs.gov/Feature/16447",
+        "title": "Planetary Names",
+        "publisher": "USGS Gazetteer of Planetary Nomenclature"
+      },
+      {
+        "type": "official",
+        "url": "https://science.nasa.gov/solar-system/moon/nasas-moon-orbiter-spots-new-once-in-century-moon-crater/",
+        "title": "NASA’s Moon Orbiter Spots New, ‘Once-in-Century’ Moon Crater",
+        "publisher": "NASA Science"
+      },
+      {
+        "type": "source",
+        "url": "https://en.wikipedia.org/wiki/McGetchin_%28crater%29",
+        "title": "McGetchin (crater)",
+        "publisher": "Wikipedia"
+      },
+      {
+        "type": "press",
+        "url": "https://www.space.com/astronomy/moon/nasa-just-found-a-giant-new-crater-on-the-moon-heres-why-everyones-talking-the-once-in-a-century-discovery",
+        "title": "A NASA spacecraft just found a giant new crater on the moon. Here's why everyone's talking about the 'once-in-a-century' discovery",
+        "publisher": "Space.com"
+      },
+      {
+        "type": "press",
+        "url": "https://www.nbcnews.com/science/space/nasa-new-crater-moon-rcna598190",
+        "title": "NASA spacecraft discovers a huge new crater on the moon",
+        "publisher": "NBC News / Associated Press"
+      }
+    ]
   },
   {
     "id": "who-built-stone-temples-6-000-years-before-farming",
     "video": "1KU0aFtxOos",
     "ep": 12,
     "format": "FACT",
-    "title": "Who built stone temples 6,000 years before farming? #history #archaeology #science",
-    "claim": "",
+    "title": "Who built stone temples 6,000 years before farming?",
+    "claim": "Hunter-gatherers raised monumental stone enclosures at Göbekli Tepe around 9500 BC, thousands of years before farming.",
     "verdict": "",
     "date": "2026-09-19",
     "youtube": "https://www.youtube.com/watch?v=1KU0aFtxOos",
-    "sources": []
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://www.dainst.org/en/newsroom/tas-tepeler-die-entdeckung-einer-neolithischen-kulturlandschaft/792",
+        "title": "DAI - Taş Tepeler – The discovery of a Neolithic cultural landscape",
+        "publisher": "Deutsches Archäologisches Institut (DAI)"
+      },
+      {
+        "type": "official",
+        "url": "https://www.dainst.org/en/research/projects/noslug/5746",
+        "title": "DAI - Göbekli Tepe",
+        "publisher": "Deutsches Archäologisches Institut (DAI)"
+      },
+      {
+        "type": "paper",
+        "url": "https://www.cambridge.org/core/journals/antiquity/article/masshunting-in-southwest-asia-at-the-dawn-of-sedentism-new-evidence-from-sanliurfa-southeast-turkiye/B3950C679C1005BD08F97047DBED737F",
+        "title": "Mass-hunting in South-west Asia at the dawn of sedentism: new evidence from Şanlıurfa, south-east Türkiye",
+        "publisher": "Antiquity / Cambridge University Press"
+      },
+      {
+        "type": "paper",
+        "url": "https://www.cambridge.org/core/journals/antiquity/article/sayburc-reliefs-a-narrative-scene-from-the-neolithic/3A35B54B3265C7224CB225FE70EBDD02",
+        "title": "The Sayburç reliefs: a narrative scene from the Neolithic",
+        "publisher": "Antiquity / Cambridge University Press"
+      },
+      {
+        "type": "paper",
+        "url": "https://www.cambridge.org/core/journals/antiquity/article/role-of-cult-and-feasting-in-the-emergence-of-neolithic-communities-new-evidence-from-gobekli-tepe-southeastern-turkey/A1AA4FB20657599F859860D94CCD090E",
+        "title": "The role of cult and feasting in the emergence of Neolithic communities. New evidence from Göbekli Tepe, south-eastern Turkey",
+        "publisher": "Antiquity / Cambridge University Press"
+      },
+      {
+        "type": "paper",
+        "url": "https://www.cambridge.org/core/journals/cambridge-archaeological-journal/article/geometry-and-architectural-planning-at-gobekli-tepe-turkey/2CBAF416E33AFE6496B73710A2F42FF9",
+        "title": "Geometry and Architectural Planning at Göbekli Tepe, Turkey",
+        "publisher": "Cambridge Archaeological Journal / Cambridge University Press"
+      },
+      {
+        "type": "press",
+        "url": "https://www.smithsonianmag.com/smart-news/a-human-face-was-carved-into-this-stone-pillar-in-turkey-11000-years-ago-180987489/",
+        "title": "A Human Face Was Carved Into This Stone Pillar in Turkey 11,000 Years Ago",
+        "publisher": "Smithsonian Magazine"
+      }
+    ]
   },
   {
     "id": "what-did-the-solar-storm-of-1859-actually-do-histo",
