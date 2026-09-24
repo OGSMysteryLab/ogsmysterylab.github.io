@@ -1,15 +1,143 @@
 [
   {
+    "id": "the-stone-that-shouts-the-gokturks-vs-tang-china",
+    "video": "0PVjJ8G3AWU",
+    "ep": 15,
+    "format": "FACT",
+    "title": "The Stone That Shouts: The Göktürks vs Tang China, 682-744",
+    "claim": "The oldest Turkic writing is not a prayer or a list of kings. It is a ruler accusing his own people of giving their state away.",
+    "verdict": "",
+    "date": "2026-09-24",
+    "youtube": "https://www.youtube.com/watch?v=0PVjJ8G3AWU",
+    "sources": [
+      {
+        "type": "source",
+        "url": "https://www.britannica.com/topic/Orhon-inscriptions",
+        "title": "Orhon inscriptions",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "type": "source",
+        "url": "https://en.wikipedia.org/wiki/Orkhon_inscriptions",
+        "title": "Orkhon inscriptions",
+        "publisher": "Wikipedia"
+      },
+      {
+        "type": "source",
+        "url": "https://en.wikipedia.org/wiki/Second_Turkic_Khaganate",
+        "title": "Second Turkic Khaganate",
+        "publisher": "Wikipedia"
+      },
+      {
+        "type": "source",
+        "url": "https://en.wikipedia.org/wiki/Ilterish_Qaghan",
+        "title": "Ilterish Qaghan",
+        "publisher": "Wikipedia"
+      },
+      {
+        "type": "source",
+        "url": "https://en.wikipedia.org/wiki/Qapaghan_Qaghan",
+        "title": "Qapaghan Qaghan",
+        "publisher": "Wikipedia"
+      },
+      {
+        "type": "source",
+        "url": "https://en.wikipedia.org/wiki/Kul_Tigin",
+        "title": "Kul Tigin",
+        "publisher": "Wikipedia"
+      },
+      {
+        "type": "source",
+        "url": "https://en.wikipedia.org/wiki/Bilge_Qaghan",
+        "title": "Bilge Qaghan",
+        "publisher": "Wikipedia"
+      },
+      {
+        "type": "source",
+        "url": "https://en.wikipedia.org/wiki/Tonyukuk",
+        "title": "Tonyukuk",
+        "publisher": "Wikipedia"
+      },
+      {
+        "type": "source",
+        "url": "https://en.wikipedia.org/wiki/Tonyukuk_inscriptions",
+        "title": "Tonyukuk inscriptions",
+        "publisher": "Wikipedia"
+      },
+      {
+        "type": "source",
+        "url": "https://en.wikipedia.org/wiki/Bust_of_Kul_Tigin",
+        "title": "Bust of Kul Tigin",
+        "publisher": "Wikipedia"
+      },
+      {
+        "type": "source",
+        "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Turkic_peoples_(500%E2%80%931300)",
+        "title": "Timeline of the Turkic peoples (500-1300)",
+        "publisher": "Wikipedia"
+      }
+    ]
+  },
+  {
     "id": "this-frozen-mountain-saved-syria-s-food-supply-foo",
     "video": "PuC1265Ut8Q",
     "ep": 14,
     "format": "FACT",
-    "title": "This Frozen Mountain Saved Syria's Food Supply #foodsecurity #science #didyouknow #climatechange",
-    "claim": "",
-    "verdict": "",
+    "title": "This Frozen Mountain Saved Syria's Food Supply",
+    "claim": "This Frozen Mountain Saved Syria's Food Supply.",
+    "verdict": "TRUE",
     "date": "2026-09-24",
     "youtube": "https://www.youtube.com/watch?v=PuC1265Ut8Q",
-    "sources": []
+    "sources": [
+      {
+        "type": "official",
+        "url": "https://www.croptrust.org/what-we-do/programs/svalbard-global-seed-vault/",
+        "title": "Svalbard Global Seed Vault",
+        "publisher": "Crop Trust"
+      },
+      {
+        "type": "official",
+        "url": "https://www.seedvault.no/2019/09/11/withdrawal-of-icarda-aleppo-seeds-accomplished/",
+        "title": "Withdrawal of ICARDA Aleppo seeds accomplished",
+        "publisher": "Svalbard Global Seed Vault"
+      },
+      {
+        "type": "official",
+        "url": "https://www.seedvault.no/2017/10/27/icarda-seeds-safe-back-in-lebanon-and-morocco/",
+        "title": "ICARDA seeds safe back in Lebanon and Morocco",
+        "publisher": "Svalbard Global Seed Vault"
+      },
+      {
+        "type": "official",
+        "url": "https://www.croptrust.org/news-events/news/article/an-international-rescue-mission-from-syria-to-svalbard/",
+        "title": "An International Rescue Mission from Syria to Svalbard",
+        "publisher": "Crop Trust"
+      },
+      {
+        "type": "official",
+        "url": "https://www.croptrust.org/news-events/news/article/more-than-50000-seeds-withdrawn-from-seed-vault-1/",
+        "title": "More Than 50,000 Seeds Withdrawn From Seed Vault",
+        "publisher": "Crop Trust"
+      },
+      {
+        "type": "press",
+        "url": "https://www.croptrust.org/news-events/in-the-media/article/these-rare-seeds-escaped-syrias-war-to-help-feed-the-world/",
+        "title": "These Rare Seeds Escaped Syria's War—to Help Feed the World",
+        "publisher": "Crop Trust / Wired"
+      },
+      {
+        "type": "press",
+        "url": "https://www.smithsonianmag.com/smart-news/why-scientists-just-made-major-seed-bank-deposit-180962274/",
+        "title": "Syria Just Made a Major Seed Bank Deposit",
+        "publisher": "Smithsonian Magazine"
+      },
+      {
+        "type": "press",
+        "url": "https://www.nationalgeographic.com/history/article/150923-svalbard-doomsday-arctic-seed-vault-syrian-crisis-pictures",
+        "title": "See the ‘Doomsday’ Seed Vault Opened in Response to Syria Crisis",
+        "publisher": "National Geographic"
+      }
+    ]
   },
   {
     "id": "nasa-just-found-a-fresh-crater-on-the-moon-222-met",
