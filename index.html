@@ -139,6 +139,14 @@ border-radius:999px;padding:0 16px;transition:border-color .18s,box-shadow .18s,
 .ep.f-MYTH::before{background:var(--yellow)}
 .ep.f-WHATIF::before{background:var(--green)}
 .ep.f-FACT::before{background:#4FA8FF}
+.ep.f-LONG::before{background:linear-gradient(180deg,#FFB347,#DE7F26);width:4px}
+.ep.f-LONG{background:linear-gradient(180deg,rgba(255,159,69,.075),rgba(255,159,69,.015)),var(--panel);
+  border-color:rgba(255,159,69,.30);padding:15px 16px 12px 19px}
+.ep.f-LONG h3{font-size:clamp(17px,2.2vw,21.5px);margin-top:5px}
+.ep.f-LONG .claim{font-size:13.5px;margin-top:3px}
+.ep.f-LONG:hover{border-color:rgba(255,159,69,.52);box-shadow:0 0 46px -20px rgba(255,159,69,.85)}
+.ep.f-LONG:hover::before{box-shadow:0 0 18px 1px rgba(255,159,69,.75)}
+.ep.f-LONG .watch{border-color:rgba(255,159,69,.45)}
 .ep:hover{border-color:var(--line-2);box-shadow:0 0 40px -22px rgba(53,208,127,.9)}
 .ep:target{border-color:var(--green);box-shadow:0 0 0 3px rgba(53,208,127,.16),0 0 60px -20px rgba(53,208,127,.8)}
 .ep.f-MYTH:hover::before{box-shadow:0 0 18px 1px rgba(245,217,10,.7)}
@@ -152,6 +160,10 @@ background:var(--panel-2);color:var(--ink-2);border:1px solid var(--line-2)}
 .fmt.MYTH{color:var(--yellow);border-color:rgba(245,217,10,.42);background:rgba(245,217,10,.10)}
 .fmt.WHATIF{color:var(--green);border-color:rgba(53,208,127,.42);background:rgba(53,208,127,.10)}
 .fmt.FACT{color:#8CC6FF;border-color:rgba(79,168,255,.40);background:rgba(79,168,255,.10)}
+.fmt.LONG{color:#FFB367;border-color:rgba(255,159,69,.46);background:rgba(255,159,69,.12)}
+.dur{display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:999px;font-size:10px;
+  letter-spacing:.09em;background:rgba(255,159,69,.10);border:1px solid rgba(255,159,69,.34);color:#FFB367}
+#f-long[aria-pressed="true"]{color:#FFB367;border-color:rgba(255,159,69,.55);box-shadow:0 0 22px -10px rgba(255,159,69,.9)}
 .ep:hover .fmt{background:rgba(255,255,255,.04)}
 .ep h3{font-family:var(--display);font-weight:700;font-size:clamp(14.5px,1.55vw,16px);line-height:1.2;margin:3px 0 1px;letter-spacing:-.01em;text-wrap:balance}
 .ep .claim{margin:0;color:var(--ink-2);max-width:70ch;font-size:12.5px;line-height:1.38}
@@ -227,6 +239,7 @@ details.srcbox>summary:hover{color:var(--green);border-color:rgba(53,208,127,.32
 <button class="chip" id="f-fact" data-f="FACT" aria-pressed="false">FACT</button>
 <button class="chip" id="f-myth" data-f="MYTH" aria-pressed="false">MYTH CHECK</button>
 <button class="chip" id="f-whatif" data-f="WHATIF" aria-pressed="false">WHAT IF</button>
+<button class="chip" id="f-long" data-f="LONG" aria-pressed="false">LONG FORM</button>
 </div>
 <span class="count" id="count"></span>
 </div>
@@ -254,7 +267,7 @@ details.srcbox>summary:hover{color:var(--green);border-color:rgba(53,208,127,.32
 var episodes = [];
 var list = document.getElementById('list'), q = document.getElementById('q'), count = document.getElementById('count');
 var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
-var fmtLabel = {FACT:'FACT', MYTH:'MYTH CHECK', WHATIF:'WHAT IF'};
+var fmtLabel = {FACT:'FACT', MYTH:'MYTH CHECK', WHATIF:'WHAT IF', LONG:'LONG FORM'};
 var filter = 'ALL';
 
 function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
@@ -284,7 +297,7 @@ return '<li><span class="tag">'+esc(s.type||'source')+'</span><div><a href="'+es
 : '<p class="pending">The full source list for this episode is being added here. Until then, the sources are in the video description on YouTube.</p>';
 return '<article class="ep f-'+esc(e.format)+'" id="'+esc(e.id)+'">'
 + '<div class="ep-head"><div>'
-+ '<div class="eyebrow"><span class="fmt '+esc(e.format)+'">'+esc(fmtLabel[e.format]||e.format)+'</span><span>EP '+String(e.ep).padStart(3,'0')+'</span><span>'+esc(fmtDate(e.date))+'</span></div>'
++ '<div class="eyebrow"><span class="fmt '+esc(e.format)+'">'+esc(fmtLabel[e.format]||e.format)+'</span><span>EP '+String(e.ep).padStart(3,'0')+'</span><span>'+esc(fmtDate(e.date))+'</span>'+(e.duration?'<span class="dur">'+esc(e.duration)+'</span>':'')+'</div>'
 + '<h3>'+esc(clean(e.title))+'</h3>'
 + (e.claim?'<p class="claim">'+esc(e.claim)+'</p>':'')
 + (e.verdict?'<div class="verdict"><span>VERDICT</span><b>'+esc(e.verdict)+'</b></div>':'')
