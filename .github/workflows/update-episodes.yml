@@ -32,6 +32,23 @@ jobs:
               s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
               return s[:50] or "episode"
 
+          def clean_title(title):
+              # Hashtags horen in de YouTube-titel, niet op de bronnensite.
+              t = title.split("#")[0]
+              return re.sub(r"[\s|\u2013-]+$", "", t).strip() or title.strip()
+
+          def video_length(vid):
+              # Lengte in seconden van de watch-pagina; None als dat niet lukt (dan blijft het veld leeg).
+              try:
+                  req = urllib.request.Request("https://www.youtube.com/watch?v=" + vid,
+                                               headers={"User-Agent": "ogs-sources-bot", "Accept-Language": "en"})
+                  with urllib.request.urlopen(req, timeout=30) as r:
+                      html = r.read().decode("utf-8", "ignore")
+                  m = re.search(r'"lengthSeconds":"(\d+)"', html)
+                  return int(m.group(1)) if m else None
+              except Exception:
+                  return None
+
           def guess_format(title):
               t = title.lower().strip()
               if t.startswith("what if"):
@@ -82,6 +99,7 @@ jobs:
                           cur[key] = value
                           filled += 1
                   continue
+              item["title"] = clean_title(item["title"])
               base = slug(item["title"])
               sid, n = base, 2
               while sid in used_slugs:
@@ -100,11 +118,24 @@ jobs:
                   "youtube": "https://www.youtube.com/watch?v=" + item["video"],
                   "sources": [],
               }
+              secs = video_length(item["video"])
+              if secs and secs > 185:
+                  # Lange video: eigen kaart met de lengte erbij, zoals bij Attila en de Göktürks.
+                  new["format"] = "LONG"
+                  new["duration"] = str(max(1, round(secs / 60))) + " MIN"
               existing.append(new)
               by_video[item["video"]] = new
               added += 1
 
-          existing.sort(key=lambda e: e.get("ep", 0), reverse=True)
+          # Lange video's zonder lengte (met de hand op LONG gezet) krijgen die er alsnog bij.
+          for e in existing:
+              if e.get("format") == "LONG" and not e.get("duration") and e.get("video"):
+                  secs = video_length(e["video"])
+                  if secs:
+                      e["duration"] = str(max(1, round(secs / 60))) + " MIN"
+                      filled += 1
+
+          existing.sort(key=lambda e: int(e.get("ep", 0) or 0), reverse=True)
           with open(path, "w", encoding="utf-8") as f:
               json.dump(existing, f, ensure_ascii=False, indent=2)
               f.write("\n")
