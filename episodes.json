@@ -1,15 +1,286 @@
 [
   {
+    "id": "the-uncounted-week",
+    "video": "_KgPma_qalM",
+    "ep": 17,
+    "format": "LONG",
+    "duration": "12 MIN",
+    "title": "The Uncounted Week: Paris, May 1871",
+    "claim": "In one week in May 1871, the French army killed thousands of Parisians. Estimates run from 6,667 to 32,000, and nobody agrees how many.",
+    "verdict": "",
+    "date": "2026-09-27",
+    "youtube": "https://www.youtube.com/watch?v=_KgPma_qalM",
+    "sources": [
+      {
+        "type": "primary",
+        "url": "https://www.marxists.org/history/france/archive/lissagaray/ch36.htm",
+        "title": "P.-O. Lissagaray, History of the Commune of 1871, ch. XXXVI (1886, tr. Eleanor Marx)",
+        "publisher": "marxists.org",
+        "note": "'Twenty-five thousand men, women, and children killed during the battle or after.'"
+      },
+      {
+        "type": "primary",
+        "url": "https://ftm-cgt.fr/la-rehabilitation-des-communards/",
+        "title": "Goncourt's journal, 31 May 1871, and Rohault de Fleury at the Sacré-Cœur, 16 June 1875",
+        "publisher": "FTM-CGT",
+        "note": "Quoted in French; the English on screen is our own rendering."
+      },
+      {
+        "type": "historian",
+        "url": "https://www.cambridge.org/core/journals/historical-journal/article/abs/how-bloody-was-la-semaine-sanglante-of-1871-a-revision/4310E413FFE58830F41F00E9086807F7",
+        "title": "R. Tombs, 'How bloody was la Semaine sanglante of 1871? A revision' (2012)",
+        "publisher": "The Historical Journal",
+        "note": "6,000–7,500, from cemetery registers and police records."
+      },
+      {
+        "type": "historian",
+        "url": "https://www.h-france.net/Salon/Salonvol3no1.pdf",
+        "title": "H-France Salon on Tombs' revision",
+        "publisher": "H-France",
+        "note": "Lissagaray's first 20,000 (1876), Pelletan's 30,000 (1880), and the later consensus of about 20,000."
+      },
+      {
+        "type": "historian",
+        "url": "https://www.en-attendant-nadeau.fr/2021/05/22/semaine-sanglante-michele-audin/",
+        "title": "M. Audin, La Semaine sanglante (2021), reviewed",
+        "publisher": "En attendant Nadeau",
+        "note": "Certainly 10,000 buried in Paris cemeteries, certainly 15,000 with deaths in detention; Du Camp's 6,667 (1879)."
+      },
+      {
+        "type": "historian",
+        "url": "https://strathprints.strath.ac.uk/32451/",
+        "title": "K. Varley, response to Tombs",
+        "publisher": "University of Strathclyde",
+        "note": "Abstract only."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Paris_Commune",
+        "title": "Paris Commune",
+        "publisher": "Wikipedia",
+        "note": "Armistice and the 5 billion francs; the election of 26 March; the decrees; women; the Vendôme column decree."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Uprising_of_March_18,_1871",
+        "title": "Uprising of 18 March 1871",
+        "publisher": "Wikipedia",
+        "note": "The Montmartre cannons, the crowd, the 88th refusing to fire, the two generals, Thiers leaving for Versailles."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Semaine_sanglante",
+        "title": "Semaine sanglante",
+        "publisher": "Wikipedia",
+        "note": "21–28 May; summary executions; Père Lachaise; 877 army dead; 43,522 prisoners, about 15,000 tried, 95 death sentences; the 1880 amnesty."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Georges_Darboy",
+        "title": "Georges Darboy",
+        "publisher": "Wikipedia",
+        "note": "Arrested 4 April; the offered exchange for Blanqui, refused by Thiers."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Massacre_in_the_Rue_Haxo",
+        "title": "Massacre in the Rue Haxo",
+        "publisher": "Wikipedia",
+        "note": "26 May: hostages, priests and gendarmes killed."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Crimes_de_la_commune",
+        "title": "Crimes de la Commune (Appert)",
+        "publisher": "Wikipedia",
+        "note": "The staged photomontages, the 1872 album and its ban; Appert photographing prisoners for the police."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Bruno_Braquehais",
+        "title": "Bruno Braquehais",
+        "publisher": "Wikipedia",
+        "note": "Photographed the column and the Communards posing by it."
+      },
+      {
+        "type": "reference",
+        "url": "https://hyperallergic.com/bruno-braquehais-paris-commune-photos/",
+        "title": "Braquehais' Commune photographs",
+        "publisher": "Hyperallergic",
+        "note": "Whether the photos were used to identify Communards is not documented; the film says only that accounts say so."
+      },
+      {
+        "type": "reference",
+        "url": "https://www.historytoday.com/miscellanies/paris-communes-bloody-week",
+        "title": "The Paris Commune's bloody week",
+        "publisher": "History Today",
+        "note": "The column's bronze; the fires; Edwin Child's letter of 24 May."
+      },
+      {
+        "type": "reference",
+        "url": "https://www.historytoday.com/archive/vend%C3%B4me-column-1871",
+        "title": "The Vendôme Column, 1871",
+        "publisher": "History Today",
+        "note": "Courbet's words about the column."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Gustave_Courbet",
+        "title": "Gustave Courbet",
+        "publisher": "Wikipedia",
+        "note": "The trial; the bill of 323,000 francs at 10,000 a year for 33 years; his death on 31 December 1877."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Sacr%C3%A9-C%C5%93ur,_Paris",
+        "title": "Sacré-Cœur, Paris",
+        "publisher": "Wikipedia",
+        "note": "The vow of January 1871 (before the Commune); the 1873 law; dates of building; the 2022 listing and Mélenchon's '32,000'."
+      },
+      {
+        "type": "images",
+        "url": "https://commons.wikimedia.org/wiki/Category:Photographs_of_Commune_de_Paris_in_Mus%C3%A9e_Carnavalet",
+        "title": "Photographs: Paris Musées / Carnavalet, BnF, Rijksmuseum, Library of Congress",
+        "publisher": "Public domain / CC0",
+        "note": "Every Appert photomontage is labelled STAGED PHOTOMONTAGE on screen."
+      },
+      {
+        "type": "images",
+        "url": "https://commons.wikimedia.org/wiki/File:P%C3%A8re-Lachaise_-_Mont%C3%A9e_au_Mur_des_F%C3%A9d%C3%A9r%C3%A9s_le_20_mai_2017_-_01.jpg",
+        "title": "Mur des Fédérés, 2017",
+        "publisher": "Pierre-Yves Beaudouin · CC BY-SA 4.0"
+      },
+      {
+        "type": "images",
+        "url": "https://commons.wikimedia.org/wiki/File:Paris_-_Sacr%C3%A9-C%C5%93ur.jpg",
+        "title": "Sacré-Cœur",
+        "publisher": "Taxiarchos228 · CC BY 3.0"
+      },
+      {
+        "type": "images",
+        "url": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade_sud_Basilique_Sacr%C3%A9_C%C5%93ur_Montmartre_Paris_6.jpg",
+        "title": "Sacré-Cœur, south façade",
+        "publisher": "Chabe01 · CC BY-SA 4.0"
+      },
+      {
+        "type": "images",
+        "url": "https://commons.wikimedia.org/wiki/File:Place_Vend%C3%B4me_-_Colonne_Vend%C3%B4me_%28Paris%29.jpg",
+        "title": "Vendôme column today",
+        "publisher": "Gzen92 · CC BY-SA 4.0"
+      }
+    ]
+  },
+  {
     "id": "attila-never-conquered-rome-rome-paid-him-anyway-a",
     "video": "8a4KWOkmqLc",
     "ep": 16,
-    "format": "FACT",
-    "title": "Attila Never Conquered Rome. Rome Paid Him Anyway.   #AttilaTheHun #RomanEmpire #History",
-    "claim": "",
+    "format": "LONG",
+    "title": "Attila Never Conquered Rome. Rome Paid Him Anyway.",
+    "claim": "Rome paid Attila 2,100 pounds of gold a year. An eyewitness at his court wrote down why a Greek merchant preferred living under the Huns.",
     "verdict": "",
     "date": "2026-09-25",
     "youtube": "https://www.youtube.com/watch?v=8a4KWOkmqLc",
-    "sources": []
+    "sources": [
+      {
+        "type": "eyewitness",
+        "url": "https://faculty.georgetown.edu/jod/texts/priscus.html",
+        "title": "Priscus of Panium, fragment 8 (tr. J.B. Bury)",
+        "publisher": "Georgetown University",
+        "note": "The only eyewitness account of Attila's court (448/449): the gold and silver plates, Attila's wooden cup, his plain clothes, the wooden palace, and the Greek merchant from Viminacium. Priscus was a Roman official, not a neutral observer."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Attila",
+        "title": "Attila",
+        "publisher": "Wikipedia",
+        "note": "The tribute rising from 350 to 700 to 2,100 pounds; the campaigns of 441–443 and 447; Honoria; the Catalaunian Fields; Italy; his death."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Treaty_of_Margus",
+        "title": "Treaty of Margus",
+        "publisher": "Wikipedia",
+        "note": "The doubling to 700 pounds and the ransom of eight solidi per prisoner."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Anatolius_(consul)",
+        "title": "Anatolius",
+        "publisher": "Wikipedia",
+        "note": "Confirms 2,100 pounds a year in 448."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Chrysaphius",
+        "title": "Chrysaphius",
+        "publisher": "Wikipedia",
+        "note": "The bribing of Edeco, approved by Theodosius II."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Priscus",
+        "title": "Priscus",
+        "publisher": "Wikipedia",
+        "note": "Who he was, that he did not know about the plot, and how historians judge him."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Nedao",
+        "title": "Battle of Nedao",
+        "publisher": "Wikipedia",
+        "note": "454: Ardaric, the death of Ellac, and the break-up of the Hunnic empire by 469."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Solidus_(coin)",
+        "title": "Solidus",
+        "publisher": "Wikipedia",
+        "note": "72 solidi to a Roman pound of about 326.6 grams."
+      },
+      {
+        "type": "reference",
+        "url": "https://www.britannica.com/event/Fall-of-Constantinople-1453",
+        "title": "Fall of Constantinople",
+        "publisher": "Encyclopaedia Britannica",
+        "note": "29 May 1453, for the closing line."
+      },
+      {
+        "type": "reference",
+        "url": "https://www.worldhistory.org/Attila_the_Hun/",
+        "title": "Attila the Hun",
+        "publisher": "World History Encyclopedia",
+        "note": "Bleda, and the number of cities destroyed."
+      },
+      {
+        "type": "reference",
+        "url": "https://www.worldhistory.org/image/3076/feast-of-attila/",
+        "title": "Feast of Attila (Mór Than, 1870)",
+        "publisher": "World History Encyclopedia",
+        "note": "Priscus himself is painted on the canvas, on the right, holding a book."
+      },
+      {
+        "type": "calculation",
+        "url": "https://en.wikipedia.org/wiki/Solidus_(coin)",
+        "title": "2,100 pounds × 72 solidi ÷ 12 solidi ransom = 12,600 Romans a year",
+        "publisher": "Our arithmetic",
+        "note": "The tribute and the ransom come from the same treaty of 443, so the comparison uses two lines of one bill."
+      },
+      {
+        "type": "further reading",
+        "url": "https://www.worldcat.org/search?q=The+World+of+the+Huns+Maenchen-Helfen",
+        "title": "O.J. Maenchen-Helfen, The World of the Huns",
+        "publisher": "University of California Press",
+        "note": "The standard work. Also: E.A. Thompson, The Huns; C. Kelly, The End of Empire; R.C. Blockley's edition of Priscus. Not consulted directly for this film."
+      },
+      {
+        "type": "images",
+        "url": "https://commons.wikimedia.org/",
+        "title": "Images: Wikimedia Commons",
+        "publisher": "Public domain, CC0, CC BY, CC BY-SA",
+        "note": "No NC or ND licences. Painter and year are shown on screen with every painting, because a canvas from 1870 shows how people imagined Attila, not what he looked like."
+      }
+    ],
+    "duration": "12 MIN"
   },
   {
     "id": "the-stone-that-shouts-the-gokturks-vs-tang-china",
