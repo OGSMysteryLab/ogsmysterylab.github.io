@@ -1,15 +1,110 @@
 [
   {
+    "id": "france-sent-him-the-bill-for-napoleon-s-column",
+    "video": "ThoF-ikwng8",
+    "ep": 21,
+    "format": "FACT",
+    "title": "France Sent Him the Bill for Napoleon's Column",
+    "claim": "The painter Gustave Courbet was blamed for pulling down Napoleon's column in 1871. France sent him the bill: 323,000 francs.",
+    "verdict": "",
+    "date": "2026-09-28",
+    "youtube": "https://www.youtube.com/watch?v=ThoF-ikwng8",
+    "sources": [
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Gustave_Courbet",
+        "title": "Gustave Courbet",
+        "publisher": "Wikipedia",
+        "note": "The bill of May 1877: 323,000 francs, 10,000 a year for 33 years; exile in Switzerland; died 31 December 1877, a day before the first payment was due."
+      },
+      {
+        "type": "reference",
+        "url": "https://www.historytoday.com/miscellanies/paris-communes-bloody-week",
+        "title": "The Paris Commune's bloody week",
+        "publisher": "History Today",
+        "note": "The column was cast from melted enemy cannons."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Paris_Commune",
+        "title": "Paris Commune",
+        "publisher": "Wikipedia",
+        "note": "The column pulled down on 16 May 1871."
+      },
+      {
+        "type": "images",
+        "url": "https://commons.wikimedia.org/wiki/File:Portret_van_Gustave_Courbet%2C_RP-F-2001-7-1547E-19.jpg",
+        "title": "Gustave Courbet, c. 1873",
+        "publisher": "Rijksmuseum · CC0"
+      },
+      {
+        "type": "images",
+        "url": "https://commons.wikimedia.org/wiki/File:Colonne_Vendome_Echafaud_pour_la_reconstruction_de_la_colonne_Vendome_d%C3%A9truite_par_l%27Insurrection_-_1871%2C_PH15165.jpg",
+        "title": "C. Marville, the column being rebuilt, 1873–75",
+        "publisher": "Paris Musées · CC0"
+      },
+      {
+        "type": "full film",
+        "url": "https://ogsmysterylab.github.io/#the-uncounted-week",
+        "title": "The Uncounted Week: the full film and all 23 sources",
+        "publisher": "OGS Mystery Lab",
+        "note": "This Short is taken from the full film."
+      }
+    ]
+  },
+  {
     "id": "how-many-died-in-paris-in-may-1871-nobody-agrees",
     "video": "SYwJpCeoyiU",
     "ep": 20,
     "format": "FACT",
     "title": "How Many Died in Paris in May 1871? Nobody Agrees.",
-    "claim": "",
+    "claim": "How many people did the French army kill in Paris in one week in May 1871? Estimates run from 6,667 to 32,000.",
     "verdict": "",
     "date": "2026-09-28",
     "youtube": "https://www.youtube.com/watch?v=SYwJpCeoyiU",
-    "sources": []
+    "sources": [
+      {
+        "type": "historian",
+        "url": "https://www.en-attendant-nadeau.fr/2021/05/22/semaine-sanglante-michele-audin/",
+        "title": "M. Audin, La Semaine sanglante (2021), reviewed",
+        "publisher": "En attendant Nadeau",
+        "note": "Du Camp's 6,667 (1879), and Audin's at least 15,000 including deaths in detention."
+      },
+      {
+        "type": "historian",
+        "url": "https://www.h-france.net/Salon/Salonvol3no1.pdf",
+        "title": "H-France Salon on Tombs' revision",
+        "publisher": "H-France",
+        "note": "Pelletan's 'at least 30,000' (1880)."
+      },
+      {
+        "type": "historian",
+        "url": "https://www.cambridge.org/core/journals/historical-journal/article/abs/how-bloody-was-la-semaine-sanglante-of-1871-a-revision/4310E413FFE58830F41F00E9086807F7",
+        "title": "R. Tombs, 'How bloody was la Semaine sanglante of 1871? A revision' (2012)",
+        "publisher": "The Historical Journal",
+        "note": "6,000–7,500, from burial registers and police records."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Sacr%C3%A9-C%C5%93ur,_Paris",
+        "title": "Sacré-Cœur, Paris",
+        "publisher": "Wikipedia",
+        "note": "Mélenchon's '32,000' (2022)."
+      },
+      {
+        "type": "images",
+        "url": "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Atget_-_Mur_des_F%C3%A9d%C3%A9r%C3%A9s_en_1900_-_P%C3%A8re-Lachaise.jpg",
+        "title": "E. Atget, Mur des Fédérés, 1900",
+        "publisher": "Public domain"
+      },
+      {
+        "type": "full film",
+        "url": "https://ogsmysterylab.github.io/#the-uncounted-week",
+        "title": "The Uncounted Week: the full film and all 23 sources",
+        "publisher": "OGS Mystery Lab",
+        "note": "This Short is taken from the full film."
+      }
+    ]
   },
   {
     "id": "this-photo-sold-all-over-paris-it-s-fake",
@@ -17,11 +112,47 @@
     "ep": 19,
     "format": "FACT",
     "title": "This Photo Sold All Over Paris. It's Fake.",
-    "claim": "",
+    "claim": "A photograph of the Archbishop of Paris being shot sold all over Paris in 1871. It was staged with actors. The shooting itself was real.",
     "verdict": "",
     "date": "2026-09-27",
     "youtube": "https://www.youtube.com/watch?v=NQ2_BVbl0GA",
-    "sources": []
+    "sources": [
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Crimes_de_la_commune",
+        "title": "Crimes de la Commune (Ernest Appert)",
+        "publisher": "Wikipedia",
+        "note": "The photomontages: actors posed as a firing squad, real prisoners' faces pasted on; the album of 1872 and its ban."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Georges_Darboy",
+        "title": "Georges Darboy",
+        "publisher": "Wikipedia",
+        "note": "Archbishop of Paris, taken hostage by the Commune on 4 April 1871."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Semaine_sanglante",
+        "title": "Semaine sanglante",
+        "publisher": "Wikipedia",
+        "note": "Darboy and five other hostages shot at La Roquette prison on 24 May 1871."
+      },
+      {
+        "type": "images",
+        "url": "https://commons.wikimedia.org/wiki/File:Ernest_Eug%C3%A8ne_Appert%2C_Ex%C3%A9cution_des_otages%2C_prison_de_la_Roquette%2C_le_24_mai_1871.jpg",
+        "title": "E. Appert, 'Execution of the hostages, La Roquette, 24 May 1871'",
+        "publisher": "Public domain",
+        "note": "Labelled STAGED PHOTOMONTAGE on screen."
+      },
+      {
+        "type": "full film",
+        "url": "https://ogsmysterylab.github.io/#the-uncounted-week",
+        "title": "The Uncounted Week: the full film and all 23 sources",
+        "publisher": "OGS Mystery Lab",
+        "note": "This Short is taken from the full film."
+      }
+    ]
   },
   {
     "id": "they-pulled-down-napoleon-then-they-posed-with-him",
@@ -29,11 +160,46 @@
     "ep": 18,
     "format": "FACT",
     "title": "They Pulled Down Napoleon. Then They Posed With Him.",
-    "claim": "",
+    "claim": "In May 1871 the Paris Commune pulled down Napoleon's column and people posed for photographs with the fallen statue. Weeks later the army took Paris back.",
     "verdict": "",
     "date": "2026-09-27",
     "youtube": "https://www.youtube.com/watch?v=YpJWsWlJ1lQ",
-    "sources": []
+    "sources": [
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Paris_Commune",
+        "title": "Paris Commune",
+        "publisher": "Wikipedia",
+        "note": "The decree of 12 April and the fall of the Vendôme column on 16 May 1871."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Bruno_Braquehais",
+        "title": "Bruno Braquehais",
+        "publisher": "Wikipedia",
+        "note": "Deaf from childhood; photographed the column and the Communards posing beside it."
+      },
+      {
+        "type": "reference",
+        "url": "https://hyperallergic.com/bruno-braquehais-paris-commune-photos/",
+        "title": "Braquehais' Commune photographs",
+        "publisher": "Hyperallergic",
+        "note": "Whether the authorities used such photos to identify Communards is not documented; the Short says only that accounts say so."
+      },
+      {
+        "type": "images",
+        "url": "https://commons.wikimedia.org/wiki/Category:Photographs_of_Commune_de_Paris_in_Mus%C3%A9e_Carnavalet",
+        "title": "Photographs by B. Braquehais and others, May 1871",
+        "publisher": "Paris Musées / Carnavalet · CC0"
+      },
+      {
+        "type": "full film",
+        "url": "https://ogsmysterylab.github.io/#the-uncounted-week",
+        "title": "The Uncounted Week: the full film and all 23 sources",
+        "publisher": "OGS Mystery Lab",
+        "note": "This Short is taken from the full film."
+      }
+    ]
   },
   {
     "id": "the-uncounted-week",
