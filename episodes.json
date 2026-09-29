@@ -1,15 +1,100 @@
 [
   {
-    "id": "china-paid-6-million-for-the-opium-it-destroyed-2",
+    "id": "the-opium-bill",
     "video": "phCgIkr5pZA",
     "ep": 26,
-    "format": "FACT",
-    "title": "China Paid $6 Million for the Opium It Destroyed.",
-    "claim": "",
+    "format": "LONG",
+    "title": "China Destroyed the Opium. Then China Paid for It.",
+    "claim": "In 1839 China destroyed more than a thousand tons of British opium. The peace treaty of 1842 made China pay six million dollars for it.",
     "verdict": "",
     "date": "2026-09-28",
     "youtube": "https://www.youtube.com/watch?v=phCgIkr5pZA",
-    "sources": []
+    "sources": [
+      {
+        "type": "primary",
+        "url": "https://china.usc.edu/node/20462",
+        "title": "Treaty of Nanking (1842), full English text",
+        "publisher": "USC US-China Institute",
+        "note": "Article IV: 'Six Millions of Dollars as the value of Opium which was delivered up at Canton in the month of March 1839, as a Ransom for the lives of Her Britannic Majesty's Superintendent and Subjects'. Articles V–VII: 3 and 12 million; total 21 million. The word opium appears only in Article IV."
+      },
+      {
+        "type": "primary",
+        "url": "https://api.parliament.uk/historic-hansard/commons/1842/mar/17/address-to-the-crown-compensation-for",
+        "title": "House of Commons, 17 March 1842: compensation for the opium",
+        "publisher": "Hansard",
+        "note": "Elliot's promise to 'hold myself responsible'; 20,283 chests; the 6,000,000 dollars received from Canton."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/First_Opium_War",
+        "title": "First Opium War",
+        "publisher": "Wikipedia",
+        "note": "The siege of the factories; Kowloon and Lin Weixi; Palmerston's 'satisfaction for the past and security for the future'; the vote of 9 April 1840 (262 to 271); casualties; the century of humiliation."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Lin_Zexu",
+        "title": "Lin Zexu",
+        "publisher": "Wikipedia",
+        "note": "Humen from 3 June 1839: 500 workers, 23 days, lime and salt; his elegy to the sea; exile to Ili; the statue in Chatham Square."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/History_of_opium_in_China",
+        "title": "History of opium in China",
+        "publisher": "Wikipedia",
+        "note": "The 1729 edict and 1799 ban; chests per year: 200, 4,500, 40,000; the silver drain; the EIC monopoly."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Letter_to_Queen_Victoria",
+        "title": "Lin Zexu's letter to Queen Victoria",
+        "publisher": "Wikipedia",
+        "note": "Never delivered; Elliot refused to carry it; printed in The Times. The English on screen is our own rendering."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Foreign_policy_of_William_Ewart_Gladstone",
+        "title": "Gladstone's foreign policy",
+        "publisher": "Wikipedia",
+        "note": "'A war more unjust in its origin…'; 'a pirate flag to protect an infamous traffic'."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Nemesis_(1839_ship)",
+        "title": "Nemesis (1839)",
+        "publisher": "Wikipedia",
+        "note": "Owned by the East India Company; built at Birkenhead; first British ocean-going iron warship; five feet of draught."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Treaty_of_Nanking",
+        "title": "Treaty of Nanking",
+        "publisher": "Wikipedia",
+        "note": "Signed 29 August 1842 aboard HMS Cornwallis; the Ransom of Canton (6 million, 1841); Hong Kong returned 1997."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/International_Day_Against_Drug_Abuse_and_Illicit_Trafficking",
+        "title": "International Day Against Drug Abuse",
+        "publisher": "Wikipedia",
+        "note": "26 June commemorates the end of the destruction at Humen."
+      },
+      {
+        "type": "calculation",
+        "url": "https://china.usc.edu/node/20462",
+        "title": "21 or 27 million?",
+        "publisher": "Our arithmetic",
+        "note": "The treaty total is 21 million. Adding the 6 million Canton paid in May 1841 gives the 27 some historians quote."
+      },
+      {
+        "type": "images",
+        "url": "https://commons.wikimedia.org/wiki/Category:First_Opium_War",
+        "title": "Paintings, prints and treaty scans",
+        "publisher": "Public domain / CC0; photos CC BY / CC BY-SA, credited on screen"
+      }
+    ],
+    "duration": "9 MIN"
   },
   {
     "id": "china-paid-6-million-for-the-opium-it-destroyed",
@@ -17,11 +102,33 @@
     "ep": 25,
     "format": "FACT",
     "title": "China Paid $6 Million for the Opium It Destroyed",
-    "claim": "",
+    "claim": "China destroyed the opium in 1839. The treaty of 1842 charged it six million dollars for it.",
     "verdict": "",
     "date": "2026-09-28",
     "youtube": "https://www.youtube.com/watch?v=yDYSzcsGido",
-    "sources": []
+    "sources": [
+      {
+        "type": "primary",
+        "url": "https://china.usc.edu/node/20462",
+        "title": "Treaty of Nanking, Articles IV–VII",
+        "publisher": "USC US-China Institute",
+        "note": "12 million for the war, 3 million for merchants' debts, 6 million for the opium."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Lin_Zexu",
+        "title": "Lin Zexu",
+        "publisher": "Wikipedia",
+        "note": "The destruction at Humen, 1839."
+      },
+      {
+        "type": "full film",
+        "url": "https://ogsmysterylab.github.io/#the-opium-bill",
+        "title": "The Opium Bill: the full film and all sources",
+        "publisher": "OGS Mystery Lab",
+        "note": "This Short is taken from the full film."
+      }
+    ]
   },
   {
     "id": "the-letter-queen-victoria-never-read",
@@ -29,11 +136,32 @@
     "ep": 24,
     "format": "FACT",
     "title": "The Letter Queen Victoria Never Read",
-    "claim": "",
+    "claim": "In 1839 Lin Zexu wrote to Queen Victoria. The letter never reached her.",
     "verdict": "",
     "date": "2026-09-28",
     "youtube": "https://www.youtube.com/watch?v=mM8IJeaZ_7U",
-    "sources": []
+    "sources": [
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Letter_to_Queen_Victoria",
+        "title": "Lin Zexu's letter to Queen Victoria",
+        "publisher": "Wikipedia",
+        "note": "Elliot refused to carry it; the Foreign Office refused a copy; printed in a British newspaper. The English in the Short is our own rendering."
+      },
+      {
+        "type": "primary",
+        "url": "https://cyber.harvard.edu/ChinaDragon/lin_xexu.html",
+        "title": "The letter, in English translation",
+        "publisher": "Harvard (Berkman Center)"
+      },
+      {
+        "type": "full film",
+        "url": "https://ogsmysterylab.github.io/#the-opium-bill",
+        "title": "The Opium Bill: the full film and all sources",
+        "publisher": "OGS Mystery Lab",
+        "note": "This Short is taken from the full film."
+      }
+    ]
   },
   {
     "id": "britain-s-opium-war-survived-by-nine-votes",
@@ -41,11 +169,33 @@
     "ep": 23,
     "format": "FACT",
     "title": "Britain's Opium War Survived by Nine Votes",
-    "claim": "",
+    "claim": "In April 1840 a vote of censure over the war with China failed by nine votes.",
     "verdict": "",
     "date": "2026-09-28",
     "youtube": "https://www.youtube.com/watch?v=noahinf5ElM",
-    "sources": []
+    "sources": [
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/First_Opium_War",
+        "title": "First Opium War",
+        "publisher": "Wikipedia",
+        "note": "Graham's motion defeated on 9 April 1840, 262 to 271."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Foreign_policy_of_William_Ewart_Gladstone",
+        "title": "Gladstone's foreign policy",
+        "publisher": "Wikipedia",
+        "note": "'A pirate flag, to protect an infamous traffic'."
+      },
+      {
+        "type": "full film",
+        "url": "https://ogsmysterylab.github.io/#the-opium-bill",
+        "title": "The Opium Bill: the full film and all sources",
+        "publisher": "OGS Mystery Lab",
+        "note": "This Short is taken from the full film."
+      }
+    ]
   },
   {
     "id": "the-ship-that-won-the-opium-war-belonged-to-the-op",
@@ -53,11 +203,40 @@
     "ep": 22,
     "format": "FACT",
     "title": "The Ship That Won the Opium War Belonged to the Opium Company",
-    "claim": "",
+    "claim": "The iron warship Nemesis, decisive in the First Opium War, belonged to the East India Company.",
     "verdict": "",
     "date": "2026-09-28",
     "youtube": "https://www.youtube.com/watch?v=QQHMkEobrZ8",
-    "sources": []
+    "sources": [
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Nemesis_(1839_ship)",
+        "title": "Nemesis (1839)",
+        "publisher": "Wikipedia",
+        "note": "Built at Birkenhead; owned by the East India Company; five feet of draught."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/First_Opium_War",
+        "title": "First Opium War",
+        "publisher": "Wikipedia",
+        "note": "7 January 1841: eleven war junks destroyed."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/History_of_opium_in_China",
+        "title": "History of opium in China",
+        "publisher": "Wikipedia",
+        "note": "The East India Company's Bengal opium monopoly."
+      },
+      {
+        "type": "full film",
+        "url": "https://ogsmysterylab.github.io/#the-opium-bill",
+        "title": "The Opium Bill: the full film and all sources",
+        "publisher": "OGS Mystery Lab",
+        "note": "This Short is taken from the full film."
+      }
+    ]
   },
   {
     "id": "france-sent-him-the-bill-for-napoleon-s-column",
