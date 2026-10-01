@@ -160,6 +160,11 @@ background:var(--panel-2);color:var(--ink-2);border:1px solid var(--line-2)}
 .fmt.MYTH{color:var(--yellow);border-color:rgba(245,217,10,.42);background:rgba(245,217,10,.10)}
 .fmt.WHATIF{color:var(--green);border-color:rgba(53,208,127,.42);background:rgba(53,208,127,.10)}
 .fmt.FACT{color:#8CC6FF;border-color:rgba(79,168,255,.40);background:rgba(79,168,255,.10)}
+.ep.child{margin-left:28px;border-left-style:dashed}
+.fmt.SHORT{color:#9FD3FF;border-color:rgba(120,190,255,.45);background:rgba(120,190,255,.10)}
+.ep .fromfilm a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+.ep.child .fromfilm{font-size:10px;letter-spacing:.08em;color:#FFB367;opacity:.85;text-transform:uppercase}
+@media (max-width:560px){.ep.child{margin-left:12px}}
 .fmt.LONG{color:#FFB367;border-color:rgba(255,159,69,.46);background:rgba(255,159,69,.12)}
 .dur{display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:999px;font-size:10px;
   letter-spacing:.09em;background:rgba(255,159,69,.10);border:1px solid rgba(255,159,69,.34);color:#FFB367}
@@ -239,7 +244,8 @@ details.srcbox>summary:hover{color:var(--green);border-color:rgba(53,208,127,.32
 <button class="chip" id="f-fact" data-f="FACT" aria-pressed="false">FACT</button>
 <button class="chip" id="f-myth" data-f="MYTH" aria-pressed="false">MYTH CHECK</button>
 <button class="chip" id="f-whatif" data-f="WHATIF" aria-pressed="false">WHAT IF</button>
-<button class="chip" id="f-long" data-f="LONG" aria-pressed="false">LONG FORM</button>
+<button class="chip" id="f-long" data-f="LONG" aria-pressed="false">FULL EPISODES</button>
+<button class="chip" id="f-short" data-f="SHORT" aria-pressed="false">SHORT REELS</button>
 </div>
 <span class="count" id="count"></span>
 </div>
@@ -267,7 +273,7 @@ details.srcbox>summary:hover{color:var(--green);border-color:rgba(53,208,127,.32
 var episodes = [];
 var list = document.getElementById('list'), q = document.getElementById('q'), count = document.getElementById('count');
 var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
-var fmtLabel = {FACT:'FACT', MYTH:'MYTH CHECK', WHATIF:'WHAT IF', LONG:'LONG FORM'};
+var fmtLabel = {FACT:'FACT', MYTH:'MYTH CHECK', WHATIF:'WHAT IF', LONG:'FULL EPISODE'};
 var filter = 'ALL';
 
 function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
@@ -277,12 +283,37 @@ function fmtDate(d){ if(!d) return ''; var p=d.split('-'); var m=['Jan','Feb','M
 
 function render(){
 var term = q.value.trim().toLowerCase();
+// Shorts horen onder hun lange film: eerst de film, dan zijn Shorts, dan de volgende film.
+// Een Short hoort bij een film als een van zijn bronnen 'full film' is en naar #<id van de film> wijst.
+var ouder = {};
+episodes.forEach(function(e){
+(e.sources||[]).forEach(function(s){
+if(String(s.type).toLowerCase() === 'full film'){ var m = String(s.url||'').match(/#(.+)$/); if(m && m[1] !== e.id) ouder[e.id] = m[1]; }
+});
+});
 var shown = episodes.filter(function(e){
-if(filter !== 'ALL' && e.format !== filter) return false;
+if(filter === 'SHORT'){ if(!ouder[e.id]) return false; }
+else if(filter !== 'ALL' && e.format !== filter) return false;
 if(!term) return true;
 var hay = [clean(e.title), e.claim, e.verdict, (e.sources||[]).map(function(s){ return s.title+' '+s.publisher+' '+s.note; }).join(' ')].join(' ').toLowerCase();
 return hay.indexOf(term) !== -1;
 }).sort(function(a,b){ return (b.ep||0)-(a.ep||0); });
+
+var zichtbaar = {}; shown.forEach(function(e){ zichtbaar[e.id] = true; });
+var kinderen = {};
+shown.forEach(function(e){ var o = ouder[e.id]; if(o && zichtbaar[o]){ (kinderen[o] = kinderen[o] || []).push(e); } });
+var groepen = [];
+shown.forEach(function(e){
+var o = ouder[e.id];
+if(o && zichtbaar[o]) return;
+var leden = [e].concat((kinderen[e.id] || []).sort(function(a,b){ return (a.ep||0)-(b.ep||0); }));
+var hoogste = Math.max.apply(null, leden.map(function(x){ return x.ep||0; }));
+groepen.push({hoogste: hoogste, leden: leden});
+});
+groepen.sort(function(a,b){ return b.hoogste - a.hoogste; });
+var titelVan = {}, filmVan = {}; episodes.forEach(function(e){ titelVan[e.id] = clean(e.title); filmVan[e.id] = e; });
+shown = [];
+groepen.forEach(function(g){ g.leden.forEach(function(e, i){ e._kind = i > 0; shown.push(e); }); });
 
 count.textContent = shown.length + ' of ' + episodes.length + ' episode' + (episodes.length===1?'':'s');
 if(!shown.length){ list.innerHTML = '<div class="empty">No episode matches that. Try another word, or clear the filter.</div>'; return; }
@@ -295,15 +326,17 @@ var body = srcs.length
 return '<li><span class="tag">'+esc(s.type||'source')+'</span><div><a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.title)+'</a> <span class="pub">— '+esc(s.publisher||host(s.url))+'</span>'+(s.note?'<span class="note">'+esc(s.note)+'</span>':'')+'</div></li>';
 }).join('') + '</ul></details>'
 : '<p class="pending">The full source list for this episode is being added here. Until then, the sources are in the video description on YouTube.</p>';
-return '<article class="ep f-'+esc(e.format)+'" id="'+esc(e.id)+'">'
+return '<article class="ep f-'+esc(e.format)+(e._kind?' child':'')+'" id="'+esc(e.id)+'">'
 + '<div class="ep-head"><div>'
-+ '<div class="eyebrow"><span class="fmt '+esc(e.format)+'">'+esc(fmtLabel[e.format]||e.format)+'</span><span>EP '+String(e.ep).padStart(3,'0')+'</span><span>'+esc(fmtDate(e.date))+'</span>'+(e.duration?'<span class="dur">'+esc(e.duration)+'</span>':'')+'</div>'
++ '<div class="eyebrow">'+(ouder[e.id] ? '<span class="fmt SHORT">SHORT REEL</span>' : '<span class="fmt '+esc(e.format)+'">'+esc(fmtLabel[e.format]||e.format)+'</span>')+'<span>EP '+String(e.ep).padStart(3,'0')+'</span><span>'+esc(fmtDate(e.date))+'</span>'+(e.duration?'<span class="dur">'+esc(e.duration)+'</span>':'')+'</div>'
++ (ouder[e.id] && titelVan[ouder[e.id]] ? '<div class="fromfilm">From the full episode: <a href="#'+esc(ouder[e.id])+'">'+esc(titelVan[ouder[e.id]])+'</a></div>' : '')
 + '<h3>'+esc(clean(e.title))+'</h3>'
 + (e.claim?'<p class="claim">'+esc(e.claim)+'</p>':'')
 + (e.verdict?'<div class="verdict"><span>VERDICT</span><b>'+esc(e.verdict)+'</b></div>':'')
 + '</div>'
 + '<div class="acts">'
-+ (e.youtube?'<a class="watch" href="'+esc(e.youtube)+'" target="_blank" rel="noopener"><span class="p">\u25B6</span>Watch</a>':'')
++ (e.youtube?'<a class="watch" href="'+esc(e.youtube)+'" target="_blank" rel="noopener"><span class="p">\u25B6</span>'+(ouder[e.id]?'Watch reel':'Watch')+'</a>':'')
++ (ouder[e.id] && filmVan[ouder[e.id]] && filmVan[ouder[e.id]].youtube ? '<a class="watch" href="'+esc(filmVan[ouder[e.id]].youtube)+'" target="_blank" rel="noopener"><span class="p">\u25B6</span>Full episode</a>' : '')
 + '<button class="copy" type="button" data-link="'+esc(e.id)+'">Copy source link</button>'
 + '</div>'
 + '</div>' + body + '</article>';

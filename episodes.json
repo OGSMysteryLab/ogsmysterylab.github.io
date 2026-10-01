@@ -1,15 +1,37 @@
 [
   {
-    "id": "they-drilled-into-noah-s-ark-the-drill-bit-broke-2",
+    "id": "they-drilled-into-noah-s-ark-the-drill-bit-broke",
     "video": "1keeyNROO0E",
     "ep": 35,
     "format": "FACT",
     "title": "They Drilled Into \"Noah's Ark.\" The Drill Bit Broke.",
-    "claim": "",
+    "claim": "In September 2026 the drill bit broke 4–5 metres down in the 'Noah's Ark' formation. The team suggests petrified wood; critics say volcanic rock.",
     "verdict": "",
     "date": "2026-10-01",
     "youtube": "https://www.youtube.com/watch?v=1keeyNROO0E",
-    "sources": []
+    "sources": [
+      {
+        "type": "press",
+        "url": "https://www.globenewswire.com/news-release/2026/09/23/3367545/0/en/core-drilling-begins-at-durupinar-noah-s-ark-site-drill-bit-shatters-on-possible-layer-of-petrified-wood.html",
+        "title": "Core drilling begins at Durupınar; drill bit shatters (23 Sept 2026)",
+        "publisher": "Noah's Ark Scans press release, GlobeNewswire",
+        "note": "The team's own claims: the bit broke at about 4–5 m on a layer 'harder than limestone'; possibly petrified wood; lab tests this winter."
+      },
+      {
+        "type": "historian",
+        "url": "https://aaronjudkins.substack.com/p/a-public-statement-on-the-noahs-ark",
+        "title": "A public statement on the Noah's Ark claims (28 Sept 2026)",
+        "publisher": "Aaron Judkins, archaeologist",
+        "note": "'A broken drill bit is not evidence. This is volcanic country.'"
+      },
+      {
+        "type": "full film",
+        "url": "https://ogsmysterylab.github.io/#the-boat-on-the-mountain",
+        "title": "The Boat on the Mountain: the full film and all sources",
+        "publisher": "OGS Mystery Lab",
+        "note": "This Short is taken from the full film."
+      }
+    ]
   },
   {
     "id": "he-measured-noah-s-ark-then-he-called-it-bogus",
@@ -17,11 +39,33 @@
     "ep": 34,
     "format": "FACT",
     "title": "He Measured \"Noah's Ark.\" Then He Called It Bogus.",
-    "claim": "",
+    "claim": "David Fasold measured the Durupınar formation in 1985 and believed it was Noah's Ark. In 1996 he co-wrote a paper calling it a common geologic structure.",
     "verdict": "",
     "date": "2026-10-01",
     "youtube": "https://www.youtube.com/watch?v=aMWnt7B2BxE",
-    "sources": []
+    "sources": [
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/David_Fasold",
+        "title": "David Fasold",
+        "publisher": "Wikipedia",
+        "note": "Measured the site in 1985; The Ark of Noah (1988); the 1996 paper with Lorence Collins; 'absolute BS' (1997)."
+      },
+      {
+        "type": "press",
+        "url": "https://www.snopes.com/fact-check/noahs-ark-found/",
+        "title": "Noah's Ark found?",
+        "publisher": "Snopes",
+        "note": "Snelling and Collins: a natural rock formation."
+      },
+      {
+        "type": "full film",
+        "url": "https://ogsmysterylab.github.io/#the-boat-on-the-mountain",
+        "title": "The Boat on the Mountain: the full film and all sources",
+        "publisher": "OGS Mystery Lab",
+        "note": "This Short is taken from the full film."
+      }
+    ]
   },
   {
     "id": "a-nato-photo-showed-a-ship-near-mount-ararat",
@@ -29,23 +73,142 @@
     "ep": 33,
     "format": "FACT",
     "title": "A NATO Photo Showed a Ship Near Mount Ararat",
-    "claim": "",
+    "claim": "In 1959 a Turkish army captain saw a ship-shaped form near Mount Ararat on an aerial photo. A 1960 expedition dug and found soil and rocks.",
     "verdict": "",
     "date": "2026-10-01",
     "youtube": "https://www.youtube.com/watch?v=7OeLwx1bg_k",
-    "sources": []
+    "sources": [
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Durup%C4%B1nar_site",
+        "title": "Durupınar site",
+        "publisher": "Wikipedia",
+        "note": "Exposed 1948; Captain İlhan Durupınar and the NATO photo, 1959; the 1960 expedition ('soil and rocks'); 164 m; 29 km south of Mount Ararat."
+      },
+      {
+        "type": "primary",
+        "url": "https://www.noahtherealstory.com/blog/life-magazine-asks-is-this-noahs-ark",
+        "title": "Life magazine, 5 September 1960: 'Noah's Ark?'",
+        "publisher": "Noah: The Real Story (scan)"
+      },
+      {
+        "type": "full film",
+        "url": "https://ogsmysterylab.github.io/#the-boat-on-the-mountain",
+        "title": "The Boat on the Mountain: the full film and all sources",
+        "publisher": "OGS Mystery Lab",
+        "note": "This Short is taken from the full film."
+      }
+    ]
   },
   {
-    "id": "they-drilled-into-noah-s-ark-the-drill-bit-broke",
+    "id": "the-boat-on-the-mountain",
     "video": "RwXqegYQd60",
     "ep": 32,
-    "format": "FACT",
+    "format": "LONG",
     "title": "They Drilled Into \"Noah's Ark.\" The Drill Bit Broke.",
-    "claim": "",
+    "claim": "In September 2026 a team drilled into the Durupınar formation in eastern Turkey, which some believe is Noah's Ark. The drill bit broke. The team suggests petrified wood; critics say it is volcanic rock. Lab results are due this winter.",
     "verdict": "",
     "date": "2026-09-30",
     "youtube": "https://www.youtube.com/watch?v=RwXqegYQd60",
-    "sources": []
+    "sources": [
+      {
+        "type": "press",
+        "url": "https://www.globenewswire.com/news-release/2026/09/23/3367545/0/en/core-drilling-begins-at-durupinar-noah-s-ark-site-drill-bit-shatters-on-possible-layer-of-petrified-wood.html",
+        "title": "Core drilling begins at Durupınar; drill bit shatters (23 Sept 2026)",
+        "publisher": "Noah's Ark Scans press release, GlobeNewswire",
+        "note": "The team's own claims: the bit broke at about 4–5 m on a layer 'harder than limestone'; possibly petrified wood; lab tests this winter."
+      },
+      {
+        "type": "press",
+        "url": "https://arkeonews.net/noahs-ark-mystery-deepens-as-new-discoveries-emerge-near-mount-ararat/",
+        "title": "Noah's Ark mystery deepens near Mount Ararat",
+        "publisher": "Arkeonews",
+        "note": "About 90 days of fieldwork; about 1,000 soil samples; lab results expected winter 2026–27."
+      },
+      {
+        "type": "press",
+        "url": "https://www.newsweek.com/noahs-ark-hunters-share-update-declare-were-going-in-12484853",
+        "title": "Noah's Ark hunters share update",
+        "publisher": "Newsweek",
+        "note": "The robot camera; the 1996 Collins–Fasold conclusion."
+      },
+      {
+        "type": "press",
+        "url": "https://www.geo.tv/latest/683561-noahs-ark-100-confirmed-what-scientists-actually-found-beneath-mysterious-turkey-site",
+        "title": "'100% confirmed'? What scientists actually found",
+        "publisher": "Geo.tv",
+        "note": "No wooden ship found; no peer-reviewed study showing the features are man-made."
+      },
+      {
+        "type": "press",
+        "url": "https://www.foxnews.com/media/researcher-believes-hes-found-noahs-ark-turkey-after-new-underground-scans",
+        "title": "Researcher believes he's found Noah's Ark (April 2026)",
+        "publisher": "Fox News",
+        "note": "Andrew Jones's claim of tunnels about 2 m high."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Durup%C4%B1nar_site",
+        "title": "Durupınar site",
+        "publisher": "Wikipedia",
+        "note": "Exposed 1948; Captain İlhan Durupınar and the NATO photo, 1959; the 1960 expedition ('soil and rocks'); 164 m; 29 km south of Mount Ararat."
+      },
+      {
+        "type": "primary",
+        "url": "https://www.noahtherealstory.com/blog/life-magazine-asks-is-this-noahs-ark",
+        "title": "Life magazine, 5 September 1960: 'Noah's Ark?'",
+        "publisher": "Noah: The Real Story (scan)"
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Ron_Wyatt",
+        "title": "Ron Wyatt",
+        "publisher": "Wikipedia",
+        "note": "His claims from 1977: anchor stones, iron brackets, petrified wood."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/David_Fasold",
+        "title": "David Fasold",
+        "publisher": "Wikipedia",
+        "note": "Measured the site in 1985; The Ark of Noah (1988); the 1996 paper with Lorence Collins; 'absolute BS' (1997)."
+      },
+      {
+        "type": "press",
+        "url": "https://www.snopes.com/fact-check/noahs-ark-found/",
+        "title": "Noah's Ark found?",
+        "publisher": "Snopes",
+        "note": "Snelling and Collins: a natural rock formation."
+      },
+      {
+        "type": "historian",
+        "url": "https://aaronjudkins.substack.com/p/a-public-statement-on-the-noahs-ark",
+        "title": "A public statement on the Noah's Ark claims (28 Sept 2026)",
+        "publisher": "Aaron Judkins, archaeologist",
+        "note": "'A broken drill bit is not evidence. This is volcanic country.'"
+      },
+      {
+        "type": "reference",
+        "url": "https://www.biblicalarchaeology.org/daily/biblical-sites-places/biblical-archaeology-sites/where-noah-landed/",
+        "title": "Where Noah landed",
+        "publisher": "Biblical Archaeology Society",
+        "note": "Genesis 8:4, 'the mountains of Ararat'; Quran 11:44, al-Judi."
+      },
+      {
+        "type": "calculation",
+        "url": "https://en.wikipedia.org/wiki/Durup%C4%B1nar_site",
+        "title": "300 cubits",
+        "publisher": "Our arithmetic",
+        "note": "300 × 52.4 cm (royal Egyptian cubit) = 157 m; 300 × about 45 cm ≈ 137 m."
+      },
+      {
+        "type": "images",
+        "url": "https://commons.wikimedia.org/",
+        "title": "Photos of the site, Mount Ararat and paintings",
+        "publisher": "CC BY / CC BY-SA / CC0 / public domain, credited on screen; illustrations marked 'not the site'"
+      }
+    ],
+    "duration": "9 MIN"
   },
   {
     "id": "he-watched-famine-kill-the-man-who-raised-him-then",
@@ -53,23 +216,130 @@
     "ep": 31,
     "format": "FACT",
     "title": "He Watched Famine Kill the Man Who Raised Him. Then He Counted.",
-    "claim": "",
+    "claim": "Yang Jisheng saw the man who raised him starve in 1959. As a Xinhua reporter he later searched the archives and counted 36 million dead.",
     "verdict": "",
     "date": "2026-09-29",
     "youtube": "https://www.youtube.com/watch?v=hgVyfMPHCFo",
-    "sources": []
+    "sources": [
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Yang_Jisheng_(journalist)",
+        "title": "Yang Jisheng",
+        "publisher": "Wikipedia",
+        "note": "Xinhua reporter 1966–2001; Tombstone (2008), banned in mainland China; 36 million; 'If a country can't face its own history, then it has no future.'"
+      },
+      {
+        "type": "press",
+        "url": "https://www.npr.org/2012/11/10/164732497/a-grim-chronicle-of-chinas-great-famine",
+        "title": "A Grim Chronicle Of China's Great Famine (2012)",
+        "publisher": "NPR",
+        "note": "Yang Jisheng on the man who raised him, who died in 1959, and on the provincial archives."
+      },
+      {
+        "type": "full film",
+        "url": "https://ogsmysterylab.github.io/#the-unwritten-number",
+        "title": "The Unwritten Number: the full film and all sources",
+        "publisher": "OGS Mystery Lab",
+        "note": "This Short is taken from the full film."
+      }
+    ]
   },
   {
-    "id": "how-many-starved-under-mao-the-estimates-run-from-",
+    "id": "the-unwritten-number",
     "video": "3q8UjscVEVs",
     "ep": 30,
-    "format": "FACT",
+    "format": "LONG",
     "title": "How Many Starved Under Mao? The Estimates Run From 3.66 to 55 Million",
-    "claim": "",
+    "claim": "How many people starved in China's famine of 1959–1961? Published estimates run from 3.66 million to 55 million. Fifty years after Mao's death, there is no agreed number.",
     "verdict": "",
     "date": "2026-09-29",
     "youtube": "https://www.youtube.com/watch?v=3q8UjscVEVs",
-    "sources": []
+    "sources": [
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Great_Chinese_Famine",
+        "title": "Great Chinese Famine",
+        "publisher": "Wikipedia",
+        "note": "The table of death-toll estimates (Coale 27 M, Banister 30 M, Chinese Academy of Sciences 15 M+, Cao Shuji 32.5 M, Dikötter 45 M+, Yu Xiguang 55 M, Sun Jingxian 3.66 M); Xinyang and Guangshan; Liu Shaoqi's '30% natural disaster and 70% human error'; the 1981 verdict; Mao's figure to Montgomery."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Great_Leap_Forward",
+        "title": "Great Leap Forward",
+        "publisher": "Wikipedia",
+        "note": "Backyard steel (10.7 million tons, more than 3 million unusable); 25,000 communes; net grain exports in 1959–60."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Peng_Dehuai",
+        "title": "Peng Dehuai",
+        "publisher": "Wikipedia",
+        "note": "The letter of 14 July 1959; condemned at Lushan; arrested 1966; died 1974, ashes labelled 'No. 327'; rehabilitated 1978."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Yang_Jisheng_(journalist)",
+        "title": "Yang Jisheng",
+        "publisher": "Wikipedia",
+        "note": "Xinhua reporter 1966–2001; Tombstone (2008), banned in mainland China; 36 million; 'If a country can't face its own history, then it has no future.'"
+      },
+      {
+        "type": "press",
+        "url": "https://www.npr.org/2012/11/10/164732497/a-grim-chronicle-of-chinas-great-famine",
+        "title": "A Grim Chronicle Of China's Great Famine (2012)",
+        "publisher": "NPR",
+        "note": "Yang Jisheng on the man who raised him, who died in 1959, and on the provincial archives."
+      },
+      {
+        "type": "press",
+        "url": "https://www.scmp.com/article/721664/xinyang-was-not-only-place",
+        "title": "Xinyang was not the only place",
+        "publisher": "South China Morning Post",
+        "note": "Xinyang: 700,000 abnormal deaths found by central investigators (1960); later accounts over one million."
+      },
+      {
+        "type": "press",
+        "url": "https://www.chinafile.com/library/nyrb-china-archive/china-worse-you-ever-imagined",
+        "title": "China: Worse Than You Ever Imagined",
+        "publisher": "Ian Johnson, NYRB / ChinaFile",
+        "note": "Review of Tombstone: harvests sent to the state granaries, villages left with nothing."
+      },
+      {
+        "type": "paper",
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/0920203x13485390",
+        "title": "Hard facts and half-truths: the new archival history of China's Great Famine (2013)",
+        "publisher": "Anthony Garnaut, China Information",
+        "note": "On the 'better for half to die' passage: Garnaut reads it as being about industrial projects, cut from 1,078 to 500."
+      },
+      {
+        "type": "paper",
+        "url": "https://statics.scnu.edu.cn/pics/em/2016/0106/1452084948117252.pdf",
+        "title": "Revisiting the causes of China's Great Leap famine",
+        "publisher": "South China Normal University (PDF)",
+        "note": "Census basis of the estimates; Li Chengrui, ex-head of the State Statistical Bureau: 22 million."
+      },
+      {
+        "type": "press",
+        "url": "https://www.chinafile.com/reporting-opinion/viewpoint/xi-mao-and-chinas-search-usable-past",
+        "title": "Xi, Mao, and China's Search for a Usable Past",
+        "publisher": "ChinaFile",
+        "note": "The 1981 resolution: Mao's 'achievements were primary and his mistakes secondary'."
+      },
+      {
+        "type": "press",
+        "url": "https://table.media/en/china/news/quiet-remembrance-party-leadership-keeps-low-profile-on-50th-anniversary-of-maos-death",
+        "title": "Quiet remembrance on the 50th anniversary of Mao's death",
+        "publisher": "Table.Media",
+        "note": "9 September 2026."
+      },
+      {
+        "type": "images",
+        "url": "https://commons.wikimedia.org/",
+        "title": "Photographs and posters",
+        "publisher": "Public domain / CC0 / CC BY / CC BY-SA, credited on screen"
+      }
+    ],
+    "duration": "9 MIN"
   },
   {
     "id": "how-many-starved-under-mao-every-estimate-disagree",
@@ -77,11 +347,33 @@
     "ep": 29,
     "format": "FACT",
     "title": "How Many Starved Under Mao? Every Estimate Disagrees.",
-    "claim": "",
+    "claim": "Estimates of the deaths in China's famine of 1959–1961 run from 3.66 million to 55 million, depending on who counts and how.",
     "verdict": "",
     "date": "2026-09-29",
     "youtube": "https://www.youtube.com/watch?v=iZFGiPTWwjE",
-    "sources": []
+    "sources": [
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Great_Chinese_Famine",
+        "title": "Great Chinese Famine",
+        "publisher": "Wikipedia",
+        "note": "The table of death-toll estimates (Coale 27 M, Banister 30 M, Chinese Academy of Sciences 15 M+, Cao Shuji 32.5 M, Dikötter 45 M+, Yu Xiguang 55 M, Sun Jingxian 3.66 M); Xinyang and Guangshan; Liu Shaoqi's '30% natural disaster and 70% human error'; the 1981 verdict; Mao's figure to Montgomery."
+      },
+      {
+        "type": "paper",
+        "url": "https://statics.scnu.edu.cn/pics/em/2016/0106/1452084948117252.pdf",
+        "title": "Revisiting the causes of China's Great Leap famine",
+        "publisher": "South China Normal University (PDF)",
+        "note": "How the estimates are built from the censuses of 1953, 1964 and 1982."
+      },
+      {
+        "type": "full film",
+        "url": "https://ogsmysterylab.github.io/#the-unwritten-number",
+        "title": "The Unwritten Number: the full film and all sources",
+        "publisher": "OGS Mystery Lab",
+        "note": "This Short is taken from the full film."
+      }
+    ]
   },
   {
     "id": "he-told-mao-the-truth-in-1959-it-cost-him-everythi",
@@ -89,23 +381,67 @@
     "ep": 28,
     "format": "FACT",
     "title": "He Told Mao the Truth in 1959. It Cost Him Everything.",
-    "claim": "",
+    "claim": "In July 1959 Marshal Peng Dehuai wrote to Mao about exaggerated harvest reports. He was condemned, later arrested, and died in 1974.",
     "verdict": "",
     "date": "2026-09-29",
     "youtube": "https://www.youtube.com/watch?v=av7-S_-gglE",
-    "sources": []
+    "sources": [
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Peng_Dehuai",
+        "title": "Peng Dehuai",
+        "publisher": "Wikipedia",
+        "note": "The letter of 14 July 1959; condemned at Lushan; arrested 1966; died 1974, ashes labelled 'No. 327'; rehabilitated 1978."
+      },
+      {
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Great_Leap_Forward",
+        "title": "Great Leap Forward",
+        "publisher": "Wikipedia",
+        "note": "Backyard steel (10.7 million tons, more than 3 million unusable); 25,000 communes; net grain exports in 1959–60."
+      },
+      {
+        "type": "full film",
+        "url": "https://ogsmysterylab.github.io/#the-unwritten-number",
+        "title": "The Unwritten Number: the full film and all sources",
+        "publisher": "OGS Mystery Lab",
+        "note": "This Short is taken from the full film."
+      }
+    ]
   },
   {
     "id": "did-mao-say-better-for-half-to-die-historians-disa",
     "video": "OwyJe29IOWM",
     "ep": 27,
-    "format": "MYTH",
+    "format": "FACT",
     "title": "Did Mao Say \"Better for Half to Die\"? Historians Disagree.",
-    "claim": "",
+    "claim": "In Shanghai in March 1959, Mao said it was 'better for half to die, so that half can eat their fill'. Historians disagree about what he meant.",
     "verdict": "",
     "date": "2026-09-29",
     "youtube": "https://www.youtube.com/watch?v=OwyJe29IOWM",
-    "sources": []
+    "sources": [
+      {
+        "type": "paper",
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/0920203x13485390",
+        "title": "Hard facts and half-truths (2013)",
+        "publisher": "Anthony Garnaut, China Information",
+        "note": "Reads the passage as being about cutting industrial projects in half."
+      },
+      {
+        "type": "press",
+        "url": "https://bostonese.com/2015/10/did-mao-say-better-to-let-half-of-the-people-die/",
+        "title": "Did Mao say 'better to let half of the people die'?",
+        "publisher": "Bostonese",
+        "note": "Summary of the passage and of the two readings, Dikötter's and Garnaut's."
+      },
+      {
+        "type": "full film",
+        "url": "https://ogsmysterylab.github.io/#the-unwritten-number",
+        "title": "The Unwritten Number: the full film and all sources",
+        "publisher": "OGS Mystery Lab",
+        "note": "This Short is taken from the full film."
+      }
+    ]
   },
   {
     "id": "the-opium-bill",
