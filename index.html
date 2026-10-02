@@ -367,7 +367,52 @@ var f = document.getElementById('testframe');
 if (h && f && h > 60 && h < 4000) f.style.height = (h + 4) + 'px';
 });
 
-fetch('episodes.json', {cache:'no-store'}).then(function(r){ return r.json(); }).then(function(d){ episodes = d; render(); })
+// koppelingen.json: per titel de claim, de bronnen en bij welke film een Short hoort. Een nieuwe video
+// die de bot uit de YouTube-feed haalt (alleen titel en datum) krijgt zo meteen zijn bronnen en zijn
+// plek onder de film, zonder dat episodes.json met de hand hoeft te worden bijgewerkt.
+function norm(t){ return String(t||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim(); }
+function filmLink(id, films){ return {type:'full film', url:'https://ogsmysterylab.github.io/#'+id, title:(films&&films[id])||'The full film and all sources', publisher:'OGS Mystery Lab', note:'This Short is taken from the full film.'}; }
+function ouderVan(e){ var o=null; (e.sources||[]).forEach(function(s){ if(String(s.type).toLowerCase()==='full film'){ var m=String(s.url||'').match(/#(.+)$/); if(m) o=m[1]; } }); return o; }
+function koppel(eps, k){
+var films = k.films || {}, items = k.items || [];
+var ids = {}; eps.forEach(function(e){ ids[e.id] = true; });
+eps.slice().sort(function(a,b){ return (a.ep||0)-(b.ep||0); }).forEach(function(e){
+if((e.sources||[]).length) return;
+var t = norm(e.title);
+for(var i=0;i<items.length;i++){
+var it = items[i];
+if(t.indexOf(norm(it.match)) === -1) continue;
+if(it.film_id){
+if(!ids[it.film_id]){ delete ids[e.id]; e.id = it.film_id; ids[e.id] = true; }
+e.format = 'LONG'; if(it.duration && !e.duration) e.duration = it.duration;
+e.claim = it.claim || ''; e.sources = (it.sources||[]).slice();
+} else {
+e.claim = it.claim || ''; e.sources = (it.sources||[]).concat([filmLink(it.film, films)]);
+}
+e._gekoppeld = true;
+break;
+}
+});
+// Nieuwe Shorts die (nog) niet in koppelingen.json staan: onder de lange film van rond dezelfde dag.
+var longs = eps.filter(function(e){ return e.format === 'LONG'; });
+function dag(x){ var v = Date.parse(x.date||''); return isNaN(v) ? null : v/864e5; }
+eps.forEach(function(e){
+if(e.format === 'LONG' || (e.sources||[]).length) return;
+var de = dag(e), best = null;
+longs.forEach(function(f){
+var df = dag(f); if(de===null || df===null || Math.abs(de-df) > 3) return;
+var n = eps.filter(function(x){ return ouderVan(x) === f.id; }).length; if(n >= 4) return;
+var key = Math.abs(de-df)*1000 - (f.ep||0);
+if(!best || key < best.key) best = {key:key, f:f};
+});
+if(best) e.sources = [filmLink(best.f.id, films)];
+});
+}
+
+fetch('episodes.json', {cache:'no-store'}).then(function(r){ return r.json(); }).then(function(d){
+episodes = d;
+return fetch('koppelingen.json', {cache:'no-store'}).then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; });
+}).then(function(k){ if(k){ try { koppel(episodes, k); } catch(e){} } render(); })
 .catch(function(){ list.innerHTML = '<div class="empty">Could not load episodes.json.</div>'; });
 })();
 </script>

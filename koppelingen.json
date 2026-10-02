@@ -1,0 +1,416 @@
+{
+  "films": {
+    "the-last-escape": "The Last Escape: the full film and all sources",
+    "the-first-graves": "The First Graves: the full film and all sources",
+    "the-boat-on-the-mountain": "The Boat on the Mountain: the full film and all sources"
+  },
+  "items": [
+    {
+      "match": "houdini died on halloween",
+      "film_id": "the-last-escape",
+      "duration": "10 MIN",
+      "claim": "Harry Houdini died on Halloween 1926, nine days after a student punched him. Doctors today are less sure the punch caused it, no autopsy was done, and the secret code he left with his wife was never answered.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Harry_Houdini",
+          "title": "Harry Houdini",
+          "publisher": "Wikipedia",
+          "note": "Born Erik Weisz, Budapest 1874; Appleton; the handcuff challenges, milk can, East River crate, Water Torture Cell; the punch, death, funeral and burial."
+        },
+        {
+          "type": "press",
+          "url": "https://www.smithsonianmag.com/smithsonian-institution/october-31-1926-death-proves-inescapable-for-even-houdini-122032841/",
+          "title": "October 31, 1926: Death Proves Inescapable for Even Houdini",
+          "publisher": "Smithsonian Magazine",
+          "note": "His career and his last days."
+        },
+        {
+          "type": "press",
+          "url": "https://www.history.com/articles/what-killed-harry-houdini",
+          "title": "What Killed Harry Houdini?",
+          "publisher": "History.com",
+          "note": "Albany, Montreal, Detroit; the blows; peritonitis; no autopsy; the insurer paid double; the 2006 poisoning theory."
+        },
+        {
+          "type": "historian",
+          "url": "https://www.wildabouthoudini.com/p/j-gordon-whitehead.html",
+          "title": "J. Gordon Whitehead",
+          "publisher": "Wild About Harry",
+          "note": "The dressing room, 22 October 1926; never charged; died 1954."
+        },
+        {
+          "type": "historian",
+          "url": "https://www.wildabouthoudini.com/2010/11/time-to-bury-houdini-exhumation.html",
+          "title": "Time to bury the Houdini exhumation",
+          "publisher": "Wild About Harry",
+          "note": "No legal papers were ever filed; family opposition."
+        },
+        {
+          "type": "press",
+          "url": "https://www.splicetoday.com/writing/harry-houdini-s-spiritual-feud-with-arthur-conan-doyle",
+          "title": "Harry Houdini's Spiritual Feud With Arthur Conan Doyle",
+          "publisher": "Splice Today",
+          "note": "The Atlantic City séance of 17 June 1922: 15 pages, in English, a cross on each page; his mother spoke German."
+        },
+        {
+          "type": "press",
+          "url": "https://www.atlasobscura.com/articles/in-1926-houdini-spent-4-days-shaming-congress-for-being-in-thrall-to-fortunetellers",
+          "title": "Houdini spent 4 days shaming Congress",
+          "publisher": "Atlas Obscura",
+          "note": "February 1926 hearings; the sealed telegram; Rose Mackenberg."
+        },
+        {
+          "type": "press",
+          "url": "https://www.history.com/this-day-in-history/august-5/houdini-underwater-coffin-stunt",
+          "title": "Houdini's underwater coffin stunt, 5 August 1926",
+          "publisher": "History.com",
+          "note": "91 minutes; Rahman Bey 'had spent nearly an hour' in a partly submerged coffin."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Bess_Houdini",
+          "title": "Bess Houdini",
+          "publisher": "Wikipedia",
+          "note": "The code 'Rosabelle – answer – tell – pray answer – look – tell – answer answer – tell' spells BELIEVE; the last séance, 31 October 1936."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Arthur_Ford_(psychic)",
+          "title": "Arthur Ford (psychic)",
+          "publisher": "Wikipedia",
+          "note": "His 1929 claim; the code had been printed in a 1928 biography."
+        },
+        {
+          "type": "press",
+          "url": "https://slate.com/human-interest/2014/10/harry-houdini-seances-happen-every-halloween.html",
+          "title": "Harry Houdini séances happen every Halloween",
+          "publisher": "Slate"
+        },
+        {
+          "type": "primary",
+          "url": "https://commons.wikimedia.org/wiki/File:Harry_Houdini%27s_voice.ogg",
+          "title": "Houdini's own voice, wax cylinder, 1914",
+          "publisher": "Wikimedia Commons",
+          "note": "The recording heard in the film."
+        },
+        {
+          "type": "images",
+          "url": "https://commons.wikimedia.org/",
+          "title": "Photos, posters and film stills",
+          "publisher": "Public domain (mostly Library of Congress); grave photos CC BY-SA; film: The Master Mystery (1919), PD"
+        }
+      ]
+    },
+    {
+      "match": "student punched houdini",
+      "film": "the-last-escape",
+      "claim": "On 22 October 1926 a student punched Houdini in the stomach in his Montreal dressing room. He died of peritonitis on Halloween. Whether the punch caused it is still debated.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.history.com/articles/what-killed-harry-houdini",
+          "title": "What Killed Harry Houdini?",
+          "publisher": "History.com",
+          "note": "Albany, Montreal, Detroit; the blows; peritonitis; no autopsy; the insurer paid double; the 2006 poisoning theory."
+        },
+        {
+          "type": "historian",
+          "url": "https://www.wildabouthoudini.com/p/j-gordon-whitehead.html",
+          "title": "J. Gordon Whitehead",
+          "publisher": "Wild About Harry",
+          "note": "The dressing room, 22 October 1926; never charged; died 1954."
+        }
+      ]
+    },
+    {
+      "match": "sherlock holmes",
+      "film": "the-last-escape",
+      "claim": "In June 1922 Arthur Conan Doyle's wife held a séance for Houdini: 15 pages, in English, from a mother who spoke German.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.splicetoday.com/writing/harry-houdini-s-spiritual-feud-with-arthur-conan-doyle",
+          "title": "Harry Houdini's Spiritual Feud With Arthur Conan Doyle",
+          "publisher": "Splice Today",
+          "note": "The Atlantic City séance of 17 June 1922: 15 pages, in English, a cross on each page; his mother spoke German."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Harry_Houdini",
+          "title": "Harry Houdini",
+          "publisher": "Wikipedia",
+          "note": "Born Erik Weisz, Budapest 1874; Appleton; the handcuff challenges, milk can, East River crate, Water Torture Cell; the punch, death, funeral and burial."
+        }
+      ]
+    },
+    {
+      "match": "houdini s secret code",
+      "film": "the-last-escape",
+      "claim": "Houdini and his wife Bess agreed a code: 'Rosabelle', then words that spell BELIEVE. She waited ten Halloweens. He never came.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Bess_Houdini",
+          "title": "Bess Houdini",
+          "publisher": "Wikipedia",
+          "note": "The code 'Rosabelle – answer – tell – pray answer – look – tell – answer answer – tell' spells BELIEVE; the last séance, 31 October 1936."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Arthur_Ford_(psychic)",
+          "title": "Arthur Ford (psychic)",
+          "publisher": "Wikipedia",
+          "note": "His 1929 claim; the code had been printed in a 1928 biography."
+        }
+      ]
+    },
+    {
+      "match": "91 minutes",
+      "film": "the-last-escape",
+      "claim": "In August 1926, at 52, Houdini stayed 91 minutes in a sealed metal coffin under water. Three months later he was dead.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.history.com/this-day-in-history/august-5/houdini-underwater-coffin-stunt",
+          "title": "Houdini's underwater coffin stunt, 5 August 1926",
+          "publisher": "History.com",
+          "note": "91 minutes; Rahman Bey 'had spent nearly an hour' in a partly submerged coffin."
+        },
+        {
+          "type": "press",
+          "url": "https://www.history.com/articles/what-killed-harry-houdini",
+          "title": "What Killed Harry Houdini?",
+          "publisher": "History.com",
+          "note": "Albany, Montreal, Detroit; the blows; peritonitis; no autopsy; the insurer paid double; the 2006 poisoning theory."
+        }
+      ]
+    },
+    {
+      "match": "was called a temple",
+      "film_id": "the-first-graves",
+      "duration": "10 MIN",
+      "claim": "For thirty years Göbekli Tepe was called a temple nobody lived at. In September 2026 the first intact burials from the site were published: graves under the floors.",
+      "sources": [
+        {
+          "type": "paper",
+          "url": "https://doi.org/10.1371/journal.pone.0358979",
+          "title": "First burials give insights into mortuary rites at Göbeklitepe (22 Sept 2026)",
+          "publisher": "Gresky J, Clare L, PLOS ONE 21(9): e0358979",
+          "note": "The two burials: a woman 35+, a man 20–30 and a girl 11–14 in one pit; a woman 20–30 in the second; 8,700–8,000 BCE; the 928 fragments; slope slides; 'does not rule out' other rites."
+        },
+        {
+          "type": "press",
+          "url": "https://archaeology.org/?p=61463",
+          "title": "First burials at Göbekli Tepe",
+          "publisher": "Archaeology Magazine"
+        },
+        {
+          "type": "official",
+          "url": "https://www.dainst.blog/the-tepe-telegrams/?p=861",
+          "title": "A (Re-)Discovery (1994–1996)",
+          "publisher": "German Archaeological Institute (DAI)",
+          "note": "The 1963 survey; Klaus Schmidt in October 1994; the T-shaped pillar head."
+        },
+        {
+          "type": "official",
+          "url": "https://www.dainst.blog/the-tepe-telegrams/faq/",
+          "title": "Göbekli Tepe FAQ",
+          "publisher": "German Archaeological Institute (DAI)",
+          "note": "Pillars up to 5.5 m and about 10 tonnes; 'special buildings'."
+        },
+        {
+          "type": "official",
+          "url": "https://www.dainst.blog/the-tepe-telegrams/2016/10/14/of-animals-and-a-headless-man-gobekli-tepe-pillar-43/",
+          "title": "Of animals and a headless man: Pillar 43",
+          "publisher": "German Archaeological Institute (DAI)"
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe",
+          "title": "Göbekli Tepe",
+          "publisher": "Wikipedia",
+          "note": "Dating c. 9600–8000 BC; Klaus Schmidt (1953–2014); UNESCO since 2018."
+        },
+        {
+          "type": "press",
+          "url": "https://newsweek.com/turkey-archeological-dig-reshaping-human-history-75101",
+          "title": "History in the Remaking (2010)",
+          "publisher": "Newsweek",
+          "note": "Schmidt: 'First the temple, then the city'; 'There is no water here'."
+        },
+        {
+          "type": "paper",
+          "url": "https://publications.dainst.org/journals/efb/article/view/2596/7095",
+          "title": "Clare (2020), e-Forschungsberichte des DAI",
+          "publisher": "German Archaeological Institute",
+          "note": "Houses, rainwater cisterns, slope deposits instead of deliberate backfilling."
+        },
+        {
+          "type": "paper",
+          "url": "https://media.nature.com/original/magazine-assets/d41586-021-01681-w/d41586-021-01681-w.pdf",
+          "title": "Grinding stones at Göbekli Tepe (2021)",
+          "publisher": "Nature",
+          "note": "Thousands of grinding stones."
+        },
+        {
+          "type": "official",
+          "url": "https://www.dainst.blog/the-tepe-telegrams/2016/04/24/out-for-a-beer-at-the-dawn-of-agriculture/",
+          "title": "Out for a beer at the dawn of agriculture",
+          "publisher": "German Archaeological Institute (DAI)",
+          "note": "160-litre stone vessels; 'preliminary'."
+        },
+        {
+          "type": "press",
+          "url": "https://www.smithsonianmag.com/smart-news/ancient-temple-shows-evidence-stone-age-skull-cult-180963877/",
+          "title": "Ancient temple shows evidence of Stone Age skull cult (2017)",
+          "publisher": "Smithsonian Magazine",
+          "note": "Three carved skull fragments (Gresky, Haelm & Clare, Science Advances)."
+        },
+        {
+          "type": "press",
+          "url": "https://www.dailysabah.com/arts/1st-painted-lifelike-human-sculpture-found-in-turkiyes-gobeklitepe-karahantepe/news/amp",
+          "title": "Painted boar sculpture (2023)",
+          "publisher": "Daily Sabah"
+        },
+        {
+          "type": "press",
+          "url": "https://archaeology.org/news/2025/09/29/life-size-human-statue-found-at-gobeklitepe/",
+          "title": "Life-size human statue found at Göbekli Tepe (2025)",
+          "publisher": "Archaeology Magazine"
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Karahan_Tepe",
+          "title": "Karahan Tepe",
+          "publisher": "Wikipedia",
+          "note": "About 46 km east; more than 250 pillars."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Ancient_Apocalypse",
+          "title": "Ancient Apocalypse",
+          "publisher": "Wikipedia",
+          "note": "Necmi Karul: his interview was 'presented out of context'."
+        },
+        {
+          "type": "images",
+          "url": "https://commons.wikimedia.org/wiki/Category:G%C3%B6bekli_Tepe",
+          "title": "Photos of Göbekli Tepe and Karahan Tepe",
+          "publisher": "CC BY / CC BY-SA / CC0 / public domain, credited on screen"
+        }
+      ]
+    },
+    {
+      "match": "first graves from gobekli",
+      "film": "the-first-graves",
+      "claim": "The first intact burials from Göbekli Tepe, published 22 September 2026: three people in one pit, and a young woman on her side, facing east.",
+      "sources": [
+        {
+          "type": "paper",
+          "url": "https://doi.org/10.1371/journal.pone.0358979",
+          "title": "First burials give insights into mortuary rites at Göbeklitepe (22 Sept 2026)",
+          "publisher": "Gresky J, Clare L, PLOS ONE 21(9): e0358979",
+          "note": "The two burials: a woman 35+, a man 20–30 and a girl 11–14 in one pit; a woman 20–30 in the second; 8,700–8,000 BCE; the 928 fragments; slope slides; 'does not rule out' other rites."
+        },
+        {
+          "type": "press",
+          "url": "https://archaeology.org/?p=61463",
+          "title": "First burials at Göbekli Tepe",
+          "publisher": "Archaeology Magazine"
+        }
+      ]
+    },
+    {
+      "match": "there is no water here",
+      "film": "the-first-graves",
+      "claim": "Klaus Schmidt said Göbekli Tepe had no houses and no water. The team after him found houses, rain cisterns and thousands of grinding stones.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://newsweek.com/turkey-archeological-dig-reshaping-human-history-75101",
+          "title": "History in the Remaking (2010)",
+          "publisher": "Newsweek",
+          "note": "Schmidt: 'First the temple, then the city'; 'There is no water here'."
+        },
+        {
+          "type": "paper",
+          "url": "https://publications.dainst.org/journals/efb/article/view/2596/7095",
+          "title": "Clare (2020), e-Forschungsberichte des DAI",
+          "publisher": "German Archaeological Institute",
+          "note": "Houses, rainwater cisterns, slope deposits instead of deliberate backfilling."
+        },
+        {
+          "type": "paper",
+          "url": "https://media.nature.com/original/magazine-assets/d41586-021-01681-w/d41586-021-01681-w.pdf",
+          "title": "Grinding stones at Göbekli Tepe (2021)",
+          "publisher": "Nature",
+          "note": "Thousands of grinding stones."
+        }
+      ]
+    },
+    {
+      "match": "before stonehenge",
+      "film": "the-first-graves",
+      "claim": "Göbekli Tepe's stone circles were raised more than 11,000 years ago, about 6,000 years before Stonehenge. Less than a tenth of the hill has been dug.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe",
+          "title": "Göbekli Tepe",
+          "publisher": "Wikipedia",
+          "note": "Dating c. 9600–8000 BC; Klaus Schmidt (1953–2014); UNESCO since 2018."
+        },
+        {
+          "type": "official",
+          "url": "https://www.dainst.blog/the-tepe-telegrams/faq/",
+          "title": "Göbekli Tepe FAQ",
+          "publisher": "German Archaeological Institute (DAI)",
+          "note": "Pillars up to 5.5 m and about 10 tonnes; 'special buildings'."
+        }
+      ]
+    },
+    {
+      "match": "928 pieces of bone",
+      "film": "the-first-graves",
+      "claim": "928 fragments of human bone were found at Göbekli Tepe. The first graves suggest many washed down from graves higher up the hill. Not all: some skulls were carved.",
+      "sources": [
+        {
+          "type": "paper",
+          "url": "https://doi.org/10.1371/journal.pone.0358979",
+          "title": "First burials give insights into mortuary rites at Göbeklitepe (22 Sept 2026)",
+          "publisher": "Gresky J, Clare L, PLOS ONE 21(9): e0358979",
+          "note": "The two burials: a woman 35+, a man 20–30 and a girl 11–14 in one pit; a woman 20–30 in the second; 8,700–8,000 BCE; the 928 fragments; slope slides; 'does not rule out' other rites."
+        },
+        {
+          "type": "press",
+          "url": "https://www.smithsonianmag.com/smart-news/ancient-temple-shows-evidence-stone-age-skull-cult-180963877/",
+          "title": "Ancient temple shows evidence of Stone Age skull cult (2017)",
+          "publisher": "Smithsonian Magazine",
+          "note": "Three carved skull fragments (Gresky, Haelm & Clare, Science Advances)."
+        }
+      ]
+    },
+    {
+      "match": "where did noah s ark land",
+      "film": "the-boat-on-the-mountain",
+      "claim": "Genesis says the ark landed on 'the mountains of Ararat'; the Quran names al-Judi. And near Mount Ararat lies a hill shaped like a ship.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://www.biblicalarchaeology.org/daily/biblical-sites-places/biblical-archaeology-sites/where-noah-landed/",
+          "title": "Where Noah landed",
+          "publisher": "Biblical Archaeology Society",
+          "note": "Genesis 8:4, 'the mountains of Ararat'; Quran 11:44, al-Judi."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Durup%C4%B1nar_site",
+          "title": "Durupınar site",
+          "publisher": "Wikipedia",
+          "note": "29 km south of Mount Ararat; drilled into in 2026."
+        }
+      ]
+    }
+  ]
+}
