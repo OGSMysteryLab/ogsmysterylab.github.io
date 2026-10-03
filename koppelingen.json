@@ -2,7 +2,9 @@
   "films": {
     "the-last-escape": "The Last Escape: the full film and all sources",
     "the-first-graves": "The First Graves: the full film and all sources",
-    "the-boat-on-the-mountain": "The Boat on the Mountain: the full film and all sources"
+    "the-boat-on-the-mountain": "The Boat on the Mountain: the full film and all sources",
+    "attila-never-conquered-rome-rome-paid-him-anyway-a": "Attila Never Conquered Rome: the full film and all sources",
+    "the-stone-that-shouts-the-gokturks-vs-tang-china": "The Stone That Shouts: the full film and all sources"
   },
   "items": [
     {
@@ -409,6 +411,201 @@
           "title": "Durupınar site",
           "publisher": "Wikipedia",
           "note": "29 km south of Mount Ararat; drilled into in 2026."
+        }
+      ]
+    },
+    {
+      "match": "pounds of gold a year",
+      "film": "attila-never-conquered-rome-rome-paid-him-anyway-a",
+      "claim": "Rome paid Attila 700 and then 2,100 pounds of gold a year, enough to ransom 12,600 Roman prisoners at the treaty's own price. In 447 he invaded anyway.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Anatolius_(consul)",
+          "title": "Anatolius",
+          "publisher": "Wikipedia",
+          "note": "The peace of 443: 6,000 pounds at once, 2,100 a year, 12 solidi per prisoner."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Margus",
+          "title": "Treaty of Margus",
+          "publisher": "Wikipedia",
+          "note": "700 pounds a year from 435."
+        },
+        {
+          "type": "calculation",
+          "url": "https://en.wikipedia.org/wiki/Solidus_(coin)",
+          "title": "2,100 pounds × 72 solidi ÷ 12 solidi ransom = 12,600 Romans a year",
+          "publisher": "Our arithmetic",
+          "note": "72 solidi to the Roman pound; the tribute and the ransom come from the same treaty."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Attila",
+          "title": "Attila",
+          "publisher": "Wikipedia",
+          "note": "The tribute rising to 700 and then 2,100 pounds a year; 447; Italy in 452; his death in 453."
+        }
+      ]
+    },
+    {
+      "match": "wooden cup",
+      "film": "attila-never-conquered-rome-rome-paid-him-anyway-a",
+      "claim": "At Attila's table the guests drank from gold and silver; Attila from a wooden cup. The diplomat who wrote it down did not know his embassy was cover for a murder plot.",
+      "sources": [
+        {
+          "type": "eyewitness",
+          "url": "https://faculty.georgetown.edu/jod/texts/priscus.html",
+          "title": "Priscus of Panium, fragment 8 (tr. J.B. Bury)",
+          "publisher": "Georgetown University",
+          "note": "Attila's banquet: gold and silver cups for the guests, a wooden cup and wooden plate for Attila; the plain clothes and sword; the plot against him."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Chrysaphius",
+          "title": "Chrysaphius",
+          "publisher": "Wikipedia",
+          "note": "The bribing of Edeco to kill Attila; Edeco told Attila."
+        }
+      ]
+    },
+    {
+      "match": "pope really stop attila",
+      "film": "attila-never-conquered-rome-rome-paid-him-anyway-a",
+      "claim": "Pope Leo I did meet Attila in 452. Other sources point to disease and hunger in his army. Nobody knows which turned him back.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Pope_Leo_I",
+          "title": "Pope Leo I",
+          "publisher": "Wikipedia",
+          "note": "The meeting with Attila in 452; other accounts mention disease and famine in the Hunnic army."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/The_Meeting_of_Leo_the_Great_and_Attila",
+          "title": "The Meeting of Leo the Great and Attila (Raphael, 1514)",
+          "publisher": "Wikipedia",
+          "note": "The fresco in the Vatican."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Attila",
+          "title": "Attila",
+          "publisher": "Wikipedia",
+          "note": "The tribute rising to 700 and then 2,100 pounds a year; 447; Italy in 452; his death in 453."
+        }
+      ]
+    },
+    {
+      "match": "wedding night",
+      "film": "attila-never-conquered-rome-rome-paid-him-anyway-a",
+      "claim": "Attila died in 453 on the night of his wedding, of a burst blood vessel. Within sixteen years his empire was gone.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Attila",
+          "title": "Attila",
+          "publisher": "Wikipedia",
+          "note": "The tribute rising to 700 and then 2,100 pounds a year; 447; Italy in 452; his death in 453."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Nedao",
+          "title": "Battle of Nedao",
+          "publisher": "Wikipedia",
+          "note": "454: the subject peoples rise against Attila's sons; the end of the Hunnic empire by 469."
+        }
+      ]
+    },
+    {
+      "match": "the stone nobody could read",
+      "film": "the-stone-that-shouts-the-gokturks-vs-tang-china",
+      "claim": "The Orkhon inscriptions were deciphered in 1893. They turned out to accuse the Turks themselves of selling their state for Chinese silk and titles.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Orkhon_inscriptions",
+          "title": "Orkhon inscriptions",
+          "publisher": "Wikipedia",
+          "note": "Deciphered by Vilhelm Thomsen in 1893; the Kul Tigin stone, Chinese on one side and Old Turkic on the others; the warning about Chinese silk and sweet words."
+        },
+        {
+          "type": "reference",
+          "url": "https://www.britannica.com/topic/Orhon-inscriptions",
+          "title": "Orhon inscriptions",
+          "publisher": "Encyclopaedia Britannica"
+        }
+      ]
+    },
+    {
+      "match": "gave it to his brother",
+      "film": "the-stone-that-shouts-the-gokturks-vs-tang-china",
+      "claim": "In 716 Kul Tigin seized power for his family, then put his older brother Bilge on the throne and led the army himself.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Kul_Tigin",
+          "title": "Kul Tigin",
+          "publisher": "Wikipedia",
+          "note": "716: kills the rival claimant and puts his brother Bilge on the throne; his battles; his memorial and the Tang craftsmen."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Bilge_Qaghan",
+          "title": "Bilge Qaghan",
+          "publisher": "Wikipedia",
+          "note": "Wanted walled cities and temples; Tonyukuk talked him out of it."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Bust_of_Kul_Tigin",
+          "title": "Bust of Kul Tigin",
+          "publisher": "Wikipedia",
+          "note": "Marble head found in 1958 at the memorial complex; now in the National Museum of Mongolia."
+        }
+      ]
+    },
+    {
+      "match": "refused to build cities",
+      "film": "the-stone-that-shouts-the-gokturks-vs-tang-china",
+      "claim": "Bilge Qaghan wanted walled towns and temples. His adviser Tonyukuk argued that walls would make the Turks easy to conquer. Nothing was built.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Bilge_Qaghan",
+          "title": "Bilge Qaghan",
+          "publisher": "Wikipedia",
+          "note": "Wanted walled cities and temples; Tonyukuk talked him out of it."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Tonyukuk",
+          "title": "Tonyukuk",
+          "publisher": "Wikipedia",
+          "note": "The adviser: the Turks are few, and safe only while they can move."
+        }
+      ]
+    },
+    {
+      "match": "court painters",
+      "film": "the-stone-that-shouts-the-gokturks-vs-tang-china",
+      "claim": "For Kul Tigin's memorial, the Tang emperor sent craftsmen and painters. The stone has a polite Chinese side and an Old Turkic side that warns against Chinese silk.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Kul_Tigin",
+          "title": "Kul Tigin",
+          "publisher": "Wikipedia",
+          "note": "716: kills the rival claimant and puts his brother Bilge on the throne; his battles; his memorial and the Tang craftsmen."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Orkhon_inscriptions",
+          "title": "Orkhon inscriptions",
+          "publisher": "Wikipedia",
+          "note": "Deciphered by Vilhelm Thomsen in 1893; the Kul Tigin stone, Chinese on one side and Old Turkic on the others; the warning about Chinese silk and sweet words."
         }
       ]
     }
