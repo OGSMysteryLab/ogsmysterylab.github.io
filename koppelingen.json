@@ -4,7 +4,8 @@
     "the-first-graves": "The First Graves: the full film and all sources",
     "the-boat-on-the-mountain": "The Boat on the Mountain: the full film and all sources",
     "attila-never-conquered-rome-rome-paid-him-anyway-a": "Attila Never Conquered Rome: the full film and all sources",
-    "the-stone-that-shouts-the-gokturks-vs-tang-china": "The Stone That Shouts: the full film and all sources"
+    "the-stone-that-shouts-the-gokturks-vs-tang-china": "The Stone That Shouts: the full film and all sources",
+    "the-impalers-head": "The Impaler's Head: the full film and all sources"
   },
   "items": [
     {
@@ -606,6 +607,193 @@
           "title": "Orkhon inscriptions",
           "publisher": "Wikipedia",
           "note": "Deciphered by Vilhelm Thomsen in 1893; the Kul Tigin stone, Chinese on one side and Old Turkic on the others; the warning about Chinese silk and sweet words."
+        }
+      ]
+    },
+    {
+      "match": "dracula betrayed the sultan",
+      "film_id": "the-impalers-head",
+      "duration": "12 MIN",
+      "claim": "Vlad III Dracula was a hostage of the Ottomans, then their prince, then their enemy. He was not impaled and did not grow up with Mehmed II. He died in battle in 1476/77, and his head was sent to the sultan in Constantinople.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Vlad_the_Impaler",
+          "title": "Vlad the Impaler",
+          "publisher": "Wikipedia",
+          "note": "Hostage years from 1442; reigns 1448, 1456–62, 1476; the 1461 envoys; the letter of 11 Feb 1462 (23,884); the 1462 campaign; arrest and forged letters; death late Dec 1476 / early Jan 1477; head sent to Mehmed (Bonfini: on a high stake); Snagov 1933 found no tomb."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Vlad_II_Dracul",
+          "title": "Vlad II Dracul",
+          "publisher": "Wikipedia",
+          "note": "The Order of the Dragon (1431) and the name Dracul."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Night_attack_at_T%C3%A2rgovi%C8%99te",
+          "title": "Night attack at Târgoviște",
+          "publisher": "Wikipedia",
+          "note": "16–17 June 1462; army estimates; Radu's command."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Radu_the_Handsome",
+          "title": "Radu the Handsome",
+          "publisher": "Wikipedia",
+          "note": "Hostage, convert, Mehmed's man; prince of Wallachia from 1462; died January 1475."
+        },
+        {
+          "type": "reference",
+          "url": "https://www.britannica.com/question/How-did-Vlad-the-Impaler-die",
+          "title": "How did Vlad the Impaler die?",
+          "publisher": "Encyclopaedia Britannica",
+          "note": "Killed in battle near Bucharest; head sent to Constantinople."
+        },
+        {
+          "type": "historian",
+          "url": "https://www.uv.es/~fores/bsaron1.html",
+          "title": "Vlad III Dracula: a biography",
+          "publisher": "Elizabeth Miller",
+          "note": "Hostage years, death near Bucharest, the head displayed as proof."
+        },
+        {
+          "type": "paper",
+          "url": "https://dergipark.org.tr/en/download/article-file/3544793",
+          "title": "The Ottoman Dracula: Kazıklı Voyvoda",
+          "publisher": "DergiPark",
+          "note": "How the Ottoman chronicles remember him; no childhood link with Mehmed recorded."
+        },
+        {
+          "type": "press",
+          "url": "https://mentalfloss.com/article/502283/when-vlad-impaler-repelled-invasion-forest-corpses",
+          "title": "When Vlad the Impaler repelled an invasion with a forest of corpses",
+          "publisher": "Mental Floss",
+          "note": "Chalkokondyles' account; Hamza on the highest stake."
+        },
+        {
+          "type": "historian",
+          "url": "https://www.pbs.org/frontlineworld/stories/romania/miller.html",
+          "title": "Interview with Elizabeth Miller",
+          "publisher": "PBS Frontline",
+          "note": "Stoker took the name, not the man; Bran Castle."
+        },
+        {
+          "type": "press",
+          "url": "https://sciencedaily.com/releases/2023/08/230815151140.htm",
+          "title": "Dracula's letters: proteins and possible tears of blood (2023)",
+          "publisher": "ScienceDaily / ACS",
+          "note": "Analytical Chemistry, Aug 2023: proteins from three letters in the Sibiu archives; possibly haemolacria; data 'not exhaustive'."
+        },
+        {
+          "type": "press",
+          "url": "https://www.medievalists.net/2023/08/vlad-the-impaler-may-have-cried-tears-of-blood-study-finds/",
+          "title": "Vlad the Impaler may have cried tears of blood",
+          "publisher": "Medievalists.net"
+        },
+        {
+          "type": "images",
+          "url": "https://commons.wikimedia.org/wiki/Category:Vlad_III_the_Impaler",
+          "title": "Paintings, woodcuts and photos",
+          "publisher": "Public domain / CC0 / CC BY / CC BY-SA, credited on screen"
+        }
+      ]
+    },
+    {
+      "match": "his head went to the sultan",
+      "film": "the-impalers-head",
+      "claim": "Dracula was not impaled. He died in battle near Bucharest; his head was sent to Mehmed II in Constantinople and, per Antonio Bonfini, set on a high stake.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Vlad_the_Impaler",
+          "title": "Vlad the Impaler",
+          "publisher": "Wikipedia",
+          "note": "Hostage years from 1442; reigns 1448, 1456–62, 1476; the 1461 envoys; the letter of 11 Feb 1462 (23,884); the 1462 campaign; arrest and forged letters; death late Dec 1476 / early Jan 1477; head sent to Mehmed (Bonfini: on a high stake); Snagov 1933 found no tomb."
+        },
+        {
+          "type": "reference",
+          "url": "https://www.britannica.com/question/How-did-Vlad-the-Impaler-die",
+          "title": "How did Vlad the Impaler die?",
+          "publisher": "Encyclopaedia Britannica",
+          "note": "Killed in battle near Bucharest; head sent to Constantinople."
+        },
+        {
+          "type": "historian",
+          "url": "https://www.uv.es/~fores/bsaron1.html",
+          "title": "Vlad III Dracula: a biography",
+          "publisher": "Elizabeth Miller",
+          "note": "Hostage years, death near Bucharest, the head displayed as proof."
+        }
+      ]
+    },
+    {
+      "match": "forest of 20 000 stakes",
+      "film": "the-impalers-head",
+      "claim": "In June 1462 Mehmed II's army found a forest of stakes outside Târgoviște: about 20,000 people, according to Laonikos Chalkokondyles.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Vlad_the_Impaler",
+          "title": "Vlad the Impaler",
+          "publisher": "Wikipedia",
+          "note": "Hostage years from 1442; reigns 1448, 1456–62, 1476; the 1461 envoys; the letter of 11 Feb 1462 (23,884); the 1462 campaign; arrest and forged letters; death late Dec 1476 / early Jan 1477; head sent to Mehmed (Bonfini: on a high stake); Snagov 1933 found no tomb."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Night_attack_at_T%C3%A2rgovi%C8%99te",
+          "title": "Night attack at Târgoviște",
+          "publisher": "Wikipedia",
+          "note": "16–17 June 1462; army estimates; Radu's command."
+        },
+        {
+          "type": "press",
+          "url": "https://mentalfloss.com/article/502283/when-vlad-impaler-repelled-invasion-forest-corpses",
+          "title": "When Vlad the Impaler repelled an invasion with a forest of corpses",
+          "publisher": "Mental Floss",
+          "note": "Chalkokondyles' account; Hamza on the highest stake."
+        }
+      ]
+    },
+    {
+      "match": "dracula s brother",
+      "film": "the-impalers-head",
+      "claim": "Radu, Dracula's younger brother, was a hostage with him in 1442, stayed with the Ottomans, rode with Mehmed II in 1462 and took his brother's throne.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Radu_the_Handsome",
+          "title": "Radu the Handsome",
+          "publisher": "Wikipedia",
+          "note": "Hostage, convert, Mehmed's man; prince of Wallachia from 1462; died January 1475."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Vlad_the_Impaler",
+          "title": "Vlad the Impaler",
+          "publisher": "Wikipedia",
+          "note": "Hostage years from 1442; reigns 1448, 1456–62, 1476; the 1461 envoys; the letter of 11 Feb 1462 (23,884); the 1462 campaign; arrest and forged letters; death late Dec 1476 / early Jan 1477; head sent to Mehmed (Bonfini: on a high stake); Snagov 1933 found no tomb."
+        }
+      ]
+    },
+    {
+      "match": "cried tears of blood",
+      "film": "the-impalers-head",
+      "claim": "A 2023 study of proteins on three of Vlad's letters suggests breathing problems and possibly haemolacria, tears containing blood. The authors call the data not exhaustive.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://sciencedaily.com/releases/2023/08/230815151140.htm",
+          "title": "Dracula's letters: proteins and possible tears of blood (2023)",
+          "publisher": "ScienceDaily / ACS",
+          "note": "Analytical Chemistry, Aug 2023: proteins from three letters in the Sibiu archives; possibly haemolacria; data 'not exhaustive'."
+        },
+        {
+          "type": "press",
+          "url": "https://www.medievalists.net/2023/08/vlad-the-impaler-may-have-cried-tears-of-blood-study-finds/",
+          "title": "Vlad the Impaler may have cried tears of blood",
+          "publisher": "Medievalists.net"
         }
       ]
     }
