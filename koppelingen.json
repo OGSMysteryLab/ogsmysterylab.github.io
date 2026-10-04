@@ -5,7 +5,10 @@
     "the-boat-on-the-mountain": "The Boat on the Mountain: the full film and all sources",
     "attila-never-conquered-rome-rome-paid-him-anyway-a": "Attila Never Conquered Rome: the full film and all sources",
     "the-stone-that-shouts-the-gokturks-vs-tang-china": "The Stone That Shouts: the full film and all sources",
-    "the-impalers-head": "The Impaler's Head: the full film and all sources"
+    "the-impalers-head": "The Impaler's Head: the full film and all sources",
+    "columbus-on-trial": "Columbus on Trial: the full film and all sources",
+    "they-told-the-truth": "They Told the Truth: the full film and all sources",
+    "the-face-in-the-cloth": "The Face in the Cloth: the full film and all sources"
   },
   "items": [
     {
@@ -794,6 +797,506 @@
           "url": "https://www.medievalists.net/2023/08/vlad-the-impaler-may-have-cried-tears-of-blood-study-finds/",
           "title": "Vlad the Impaler may have cried tears of blood",
           "publisher": "Medievalists.net"
+        }
+      ]
+    },
+    {
+      "match": "columbus never reached any of the 50 states",
+      "film_id": "columbus-on-trial",
+      "duration": "12 MIN",
+      "claim": "Columbus never set foot in any of the fifty states (his men landed on St. Croix, his fleet stopped at Puerto Rico). His own log, the Bobadilla report and Spain's arrest of him in 1500; how Columbus Day was born, from New York 1792 and New Orleans 1891 to Indigenous Peoples' Day.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Christopher_Columbus",
+          "title": "Christopher Columbus",
+          "publisher": "Wikipedia",
+          "note": "Birth in Genoa; the four voyages and where he landed; his estimate of the distance to Asia; governorship of Hispaniola; slaves shipped in 1495; arrest in 1500; death in Valladolid, 1506; remains."
+        },
+        {
+          "type": "primary",
+          "url": "https://en.wikisource.org/wiki/Journal_of_the_First_Voyage_of_Columbus",
+          "title": "Journal of the first voyage (Las Casas's abstract, tr. Markham, 1893)",
+          "publisher": "Wikisource",
+          "note": "12 Oct: 'They should be good servants and intelligent'; 14 Oct: 'with fifty men they can all be subjugated'."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Myth_of_the_flat_Earth",
+          "title": "Myth of the flat Earth",
+          "publisher": "Wikipedia",
+          "note": "Popularised by Washington Irving's 1828 biography of Columbus."
+        },
+        {
+          "type": "official",
+          "url": "https://www.nps.gov/nr/travel/prvi/pr47.htm",
+          "title": "Salt River Bay, St. Croix",
+          "publisher": "U.S. National Park Service",
+          "note": "14 Nov 1493: the only known landing of Columbus's expedition on today's U.S. territory; the first armed clash."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Ta%C3%ADno",
+          "title": "Taíno",
+          "publisher": "Wikipedia",
+          "note": "Population estimates; disease, war and forced labour; Taíno ancestry today; loanwords."
+        },
+        {
+          "type": "press",
+          "url": "https://www.historynewsnetwork.org/article/29344",
+          "title": "Columbus, the tyrant (2006)",
+          "publisher": "History News Network",
+          "note": "The Bobadilla report: punishments described by witnesses."
+        },
+        {
+          "type": "press",
+          "url": "https://hayadan.com/was-columbus-evil-090806",
+          "title": "A report from the 15th century (2006)",
+          "publisher": "Hayadan",
+          "note": "48 pages, 23 witnesses; Consuelo Varela: 'Even those who loved him had to admit that atrocities had been committed.'"
+        },
+        {
+          "type": "press",
+          "url": "https://www.opb.org/article/2025/10/11/trump-issues-proclamation-to-reclaim-christopher-columbus-legacy/",
+          "title": "Trump issues a Columbus Day proclamation to 'reclaim' the explorer's legacy (2025)",
+          "publisher": "NPR / OPB",
+          "note": "Biden 2021; Pew count of states; Harrison 1892 and New Orleans; Roosevelt 1934."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Columbus_Day",
+          "title": "Columbus Day",
+          "publisher": "Wikipedia",
+          "note": "1792; 1892; Knights of Columbus; second Monday of October since 1971."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/March_14,_1891_New_Orleans_lynchings",
+          "title": "1891 New Orleans lynchings",
+          "publisher": "Wikipedia",
+          "note": "Eleven Italian Americans killed at the Parish Prison."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Indigenous_Peoples%27_Day_(United_States)",
+          "title": "Indigenous Peoples' Day (United States)",
+          "publisher": "Wikipedia",
+          "note": "Berkeley 1992; states and cities."
+        },
+        {
+          "type": "press",
+          "url": "https://www.npr.org/2024/10/16/g-s1-28462/christopher-columbus-spanish-jew-documentary",
+          "title": "Christopher Columbus may have been a Spanish Jew, according to a new documentary (2024)",
+          "publisher": "NPR",
+          "note": "The claim, and geneticists' criticism: data not published."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/L%27Anse_aux_Meadows",
+          "title": "L'Anse aux Meadows",
+          "publisher": "Wikipedia",
+          "note": "Norse site in Newfoundland, dated to 1021 by tree rings."
+        },
+        {
+          "type": "images",
+          "url": "https://commons.wikimedia.org/wiki/Category:Christopher_Columbus",
+          "title": "Paintings, engravings and photos",
+          "publisher": "Public domain / CC BY / CC BY-SA, credited on screen"
+        }
+      ]
+    },
+    {
+      "match": "columbus never set foot in any of the 50 states",
+      "film": "columbus-on-trial",
+      "claim": "Columbus reached the Bahamas, Cuba, Hispaniola, Jamaica, Puerto Rico and Central and South America, never the North American mainland or any of the fifty states.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Christopher_Columbus",
+          "title": "Christopher Columbus",
+          "publisher": "Wikipedia",
+          "note": "Birth in Genoa; the four voyages and where he landed; his estimate of the distance to Asia; governorship of Hispaniola; slaves shipped in 1495; arrest in 1500; death in Valladolid, 1506; remains."
+        },
+        {
+          "type": "official",
+          "url": "https://www.nps.gov/nr/travel/prvi/pr47.htm",
+          "title": "Salt River Bay, St. Croix",
+          "publisher": "U.S. National Park Service",
+          "note": "14 Nov 1493: the only known landing of Columbus's expedition on today's U.S. territory; the first armed clash."
+        }
+      ]
+    },
+    {
+      "match": "what columbus wrote on his first day",
+      "film": "columbus-on-trial",
+      "claim": "On 12 and 14 October 1492, Columbus's log (Las Casas's abstract) says the islanders 'should be good servants' and that 'with fifty men they can all be subjugated'.",
+      "sources": [
+        {
+          "type": "primary",
+          "url": "https://en.wikisource.org/wiki/Journal_of_the_First_Voyage_of_Columbus",
+          "title": "Journal of the first voyage (Las Casas's abstract, tr. Markham, 1893)",
+          "publisher": "Wikisource",
+          "note": "12 Oct: 'They should be good servants and intelligent'; 14 Oct: 'with fifty men they can all be subjugated'."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Christopher_Columbus",
+          "title": "Christopher Columbus",
+          "publisher": "Wikipedia",
+          "note": "Birth in Genoa; the four voyages and where he landed; his estimate of the distance to Asia; governorship of Hispaniola; slaves shipped in 1495; arrest in 1500; death in Valladolid, 1506; remains."
+        }
+      ]
+    },
+    {
+      "match": "spain arrested columbus",
+      "film": "columbus-on-trial",
+      "claim": "In 1500 Francisco de Bobadilla heard 23 witnesses about Columbus's rule of Hispaniola; Columbus was sent back to Spain in chains. The report was published in 2006.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.historynewsnetwork.org/article/29344",
+          "title": "Columbus, the tyrant (2006)",
+          "publisher": "History News Network",
+          "note": "The Bobadilla report: punishments described by witnesses."
+        },
+        {
+          "type": "press",
+          "url": "https://hayadan.com/was-columbus-evil-090806",
+          "title": "A report from the 15th century (2006)",
+          "publisher": "Hayadan",
+          "note": "48 pages, 23 witnesses; Consuelo Varela: 'Even those who loved him had to admit that atrocities had been committed.'"
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Christopher_Columbus",
+          "title": "Christopher Columbus",
+          "publisher": "Wikipedia",
+          "note": "Birth in Genoa; the four voyages and where he landed; his estimate of the distance to Asia; governorship of Hispaniola; slaves shipped in 1495; arrest in 1500; death in Valladolid, 1506; remains."
+        }
+      ]
+    },
+    {
+      "match": "italian american holiday",
+      "film": "columbus-on-trial",
+      "claim": "After the 1891 lynching of eleven Italian men in New Orleans, President Harrison's 1892 Columbus celebration was partly a gesture to Italian Americans and Italy.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/March_14,_1891_New_Orleans_lynchings",
+          "title": "1891 New Orleans lynchings",
+          "publisher": "Wikipedia",
+          "note": "Eleven Italian Americans killed at the Parish Prison."
+        },
+        {
+          "type": "press",
+          "url": "https://www.opb.org/article/2025/10/11/trump-issues-proclamation-to-reclaim-christopher-columbus-legacy/",
+          "title": "Trump issues a Columbus Day proclamation to 'reclaim' the explorer's legacy (2025)",
+          "publisher": "NPR / OPB",
+          "note": "Biden 2021; Pew count of states; Harrison 1892 and New Orleans; Roosevelt 1934."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Columbus_Day",
+          "title": "Columbus Day",
+          "publisher": "Wikipedia",
+          "note": "1792; 1892; Knights of Columbus; second Monday of October since 1971."
+        }
+      ]
+    },
+    {
+      "match": "britain swore its sailors never ate each other",
+      "film_id": "they-told-the-truth",
+      "duration": "10 MIN",
+      "claim": "In 1854 John Rae reported Inuit testimony that the last Franklin men had resorted to cannibalism. Dickens called it improbable and blamed the Inuit. Bones (1997, 2015) and DNA (Fitzjames, 2024; four more names, 2026) proved Rae and the Inuit right.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Franklin%27s_lost_expedition",
+          "title": "Franklin's lost expedition",
+          "publisher": "Wikipedia",
+          "note": "129 men; Beechey Island; ships beset 1846; the Victory Point note; the march south; searches; the wrecks found in 2014 and 2016."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/John_Rae_(explorer)",
+          "title": "John Rae (explorer)",
+          "publisher": "Wikipedia",
+          "note": "The 1854 report ('the last dread alternative'); relics; Rae Strait; never knighted; Westminster Abbey memorial, 2014."
+        },
+        {
+          "type": "historian",
+          "url": "https://www.lindahall.org/john-rae/",
+          "title": "John Rae",
+          "publisher": "Linda Hall Library",
+          "note": "Inuit methods, the testimony, the reaction, the £10,000 reward."
+        },
+        {
+          "type": "primary",
+          "url": "https://canadianmysteries.ca/sites/franklin/archive/text/DickensHouseholdWords1_en.htm",
+          "title": "The Lost Arctic Voyagers (Household Words, Dec 1854)",
+          "publisher": "Charles Dickens",
+          "note": "'In the highest degree improbable'; 'We believe every savage to be in his heart covetous, treacherous and cruel.'"
+        },
+        {
+          "type": "historian",
+          "url": "https://www.victorianweb.org/victorian/authors/dickens/arctic/pva341.html",
+          "title": "Dickens and the Franklin expedition",
+          "publisher": "The Victorian Web"
+        },
+        {
+          "type": "press",
+          "url": "https://www.scientificamerican.com/article/cannibalized-captain-of-doomed-arctic-expedition-identified-by-dna-analysis/",
+          "title": "Cannibalized captain of doomed Arctic expedition identified by DNA analysis (2024)",
+          "publisher": "Scientific American",
+          "note": "James Fitzjames; jawbone found 1993; cut marks; John Gregory (2021)."
+        },
+        {
+          "type": "press",
+          "url": "https://sciencedaily.com/releases/2026/09/260909231735.htm",
+          "title": "DNA identifies four more Franklin sailors (2026)",
+          "publisher": "ScienceDaily / University of Waterloo",
+          "note": "Harry Peglar, William Orren, David Young, John Bridgens; no cannibalism on these four."
+        },
+        {
+          "type": "press",
+          "url": "https://www.arctictoday.com/a-dead-explorer-in-the-wrong-uniform-stumped-historians-for-166-years-dna-just-solved-the-mystery/",
+          "title": "A dead explorer in the wrong uniform... DNA just solved the mystery",
+          "publisher": "Arctic Today",
+          "note": "Peglar's steward's uniform and backward-written notes; six of 129 named."
+        },
+        {
+          "type": "press",
+          "url": "https://www.nationalgeographic.com/history/article/franklin-expedition-sailors-identified",
+          "title": "DNA reveals 4 lost men from the doomed Franklin polar expedition",
+          "publisher": "National Geographic"
+        },
+        {
+          "type": "images",
+          "url": "https://commons.wikimedia.org/wiki/Category:John_Franklin%27s_lost_expedition",
+          "title": "Daguerreotypes, paintings and photos",
+          "publisher": "Public domain / CC0 / CC BY / CC BY-SA, credited on screen"
+        }
+      ]
+    },
+    {
+      "match": "dickens said british sailors",
+      "film": "they-told-the-truth",
+      "claim": "Charles Dickens rejected Rae's report in Household Words (December 1854) and attacked the Inuit witnesses.",
+      "sources": [
+        {
+          "type": "primary",
+          "url": "https://canadianmysteries.ca/sites/franklin/archive/text/DickensHouseholdWords1_en.htm",
+          "title": "The Lost Arctic Voyagers (Household Words, Dec 1854)",
+          "publisher": "Charles Dickens",
+          "note": "'In the highest degree improbable'; 'We believe every savage to be in his heart covetous, treacherous and cruel.'"
+        },
+        {
+          "type": "historian",
+          "url": "https://www.victorianweb.org/victorian/authors/dickens/arctic/pva341.html",
+          "title": "Dickens and the Franklin expedition",
+          "publisher": "The Victorian Web"
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/John_Rae_(explorer)",
+          "title": "John Rae (explorer)",
+          "publisher": "Wikipedia",
+          "note": "The 1854 report ('the last dread alternative'); relics; Rae Strait; never knighted; Westminster Abbey memorial, 2014."
+        }
+      ]
+    },
+    {
+      "match": "a captain eaten by his own men",
+      "film": "they-told-the-truth",
+      "claim": "In 2024, DNA from a jawbone found in 1993 was matched to Captain James Fitzjames of HMS Erebus. The jaw carries cut marks.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.scientificamerican.com/article/cannibalized-captain-of-doomed-arctic-expedition-identified-by-dna-analysis/",
+          "title": "Cannibalized captain of doomed Arctic expedition identified by DNA analysis (2024)",
+          "publisher": "Scientific American",
+          "note": "James Fitzjames; jawbone found 1993; cut marks; John Gregory (2021)."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Franklin%27s_lost_expedition",
+          "title": "Franklin's lost expedition",
+          "publisher": "Wikipedia",
+          "note": "129 men; Beechey Island; ships beset 1846; the Victory Point note; the march south; searches; the wrecks found in 2014 and 2016."
+        }
+      ]
+    },
+    {
+      "match": "last message from the franklin expedition",
+      "film": "they-told-the-truth",
+      "claim": "The Victory Point note, found in 1859: Franklin died 11 June 1847; the ships were abandoned on 22 April 1848; 105 men set out for Back's Fish River.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Franklin%27s_lost_expedition",
+          "title": "Franklin's lost expedition",
+          "publisher": "Wikipedia",
+          "note": "129 men; Beechey Island; ships beset 1846; the Victory Point note; the march south; searches; the wrecks found in 2014 and 2016."
+        }
+      ]
+    },
+    {
+      "match": "skeleton in the wrong uniform",
+      "film": "they-told-the-truth",
+      "claim": "A skeleton found alone in 1859 in a steward's uniform, carrying a notebook with backward writing, was identified by DNA as Harry Peglar of HMS Terror.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.arctictoday.com/a-dead-explorer-in-the-wrong-uniform-stumped-historians-for-166-years-dna-just-solved-the-mystery/",
+          "title": "A dead explorer in the wrong uniform... DNA just solved the mystery",
+          "publisher": "Arctic Today",
+          "note": "Peglar's steward's uniform and backward-written notes; six of 129 named."
+        },
+        {
+          "type": "press",
+          "url": "https://sciencedaily.com/releases/2026/09/260909231735.htm",
+          "title": "DNA identifies four more Franklin sailors (2026)",
+          "publisher": "ScienceDaily / University of Waterloo",
+          "note": "Harry Peglar, William Orren, David Young, John Bridgens; no cannibalism on these four."
+        },
+        {
+          "type": "press",
+          "url": "https://www.nationalgeographic.com/history/article/franklin-expedition-sailors-identified",
+          "title": "DNA reveals 4 lost men from the doomed Franklin polar expedition",
+          "publisher": "National Geographic"
+        }
+      ]
+    },
+    {
+      "match": "is this the face of jesus",
+      "film_id": "the-face-in-the-cloth",
+      "duration": "9 MIN",
+      "claim": "The Shroud of Turin: first recorded in the 1350s, carbon-dated to 1260–1390 in 1988, still debated. The evidence for a real burial cloth and for a medieval artwork, side by side. The Church has never declared it authentic.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Shroud_of_Turin",
+          "title": "Shroud of Turin",
+          "publisher": "Wikipedia",
+          "note": "Lirey (1350s); the d'Arcis memorandum; Chambéry fire 1532; Turin since 1578; Secondo Pia 1898; STURP 1978; the 1988 carbon dating; later studies."
+        },
+        {
+          "type": "paper",
+          "url": "https://www.nature.com/articles/337611a0",
+          "title": "Radiocarbon dating of the Shroud of Turin (Damon et al., Nature, 1989)",
+          "publisher": "Nature",
+          "note": "Oxford, Zurich, Arizona: AD 1260–1390, 95% confidence."
+        },
+        {
+          "type": "press",
+          "url": "https://www.history.com/news/shroud-turin-forensic-study-not-jesus-burial-cloth",
+          "title": "Shroud of Turin forensic study",
+          "publisher": "History.com",
+          "note": "Borrini & Garlaschelli (2018): blood flows unrealistic; Weedn's objection; earlier dating claims."
+        },
+        {
+          "type": "press",
+          "url": "https://archaeologymag.com/2025/08/shroud-of-turin-image-came-from-sculpture/",
+          "title": "Shroud of Turin image came from a sculpture, 3D study suggests (2025)",
+          "publisher": "Arkeonews / Archaeology Mag",
+          "note": "Cicero Moraes, Archaeometry 2025: a low relief fits better."
+        },
+        {
+          "type": "press",
+          "url": "https://www.catholicworldreport.com/2025/08/05/shroud-of-turin-center-disputes-new-study-that-challenges-authenticity-of-burial-cloth/",
+          "title": "Shroud of Turin center disputes new study (2025)",
+          "publisher": "Catholic World Report",
+          "note": "The International Center of Sindonology's reply."
+        },
+        {
+          "type": "press",
+          "url": "https://aleteia.org/2022/04/22/new-technology-suggests-shroud-of-turin-is-2000-years-old/",
+          "title": "New technology suggests Shroud of Turin is 2,000 years old (2022)",
+          "publisher": "Aleteia",
+          "note": "De Caro et al., X-ray dating (WAXS)."
+        },
+        {
+          "type": "images",
+          "url": "https://commons.wikimedia.org/wiki/Category:Shroud_of_Turin",
+          "title": "Photographs of the Shroud (Pia 1898, Enrie 1931) and places",
+          "publisher": "Public domain / CC0 / CC BY / CC BY-SA, credited on screen"
+        }
+      ]
+    },
+    {
+      "match": "photo that revealed a hidden face",
+      "film": "the-face-in-the-cloth",
+      "claim": "In 1898 Secondo Pia's photographic negative showed the Shroud's image as a positive portrait.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Shroud_of_Turin",
+          "title": "Shroud of Turin",
+          "publisher": "Wikipedia",
+          "note": "Lirey (1350s); the d'Arcis memorandum; Chambéry fire 1532; Turin since 1578; Secondo Pia 1898; STURP 1978; the 1988 carbon dating; later studies."
+        }
+      ]
+    },
+    {
+      "match": "why the shroud debate never ended",
+      "film": "the-face-in-the-cloth",
+      "claim": "The 1988 carbon test dated the linen to 1260–1390; critics questioned the sample and the data, and other methods proposed earlier dates that are not standard.",
+      "sources": [
+        {
+          "type": "paper",
+          "url": "https://www.nature.com/articles/337611a0",
+          "title": "Radiocarbon dating of the Shroud of Turin (Damon et al., Nature, 1989)",
+          "publisher": "Nature",
+          "note": "Oxford, Zurich, Arizona: AD 1260–1390, 95% confidence."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Shroud_of_Turin",
+          "title": "Shroud of Turin",
+          "publisher": "Wikipedia",
+          "note": "Lirey (1350s); the d'Arcis memorandum; Chambéry fire 1532; Turin since 1578; Secondo Pia 1898; STURP 1978; the 1988 carbon dating; later studies."
+        },
+        {
+          "type": "press",
+          "url": "https://aleteia.org/2022/04/22/new-technology-suggests-shroud-of-turin-is-2000-years-old/",
+          "title": "New technology suggests Shroud of Turin is 2,000 years old (2022)",
+          "publisher": "Aleteia",
+          "note": "De Caro et al., X-ray dating (WAXS)."
+        }
+      ]
+    },
+    {
+      "match": "called the shroud a fake",
+      "film": "the-face-in-the-cloth",
+      "claim": "Around 1389 Bishop Pierre d'Arcis wrote to Pope Clement VII that an artist had admitted painting the cloth; the pope allowed it to be shown only as a representation.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Shroud_of_Turin",
+          "title": "Shroud of Turin",
+          "publisher": "Wikipedia",
+          "note": "Lirey (1350s); the d'Arcis memorandum; Chambéry fire 1532; Turin since 1578; Secondo Pia 1898; STURP 1978; the 1988 carbon dating; later studies."
+        }
+      ]
+    },
+    {
+      "match": "come from a carved relief",
+      "film": "the-face-in-the-cloth",
+      "claim": "A 2025 3D study by Cicero Moraes found a low relief matches the image better than a body; the International Center of Sindonology disputes it.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://archaeologymag.com/2025/08/shroud-of-turin-image-came-from-sculpture/",
+          "title": "Shroud of Turin image came from a sculpture, 3D study suggests (2025)",
+          "publisher": "Arkeonews / Archaeology Mag",
+          "note": "Cicero Moraes, Archaeometry 2025: a low relief fits better."
+        },
+        {
+          "type": "press",
+          "url": "https://www.catholicworldreport.com/2025/08/05/shroud-of-turin-center-disputes-new-study-that-challenges-authenticity-of-burial-cloth/",
+          "title": "Shroud of Turin center disputes new study (2025)",
+          "publisher": "Catholic World Report",
+          "note": "The International Center of Sindonology's reply."
         }
       ]
     }
