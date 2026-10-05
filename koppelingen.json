@@ -8,7 +8,10 @@
     "the-impalers-head": "The Impaler's Head: the full film and all sources",
     "columbus-on-trial": "Columbus on Trial: the full film and all sources",
     "they-told-the-truth": "They Told the Truth: the full film and all sources",
-    "the-face-in-the-cloth": "The Face in the Cloth: the full film and all sources"
+    "the-face-in-the-cloth": "The Face in the Cloth: the full film and all sources",
+    "the-battle-both-sides-won": "The Battle Both Sides Won: the full film and all sources",
+    "what-the-alamo-forgot": "What the Alamo Forgot: the full film and all sources",
+    "the-city-that-wasnt-there": "The City That Wasn't There: the full film and all sources"
   },
   "items": [
     {
@@ -1170,7 +1173,7 @@
     {
       "match": "is this the face of jesus",
       "film_id": "the-face-in-the-cloth",
-      "duration": "9 MIN",
+      "duration": "7 MIN",
       "claim": "The Shroud of Turin: first recorded in the 1350s, carbon-dated to 1260–1390 in 1988, still debated. The evidence for a real burial cloth and for a medieval artwork, side by side. The Church has never declared it authentic.",
       "sources": [
         {
@@ -1297,6 +1300,490 @@
           "title": "Shroud of Turin center disputes new study (2025)",
           "publisher": "Catholic World Report",
           "note": "The International Center of Sindonology's reply."
+        }
+      ]
+    },
+    {
+      "match": "both sides claimed victory",
+      "film_id": "the-battle-both-sides-won",
+      "duration": "9 MIN",
+      "claim": "At Kadesh in 1274 BC, Ramesses II walked into a Hittite trap, survived, and carved a victory on five temples; the Hittites kept the city. Sixteen years later the two empires made the oldest peace treaty we can read. A new fragment was found at Hattusa in September 2026.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Kadesh",
+          "title": "Battle of Kadesh",
+          "publisher": "Wikipedia",
+          "note": "Year 5 of Ramesses II (1274 BC); Muwatalli II; the Shasu spies; the attack on the division of Ra; the Poem and the Bulletin on five temples; the outcome."
+        },
+        {
+          "type": "historian",
+          "url": "https://www.worldhistory.org/article/147/the-battle-of-kadesh--the-poem-of-pentaur/",
+          "title": "The Battle of Kadesh & the Poem of Pentaur",
+          "publisher": "World History Encyclopedia",
+          "note": "Three men per Hittite chariot; 'Peace is better than fighting. Give us breath.'"
+        },
+        {
+          "type": "historian",
+          "url": "https://www.worldhistory.org/article/78/the-battle-of-kadesh--the-first-peace-treaty/",
+          "title": "The Battle of Kadesh & the First Peace Treaty",
+          "publisher": "World History Encyclopedia"
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Egyptian%E2%80%93Hittite_peace_treaty",
+          "title": "Egyptian–Hittite peace treaty",
+          "publisher": "Wikipedia",
+          "note": "Year 21 of Ramesses II; silver tablets; Karnak, Ramesseum and Hattusa copies; Champollion 1828; Winckler 1906–08; clauses; each side says the other asked for peace."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/%E1%B8%AAattu%C5%A1ili_III",
+          "title": "Hattusili III",
+          "publisher": "Wikipedia"
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Maathorneferure",
+          "title": "Maathorneferure",
+          "publisher": "Wikipedia",
+          "note": "Married Ramesses II in his year 34."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Pudu%E1%B8%ABepa",
+          "title": "Puduhepa",
+          "publisher": "Wikipedia"
+        },
+        {
+          "type": "official",
+          "url": "https://www.un.org/ungifts/node/615",
+          "title": "Replica of Peace Treaty between Hattusilis and Ramses II",
+          "publisher": "United Nations",
+          "note": "Copper copy, gift of Turkey, 24 September 1970."
+        },
+        {
+          "type": "press",
+          "url": "https://www.livescience.com/archaeology/ancient-egyptians/we-have-found-traces-of-peace-thousands-of-years-old-fragment-of-worlds-oldest-known-peace-treaty-found-in-turkey",
+          "title": "Fragment of world's oldest known peace treaty found in Turkey (2026)",
+          "publisher": "Live Science",
+          "note": "The refugee clause."
+        },
+        {
+          "type": "press",
+          "url": "https://www.smithsonianmag.com/smart-news/researchers-in-turkey-have-unearthed-an-ancient-fragment-inscribed-with-the-worlds-oldest-peace-treaty-180989554/",
+          "title": "Researchers in Turkey unearth a fragment of the world's oldest peace treaty (2026)",
+          "publisher": "Smithsonian Magazine",
+          "note": "Articles 12–20."
+        },
+        {
+          "type": "press",
+          "url": "https://www.dailysabah.com/life/hattusa-fragment-found-in-turkiye-linked-to-treaty-of-kadesh/news/amp",
+          "title": "Hattusa fragment found in Türkiye linked to Treaty of Kadesh (2026)",
+          "publisher": "Daily Sabah",
+          "note": "Announced 21 September 2026 at Büyükkale."
+        },
+        {
+          "type": "images",
+          "url": "https://commons.wikimedia.org/wiki/Category:Battle_of_Kadesh",
+          "title": "Reliefs, tablets and photos",
+          "publisher": "Public domain / CC0 / CC BY / CC BY-SA, credited on screen"
+        }
+      ]
+    },
+    {
+      "match": "piece of the world s oldest peace treaty",
+      "film": "the-battle-both-sides-won",
+      "claim": "On 21 September 2026 Turkey announced a new fragment of the Egyptian–Hittite treaty from Büyükkale in Hattusa, with part of the clauses on refugees.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.dailysabah.com/life/hattusa-fragment-found-in-turkiye-linked-to-treaty-of-kadesh/news/amp",
+          "title": "Hattusa fragment found in Türkiye linked to Treaty of Kadesh (2026)",
+          "publisher": "Daily Sabah",
+          "note": "Announced 21 September 2026 at Büyükkale."
+        },
+        {
+          "type": "press",
+          "url": "https://www.livescience.com/archaeology/ancient-egyptians/we-have-found-traces-of-peace-thousands-of-years-old-fragment-of-worlds-oldest-known-peace-treaty-found-in-turkey",
+          "title": "Fragment of world's oldest known peace treaty found in Turkey (2026)",
+          "publisher": "Live Science",
+          "note": "The refugee clause."
+        },
+        {
+          "type": "press",
+          "url": "https://www.smithsonianmag.com/smart-news/researchers-in-turkey-have-unearthed-an-ancient-fragment-inscribed-with-the-worlds-oldest-peace-treaty-180989554/",
+          "title": "Researchers in Turkey unearth a fragment of the world's oldest peace treaty (2026)",
+          "publisher": "Smithsonian Magazine",
+          "note": "Articles 12–20."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Egyptian%E2%80%93Hittite_peace_treaty",
+          "title": "Egyptian–Hittite peace treaty",
+          "publisher": "Wikipedia",
+          "note": "Year 21 of Ramesses II; silver tablets; Karnak, Ramesseum and Hattusa copies; Champollion 1828; Winckler 1906–08; clauses; each side says the other asked for peace."
+        }
+      ]
+    },
+    {
+      "match": "defeated an entire army almost alone",
+      "film": "the-battle-both-sides-won",
+      "claim": "In his Poem of Kadesh, Ramesses II says he was left alone when Hittite chariots overran his camp, and drove them back himself. He never took Kadesh.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Kadesh",
+          "title": "Battle of Kadesh",
+          "publisher": "Wikipedia",
+          "note": "Year 5 of Ramesses II (1274 BC); Muwatalli II; the Shasu spies; the attack on the division of Ra; the Poem and the Bulletin on five temples; the outcome."
+        },
+        {
+          "type": "historian",
+          "url": "https://www.worldhistory.org/article/147/the-battle-of-kadesh--the-poem-of-pentaur/",
+          "title": "The Battle of Kadesh & the Poem of Pentaur",
+          "publisher": "World History Encyclopedia",
+          "note": "Three men per Hittite chariot; 'Peace is better than fighting. Give us breath.'"
+        }
+      ]
+    },
+    {
+      "match": "two spies lured ramesses",
+      "film": "the-battle-both-sides-won",
+      "claim": "Two Shasu told Ramesses II the Hittite army was far away near Aleppo; it was hidden behind Kadesh.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Kadesh",
+          "title": "Battle of Kadesh",
+          "publisher": "Wikipedia",
+          "note": "Year 5 of Ramesses II (1274 BC); Muwatalli II; the Shasu spies; the attack on the division of Ra; the Poem and the Bulletin on five temples; the outcome."
+        },
+        {
+          "type": "historian",
+          "url": "https://www.worldhistory.org/article/147/the-battle-of-kadesh--the-poem-of-pentaur/",
+          "title": "The Battle of Kadesh & the Poem of Pentaur",
+          "publisher": "World History Encyclopedia",
+          "note": "Three men per Hittite chariot; 'Peace is better than fighting. Give us breath.'"
+        }
+      ]
+    },
+    {
+      "match": "peace treaty at the united nations",
+      "film": "the-battle-both-sides-won",
+      "claim": "A copper copy of the Egyptian–Hittite treaty, a gift from Turkey in 1970, hangs near the Security Council at UN headquarters.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.un.org/ungifts/node/615",
+          "title": "Replica of Peace Treaty between Hattusilis and Ramses II",
+          "publisher": "United Nations",
+          "note": "Copper copy, gift of Turkey, 24 September 1970."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Egyptian%E2%80%93Hittite_peace_treaty",
+          "title": "Egyptian–Hittite peace treaty",
+          "publisher": "Wikipedia",
+          "note": "Year 21 of Ramesses II; silver tablets; Karnak, Ramesseum and Hattusa copies; Champollion 1828; Winckler 1906–08; clauses; each side says the other asked for peace."
+        }
+      ]
+    },
+    {
+      "match": "texas remembers the alamo",
+      "film_id": "what-the-alamo-forgot",
+      "duration": "8 MIN",
+      "claim": "The Alamo, 1836: the line in the sand was first published in 1873; Crockett's death is disputed; about 15 people survived, including Joe, enslaved by Travis; Tejanos fought inside; and historians still argue about slavery's role in the revolution.",
+      "sources": [
+        {
+          "type": "historian",
+          "url": "https://www.worldhistory.org/Battle_of_the_Alamo/",
+          "title": "Battle of the Alamo",
+          "publisher": "World History Encyclopedia",
+          "note": "Siege 23 Feb – 6 Mar 1836; 185–250 defenders; 400–600 Mexican casualties; the red flag; Travis's letter; about 15 survivors; San Jacinto."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Texas_Revolution",
+          "title": "Texas Revolution",
+          "publisher": "Wikipedia",
+          "note": "Mexico's abolition of slavery and the Texas exemption; the 1830 law; the 1836 constitution."
+        },
+        {
+          "type": "historian",
+          "url": "https://briscoemuseum.org/a-line-in-the-sand/",
+          "title": "A Line in the Sand",
+          "publisher": "Briscoe Center for American History",
+          "note": "First published 1873; 'may have been a fabrication'."
+        },
+        {
+          "type": "press",
+          "url": "https://historynet.com/davys-death-at-the-alamo-is-now-a-case-closed-or-not/",
+          "title": "Davy's death at the Alamo: case closed, or not?",
+          "publisher": "HistoryNet",
+          "note": "The de la Peña account and the doubts about it."
+        },
+        {
+          "type": "press",
+          "url": "https://www.history.com/articles/who-survived-the-alamo",
+          "title": "Who survived the Alamo?",
+          "publisher": "History.com",
+          "note": "Susanna Dickinson, Joe, the Esparza family and others."
+        },
+        {
+          "type": "official",
+          "url": "https://www.austintexas.gov/sites/default/files/files/Parks/Dickinson/The_Other_Messengers_.pdf",
+          "title": "The Other Messengers",
+          "publisher": "Susanna Dickinson Museum, City of Austin",
+          "note": "Joe's escape in 1837."
+        },
+        {
+          "type": "press",
+          "url": "https://www.historynewsnetwork.org/article/what-forget-the-alamo-forgets",
+          "title": "What 'Forget the Alamo' forgets",
+          "publisher": "History News Network",
+          "note": "The slavery debate."
+        },
+        {
+          "type": "official",
+          "url": "https://www.thealamo.org/support/alamo-visitor-center-museum",
+          "title": "Alamo Visitor Center and Museum",
+          "publisher": "The Alamo"
+        },
+        {
+          "type": "images",
+          "url": "https://commons.wikimedia.org/wiki/Category:Battle_of_the_Alamo",
+          "title": "Paintings, engravings and photos",
+          "publisher": "Public domain / CC0 / CC BY / CC BY-SA, credited on screen"
+        }
+      ]
+    },
+    {
+      "match": "alamo s most famous scene",
+      "film": "what-the-alamo-forgot",
+      "claim": "The story of Travis's line in the sand was first published by William Zuber in 1873 and may have been a fabrication.",
+      "sources": [
+        {
+          "type": "historian",
+          "url": "https://briscoemuseum.org/a-line-in-the-sand/",
+          "title": "A Line in the Sand",
+          "publisher": "Briscoe Center for American History",
+          "note": "First published 1873; 'may have been a fabrication'."
+        },
+        {
+          "type": "historian",
+          "url": "https://www.worldhistory.org/Battle_of_the_Alamo/",
+          "title": "Battle of the Alamo",
+          "publisher": "World History Encyclopedia",
+          "note": "Siege 23 Feb – 6 Mar 1836; 185–250 defenders; 400–600 Mexican casualties; the red flag; Travis's letter; about 15 survivors; San Jacinto."
+        }
+      ]
+    },
+    {
+      "match": "how did davy crockett really die",
+      "film": "what-the-alamo-forgot",
+      "claim": "An account attributed to José Enrique de la Peña (published 1955) says Crockett was captured and executed; its authenticity is disputed.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://historynet.com/davys-death-at-the-alamo-is-now-a-case-closed-or-not/",
+          "title": "Davy's death at the Alamo: case closed, or not?",
+          "publisher": "HistoryNet",
+          "note": "The de la Peña account and the doubts about it."
+        },
+        {
+          "type": "historian",
+          "url": "https://www.worldhistory.org/Battle_of_the_Alamo/",
+          "title": "Battle of the Alamo",
+          "publisher": "World History Encyclopedia",
+          "note": "Siege 23 Feb – 6 Mar 1836; 185–250 defenders; 400–600 Mexican casualties; the red flag; Travis's letter; about 15 survivors; San Jacinto."
+        }
+      ]
+    },
+    {
+      "match": "enslaved man who survived the alamo",
+      "film": "what-the-alamo-forgot",
+      "claim": "Joe, enslaved by William Travis, survived the Alamo, was spared by the Mexican army, and escaped in 1837.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.history.com/articles/who-survived-the-alamo",
+          "title": "Who survived the Alamo?",
+          "publisher": "History.com",
+          "note": "Susanna Dickinson, Joe, the Esparza family and others."
+        },
+        {
+          "type": "official",
+          "url": "https://www.austintexas.gov/sites/default/files/files/Parks/Dickinson/The_Other_Messengers_.pdf",
+          "title": "The Other Messengers",
+          "publisher": "Susanna Dickinson Museum, City of Austin",
+          "note": "Joe's escape in 1837."
+        }
+      ]
+    },
+    {
+      "match": "remember the alamo was born",
+      "film": "what-the-alamo-forgot",
+      "claim": "At San Jacinto on 21 April 1836, Sam Houston's army defeated Santa Anna in about eighteen minutes, shouting 'Remember the Alamo! Remember Goliad!'.",
+      "sources": [
+        {
+          "type": "historian",
+          "url": "https://www.worldhistory.org/Battle_of_the_Alamo/",
+          "title": "Battle of the Alamo",
+          "publisher": "World History Encyclopedia",
+          "note": "Siege 23 Feb – 6 Mar 1836; 185–250 defenders; 400–600 Mexican casualties; the red flag; Travis's letter; about 15 survivors; San Jacinto."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Texas_Revolution",
+          "title": "Texas Revolution",
+          "publisher": "Wikipedia",
+          "note": "Mexico's abolition of slavery and the Texas exemption; the 1830 law; the 1836 constitution."
+        }
+      ]
+    },
+    {
+      "match": "hidden city under the pyramids",
+      "film_id": "the-city-that-wasnt-there",
+      "duration": "5 MIN",
+      "claim": "The 2025 claim of 650-metre shafts under Khafre's pyramid had no peer-reviewed paper; experts rejected it, and the team's 2022 paper was retracted in August 2026. Real muon physics found a void (2017) and a corridor (2023) in the Great Pyramid.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.newsweek.com/bombshell-great-pyramid-of-giza-study-retracted-12412886",
+          "title": "Great Pyramid of Giza study retracted (2026)",
+          "publisher": "Newsweek",
+          "note": "Remote Sensing retracted the 2022 paper on 10 August 2026: 'serious methodological flaws and statistical errors'; the March 2025 Khafre claims."
+        },
+        {
+          "type": "press",
+          "url": "https://egyptianstreets.com/2025/03/26/unraveling-the-pyramid-mystery-claims-of-an-underground-city-debunked/",
+          "title": "Claims of an underground city debunked (2025)",
+          "publisher": "Egyptian Streets",
+          "note": "Conyers, Hawass and others on the claims."
+        },
+        {
+          "type": "historian",
+          "url": "https://aps.org/publications/apsnews/201902/history.cfm",
+          "title": "Luis Alvarez and the pyramids",
+          "publisher": "APS News",
+          "note": "Muon survey of Khafre's pyramid, 1965–69: about 19% surveyed, no hidden chambers."
+        },
+        {
+          "type": "paper",
+          "url": "https://www.nature.com/articles/nature24647",
+          "title": "Discovery of a big void in Khufu's Pyramid by observation of cosmic-ray muons (2017)",
+          "publisher": "Nature"
+        },
+        {
+          "type": "press",
+          "url": "https://www.nationalgeographic.com/science/article/giza-pyramid-void-muon-radiography-cosmic-rays",
+          "title": "Muon radiography and the Great Pyramid",
+          "publisher": "National Geographic",
+          "note": "The 2023 North Face Corridor."
+        },
+        {
+          "type": "press",
+          "url": "https://www.archaeology.wiki/blog/2023/03/03/unknown-room-discovered-in-the-great-pyramid/",
+          "title": "Unknown room discovered in the Great Pyramid (2023)",
+          "publisher": "Archaeology Wiki",
+          "note": "Seen with a 5 mm endoscope."
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Pyramid_of_Khafre",
+          "title": "Pyramid of Khafre",
+          "publisher": "Wikipedia",
+          "note": "Dates, size, chambers; Belzoni, 1818."
+        },
+        {
+          "type": "images",
+          "url": "https://commons.wikimedia.org/wiki/Category:Pyramid_of_Khafre",
+          "title": "Photos, satellite radar images (Umbra) and drawings",
+          "publisher": "Public domain / CC0 / CC BY / CC BY-SA, credited on screen"
+        }
+      ]
+    },
+    {
+      "match": "underground city team just had its paper retracted",
+      "film": "the-city-that-wasnt-there",
+      "claim": "Remote Sensing retracted Biondi and Malanga's 2022 Great Pyramid paper on 10 August 2026, citing serious methodological flaws and statistical errors.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.newsweek.com/bombshell-great-pyramid-of-giza-study-retracted-12412886",
+          "title": "Great Pyramid of Giza study retracted (2026)",
+          "publisher": "Newsweek",
+          "note": "Remote Sensing retracted the 2022 paper on 10 August 2026: 'serious methodological flaws and statistical errors'; the March 2025 Khafre claims."
+        },
+        {
+          "type": "press",
+          "url": "https://egyptianstreets.com/2025/03/26/unraveling-the-pyramid-mystery-claims-of-an-underground-city-debunked/",
+          "title": "Claims of an underground city debunked (2025)",
+          "publisher": "Egyptian Streets",
+          "note": "Conyers, Hawass and others on the claims."
+        }
+      ]
+    },
+    {
+      "match": "look inside the pyramids without digging",
+      "film": "the-city-that-wasnt-there",
+      "claim": "Muon radiography: Alvarez found no hidden chambers in Khafre's pyramid (1960s); ScanPyramids found a big void in Khufu's (2017).",
+      "sources": [
+        {
+          "type": "historian",
+          "url": "https://aps.org/publications/apsnews/201902/history.cfm",
+          "title": "Luis Alvarez and the pyramids",
+          "publisher": "APS News",
+          "note": "Muon survey of Khafre's pyramid, 1965–69: about 19% surveyed, no hidden chambers."
+        },
+        {
+          "type": "paper",
+          "url": "https://www.nature.com/articles/nature24647",
+          "title": "Discovery of a big void in Khufu's Pyramid by observation of cosmic-ray muons (2017)",
+          "publisher": "Nature"
+        },
+        {
+          "type": "press",
+          "url": "https://www.nationalgeographic.com/science/article/giza-pyramid-void-muon-radiography-cosmic-rays",
+          "title": "Muon radiography and the Great Pyramid",
+          "publisher": "National Geographic",
+          "note": "The 2023 North Face Corridor."
+        }
+      ]
+    },
+    {
+      "match": "signed his name inside a pyramid",
+      "film": "the-city-that-wasnt-there",
+      "claim": "Giovanni Belzoni entered the pyramid of Khafre on 2 March 1818 and painted his name in the burial chamber.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Pyramid_of_Khafre",
+          "title": "Pyramid of Khafre",
+          "publisher": "Wikipedia",
+          "note": "Dates, size, chambers; Belzoni, 1818."
+        }
+      ]
+    },
+    {
+      "match": "hidden corridor was found inside the great pyramid",
+      "film": "the-city-that-wasnt-there",
+      "claim": "In 2023 ScanPyramids announced a sealed corridor behind the chevrons of the Great Pyramid, filmed with a 5 mm endoscope.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.archaeology.wiki/blog/2023/03/03/unknown-room-discovered-in-the-great-pyramid/",
+          "title": "Unknown room discovered in the Great Pyramid (2023)",
+          "publisher": "Archaeology Wiki",
+          "note": "Seen with a 5 mm endoscope."
+        },
+        {
+          "type": "press",
+          "url": "https://www.nationalgeographic.com/science/article/giza-pyramid-void-muon-radiography-cosmic-rays",
+          "title": "Muon radiography and the Great Pyramid",
+          "publisher": "National Geographic",
+          "note": "The 2023 North Face Corridor."
         }
       ]
     }
