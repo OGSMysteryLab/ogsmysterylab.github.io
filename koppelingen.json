@@ -1786,6 +1786,126 @@
           "note": "The 2023 North Face Corridor."
         }
       ]
+    },
+    {
+      "match": "how did they really build the great pyramid",
+      "claim": "About 2.3 million blocks, no wheels, no cranes. A 4,500-year-old logbook, a tomb painting of water poured on sand, a ramp found in 2018 and the workers' own town show how it was done. How the last blocks reached the top is still debated. Most images in this Short are AI illustrations, marked on screen.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Diary_of_Merer",
+          "title": "Diary of Merer",
+          "publisher": "Wikipedia",
+          "note": "The Wadi al-Jarf papyri: Merer's crew shipped limestone from Tura to Giza by boat for Khufu's pyramid."
+        },
+        {
+          "type": "press",
+          "url": "https://archaeology.org/issues/116-1401/features/1584-wadi-el-jarf-port-papyrus-khufu-cheops",
+          "title": "World's Oldest Port",
+          "publisher": "Archaeology Magazine",
+          "note": "The 2013 find of the papyri at Wadi al-Jarf, Khufu's harbour on the Red Sea."
+        },
+        {
+          "type": "paper",
+          "url": "https://iop.uva.nl/content/news/2014/00/prl-egyptian-pyramids.html",
+          "title": "Egyptians used wet sand to move pyramid stones",
+          "publisher": "University of Amsterdam",
+          "note": "2014 study (Physical Review Letters): the right amount of water roughly halves the force needed to pull a sledge; the Djehutihotep tomb painting shows a man pouring water."
+        },
+        {
+          "type": "press",
+          "url": "https://www.history.com/news/ancient-egypt-pyramid-ramp-discovery",
+          "title": "Ancient Egyptian ramp discovery",
+          "publisher": "History.com",
+          "note": "The steep ramp with staircases and post holes found at the Hatnub quarry in 2018, from the reign of Khufu."
+        },
+        {
+          "type": "press",
+          "url": "https://www.nbcnews.com/id/wbna34794254",
+          "title": "Egypt discovers workers' tombs near pyramids",
+          "publisher": "NBC News / Associated Press",
+          "note": "2010: the builders' tombs next to the pyramids, evidence they were paid workers, not slaves."
+        }
+      ]
+    },
+    {
+      "match": "is it amelia earhart s plane",
+      "claim": "In October 2026 a Purdue-led team sailed to Nikumaroro to check an object in the lagoon that some researchers think is Amelia Earhart's Electra. Others who searched the same spot say nothing is there. Until it is brought up, there is no proof.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.purdue.edu/newsroom/2026/Q4/earhart-expedition-update-crew-begins-6-day-sea-voyage-to-south-pacific-atoll-nikumaroro/",
+          "title": "Earhart expedition update: crew begins 6-day sea voyage to Nikumaroro",
+          "publisher": "Purdue University",
+          "note": "Departure from Tarawa on 7 October, sonar, magnetometer and dredge, a 17-member team."
+        },
+        {
+          "type": "press",
+          "url": "https://www.wlfi.com/2026/10/05/theres-something-there-researchers-believe-theyve-found-amelia-earharts-airplane/",
+          "title": "\"There's something there\": researchers believe they've found Amelia Earhart's airplane",
+          "publisher": "WLFI",
+          "note": "Quotes from Pettigrew and Hagle."
+        },
+        {
+          "type": "press",
+          "url": "https://www.cbsnews.com/news/amelia-earhart-expedition-taraia-object-pacific-ocean/",
+          "title": "Amelia Earhart expedition: the object in the lagoon",
+          "publisher": "CBS News",
+          "note": "The object has been visible in photos since 1938; TIGHAR's Ric Gillespie says nothing is there; a 2024 sonar image turned out to be rock."
+        }
+      ]
+    },
+    {
+      "match": "archive tells of a dying princess",
+      "claim": "At Kayalıpınar (ancient Šamuḫa) in Türkiye, archaeologists have found 184 Hittite clay tablets from the reign of Tudhaliya II, about 3,400 years old. They mention an epidemic, an infant princess and letters between generals.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://arkeonews.net/hittite-royal-archive-discovered-in-turkiye-reveals-a-3400-year-old-royal-tragedy/",
+          "title": "Hittite royal archive discovered in Türkiye reveals a 3,400-year-old royal tragedy",
+          "publisher": "Arkeonews",
+          "note": "131 tablets in 2026 and 53 in 2025; excavation director Çiğdem Maner."
+        }
+      ]
+    },
+    {
+      "match": "lost wonder of the world on a tiny ring",
+      "claim": "Divers off Alexandria found a bronze signet ring on the sunken island of Antirhodos that appears to show the Lighthouse of Alexandria, one of the Seven Wonders. Its owner is unknown. The images in this Short are historical drawings and reconstructions, not photos of the ring.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.smithsonianmag.com/smart-news/this-one-of-a-kind-bronze-ring-offers-a-tantalizing-glimpse-at-the-lighthouse-of-alexandria-a-lost-wonder-of-the-ancient-world-180989661/",
+          "title": "This one-of-a-kind bronze ring offers a tantalizing glimpse at the Lighthouse of Alexandria",
+          "publisher": "Smithsonian Magazine",
+          "note": "IEASM: the first ring of its kind known; the lighthouse stood for over a thousand years and fell after 14th-century earthquakes."
+        }
+      ]
+    },
+    {
+      "match": "went diving for trash",
+      "claim": "A volunteer diver cleaning trash from Pewaukee Lake, Wisconsin, found a 17-foot white-oak dugout canoe dated to about 992–1049 CE. At the wish of local Indigenous nations it stays underwater. The canoe shown in this Short is a different dugout, photographed in Lake Mendota in 2021.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.smithsonianmag.com/smart-news/a-diver-volunteered-to-clean-up-trash-from-a-wisconsin-lake-he-discovered-a-1000-year-old-dugout-canoe-at-the-bottom-instead-180989622/",
+          "title": "A diver volunteered to clean up trash from a Wisconsin lake. He discovered a 1,000-year-old dugout canoe instead",
+          "publisher": "Smithsonian Magazine",
+          "note": "Mark Schachtner, 6 May 2026; about 15 feet deep; radiocarbon date 992–1049 CE."
+        }
+      ]
+    },
+    {
+      "match": "found korea s oldest gun",
+      "claim": "Soldiers sweeping for land mines on Geumseongsan near Naju found a bronze gun barrel inscribed with 28 characters, dated to 1377 or 1437. It is the oldest gunpowder weapon ever found in Korea.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.smithsonianmag.com/smart-news/soldiers-sweeping-for-land-mines-in-south-korea-have-unearthed-the-countrys-oldest-gun-a-600-year-old-inscribed-bronze-tube-180989610/",
+          "title": "Soldiers sweeping for land mines in South Korea have unearthed the country's oldest gun",
+          "publisher": "Smithsonian Magazine",
+          "note": "Found in 2023; the inscription names An Hyu-bo and the artisan Seok."
+        }
+      ]
     }
   ]
 }

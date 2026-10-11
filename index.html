@@ -387,7 +387,7 @@ if(!ids[it.film_id]){ delete ids[e.id]; e.id = it.film_id; ids[e.id] = true; }
 e.format = 'LONG'; if(it.duration && !e.duration) e.duration = it.duration;
 e.claim = it.claim || ''; e.sources = (it.sources||[]).slice();
 } else {
-e.claim = it.claim || ''; e.sources = (it.sources||[]).concat([filmLink(it.film, films)]);
+e.claim = it.claim || ''; e.sources = (it.sources||[]).concat(it.film ? [filmLink(it.film, films)] : []);
 }
 e._gekoppeld = true;
 break;
