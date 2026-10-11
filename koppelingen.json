@@ -1934,6 +1934,34 @@
           "note": "The carved crosses, and the readings of the stones as memorial markers."
         }
       ]
+    },
+    {
+      "match": "excavation never happened",
+      "film": "the-boat-on-the-mountain",
+      "claim": "Viral clips show a giant wooden ship being dug out of a mountain. No such excavation exists. The real Durupinar site is a hill of earth and rock; in 2026 the team drilled narrow cores, plans no large excavation, and has not yet identified any ancient wood. Lab results are expected over winter 2026–27. The excavation image in this Short is an AI illustration, marked on screen as not real.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.newsweek.com/noahs-ark-hunters-say-they-havent-found-ancient-wood-yet-12494934",
+          "title": "Noah’s Ark Hunters Testing for Wood After Drilling Mission",
+          "publisher": "Newsweek",
+          "note": "Andrew Jones: no material identified as ancient wood yet; no plan for large-scale excavation; lab results over the winter."
+        },
+        {
+          "type": "press",
+          "url": "https://greekcitytimes.com/2026/10/01/researchers-drill-at-turkeys-controversial-noahs-ark-site/",
+          "title": "Researchers Drill at Turkey’s Controversial Noah’s Ark Site",
+          "publisher": "Greek City Times",
+          "note": "Core drilling, the radar claims, the Gopher robot, and the sceptical geologists."
+        },
+        {
+          "type": "press",
+          "url": "https://arkeonews.net/noahs-ark-mystery-deepens-as-new-discoveries-emerge-near-mount-ararat/",
+          "title": "Noah’s Ark Mystery Deepens as New Discoveries Emerge Near Mount Ararat",
+          "publisher": "Arkeonews",
+          "note": "The 2026 field season; laboratory results expected over winter 2026–27."
+        }
+      ]
     }
   ]
 }
