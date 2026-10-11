@@ -1906,6 +1906,34 @@
           "note": "Found in 2023; the inscription names An Hyu-bo and the artisan Seok."
         }
       ]
+    },
+    {
+      "match": "stones with a hole in each",
+      "film": "the-boat-on-the-mountain",
+      "claim": "Near the Durupinar formation, in the village of Kazan (formerly Arzap), stand large stones with holes cut through their tops. Ron Wyatt and David Fasold called them drogue stones, anchors for the Ark. In 1996 Fasold and geologist Lorence Collins identified the rock as local volcanic stone. Some images in this Short are AI illustrations, marked on screen.",
+      "sources": [
+        {
+          "type": "paper",
+          "url": "https://en.wikipedia.org/wiki/Arzap_Drogue_Stones",
+          "title": "Durupinar site: the Arzap drogue stones",
+          "publisher": "Wikipedia",
+          "note": "Wyatt and Fasold called them drogue stones; Collins and Fasold (Journal of Geoscience Education, 1996): local andesite, not brought from Mesopotamia."
+        },
+        {
+          "type": "press",
+          "url": "https://arkeonews.net/noahs-ark-mystery-deepens-as-new-discoveries-emerge-near-mount-ararat/",
+          "title": "Noah’s Ark Mystery Deepens as New Discoveries Emerge Near Mount Ararat",
+          "publisher": "Arkeonews",
+          "note": "The stones are not part of the 2026 finds; lab results from the 2026 season expected over winter 2026–27."
+        },
+        {
+          "type": "reference",
+          "url": "https://medium.com/@archie55/noahs-flood-update-part-three-the-drogue-stones-ffa9e183538d",
+          "title": "Noah’s Flood Update, Part Three: The Drogue Stones",
+          "publisher": "Medium",
+          "note": "The carved crosses, and the readings of the stones as memorial markers."
+        }
+      ]
     }
   ]
 }
