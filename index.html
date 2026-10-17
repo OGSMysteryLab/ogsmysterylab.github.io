@@ -137,6 +137,7 @@ border-radius:999px;padding:0 16px;transition:border-color .18s,box-shadow .18s,
 #f-all[aria-pressed="true"]{color:var(--green);border-color:rgba(53,208,127,.55);box-shadow:0 0 22px -10px rgba(53,208,127,.9)}
 #f-fact[aria-pressed="true"]{color:#8CC6FF;border-color:rgba(79,168,255,.55);box-shadow:0 0 22px -10px rgba(79,168,255,.9)}
 #f-myth[aria-pressed="true"]{color:var(--yellow);border-color:rgba(245,217,10,.55);box-shadow:0 0 22px -10px rgba(245,217,10,.9)}
+#f-short[aria-pressed="true"]{color:#9FD3FF;border-color:rgba(120,190,255,.55);box-shadow:0 0 22px -10px rgba(120,190,255,.9)}
 #f-whatif[aria-pressed="true"]{color:var(--green);border-color:rgba(53,208,127,.55);box-shadow:0 0 22px -10px rgba(53,208,127,.9)}
 .count{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);margin-left:auto}
 
@@ -212,6 +213,52 @@ details.srcbox>summary:hover{color:var(--green);border-color:rgba(53,208,127,.32
 
 @media (max-width:640px){.ep-head{grid-template-columns:1fr}.count{margin-left:0}.testwrap{padding:12px 12px}}
 @media (prefers-reduced-motion:no-preference){.ep,.chip,.watch,.yt{transition:border-color .2s,background .2s,color .2s,box-shadow .2s}}
+
+/* ---------- homepage: categories first, lists one click away ---------- */
+.home{padding-block:8px 6px}
+.sec{font-family:var(--display);font-weight:700;font-size:clamp(18px,2.3vw,22px);margin:0 0 4px;letter-spacing:-.015em}
+.sec-sub{margin:0 0 14px;color:var(--ink-3);font-size:13px}
+.cats{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px}
+.cat{position:relative;overflow:hidden;text-align:left;font:inherit;color:var(--ink);cursor:pointer;
+  display:flex;flex-direction:column;gap:6px;padding:16px 16px 14px 18px;border-radius:14px;border:1px solid var(--line-2);
+  background:var(--panel);transition:transform .16s cubic-bezier(.2,.8,.3,1),border-color .16s,box-shadow .16s,background .16s}
+.cat::before{content:"";position:absolute;inset:0 auto 0 0;width:4px;background:var(--c)}
+.cat::after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(120% 120% at 100% 0%,var(--g),transparent 60%)}
+.cat .k{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.1em;color:var(--c)}
+.cat b{font-family:var(--display);font-size:34px;line-height:1;font-weight:800;letter-spacing:-.02em}
+.cat .d{color:var(--ink-2);font-size:13px;line-height:1.4;position:relative;z-index:1}
+.cat .go{margin-top:auto;padding-top:6px;font-family:var(--mono);font-size:11.5px;font-weight:600;color:var(--c);position:relative;z-index:1}
+.cat:hover,.cat:focus-visible{transform:translateY(-2px);border-color:var(--c);box-shadow:0 14px 34px -20px var(--c);outline:0}
+.c-LONG{--c:#FFB367;--g:rgba(255,159,69,.13)}
+.c-SHORT{--c:#8CC6FF;--g:rgba(79,168,255,.12)}
+.c-MYTH{--c:var(--yellow);--g:rgba(245,217,10,.10)}
+.c-WHATIF{--c:var(--green);--g:rgba(53,208,127,.11)}
+.c-LONG{grid-column:span 2}
+@media (max-width:560px){.c-LONG{grid-column:auto}}
+.latest{margin-top:22px}
+.lhead{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:8px}
+.lhead h3{font-family:var(--display);font-size:17px;margin:0;font-weight:700}
+.linkbtn{font:inherit;font-family:var(--mono);font-size:11.5px;font-weight:600;color:#FFB367;background:none;border:0;cursor:pointer;padding:4px 0}
+.linkbtn:hover{text-decoration:underline;text-underline-offset:3px}
+.allbtn{margin-top:14px;width:100%;font:inherit;font-family:var(--mono);font-size:12px;font-weight:600;letter-spacing:.04em;color:var(--ink-2);
+  background:var(--panel);border:1px dashed var(--line-2);border-radius:12px;padding:12px;cursor:pointer;transition:color .16s,border-color .16s}
+.allbtn:hover{color:var(--green);border-color:rgba(53,208,127,.5)}
+.viewbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding-top:24px}
+.back{font:inherit;font-family:var(--mono);font-size:11.5px;font-weight:600;color:var(--ink-2);background:var(--panel);border:1px solid var(--line-2);
+  border-radius:999px;padding:7px 13px;cursor:pointer;transition:color .16s,border-color .16s}
+.back:hover{color:var(--green);border-color:rgba(53,208,127,.5)}
+.viewbar h2{font-family:var(--display);font-weight:700;font-size:clamp(19px,2.5vw,24px);margin:0;letter-spacing:-.015em}
+.viewbar p{flex-basis:100%;margin:0;color:var(--ink-3);font-size:13px}
+details.kids{margin-top:8px;border-top:1px dashed var(--line-2);padding-top:6px}
+details.kids>summary{list-style:none;cursor:pointer;font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.07em;color:#9FD3FF;
+  display:inline-flex;align-items:center;gap:7px;padding:3px 11px 3px 9px;border-radius:999px;border:1px solid transparent}
+details.kids>summary::-webkit-details-marker{display:none}
+details.kids>summary::before{content:"\25B8";font-size:12px;line-height:1}
+details.kids[open]>summary::before{content:"\25BE"}
+details.kids>summary:hover{border-color:rgba(120,190,255,.35);background:rgba(120,190,255,.07)}
+.kidlist{display:grid;gap:6px;margin-top:8px}
+.kidlist .ep{background:var(--panel-2)}
+[hidden]{display:none!important}
 </style>
 </head>
 <body>
@@ -236,28 +283,52 @@ details.srcbox>summary:hover{color:var(--green);border-color:rgba(53,208,127,.32
 
 <section class="intro">
 <h2>Short videos, <span class="hl">long receipts.</span></h2>
-<p class="sub">Every claim in every episode, traced back to where it came from. Start with the test — then find your episode below.</p>
-<div class="testwrap">
-<iframe id="testframe" src="/test/?embed=1&amp;v=9" title="How wrong are you? Ten statements, every answer sourced." loading="lazy" scrolling="no"></iframe>
-</div>
+<p class="sub">Every claim in every episode, traced back to where it came from. Pick a category below, or search for an episode.</p>
+
 </section>
 
+
+
+
+<div class="viewbar" id="viewbar" hidden>
+<button class="back" type="button" id="back">&larr; All categories</button>
+<h2 id="vtitle"></h2>
+<p id="vsub"></p>
+</div>
 <div class="tools" role="search">
 <label class="search">
 <span aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="10.8" cy="10.8" r="6.4"/><path d="M15.6 15.6 20 20"/></svg></span>
 <input id="q" type="search" placeholder="Search an episode or a source…" autocomplete="off">
 </label>
-<div class="chips" role="group" aria-label="Filter by format">
-<button class="chip" id="f-all" data-f="ALL" aria-pressed="true">ALL</button>
-<button class="chip" id="f-fact" data-f="FACT" aria-pressed="false">FACT</button>
-<button class="chip" id="f-myth" data-f="MYTH" aria-pressed="false">MYTH CHECK</button>
-<button class="chip" id="f-whatif" data-f="WHATIF" aria-pressed="false">WHAT IF</button>
+<div class="chips" role="group" aria-label="Category">
 <button class="chip" id="f-long" data-f="LONG" aria-pressed="false">FULL EPISODES</button>
 <button class="chip" id="f-short" data-f="SHORT" aria-pressed="false">SHORT REELS</button>
+<button class="chip" id="f-myth" data-f="MYTH" aria-pressed="false">MYTH CHECK</button>
+<button class="chip" id="f-whatif" data-f="WHATIF" aria-pressed="false">WHAT IF</button>
+<button class="chip" id="f-all" data-f="ALL" aria-pressed="false">ALL</button>
 </div>
 <span class="count" id="count"></span>
 </div>
 
+<section class="home" id="home" aria-labelledby="home-h">
+<h2 class="sec" id="home-h">What do you want to watch?</h2>
+<p class="sec-sub">Pick a category. Every episode has its full list of sources.</p>
+<div class="cats">
+<button class="cat c-LONG" type="button" data-v="LONG"><span class="k">FULL EPISODES</span><b id="n-LONG">&ndash;</b><span class="d">Our long films: the whole story, start to finish, with every source.</span><span class="go">Watch the full episodes &rarr;</span></button>
+<button class="cat c-SHORT" type="button" data-v="SHORT"><span class="k">SHORT REELS</span><b id="n-SHORT">&ndash;</b><span class="d">The one-minute videos from YouTube, Facebook, Instagram and TikTok.</span><span class="go">See the shorts &rarr;</span></button>
+<button class="cat c-MYTH" type="button" data-v="MYTH"><span class="k">MYTH CHECKS</span><b id="n-MYTH">&ndash;</b><span class="d">Things everyone believes, checked against the evidence.</span><span class="go">Check the myths &rarr;</span></button>
+<button class="cat c-WHATIF" type="button" data-v="WHATIF"><span class="k">WHAT IF</span><b id="n-WHATIF">&ndash;</b><span class="d">Thought experiments, built on real facts.</span><span class="go">Explore &rarr;</span></button>
+</div>
+<div class="latest">
+<div class="lhead"><h3>Newest full episodes</h3><button class="linkbtn" type="button" data-v="LONG">See all full episodes &rarr;</button></div>
+<div class="list" id="latest"></div>
+</div>
+<h3 class="sec" style="margin-top:26px;font-size:17px">Think you know history?</h3>
+<div class="testwrap">
+<iframe id="testframe" src="/test/?embed=1&amp;v=9" title="How wrong are you? Ten statements, every answer sourced." loading="lazy" scrolling="no"></iframe>
+</div>
+<button class="allbtn" type="button" data-v="ALL" id="allbtn">Browse every episode &rarr;</button>
+</section>
 <main class="list" id="list" aria-live="polite"></main>
 
 <details class="rules">
@@ -280,86 +351,171 @@ details.srcbox>summary:hover{color:var(--green);border-color:rgba(53,208,127,.32
 (function(){
 var episodes = [];
 var list = document.getElementById('list'), q = document.getElementById('q'), count = document.getElementById('count');
+var home = document.getElementById('home'), latest = document.getElementById('latest');
+var viewbar = document.getElementById('viewbar'), vtitle = document.getElementById('vtitle'), vsub = document.getElementById('vsub');
 var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
 var fmtLabel = {FACT:'FACT', MYTH:'MYTH CHECK', WHATIF:'WHAT IF', LONG:'FULL EPISODE'};
-var filter = 'ALL';
+// Weergaven: HOME (startpagina met categorieen) of een lijst. In de adresbalk als ?v=full enz.,
+// zodat de terugknop van de browser werkt en je een categorie kunt delen.
+var VIEWS = {
+  LONG:   {slug:'full',    title:'Full episodes', sub:'Our long films, newest first. Open one to see its sources and the short reels made from it.'},
+  SHORT:  {slug:'shorts',  title:'Short reels',   sub:'The one-minute videos. Each one links to the full episode it comes from.'},
+  MYTH:   {slug:'myths',   title:'Myth checks',   sub:'Things everyone believes, checked against the evidence.'},
+  WHATIF: {slug:'whatif',  title:'What if',       sub:'Thought experiments, built on real facts.'},
+  ALL:    {slug:'all',     title:'All episodes',  sub:'Every episode, with its short reels grouped under the full film.'}
+};
+var view = 'HOME';
+var ouder = {}, titelVan = {}, filmVan = {}, kidsVan = {};
 
 function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
 function clean(t){ return String(t || '').split('#')[0].replace(/[\s|–-]+$/,'').trim(); }
 function host(u){ try { return new URL(u).hostname.replace(/^www\./,''); } catch(e){ return ''; } }
 function fmtDate(d){ if(!d) return ''; var p=d.split('-'); var m=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']; return (+p[2])+' '+m[+p[1]-1]+' '+p[0]; }
+function viewFromUrl(){ var v = new URLSearchParams(location.search).get('v'); for(var k in VIEWS){ if(VIEWS[k].slug === v) return k; } return 'HOME'; }
 
-function render(){
-var term = q.value.trim().toLowerCase();
-// Shorts horen onder hun lange film: eerst de film, dan zijn Shorts, dan de volgende film.
 // Een Short hoort bij een film als een van zijn bronnen 'full film' is en naar #<id van de film> wijst.
-var ouder = {};
-episodes.forEach(function(e){
-(e.sources||[]).forEach(function(s){
-if(String(s.type).toLowerCase() === 'full film'){ var m = String(s.url||'').match(/#(.+)$/); if(m && m[1] !== e.id) ouder[e.id] = m[1]; }
-});
-});
-var shown = episodes.filter(function(e){
-if(filter === 'SHORT'){ if(!ouder[e.id]) return false; }
-else if(filter !== 'ALL' && e.format !== filter) return false;
-if(!term) return true;
-var hay = [clean(e.title), e.claim, e.verdict, (e.sources||[]).map(function(s){ return s.title+' '+s.publisher+' '+s.note; }).join(' ')].join(' ').toLowerCase();
-return hay.indexOf(term) !== -1;
-}).sort(function(a,b){ return (b.ep||0)-(a.ep||0); });
-
-var zichtbaar = {}; shown.forEach(function(e){ zichtbaar[e.id] = true; });
-var kinderen = {};
-shown.forEach(function(e){ var o = ouder[e.id]; if(o && zichtbaar[o]){ (kinderen[o] = kinderen[o] || []).push(e); } });
-var groepen = [];
-shown.forEach(function(e){
-var o = ouder[e.id];
-if(o && zichtbaar[o]) return;
-var leden = [e].concat((kinderen[e.id] || []).sort(function(a,b){ return (a.ep||0)-(b.ep||0); }));
-var hoogste = Math.max.apply(null, leden.map(function(x){ return x.ep||0; }));
-groepen.push({hoogste: hoogste, leden: leden});
-});
-groepen.sort(function(a,b){ return b.hoogste - a.hoogste; });
-var titelVan = {}, filmVan = {}; episodes.forEach(function(e){ titelVan[e.id] = clean(e.title); filmVan[e.id] = e; });
-shown = [];
-groepen.forEach(function(g){ g.leden.forEach(function(e, i){ e._kind = i > 0; shown.push(e); }); });
-
-count.textContent = shown.length + ' of ' + episodes.length + ' episode' + (episodes.length===1?'':'s');
-if(!shown.length){ list.innerHTML = '<div class="empty">No episode matches that. Try another word, or clear the filter.</div>'; return; }
-
-list.innerHTML = shown.map(function(e){
-var srcs = (e.sources||[]);
-var open = ('#'+e.id) === location.hash ? ' open' : '';
-var body = srcs.length
-? '<details class="srcbox"'+open+'><summary>Sources ('+srcs.length+')</summary><ul class="src">' + srcs.map(function(s){
-return '<li><span class="tag">'+esc(s.type||'source')+'</span><div><a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.title)+'</a> <span class="pub">— '+esc(s.publisher||host(s.url))+'</span>'+(s.note?'<span class="note">'+esc(s.note)+'</span>':'')+'</div></li>';
-}).join('') + '</ul></details>'
-: '<p class="pending">The full source list for this episode is being added here. Until then, the sources are in the video description on YouTube.</p>';
-return '<article class="ep f-'+esc(e.format)+(e._kind?' child':'')+'" id="'+esc(e.id)+'">'
-+ '<div class="ep-head"><div>'
-+ '<div class="eyebrow">'+(ouder[e.id] ? '<span class="fmt SHORT">SHORT REEL</span>' : '<span class="fmt '+esc(e.format)+'">'+esc(fmtLabel[e.format]||e.format)+'</span>')+'<span>EP '+String(e.ep).padStart(3,'0')+'</span><span>'+esc(fmtDate(e.date))+'</span>'+(e.duration?'<span class="dur">'+esc(e.duration)+'</span>':'')+'</div>'
-+ (ouder[e.id] && titelVan[ouder[e.id]] ? '<div class="fromfilm">From the full episode: <a href="#'+esc(ouder[e.id])+'">'+esc(titelVan[ouder[e.id]])+'</a></div>' : '')
-+ '<h3>'+esc(clean(e.title))+'</h3>'
-+ (e.claim?'<p class="claim">'+esc(e.claim)+'</p>':'')
-+ (e.verdict?'<div class="verdict"><span>VERDICT</span><b>'+esc(e.verdict)+'</b></div>':'')
-+ '</div>'
-+ '<div class="acts">'
-+ (e.youtube?'<a class="watch" href="'+esc(e.youtube)+'" target="_blank" rel="noopener"><span class="p">\u25B6</span>'+(ouder[e.id]?'Watch reel':'Watch')+'</a>':'')
-+ (ouder[e.id] && filmVan[ouder[e.id]] && filmVan[ouder[e.id]].youtube ? '<a class="watch" href="'+esc(filmVan[ouder[e.id]].youtube)+'" target="_blank" rel="noopener"><span class="p">\u25B6</span>Full episode</a>' : '')
-+ '<button class="copy" type="button" data-link="'+esc(e.id)+'">Copy source link</button>'
-+ '</div>'
-+ '</div>' + body + '</article>';
-}).join('');
-
-if(location.hash){ var t=document.getElementById(location.hash.slice(1)); if(t) t.scrollIntoView({block:'start'}); }
+function indexeer(){
+  ouder = {}; titelVan = {}; filmVan = {}; kidsVan = {};
+  episodes.forEach(function(e){ titelVan[e.id] = clean(e.title); filmVan[e.id] = e; });
+  episodes.forEach(function(e){
+    (e.sources||[]).forEach(function(s){
+      if(String(s.type).toLowerCase() === 'full film'){ var m = String(s.url||'').match(/#(.+)$/); if(m && m[1] !== e.id && filmVan[m[1]]) ouder[e.id] = m[1]; }
+    });
+  });
+  episodes.forEach(function(e){ var o = ouder[e.id]; if(o){ (kidsVan[o] = kidsVan[o] || []).push(e); } });
+  for(var k in kidsVan) kidsVan[k].sort(function(a,b){ return (a.ep||0)-(b.ep||0); });
+}
+function inView(e, v){
+  if(v === 'LONG') return e.format === 'LONG';
+  if(v === 'SHORT') return e.format !== 'LONG';
+  if(v === 'MYTH' || v === 'WHATIF') return e.format === v;
+  return true;
+}
+function matches(e, term){
+  if(!term) return true;
+  var hay = [clean(e.title), e.claim, e.verdict, (e.sources||[]).map(function(s){ return s.title+' '+s.publisher+' '+s.note; }).join(' ')].join(' ').toLowerCase();
+  return hay.indexOf(term) !== -1;
 }
 
+function card(e, opts){
+  opts = opts || {};
+  var srcs = (e.sources||[]);
+  var open = ('#'+e.id) === location.hash ? ' open' : '';
+  var isShort = !!ouder[e.id];
+  var body = srcs.length
+  ? '<details class="srcbox"'+open+'><summary>Sources ('+srcs.length+')</summary><ul class="src">' + srcs.map(function(s){
+  return '<li><span class="tag">'+esc(s.type||'source')+'</span><div><a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.title)+'</a> <span class="pub">— '+esc(s.publisher||host(s.url))+'</span>'+(s.note?'<span class="note">'+esc(s.note)+'</span>':'')+'</div></li>';
+  }).join('') + '</ul></details>'
+  : '<p class="pending">The full source list for this episode is being added here. Until then, the sources are in the video description on YouTube.</p>';
+  var kids = (opts.withKids && kidsVan[e.id]) ? kidsVan[e.id] : [];
+  var kidsHtml = kids.length
+  ? '<details class="kids"><summary>'+kids.length+' short reel'+(kids.length===1?'':'s')+' from this film</summary><div class="kidlist">'+kids.map(function(k){ return card(k, {child:true, noFrom:true}); }).join('')+'</div></details>'
+  : '';
+  var idAttr = opts.noId ? '' : ' id="'+esc(e.id)+'"';
+  return '<article class="ep f-'+esc(e.format)+(opts.child?' child':'')+'"'+idAttr+'>'
+  + '<div class="ep-head"><div>'
+  + '<div class="eyebrow">'+(isShort ? '<span class="fmt SHORT">SHORT REEL</span>' : '<span class="fmt '+esc(e.format)+'">'+esc(fmtLabel[e.format]||e.format)+'</span>')+'<span>EP '+String(e.ep).padStart(3,'0')+'</span><span>'+esc(fmtDate(e.date))+'</span>'+(e.duration?'<span class="dur">'+esc(e.duration)+'</span>':'')+'</div>'
+  + (isShort && !opts.noFrom && titelVan[ouder[e.id]] ? '<div class="fromfilm">From the full episode: <a href="#'+esc(ouder[e.id])+'">'+esc(titelVan[ouder[e.id]])+'</a></div>' : '')
+  + '<h3>'+esc(clean(e.title))+'</h3>'
+  + (e.claim?'<p class="claim">'+esc(e.claim)+'</p>':'')
+  + (e.verdict?'<div class="verdict"><span>VERDICT</span><b>'+esc(e.verdict)+'</b></div>':'')
+  + '</div>'
+  + '<div class="acts">'
+  + (e.youtube?'<a class="watch" href="'+esc(e.youtube)+'" target="_blank" rel="noopener"><span class="p">▶</span>'+(isShort?'Watch reel':'Watch')+'</a>':'')
+  + (isShort && !opts.noFrom && filmVan[ouder[e.id]] && filmVan[ouder[e.id]].youtube ? '<a class="watch" href="'+esc(filmVan[ouder[e.id]].youtube)+'" target="_blank" rel="noopener"><span class="p">▶</span>Full episode</a>' : '')
+  + '<button class="copy" type="button" data-link="'+esc(e.id)+'">Copy source link</button>'
+  + '</div>'
+  + '</div>' + body + kidsHtml + '</article>';
+}
+
+function counts(){
+  ['LONG','SHORT','MYTH','WHATIF'].forEach(function(v){
+    var n = episodes.filter(function(e){ return inView(e, v); }).length;
+    var el = document.getElementById('n-'+v); if(el){ el.textContent = n; el.closest('.cat').hidden = !n; }
+    chips.forEach(function(c){ if(c.getAttribute('data-f') === v) c.hidden = !n; });
+  });
+  var ab = document.getElementById('allbtn'); if(ab) ab.innerHTML = 'Browse every episode ('+episodes.length+') &rarr;';
+}
+
+function render(){
+  var term = q.value.trim().toLowerCase();
+  var v = (view === 'HOME' && term) ? 'ALL' : view;
+  var onHome = (v === 'HOME');
+  home.hidden = !onHome; viewbar.hidden = onHome; list.hidden = onHome; count.hidden = onHome;
+  document.querySelector('.chips').hidden = onHome;
+  chips.forEach(function(x){ x.setAttribute('aria-pressed', x.getAttribute('data-f') === v ? 'true' : 'false'); });
+
+  if(onHome){
+    counts();
+    var nieuw = episodes.filter(function(e){ return e.format === 'LONG'; }).sort(function(a,b){ return (b.ep||0)-(a.ep||0); }).slice(0,3);
+    latest.innerHTML = nieuw.map(function(e){ return card(e, {noId:true}); }).join('');
+    return;
+  }
+  vtitle.textContent = (term && view === 'HOME') ? 'Search results' : VIEWS[v].title;
+  vsub.textContent = (term && view === 'HOME') ? 'Searching all episodes.' : VIEWS[v].sub;
+
+  var shown = episodes.filter(function(e){ return inView(e, v) && matches(e, term); }).sort(function(a,b){ return (b.ep||0)-(a.ep||0); });
+  var html = '', n = shown.length;
+  if(v === 'ALL'){
+    // Shorts onder hun lange film: eerst de film, dan zijn Shorts, dan de volgende film.
+    var zichtbaar = {}; shown.forEach(function(e){ zichtbaar[e.id] = true; });
+    var kinderen = {};
+    shown.forEach(function(e){ var o = ouder[e.id]; if(o && zichtbaar[o]){ (kinderen[o] = kinderen[o] || []).push(e); } });
+    var groepen = [];
+    shown.forEach(function(e){
+      var o = ouder[e.id]; if(o && zichtbaar[o]) return;
+      var leden = [e].concat((kinderen[e.id] || []).sort(function(a,b){ return (a.ep||0)-(b.ep||0); }));
+      groepen.push({hoogste: Math.max.apply(null, leden.map(function(x){ return x.ep||0; })), leden: leden});
+    });
+    groepen.sort(function(a,b){ return b.hoogste - a.hoogste; });
+    groepen.forEach(function(g){ g.leden.forEach(function(e, i){ html += card(e, {child: i > 0}); }); });
+  } else if(v === 'LONG'){
+    html = shown.map(function(e){ return card(e, {withKids:true}); }).join('');
+  } else {
+    html = shown.map(function(e){ return card(e); }).join('');
+  }
+  var totaal = episodes.filter(function(e){ return inView(e, v); }).length;
+  count.textContent = n + ' of ' + totaal + ' episode' + (totaal===1?'':'s');
+  list.innerHTML = n ? html : '<div class="empty">No episode matches that. Try another word, or pick another category.</div>';
+
+  if(location.hash){
+    var t = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if(t){ var d = t.querySelector('details.srcbox'); if(d) d.open = true; t.scrollIntoView({block:'start'}); }
+  }
+}
+
+function go(v, push){
+  view = v;
+  if(push !== false){
+    var url = location.pathname + (v === 'HOME' ? '' : '?v=' + VIEWS[v].slug);
+    history.pushState({v: v}, '', url);
+  }
+  render();
+  if(v !== 'HOME'){ var top = viewbar.getBoundingClientRect().top + window.scrollY - 8; window.scrollTo({top: top}); }
+  else { window.scrollTo({top: 0}); }
+}
+// Een link als #the-devils-bible (uit een reactie of beschrijving) opent de juiste categorie met de bronnen open.
+function volgHash(){
+  var id = decodeURIComponent(location.hash.slice(1)); if(!id || !filmVan[id]) return false;
+  var e = filmVan[id];
+  view = (e.format === 'LONG') ? 'LONG' : 'ALL';
+  q.value = '';
+  return true;
+}
+
+document.addEventListener('click', function(ev){
+  var b = ev.target.closest('[data-v]'); if(!b) return;
+  if(location.hash) history.replaceState(null, '', location.pathname + location.search);
+  go(b.getAttribute('data-v'));
+});
 chips.forEach(function(c){ c.addEventListener('click', function(){
-filter = c.getAttribute('data-f');
-chips.forEach(function(x){ x.setAttribute('aria-pressed', x===c ? 'true' : 'false'); });
-render();
+  if(location.hash) history.replaceState(null, '', location.pathname + location.search);
+  go(c.getAttribute('data-f'));
 }); });
+document.getElementById('back').addEventListener('click', function(){ q.value = ''; history.replaceState(null, '', location.pathname + location.search); go('HOME'); });
 q.addEventListener('input', render);
-window.addEventListener('hashchange', render);
+window.addEventListener('hashchange', function(){ if(volgHash()){ var url = location.pathname + '?v=' + VIEWS[view].slug + location.hash; history.replaceState({v:view}, '', url); } render(); });
+window.addEventListener('popstate', function(){ view = viewFromUrl(); if(location.hash) volgHash(); render(); });
 list.addEventListener('click', function(ev){
 var b = ev.target.closest('.copy'); if(!b) return;
 var url = location.origin + location.pathname + '#' + b.getAttribute('data-link');
@@ -367,6 +523,13 @@ var done = function(){ b.textContent = 'Copied'; b.setAttribute('data-done','1')
 if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done, function(){ prompt('Copy this link:', url); }); }
 else { prompt('Copy this link:', url); }
 });
+latest.addEventListener('click', function(ev){
+var b = ev.target.closest('.copy'); if(!b) return;
+var url = location.origin + location.pathname + '#' + b.getAttribute('data-link');
+b.textContent = 'Copied'; if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url); }
+setTimeout(function(){ b.textContent='Copy source link'; }, 1800);
+});
+function start(){ indexeer(); counts(); view = viewFromUrl(); volgHash(); render(); }
 // De test staat in een kader op deze pagina. Hij laat zelf weten hoe hoog hij is, zodat er geen scrollbalk
 // binnen een scrollbalk ontstaat als een vraag langer of korter is.
 window.addEventListener('message', function(ev){
@@ -420,7 +583,7 @@ if(best) e.sources = [filmLink(best.f.id, films)];
 fetch('episodes.json', {cache:'no-store'}).then(function(r){ return r.json(); }).then(function(d){
 episodes = d;
 return fetch('koppelingen.json', {cache:'no-store'}).then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; });
-}).then(function(k){ if(k){ try { koppel(episodes, k); } catch(e){} } render(); })
+}).then(function(k){ if(k){ try { koppel(episodes, k); } catch(e){} } start(); })
 .catch(function(){ list.innerHTML = '<div class="empty">Could not load episodes.json.</div>'; });
 })();
 </script>

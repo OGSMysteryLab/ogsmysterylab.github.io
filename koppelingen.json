@@ -11,9 +11,480 @@
     "the-face-in-the-cloth": "The Face in the Cloth: the full film and all sources",
     "the-battle-both-sides-won": "The Battle Both Sides Won: the full film and all sources",
     "what-the-alamo-forgot": "What the Alamo Forgot: the full film and all sources",
-    "the-city-that-wasnt-there": "The City That Wasn't There: the full film and all sources"
+    "the-city-that-wasnt-there": "The City That Wasn't There: the full film and all sources",
+    "buried-with-a-blade-at-her-throat": "She Was Buried With a Blade at Her Throat: the full film and all sources",
+    "india-s-most-shocking-beliefs": "India's 5 Most Shocking Beliefs: the full film and all sources",
+    "the-devils-bible": "The Devil's Bible: the full film and all sources"
   },
   "items": [
+    {
+      "match": "buried with a blade at her throat",
+      "film_id": "buried-with-a-blade-at-her-throat",
+      "duration": "5 MIN",
+      "claim": "In 2022 archaeologists in Pień, Poland, found a young woman from the 1600s buried with an iron sickle across her throat and a padlock on her toe. Nearby lay a child, buried face down.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.thearchaeologist.org/blog/archeologists-discovered-a-17th-century-polish-vampire-with-a-sickle-across-its-neck-meant-to-prevent-a-return-from-the-dead",
+          "title": "Archaeologists discovered a 17th-century Polish 'vampire' with a sickle across its neck",
+          "publisher": "The Archaeologist"
+        },
+        {
+          "type": "press",
+          "url": "https://zmescience.com/science/news-science/zosia-400-year-old-poland-vampire",
+          "title": "Zosia: the 400-year-old 'vampire' of Poland gets a face",
+          "publisher": "ZME Science"
+        },
+        {
+          "type": "media",
+          "url": "https://www.kpbs.org/news/2026/08/11/secrets-of-the-dead-field-of-vampires",
+          "title": "Secrets of the Dead: Field of Vampires",
+          "publisher": "PBS / KPBS"
+        },
+        {
+          "type": "press",
+          "url": "https://www.todojujuy.com/mundo/encontraron-el-cadaver-un-nino-vampiro-n237969",
+          "title": "The child buried face down",
+          "publisher": "Todo Jujuy"
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Petar_Blagojevi%C4%87",
+          "title": "Petar Blagojević (1725)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "type": "further reading",
+          "url": "https://blog.oup.com/2015/04/dracula-vampire-mythology-early-modern-europe/",
+          "title": "Dracula and vampire mythology in early modern Europe",
+          "publisher": "Oxford University Press blog"
+        },
+        {
+          "type": "press",
+          "url": "https://total-croatia-news.com/news/vampire-pakrac/",
+          "title": "'Vampire' grave in Pakrac, 2026",
+          "publisher": "Total Croatia News"
+        },
+        {
+          "type": "images",
+          "url": "https://commons.wikimedia.org",
+          "title": "Images: Wikimedia Commons (public domain / Creative Commons)",
+          "publisher": "Wikimedia Commons",
+          "note": "Credited in the video: Crossrail/MOLA (CC BY 4.0), pawjan1k (CC BY-SA 3.0); public domain works by Burne-Jones, Chełmoński, Notke, Suchodolski, Goya, Holbein, Fürst. Illustrations: OGS Mystery Lab."
+        }
+      ]
+    },
+    {
+      "match": "buried with a sickle at her throat",
+      "film": "buried-with-a-blade-at-her-throat",
+      "claim": "A young woman in 1600s Poland was buried with an iron sickle across her throat, so she could never sit up again.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.thearchaeologist.org/blog/archeologists-discovered-a-17th-century-polish-vampire-with-a-sickle-across-its-neck-meant-to-prevent-a-return-from-the-dead",
+          "title": "Archaeologists discovered a 17th-century Polish 'vampire' with a sickle across its neck",
+          "publisher": "The Archaeologist"
+        },
+        {
+          "type": "press",
+          "url": "https://zmescience.com/science/news-science/zosia-400-year-old-poland-vampire",
+          "title": "Zosia: the 400-year-old 'vampire' of Poland gets a face",
+          "publisher": "ZME Science"
+        },
+        {
+          "type": "media",
+          "url": "https://www.kpbs.org/news/2026/08/11/secrets-of-the-dead-field-of-vampires",
+          "title": "Secrets of the Dead: Field of Vampires",
+          "publisher": "PBS / KPBS"
+        },
+        {
+          "type": "press",
+          "url": "https://www.todojujuy.com/mundo/encontraron-el-cadaver-un-nino-vampiro-n237969",
+          "title": "The child buried face down",
+          "publisher": "Todo Jujuy"
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Petar_Blagojevi%C4%87",
+          "title": "Petar Blagojević (1725)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "type": "further reading",
+          "url": "https://blog.oup.com/2015/04/dracula-vampire-mythology-early-modern-europe/",
+          "title": "Dracula and vampire mythology in early modern Europe",
+          "publisher": "Oxford University Press blog"
+        },
+        {
+          "type": "press",
+          "url": "https://total-croatia-news.com/news/vampire-pakrac/",
+          "title": "'Vampire' grave in Pakrac, 2026",
+          "publisher": "Total Croatia News"
+        }
+      ]
+    },
+    {
+      "match": "padlock on this dead girl",
+      "film": "buried-with-a-blade-at-her-throat",
+      "claim": "Archaeologists found a padlock on the toe of a young woman buried in Pień, Poland, about 400 years ago.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.thearchaeologist.org/blog/archeologists-discovered-a-17th-century-polish-vampire-with-a-sickle-across-its-neck-meant-to-prevent-a-return-from-the-dead",
+          "title": "Archaeologists discovered a 17th-century Polish 'vampire' with a sickle across its neck",
+          "publisher": "The Archaeologist"
+        },
+        {
+          "type": "press",
+          "url": "https://zmescience.com/science/news-science/zosia-400-year-old-poland-vampire",
+          "title": "Zosia: the 400-year-old 'vampire' of Poland gets a face",
+          "publisher": "ZME Science"
+        },
+        {
+          "type": "media",
+          "url": "https://www.kpbs.org/news/2026/08/11/secrets-of-the-dead-field-of-vampires",
+          "title": "Secrets of the Dead: Field of Vampires",
+          "publisher": "PBS / KPBS"
+        },
+        {
+          "type": "press",
+          "url": "https://www.todojujuy.com/mundo/encontraron-el-cadaver-un-nino-vampiro-n237969",
+          "title": "The child buried face down",
+          "publisher": "Todo Jujuy"
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Petar_Blagojevi%C4%87",
+          "title": "Petar Blagojević (1725)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "type": "further reading",
+          "url": "https://blog.oup.com/2015/04/dracula-vampire-mythology-early-modern-europe/",
+          "title": "Dracula and vampire mythology in early modern Europe",
+          "publisher": "Oxford University Press blog"
+        },
+        {
+          "type": "press",
+          "url": "https://total-croatia-news.com/news/vampire-pakrac/",
+          "title": "'Vampire' grave in Pakrac, 2026",
+          "publisher": "Total Croatia News"
+        }
+      ]
+    },
+    {
+      "match": "buried this child face down",
+      "film": "buried-with-a-blade-at-her-throat",
+      "claim": "Near the 'vampire' of Pień, a child was buried face down, so it would bite the earth instead of the living.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.thearchaeologist.org/blog/archeologists-discovered-a-17th-century-polish-vampire-with-a-sickle-across-its-neck-meant-to-prevent-a-return-from-the-dead",
+          "title": "Archaeologists discovered a 17th-century Polish 'vampire' with a sickle across its neck",
+          "publisher": "The Archaeologist"
+        },
+        {
+          "type": "press",
+          "url": "https://zmescience.com/science/news-science/zosia-400-year-old-poland-vampire",
+          "title": "Zosia: the 400-year-old 'vampire' of Poland gets a face",
+          "publisher": "ZME Science"
+        },
+        {
+          "type": "media",
+          "url": "https://www.kpbs.org/news/2026/08/11/secrets-of-the-dead-field-of-vampires",
+          "title": "Secrets of the Dead: Field of Vampires",
+          "publisher": "PBS / KPBS"
+        },
+        {
+          "type": "press",
+          "url": "https://www.todojujuy.com/mundo/encontraron-el-cadaver-un-nino-vampiro-n237969",
+          "title": "The child buried face down",
+          "publisher": "Todo Jujuy"
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Petar_Blagojevi%C4%87",
+          "title": "Petar Blagojević (1725)",
+          "publisher": "Wikipedia"
+        },
+        {
+          "type": "further reading",
+          "url": "https://blog.oup.com/2015/04/dracula-vampire-mythology-early-modern-europe/",
+          "title": "Dracula and vampire mythology in early modern Europe",
+          "publisher": "Oxford University Press blog"
+        },
+        {
+          "type": "press",
+          "url": "https://total-croatia-news.com/news/vampire-pakrac/",
+          "title": "'Vampire' grave in Pakrac, 2026",
+          "publisher": "Total Croatia News"
+        }
+      ]
+    },
+    {
+      "match": "india s 5 most shocking beliefs",
+      "film_id": "india-s-most-shocking-beliefs",
+      "duration": "5 MIN",
+      "claim": "Babies dropped from a shrine roof, a village without doors, a temple of 25,000 sacred rats, a man who married a dog and a temple for spirits: five real traditions and why millions still follow them.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.heraldnet.com/?p=210200",
+          "title": "Indian babies dropped from shrine in ritual (AP, 2009)",
+          "publisher": "HeraldNet / Associated Press"
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Baba_Umer_Dargah",
+          "title": "Baba Umer Dargah",
+          "publisher": "Wikipedia"
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Shani_Shingnapur",
+          "title": "Shani Shingnapur",
+          "publisher": "Wikipedia"
+        },
+        {
+          "type": "media",
+          "url": "https://homegrown.co.in/homegrown-explore/how-rajasthans-karni-mata-temple-came-to-be-a-sacred-sanctuary-for-rats",
+          "title": "How Rajasthan's Karni Mata temple came to be a sacred sanctuary for rats",
+          "publisher": "Homegrown"
+        },
+        {
+          "type": "press",
+          "url": "https://www2.ljworld.com/news/2007/nov/14/indian_man_marries_dog_cast_curse/",
+          "title": "Indian man marries dog to break a curse (AP, 2007)",
+          "publisher": "Lawrence Journal-World / Associated Press"
+        },
+        {
+          "type": "media",
+          "url": "https://sotc.in/blog/destination-travel-guide/travel-guides/temple-exorcism-shri-mehandipur-balaji",
+          "title": "Mehandipur Balaji temple",
+          "publisher": "SOTC"
+        },
+        {
+          "type": "images",
+          "url": "https://commons.wikimedia.org",
+          "title": "Images: Wikimedia Commons (public domain / Creative Commons)",
+          "publisher": "Wikimedia Commons",
+          "note": "Credited in the video: Rangan Datta Wiki, Contributers2020, Jakub Hałun, Michael T Balonek, KUMAR2912, VikramKaushik1976, Vishal0soni, Booradleyp1 (CC BY-SA 4.0); Thamizhpparithi Maari (CC BY-SA 3.0); AVasanth (WMF), Günther Jontes (CC BY 4.0); public domain / CC0 works. Illustrations: OGS Mystery Lab."
+        }
+      ]
+    },
+    {
+      "match": "drop babies from a roof on purpose",
+      "film": "india-s-most-shocking-beliefs",
+      "claim": "In a village in western India, babies are dropped from a shrine roof into a sheet held by the men below.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.heraldnet.com/?p=210200",
+          "title": "Indian babies dropped from shrine in ritual (AP, 2009)",
+          "publisher": "HeraldNet / Associated Press"
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Baba_Umer_Dargah",
+          "title": "Baba Umer Dargah",
+          "publisher": "Wikipedia"
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Shani_Shingnapur",
+          "title": "Shani Shingnapur",
+          "publisher": "Wikipedia"
+        },
+        {
+          "type": "media",
+          "url": "https://homegrown.co.in/homegrown-explore/how-rajasthans-karni-mata-temple-came-to-be-a-sacred-sanctuary-for-rats",
+          "title": "How Rajasthan's Karni Mata temple came to be a sacred sanctuary for rats",
+          "publisher": "Homegrown"
+        },
+        {
+          "type": "press",
+          "url": "https://www2.ljworld.com/news/2007/nov/14/indian_man_marries_dog_cast_curse/",
+          "title": "Indian man marries dog to break a curse (AP, 2007)",
+          "publisher": "Lawrence Journal-World / Associated Press"
+        },
+        {
+          "type": "media",
+          "url": "https://sotc.in/blog/destination-travel-guide/travel-guides/temple-exorcism-shri-mehandipur-balaji",
+          "title": "Mehandipur Balaji temple",
+          "publisher": "SOTC"
+        }
+      ]
+    },
+    {
+      "match": "village with no doors",
+      "film": "india-s-most-shocking-beliefs",
+      "claim": "In Shani Shingnapur, houses have no front doors: villagers believe the god Shani punishes every thief.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.heraldnet.com/?p=210200",
+          "title": "Indian babies dropped from shrine in ritual (AP, 2009)",
+          "publisher": "HeraldNet / Associated Press"
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Baba_Umer_Dargah",
+          "title": "Baba Umer Dargah",
+          "publisher": "Wikipedia"
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Shani_Shingnapur",
+          "title": "Shani Shingnapur",
+          "publisher": "Wikipedia"
+        },
+        {
+          "type": "media",
+          "url": "https://homegrown.co.in/homegrown-explore/how-rajasthans-karni-mata-temple-came-to-be-a-sacred-sanctuary-for-rats",
+          "title": "How Rajasthan's Karni Mata temple came to be a sacred sanctuary for rats",
+          "publisher": "Homegrown"
+        },
+        {
+          "type": "press",
+          "url": "https://www2.ljworld.com/news/2007/nov/14/indian_man_marries_dog_cast_curse/",
+          "title": "Indian man marries dog to break a curse (AP, 2007)",
+          "publisher": "Lawrence Journal-World / Associated Press"
+        },
+        {
+          "type": "media",
+          "url": "https://sotc.in/blog/destination-travel-guide/travel-guides/temple-exorcism-shri-mehandipur-balaji",
+          "title": "Mehandipur Balaji temple",
+          "publisher": "SOTC"
+        }
+      ]
+    },
+    {
+      "match": "sacred rats live in this temple",
+      "film": "india-s-most-shocking-beliefs",
+      "claim": "At the Karni Mata temple in Rajasthan, around 25,000 rats are sacred.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.heraldnet.com/?p=210200",
+          "title": "Indian babies dropped from shrine in ritual (AP, 2009)",
+          "publisher": "HeraldNet / Associated Press"
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Baba_Umer_Dargah",
+          "title": "Baba Umer Dargah",
+          "publisher": "Wikipedia"
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Shani_Shingnapur",
+          "title": "Shani Shingnapur",
+          "publisher": "Wikipedia"
+        },
+        {
+          "type": "media",
+          "url": "https://homegrown.co.in/homegrown-explore/how-rajasthans-karni-mata-temple-came-to-be-a-sacred-sanctuary-for-rats",
+          "title": "How Rajasthan's Karni Mata temple came to be a sacred sanctuary for rats",
+          "publisher": "Homegrown"
+        },
+        {
+          "type": "press",
+          "url": "https://www2.ljworld.com/news/2007/nov/14/indian_man_marries_dog_cast_curse/",
+          "title": "Indian man marries dog to break a curse (AP, 2007)",
+          "publisher": "Lawrence Journal-World / Associated Press"
+        },
+        {
+          "type": "media",
+          "url": "https://sotc.in/blog/destination-travel-guide/travel-guides/temple-exorcism-shri-mehandipur-balaji",
+          "title": "Mehandipur Balaji temple",
+          "publisher": "SOTC"
+        }
+      ]
+    },
+    {
+      "match": "devil s bible written in one night",
+      "film_id": "the-devils-bible",
+      "duration": "4 MIN",
+      "claim": "Legend says a monk wrote the Codex Gigas in one night with the Devil's help. Experts think one scribe needed at least 20 years. It was taken as war loot in 1648 and is still in Stockholm.",
+      "sources": [
+        {
+          "type": "media",
+          "url": "https://history.com/articles/codex-gigas-devils-bible",
+          "title": "Codex Gigas: the Devil's Bible",
+          "publisher": "History.com"
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Codex_Gigas",
+          "title": "Codex Gigas",
+          "publisher": "Wikipedia"
+        },
+        {
+          "type": "images",
+          "url": "https://commons.wikimedia.org",
+          "title": "Images: Wikimedia Commons (public domain / Creative Commons)",
+          "publisher": "Wikimedia Commons",
+          "note": "Credited in the video: Michal Maňas (CC BY 2.5), Øyvind Holmstad (CC BY-SA 4.0), Petr1888 (CC BY-SA 3.0); Codex Gigas pages and other public domain / CC0 works."
+        }
+      ]
+    },
+    {
+      "match": "write the biggest book in the world",
+      "film": "the-devils-bible",
+      "claim": "Legend says a monk wrote the Codex Gigas in one night to escape being walled up alive.",
+      "sources": [
+        {
+          "type": "media",
+          "url": "https://history.com/articles/codex-gigas-devils-bible",
+          "title": "Codex Gigas: the Devil's Bible",
+          "publisher": "History.com"
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Codex_Gigas",
+          "title": "Codex Gigas",
+          "publisher": "Wikipedia"
+        }
+      ]
+    },
+    {
+      "match": "halfway through this bible",
+      "film": "the-devils-bible",
+      "claim": "The Codex Gigas holds a full-page portrait of the Devil.",
+      "sources": [
+        {
+          "type": "media",
+          "url": "https://history.com/articles/codex-gigas-devils-bible",
+          "title": "Codex Gigas: the Devil's Bible",
+          "publisher": "History.com"
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Codex_Gigas",
+          "title": "Codex Gigas",
+          "publisher": "Wikipedia"
+        }
+      ]
+    },
+    {
+      "match": "taken as war loot in 1648",
+      "film": "the-devils-bible",
+      "claim": "The Swedish army took the Devil's Bible from Prague in 1648. It never went back.",
+      "sources": [
+        {
+          "type": "media",
+          "url": "https://history.com/articles/codex-gigas-devils-bible",
+          "title": "Codex Gigas: the Devil's Bible",
+          "publisher": "History.com"
+        },
+        {
+          "type": "reference",
+          "url": "https://en.wikipedia.org/wiki/Codex_Gigas",
+          "title": "Codex Gigas",
+          "publisher": "Wikipedia"
+        }
+      ]
+    },
     {
       "match": "houdini died on halloween",
       "film_id": "the-last-escape",
