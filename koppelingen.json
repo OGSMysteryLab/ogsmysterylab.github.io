@@ -3496,6 +3496,754 @@
      "note": "The 2026 field season; laboratory results expected over winter 2026–27."
     }
    ]
+  },
+  {
+   "match": "dead sea scroll in this museum",
+   "claim": "In 2020 an independent team led by art-fraud investigator Colette Loll concluded that all 16 'Dead Sea Scroll' fragments bought for the Museum of the Bible (2009–2014) are modern forgeries: probably ancient leather, possibly from Roman-era shoes, painted with modern ink and coated with an amber, glue-like substance. A German lab had already flagged five in 2018. The museum says it was a victim of fraud; the forgers are unidentified and the price paid was never disclosed.",
+   "sources": [
+    {
+     "type": "press",
+     "url": "https://www.nationalgeographic.com/history/article/museum-of-the-bible-dead-sea-scrolls-forgeries",
+     "title": "'Dead Sea Scrolls' at the Museum of the Bible are all forgeries (March 2020)",
+     "publisher": "National Geographic",
+     "note": ""
+    },
+    {
+     "type": "press",
+     "url": "https://www.smithsonianmag.com/smart-news/all-museum-bibles-dead-sea-scrolls-are-fake-report-finds-180974425/",
+     "title": "All of the Museum of the Bible's Dead Sea Scrolls are fakes, report finds",
+     "publisher": "Smithsonian Magazine",
+     "note": ""
+    },
+    {
+     "type": "press",
+     "url": "https://www.ksl.com/article/46730269/how-forgers-fooled-the-bible-museum-with-fake-dead-sea-scroll-fragments",
+     "title": "How forgers fooled the Bible museum with fake Dead Sea Scroll fragments (AP)",
+     "publisher": "KSL / Associated Press",
+     "note": ""
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_Bible_entrance.jpg",
+     "title": "Museum of the Bible entrance",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 4.0 · APK"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Isaiah_scroll_at_the_Shrine_of_the_Book.jpg",
+     "title": "Isaiah scroll at the Shrine of the Book",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 2.0 · Dennis G. Jarvis"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Museumofthebible-2017-11-04-exterior-front-up.jpg",
+     "title": "Museumofthebible-2017-11-04-exterior-front-up",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · Fuzheado"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Student_Observing_a_Specimen_Using_a_Stereo_Microscope.jpg",
+     "title": "Student Observing a Specimen Using a Stereo Microscope",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · Rmmramos"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Qumran_Caves.jpg",
+     "title": "Qumran Caves",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 3.0 · Grauesel"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:1_QIsa_example_of_damage_col_12-13.jpg",
+     "title": "1 QIsa example of damage col 12-13",
+     "publisher": "Wikimedia Commons",
+     "note": "CC0 · Jb344tul"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:-Bearded_Man_with_Magnifying_Glass_Examining_a_Manuscript-_MET_DP111349.jpg",
+     "title": "-Bearded Man with Magnifying Glass Examining a Manuscript- MET DP111349",
+     "publisher": "Wikimedia Commons",
+     "note": "CC0 · Creator:Antoine-Samuel Adam-Salomon"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_Bible_01.jpg",
+     "title": "Museum of the Bible 01",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · Farragutful"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Rabbit-skin_glue_top_view.jpeg",
+     "title": "Rabbit-skin glue top view",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 3.0 · Simon A. Eugster"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Radiation_and_the_International_Atomic_Energy_Agency_(ISEA)_-_X_ray_fluorescence_spectrometer_(02910325)_(53640116635).jpg",
+     "title": "Radiation and the International Atomic Energy Agency (ISEA) - X ray fluorescence spectrometer (02910325) (53640116635)",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 2.0 · IAEA Imagebank"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Roman_footwear,_shoe_or_sandal_(inner_sole,_profile_and_outer_sole)._(FindID_590470).jpg",
+     "title": "Roman footwear, shoe or sandal (inner sole, profile and outer sole). (FindID 590470)",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · Birmingham Museums Trust, Angie Bolton, 2013-12-09 15:13:44"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:National_Mall_aerial,_Washington,_D.C._(20100325-DSC01292).jpg",
+     "title": "National Mall aerial, Washington, D.C. (20100325-DSC01292)",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · Matti Blume"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:BAM_Berlin-Adlershof.JPG",
+     "title": "BAM Berlin-Adlershof",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · Dr. Bernd Gross"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Cave_in_Qumran_historical_place_bible_scrolls.jpg",
+     "title": "Cave in Qumran historical place bible scrolls",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · Peter van der Sluijs"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_28412_Vadi_Qumran_and_Qumran_caves.JPG",
+     "title": "PikiWiki Israel 28412 Vadi Qumran and Qumran caves",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 2.5 · Dr. Avishai Teicher"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Temple_Scroll.png",
+     "title": "Temple Scroll",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Israel Museum"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Hobby_Lobby.jpg",
+     "title": "Hobby Lobby",
+     "publisher": "Wikimedia Commons",
+     "note": "CC0 · Wikideas1"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Dea_sea_scroll_display_is.JPG",
+     "title": "Dea sea scroll display is",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · No machine-readable author provided. Bantosh~commonswiki assumed (based on copyr"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Dead_Sea_Scroll_jar_and_lid_-_MET_64.26a,_b.jpg",
+     "title": "Dead Sea Scroll jar and lid - MET 64.26a, b",
+     "publisher": "Wikimedia Commons",
+     "note": "CC0"
+    }
+   ]
+  },
+  {
+   "match": "jesus wife papyrus",
+   "claim": "In September 2012 Harvard's Karen King presented a Coptic papyrus scrap (about 4 x 8 cm) in which Jesus says 'my wife'. Tests in 2014 suggested the papyrus itself was old (a mean radiocarbon date around AD 741), but scholars showed its lines closely follow an online interlinear of the Gospel of Thomas posted in 1997. In 2016 journalist Ariel Sabar traced the owner, Walter Fritz, and King said the evidence 'presses in the direction of forgery'.",
+   "sources": [
+    {
+     "type": "encyclopedia",
+     "url": "https://en.wikipedia.org/wiki/Gospel_of_Jesus%27s_Wife",
+     "title": "Gospel of Jesus' Wife",
+     "publisher": "Wikipedia",
+     "note": ""
+    },
+    {
+     "type": "press",
+     "url": "https://www.nbcnews.com/id/wbna49440019",
+     "title": "Online sleuthing casts doubt on 'Gospel of Jesus' Wife'",
+     "publisher": "NBC News",
+     "note": ""
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Unisys_PowerPort_laptop_computer_from_1990s,_probably_Pentium_(or_II)_processor,_in_Lanzarote_Aeronautical_Museum_in_2022_(cropped_and_removed_BG).jpg",
+     "title": "Unisys PowerPort laptop computer from 1990s, probably Pentium (or II) processor, in Lanzarote Aeronautical Museum in 2022 (cropped and removed BG)",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · Photograph by Mike Peel (www.mikepeel.net)."
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Andover_Hall_-_Harvard_Divinity_School_-_Harvard_University_-_DSC05769.jpg",
+     "title": "Andover Hall - Harvard Divinity School - Harvard University - DSC05769",
+     "publisher": "Wikimedia Commons",
+     "note": "CC0 · Daderot"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Papyrus_Fragment_MET_cop0898s1.jpg",
+     "title": "Papyrus Fragment MET cop0898s1",
+     "publisher": "Wikimedia Commons",
+     "note": "CC0"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Nag_Hammadi_Codex_VIII_132_bottom.png",
+     "title": "Nag Hammadi Codex VIII 132 bottom",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Unknown author"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Divinity_Hall_at_Harvard_Divinity_School,_July_2005.JPG",
+     "title": "Divinity Hall at Harvard Divinity School, July 2005",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 3.0"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Papyrus_fragment_MET_09.180.532_0065.jpg",
+     "title": "Papyrus fragment MET 09.180.532 0065",
+     "publisher": "Wikimedia Commons",
+     "note": "CC0"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:P._Oxy._655.jpg",
+     "title": "P. Oxy. 655",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Unknown author"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Leaf_from_a_Coptic_Manuscript_MET_sf21-148-4s1.jpg",
+     "title": "Leaf from a Coptic Manuscript MET sf21-148-4s1",
+     "publisher": "Wikimedia Commons",
+     "note": "CC0"
+    }
+   ]
+  },
+  {
+   "match": "only one man may see the ark",
+   "claim": "The Ethiopian Orthodox Church says the Ark of the Covenant is kept at the Church of St Mary of Zion in Aksum. Its guardian is a monk who serves for life and may not leave the grounds; no outsider has been allowed to see it. The Kebra Nagast (14th century) says Menelik, son of Solomon and the Queen of Sheba, brought it there. Every Ethiopian Orthodox church keeps a tabot, a sacred replica. Most historians think the original was lost or destroyed.",
+   "sources": [
+    {
+     "type": "encyclopedia",
+     "url": "https://www.britannica.com/story/where-is-the-ark-of-the-covenant",
+     "title": "Where is the Ark of the Covenant?",
+     "publisher": "Encyclopaedia Britannica",
+     "note": ""
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:De_Ark_van_het_Verbond_wordt_naar_Ethiopi%C3%AB_gebracht_door_Menelik,_zoon_van_Koning_Solomon_(6821532791).jpg",
+     "title": "De Ark van het Verbond wordt naar Ethiopië gebracht door Menelik, zoon van Koning Solomon (6821532791)",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 2.0 · Martijn.Munneke from Netherlands"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Maryam_Sion_in_Axum_Nebenbau_mit_der_Bundeslade_2010.jpg",
+     "title": "Maryam Sion in Axum Nebenbau mit der Bundeslade 2010",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 3.0 · JensiS65"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:King_Solomon_Meeting_the_Queen_of_Sheba_(3434884321).jpg",
+     "title": "King Solomon Meeting the Queen of Sheba (3434884321)",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 2.0 · A. Davey from Where I Live Now: Pacific Northwest"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:AxumObelisk1.jpg",
+     "title": "AxumObelisk1",
+     "publisher": "Wikimedia Commons",
+     "note": "CC0 · O.Mustafin"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:James_Jacques_Joseph_Tissot_-_The_Ark_Passes_Over_the_Jordan_-_Google_Art_Project.jpg",
+     "title": "James Jacques Joseph Tissot - The Ark Passes Over the Jordan - Google Art Project",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · James Tissot"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Transfer_of_the_captured_Israelites_to_Babylon,_587_BC.jpg",
+     "title": "Transfer of the captured Israelites to Babylon, 587 BC",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Unknown author"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:ET_Axum_asv2018-01_img24_StMary_of_Zion_Church.jpg",
+     "title": "ET Axum asv2018-01 img24 StMary of Zion Church",
+     "publisher": "Wikimedia Commons",
+     "note": "FAL · A.Savin"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:The_Chapel_Of_The_Tablet,_Axum,_Ethiopia_(2842610803).jpg",
+     "title": "The Chapel Of The Tablet, Axum, Ethiopia (2842610803)",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 2.0 · A. Davey from Where I Live Now: Pacific Northwest"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Celebrating_Timkat_in_Ethiopia.jpg",
+     "title": "Celebrating Timkat in Ethiopia",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 4.0 · Jean Rebiffé"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Ethiopian_Monk_(48538822027).jpg",
+     "title": "Ethiopian Monk (48538822027)",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 2.0 · Mark Fischer"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Priests_carrying_Tabot_during_Timket.jpg",
+     "title": "Priests carrying Tabot during Timket",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · Khajitdadddy"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:King_Solomon_Beholds_the_Ark_of_the_Covenant_Being_Brought_to_the_Temple_MET_263490.jpg",
+     "title": "King Solomon Beholds the Ark of the Covenant Being Brought to the Temple MET 263490",
+     "publisher": "Wikimedia Commons",
+     "note": "CC0 · Andrea Vicentino"
+    }
+   ]
+  },
+  {
+   "match": "died at masada",
+   "claim": "Josephus wrote that 960 defenders of Masada died rather than surrender to Rome in 73 or 74 AD, and that two women and five children survived. Yigael Yadin's excavations (1963–65) found eleven ostraca with names, possibly the lots Josephus describes, and remains of about 28 people, some in a cave with pig bones. Some historians doubt the mass suicide; others accept Josephus' account.",
+   "sources": [
+    {
+     "type": "encyclopedia",
+     "url": "https://en.wikipedia.org/wiki/Masada",
+     "title": "Masada",
+     "publisher": "Wikipedia",
+     "note": ""
+    },
+    {
+     "type": "analysis",
+     "url": "https://www.historynewsnetwork.org/article/is-the-truth-about-masada-less-romantic",
+     "title": "Is the truth about Masada less romantic?",
+     "publisher": "History News Network",
+     "note": ""
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:A_view_from_masada_on_Dead_Sea.jpg",
+     "title": "A view from masada on Dead Sea",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · Theengine777"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Masada_(Israel)_02.jpg",
+     "title": "Aerial view of Masada (Israel) 02",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · Godot13"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:The_lower_terrace_of_Herod%27s_Northern_Palace,_Masada,_Israel_(15024113064).jpg",
+     "title": "The lower terrace of Herod's Northern Palace, Masada, Israel (15024113064)",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 2.0 · Carole Raddato from FRANKFURT, Germany"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Masada_(Israel)_03.jpg",
+     "title": "Aerial view of Masada (Israel) 03",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · Godot13"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Portret_van_Flavius_Josephus,_RP-P-1906-2505.jpg",
+     "title": "Portret van Flavius Josephus, RP-P-1906-2505",
+     "publisher": "Wikimedia Commons",
+     "note": "CC0 · Rijksmuseum"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Masada_(Tipping_01).jpg",
+     "title": "Masada (Tipping 01)",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · W. Tipping"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Israel,_Masada_-_Rampa_de_Acesso_Siege_(5164901319).jpg",
+     "title": "Israel, Masada - Rampa de Acesso Siege (5164901319)",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 2.0 · Ana Paula Hirama"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Masada_051013_Cistern_01.jpg",
+     "title": "Masada 051013 Cistern 01",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 3.0 · Oren Rozen"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Yigael_Yadin_(997009326873905171).jpg",
+     "title": "Yigael Yadin (997009326873905171)",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 4.0 · Boris Carmi"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:A_view_from_masada_15_on_roman_siege_camp.jpg",
+     "title": "A view from masada 15 on roman siege camp",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · Wei Ya"
+    }
+   ]
+  },
+  {
+   "match": "brother of jesus real or forged",
+   "claim": "An ossuary inscribed 'James, son of Joseph, brother of Jesus' was announced in Washington in October 2002. In June 2003 the Israel Antiquities Authority called the inscription a modern forgery. Its owner, Oded Golan, was tried for forgery; in March 2012 the judge acquitted him, stating this does not mean the inscription is authentic. The box itself is ancient; the authenticity of the inscription is still debated.",
+   "sources": [
+    {
+     "type": "encyclopedia",
+     "url": "https://en.wikipedia.org/wiki/James_Ossuary",
+     "title": "James Ossuary",
+     "publisher": "Wikipedia",
+     "note": ""
+    },
+    {
+     "type": "press",
+     "url": "https://www.christianitytoday.com/2012/03/trial-fraud-controversy",
+     "title": "Trial ends, but James ossuary controversy continues (March 2012)",
+     "publisher": "Christianity Today",
+     "note": ""
+    },
+    {
+     "type": "analysis",
+     "url": "https://www.biblicalarchaeology.org/daily/biblical-artifacts/artifacts-and-the-bible/is-the-brother-of-jesus-inscription-on-the-james-ossuary-a-forgery/",
+     "title": "Is the 'brother of Jesus' inscription on the James Ossuary a forgery?",
+     "publisher": "Biblical Archaeology Society",
+     "note": ""
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Nicanor_inscription.jpg",
+     "title": "Nicanor inscription",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · ישראל קרול"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:District_court_jer_1001.JPG",
+     "title": "District court jer 1001",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Sir kiss"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:City_View_from_Near_Western_Wall_-_Old_City_-_Jerusalem_(5676698578).jpg",
+     "title": "City View from Near Western Wall - Old City - Jerusalem (5676698578)",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 2.0 · Adam Jones from Kelowna, BC, Canada"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:JamesOssuaryInscription-1-.jpg",
+     "title": "JamesOssuaryInscription-1-",
+     "publisher": "Wikimedia Commons",
+     "note": "Attribution · Paradiso"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Ancient_Tombs_in_the_Kidron_Valley.jpg",
+     "title": "Ancient Tombs in the Kidron Valley",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 2.0 · Ian Scott"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Jerusalem-Kidron-Valley-KMOGH-2277.jpg",
+     "title": "Jerusalem-Kidron-Valley-KMOGH-2277",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 4.0 · Bukvoed"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:JamesOssuary-1-.jpg",
+     "title": "JamesOssuary-1-",
+     "publisher": "Wikimedia Commons",
+     "note": "Attribution · Paradiso"
+    }
+   ]
+  },
+  {
+   "match": "oldest qurans ever found",
+   "claim": "Two Quran leaves in the Mingana Collection (University of Birmingham), in Hijazi script with parts of surahs 18–20, were radiocarbon-dated in 2015 by Oxford's Radiocarbon Accelerator Unit to AD 568–645 (95.4% probability). The date applies to the parchment, not the writing; scholars differ on when the text was written. The leaves belong with 16 leaves in Paris (BnF Arabe 328c).",
+   "sources": [
+    {
+     "type": "encyclopedia",
+     "url": "https://en.wikipedia.org/wiki/Birmingham_Quran_manuscript",
+     "title": "Birmingham Quran manuscript",
+     "publisher": "Wikipedia",
+     "note": ""
+    },
+    {
+     "type": "press",
+     "url": "https://www.aljazeera.com/news/2015/7/22/one-of-the-worlds-oldest-quran-manuscripts-found-in-uk",
+     "title": "One of the world's oldest Quran manuscripts found in UK (22 July 2015)",
+     "publisher": "Al Jazeera",
+     "note": ""
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Birmingham_Quran_manuscript_folio_1_recto.jpg",
+     "title": "Birmingham Quran manuscript folio 1 recto",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Unknown author"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:BNF_Richelieu_-_Salle_ovale_20260724_114942.jpg",
+     "title": "BNF Richelieu - Salle ovale 20260724 114942",
+     "publisher": "Wikimedia Commons",
+     "note": "CC0 · OwenBlacker"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Birmingham_Quran_manuscript.jpg",
+     "title": "Birmingham Quran manuscript",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Unknown author"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Birmingham_Quran_manuscript_full.jpg",
+     "title": "Birmingham Quran manuscript full",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Unknown author"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Birmingham_Quran_manuscript_folio_2_verso.jpg",
+     "title": "Birmingham Quran manuscript folio 2 verso",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Unknown author"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Codex_Parisino-petropolitanus,_first_leaf_recto.jpg",
+     "title": "Codex Parisino-petropolitanus, first leaf recto",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Unknown author"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Aston_Webb_buildings_in_snow,_The_University_of_Birmingham,_Dec_2009.jpg",
+     "title": "Aston Webb buildings in snow, The University of Birmingham, Dec 2009",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 3.0 · Simonham"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:An_early_fragmentary_Qur%27an_leaf_in_Hijazi_script_on_vellum,_Arabian_Peninsula,_second_half_7th_century_AD_(1).jpg",
+     "title": "An early fragmentary Qur'an leaf in Hijazi script on vellum, Arabian Peninsula, second half 7th century AD (1)",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Unknown artist"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Birmingham_University_Clock_Tower_(8210522739).jpg",
+     "title": "Birmingham University Clock Tower (8210522739)",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 2.0 · Tony Hisgett from Birmingham, UK"
+    }
+   ]
+  },
+  {
+   "match": "million hindu gods",
+   "claim": "The popular figure of '330 million gods' comes from the phrase '33 koti'; koti can mean ten million, but also 'type' or 'group'. Vedic texts count 33 deities: 8 Vasus, 11 Rudras, 12 Adityas, Indra and Prajapati. In the Brihadaranyaka Upanishad (3.9), Yajnavalkya answers 3,306, then reduces the number to 33, 6, 3, 2, one and a half, and finally one. Hindus read this in different ways.",
+   "sources": [
+    {
+     "type": "text",
+     "url": "https://esamskriti.com/e/Spirituality/Brihadaranyaka-Upanishad/BRIHADARANYAKA-UPANISHAD-(13)~YAJNAVALKYA~KANDA~CHAPTER-III-1.aspx",
+     "title": "Brihadaranyaka Upanishad 3.9: Yajnavalkya and Shakalya",
+     "publisher": "eSamskriti",
+     "note": ""
+    },
+    {
+     "type": "press",
+     "url": "https://www.freepressjournal.in/spirituality/do-hindus-really-have-33-koti-devatas-heres-the-truth-behind-the-belief",
+     "title": "Do Hindus really have 33 koti devatas?",
+     "publisher": "Free Press Journal",
+     "note": ""
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Brahma_issuing_from_lotus_originating_from_umbilicus_of_Vishnu_painting_1913.jpg",
+     "title": "Brahma issuing from lotus originating from umbilicus of Vishnu painting 1913",
+     "publisher": "Wikimedia Commons",
+     "note": "No restrictions · Internet Archive Book Images"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:1500-1200_BCE,_Rigveda_manuscript_page_sample_iii,_Sanskrit,_Devanagari.jpg",
+     "title": "1500-1200 BCE, Rigveda manuscript page sample iii, Sanskrit, Devanagari",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · Ms Sarah Welch"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:055_Indra_on_Airavata_(9169815377).jpg",
+     "title": "055 Indra on Airavata (9169815377)",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 2.0 · Photo Dharma from Sadao, Thailand"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Surya_in_Chariot_of_Seven_Horses_-_Circa_10th_Century_CE_-_Madaur_-_ACCN_88-18_-_Government_Museum_-_Mathura_2013-02-23_5122.JPG",
+     "title": "Surya in Chariot of Seven Horses - Circa 10th Century CE - Madaur - ACCN 88-18 - Government Museum - Mathura 2013-02-23 5122",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 3.0 · Biswarup Ganguly"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Yagyavalkya.jpg",
+     "title": "Yagyavalkya",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · Sntshkumar750"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Ekadasha_Rudra_Temple_Pashupati_Area_Pashupati_Temple_Kathmandu_Nepal_Rajesh_Dhungana.jpg",
+     "title": "Ekadasha Rudra Temple Pashupati Area Pashupati Temple Kathmandu Nepal Rajesh Dhungana",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · Rajesh Dhungana"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:2014_gopuram_of_Meenakshi_Temple,_Madurai_Tamil_Nadu.jpg",
+     "title": "2014 gopuram of Meenakshi Temple, Madurai Tamil Nadu",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 2.0 · Arun Pillai from Seattle, United States"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:MEENAKSHI_TEMPLE-_WEST_TOWER.jpg",
+     "title": "MEENAKSHI TEMPLE- WEST TOWER",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · Mamichaelraj"
+    }
+   ]
+  },
+  {
+   "match": "ram setu",
+   "claim": "Ram Setu (Adam's Bridge) is a chain of limestone shoals and sandbanks about 48 km long between Pamban Island (India) and Mannar Island (Sri Lanka), mostly in water about 1 m deep. In the Ramayana, Rama's army builds a bridge to Lanka. NASA said its satellite images cannot show the origin or age of the chain. Rameswaram temple records say it could be crossed on foot until a cyclone in 1480. Its formation is still debated.",
+   "sources": [
+    {
+     "type": "encyclopedia",
+     "url": "https://en.wikipedia.org/wiki/Adam%27s_Bridge",
+     "title": "Adam's Bridge",
+     "publisher": "Wikipedia",
+     "note": ""
+    },
+    {
+     "type": "press",
+     "url": "https://www.downtoearth.org.in/news/a-bridge-too-farfetched-15410",
+     "title": "A bridge too far-fetched",
+     "publisher": "Down To Earth",
+     "note": ""
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:AdamsBridge02-NASA.jpg",
+     "title": "AdamsBridge02-NASA",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · National Aeronautics & Space Administration"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Setubandha_-_Rama_and_Lakshmana_crossing_the_bridge_to_Lanka_with_the_Monkey_Army.jpg",
+     "title": "Setubandha - Rama and Lakshmana crossing the bridge to Lanka with the Monkey Army",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Attributed to a Master of the First generation after Manaku and Nainsukh"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Dhanushkodi_04.jpg",
+     "title": "Dhanushkodi 04",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · Athulvis"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Adam%27s_Bridge_-_Mannar_-_Sri_Lanka_(29621399698).jpg",
+     "title": "Adam's Bridge - Mannar - Sri Lanka (29621399698)",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 2.0 · Charith Gunarathna from Kandy, Sri Lanka"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Adam%27s_Bridge,_India-Sri_Lanka_(ASTER).jpg",
+     "title": "Adam's Bridge, India-Sri Lanka (ASTER)",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · NASA/METI/AIST/Japan Space Systems, and U.S./Japan ASTER Science Team"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Battle_at_Lanka,_Ramayana,_Udaipur,_1649-53.jpg",
+     "title": "Battle at Lanka, Ramayana, Udaipur, 1649-53",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Sahibdin"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Ramanathaswamy_Temple_corridor.jpg",
+     "title": "Ramanathaswamy Temple corridor",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 2.0 · Vensatry"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:IndiaSrilanka-Gemini11-September1966.jpg",
+     "title": "IndiaSrilanka-Gemini11-September1966",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · NASA/Gemini 11"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Earth_from_Space-_Adam%E2%80%99s_Bridge_ESA498890.jpg",
+     "title": "Earth from Space- Adam’s Bridge ESA498890",
+     "publisher": "Wikimedia Commons",
+     "note": "Attribution · European Space Agency"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Pamban_Bridge,_Rameswaram_1.jpg",
+     "title": "Pamban Bridge, Rameswaram 1",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · Athulvis"
+    }
+   ]
   }
  ]
 }
