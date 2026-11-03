@@ -4244,6 +4244,407 @@
      "note": "CC BY-SA 4.0 · Athulvis"
     }
    ]
+  },
+  {
+   "match": "pyramid in antarctica",
+   "claim": "The 'Antarctic pyramid' that went viral in 2016 is an unnamed peak of about 1,265 m in the southern Ellsworth Mountains. Geologists explain its shape by freeze-thaw weathering: water freezes in cracks, expands and splits the rock, and three faces eroded at similar rates. Like the Matterhorn, it is a natural mountain, not a built structure.",
+   "sources": [
+    {
+     "type": "press",
+     "url": "https://www.livescience.com/planet-earth/antarctica/pyramid-in-antarctica-the-icy-mountain-that-looks-remarkably-like-a-human-made-structure",
+     "title": "Antarctica 'pyramid': the strangely symmetrical mountain that sparked a major alien conspiracy theory",
+     "publisher": "Live Science",
+     "note": ""
+    },
+    {
+     "type": "press",
+     "url": "https://www.livescience.com/57009-antarctica-pyramid-mountain-explained.html",
+     "title": "New pyramid in Antarctica? Not quite, say geologists (2016)",
+     "publisher": "Live Science",
+     "note": ""
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Earth_from_Space-_West_Antarctica_ESA529793.jpg",
+     "title": "Earth from Space- West Antarctica ESA529793",
+     "publisher": "Wikimedia Commons",
+     "note": "Attribution · European Space Agency"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Aheloy_Nunatak.jpg",
+     "title": "Aheloy Nunatak",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 3.0 · Lyubomir Ivanov, aka Apcbg at en.wikipedia"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Matterhorn_(view_from_the_north).jpg",
+     "title": "Aerial image of Matterhorn (view from the north)",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · Carsten Steger"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Drake_Icefall.jpg",
+     "title": "Drake Icefall",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 2.0 · Christopher Michel from San Francisco, USA"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:0_106_Walliser_Alpen_-_Matterhorn.jpg",
+     "title": "0 106 Walliser Alpen - Matterhorn",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · W. Bulach"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Vinson-Massif.jpg",
+     "title": "Vinson-Massif",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Advanced Spaceborne Thermal Emission and Reflection Radiomet"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Pyramid_Peak,_New_Zealand.jpg",
+     "title": "Pyramid Peak, New Zealand",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 2.0 · tommy chheng"
+    }
+   ]
+  },
+  {
+   "match": "antarctic glacier bleeds",
+   "claim": "Blood Falls, at Taylor Glacier in the McMurdo Dry Valleys, was found in 1911 and was long blamed on red algae. Its colour comes from iron-rich, very salty brine (about twice as salty as seawater) that oxidises (rusts) when it reaches the air. The brine comes from a subglacial reservoir isolated for roughly 1.5–2 million years that hosts microbes living without oxygen, a model for possible life on Mars.",
+   "sources": [
+    {
+     "type": "press",
+     "url": "https://www.mentalfloss.com/article/67837/science-behind-antarcticas-blood-falls",
+     "title": "The science behind Antarctica's Blood Falls",
+     "publisher": "Mental Floss",
+     "note": ""
+    },
+    {
+     "type": "press",
+     "url": "https://www.nationalgeographic.com/science/article/blood-falls-antarctica-explained",
+     "title": "Blood Falls, Antarctica explained",
+     "publisher": "National Geographic",
+     "note": ""
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:%22Tatort%22_Blood_Falls_(16293969810).jpg",
+     "title": "\"Tatort\" Blood Falls (16293969810)",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 2.0 · Jill Mikucki/University of Tennessee Knoxville"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:A_Glacier_Flows_Through_a_Section_of_the_McMurdo_Dry_Valleys_in_Antarctica_(30913580055).jpg",
+     "title": "A Glacier Flows Through a Section of the McMurdo Dry Valleys in Antarctica (30913580055)",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · U.S. Department of State from United States"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Blood_Falls_aerial_view_2014-11-21_01.jpg",
+     "title": "Blood Falls aerial view 2014-11-21 01",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Peter Rejcek, NSF"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Blood_Falls_2010-12-14.jpg",
+     "title": "Blood Falls 2010-12-14",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Peter Rejcek, NSF"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Blood_Falls_2014_01.jpg",
+     "title": "Blood Falls 2014 01",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · US Embassy New Zealand"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Hole_in_an_iceberg_1911_SLNSW_FL444971.jpg",
+     "title": "Hole in an iceberg 1911 SLNSW FL444971",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Herbert Ponting"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Lake_Bonney_2015_01.jpg",
+     "title": "Lake Bonney 2015 01",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Peter Rejcek, NSF"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:PIA21134_Curiosity_Rover_Finds_and_Examines_a_Meteorite_on_Mars,_Figure_1.jpg",
+     "title": "PIA21134 Curiosity Rover Finds and Examines a Meteorite on Mars, Figure 1",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · NASA/JPL-Caltech/MSSS"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Taylor_Glacier,_Antarctica_2009_01.jpg",
+     "title": "Taylor Glacier, Antarctica 2009 01",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 2.0 · eliduke"
+    }
+   ]
+  },
+  {
+   "match": "4 700 men to antarctica",
+   "claim": "Operation Highjump (1946–47) was a US Navy expedition led by Admiral Richard Byrd with about 4,700 men, 13 ships and 33 aircraft, to build the Little America IV base, train crews in polar conditions and map the coast. It ended early, in late February 1947, as winter approached; three men died when the PBM Mariner 'George 1' crashed. The 'secret Nazi base' story is a later myth: Germany's 1938–39 Schwabenland expedition mapped part of the coast from the air, but no evidence of a German base has ever been found.",
+   "sources": [
+    {
+     "type": "reference",
+     "url": "https://en.wikipedia.org/wiki/Operation_Highjump",
+     "title": "Operation Highjump",
+     "publisher": "Wikipedia",
+     "note": ""
+    },
+    {
+     "type": "paper",
+     "url": "https://www.cambridge.org/core/journals/polar-record/article/abs/hitlers-antarctic-base-the-myth-and-the-reality/56465FFEA98E416F559C7F02AB20CE19",
+     "title": "Hitler's Antarctic base: the myth and the reality (2007)",
+     "publisher": "Polar Record, Cambridge University Press",
+     "note": ""
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:USS_Philippine_Sea_(CV-47)_transporting_Douglas_R4D_aircraft_to_Antarctica,_8_January_1947_(80-G-K-7623).jpg",
+     "title": "USS Philippine Sea (CV-47) transporting Douglas R4D aircraft to Antarctica, 8 January 1947 (80-G-K-7623)",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · U.S. Navy photo 80-G-K-7623"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Martin_PBM-3_Mariner_in_flight_c1942.jpg",
+     "title": "Martin PBM-3 Mariner in flight c1942",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · U.S. Navy"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:USN_Support_Ship,_Operation_Highjump,_1947_(11714261564).jpg",
+     "title": "USN Support Ship, Operation Highjump, 1947 (11714261564)",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · USMC Archives from Quantico, USA"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Schwabenland.jpg",
+     "title": "Schwabenland",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Unknown author"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Rear_Admiral_Richard_Byrd,_Operation_Highjump.JPG",
+     "title": "Rear Admiral Richard Byrd, Operation Highjump",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Photograph by: US Navy, National Science Foundation"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Ross_Ice_Shelf.jpg",
+     "title": "Ross Ice Shelf",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Jacques Descloitres, MODIS Land Rapid Response Team, NASA/GS"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Neuschwabenland_Geo.jpg",
+     "title": "Neuschwabenland Geo",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 3.0 de · Wilfried Bauer"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Operation_Highjump_Airplane,_December_1946_(11714150173).jpg",
+     "title": "Operation Highjump Airplane, December 1946 (11714150173)",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 2.0 · USMC Archives from Quantico, USA"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Little_America_IV_aerial.jpg",
+     "title": "Little America IV aerial",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · US Navy"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Operation_Highjump_Team_Members,_December_1946_(11714263564).jpg",
+     "title": "Operation Highjump Team Members, December 1946 (11714263564)",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 2.0 · USMC Archives from Quantico, USA"
+    }
+   ]
+  },
+  {
+   "match": "1513 map show antarctica",
+   "claim": "The Piri Reis map was drawn in 1513 by the Ottoman admiral Piri Reis and rediscovered in 1929 at Topkapı Palace in Istanbul; a note says he used a map by Columbus. In 1966 Charles Hapgood claimed its southern coast showed an ice-free Antarctica, but Antarctica was first sighted in 1820. Historians read the southern coast as South America's coastline bent eastward to fit the parchment.",
+   "sources": [
+    {
+     "type": "press",
+     "url": "https://archive.aramcoworld.com/issue/198001/piri.reis.and.the.hapgood.hypotheses.htm",
+     "title": "Piri Reis and the Hapgood hypotheses (1980)",
+     "publisher": "AramcoWorld",
+     "note": ""
+    },
+    {
+     "type": "reference",
+     "url": "https://en.wikipedia.org/wiki/Piri_Reis_map",
+     "title": "Piri Reis map",
+     "publisher": "Wikipedia",
+     "note": ""
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:1513_Piri_Reis.jpg",
+     "title": "1513 Piri Reis",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Piri Reis"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Piri_Reis_world_map_for_annotations.png",
+     "title": "Piri Reis world map for annotations",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Piri Reis"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:%C4%B0stanbul,_1629_(Kitab-%C4%B1_Bahriye).jpg",
+     "title": "İstanbul, 1629 (Kitab-ı Bahriye)",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Mustafa bin Mehmed Cündî"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Southern_South_America_-_November_13,_2013.jpg",
+     "title": "Southern South America - November 13, 2013",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Jeff Schmaltz MODIS Land Rapid Response Team, NASA GSFC"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Partial_Eclipse_Seen_Over_the_Princess_Ragnhild_Coast,_Antarctica_(21231177820).jpg",
+     "title": "Partial Eclipse Seen Over the Princess Ragnhild Coast, Antarctica (21231177820)",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · NASA Goddard Space Flight Center from Greenbelt, MD, USA"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Piri_reis_world_map_01.jpg",
+     "title": "Piri reis world map 01",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Piri Reis"
+    }
+   ]
+  },
+  {
+   "match": "found this under the nile mud",
+   "claim": "At Buto (Tell el-Fara'in) in the Nile Delta, ESA Sentinel-1 radar data and ground resistivity scans revealed a buried structure about 128 × 62 m. Below 3–6 m of later debris lie large mudbrick walls of the 26th (Saite) Dynasty, 688–525 BC, resting on a deliberate layer of clean sand. A test trench yielded shabti figurines, a limestone altar with residues consistent with animal blood and a faience baboon of Thoth. Whether it was a tomb, a priests' house or a shrine is still unknown.",
+   "sources": [
+    {
+     "type": "press",
+     "url": "https://livescience.com/archaeology/ancient-egyptians/buried-for-2-600-years-beneath-nile-mud-a-massive-ancient-egyptian-complex-was-just-found-from-space",
+     "title": "Buried for 2,600 years beneath Nile mud, a massive ancient Egyptian complex was just found — from space (2 Nov 2026)",
+     "publisher": "Live Science",
+     "note": ""
+    },
+    {
+     "type": "paper",
+     "url": "https://doi.org/10.1007/s11600-026-01809-4",
+     "title": "Abouarab, Elfadaly et al., Acta Geophysica 74 (2026)",
+     "publisher": "Springer",
+     "note": ""
+    },
+    {
+     "type": "press",
+     "url": "https://greekreporter.com/2026/03/30/hidden-structure-ancient-egyptian-city/",
+     "title": "New scans discover unknown hidden structure beneath ancient Egyptian city (March 2026)",
+     "publisher": "Greek Reporter",
+     "note": ""
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Ancient_Egypt_Faience_Statue_of_Thoth_as_Baboon_(28051897320).jpg",
+     "title": "Ancient Egypt Faience Statue of Thoth as Baboon (28051897320)",
+     "publisher": "Wikimedia Commons",
+     "note": "CC0 · Gary Todd from Xinzheng, China"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Shabti_(funerary_figurine)_of_Amasis,_Egypt,_Late_Period,_c._664-332_BC,_faience_-_Harvard_Semitic_Museum_-_Cambridge,_MA_-_DSC06198.jpg",
+     "title": "Shabti (funerary figurine) of Amasis, Egypt, Late Period, c. 664-332 BC, faience - Harvard Semitic Museum - Cambridge, MA - DSC06198",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Daderot"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:LOWTH(1855)_-_1.006_RUINS_OF_SAIS_IN_THE_DELTA.jpg",
+     "title": "LOWTH(1855) - 1.006 RUINS OF SAIS IN THE DELTA",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Statue_of_Egyptian_King_Psamtik_I_excavation_1.jpg",
+     "title": "Statue of Egyptian King Psamtik I excavation 1",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Hamada Elrasam/VOA News"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Offering_table_of_Pabasa_MET_DP-14816-006.jpg",
+     "title": "Offering table of Pabasa MET DP-14816-006",
+     "publisher": "Wikimedia Commons",
+     "note": "CC0"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Egypt%27s_Nile_Delta_region_(iss072e905240).jpg",
+     "title": "Egypt's Nile Delta region (iss072e905240)",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · NASA Johnson Space Center"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Nile_River_Delta_at_Night_cropped.JPG",
+     "title": "Nile River Delta at Night cropped",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Nile_River_Delta_at_Night.JPG: ISS Expedition 25 crew deriva"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Egyptian_-_Head_of_a_Priest_-_Walters_22310_-_Three_Quarter.jpg",
+     "title": "Egyptian - Head of a Priest - Walters 22310 - Three Quarter",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Anonymous (Egypt)"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Ruins_of_mudbrick_buildings_on_the_northern_mound_of_Buto-Desouk.jpg",
+     "title": "Ruins of mudbrick buildings on the northern mound of Buto-Desouk",
+     "publisher": "Wikimedia Commons",
+     "note": "CC0 · Faris knight"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Buto6-Desouk.jpg",
+     "title": "Buto6-Desouk",
+     "publisher": "Wikimedia Commons",
+     "note": "CC0 · Faris knight"
+    }
+   ]
   }
  ]
 }
