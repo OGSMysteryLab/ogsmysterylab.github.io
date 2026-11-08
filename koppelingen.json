@@ -1048,7 +1048,7 @@
    ]
   },
   {
-   "match": "we found noah s ark then came the leak",
+   "match": "we found noah s ark then",
    "claim": "In April 2010 a Hong Kong team announced it had found Noah's Ark. A former team member, Randall Price, alleged in a leaked email that the wood was planted. No independent study confirmed the find.",
    "sources": [
     {
@@ -4643,6 +4643,145 @@
      "title": "Buto6-Desouk",
      "publisher": "Wikimedia Commons",
      "note": "CC0 · Faris knight"
+    }
+   ]
+  },
+  {
+   "match": "pulled wood out of noah s ark",
+   "claim": "In September–October 2026 the Noah's Ark Scans team (Andrew Jones) and geologist Cenker Atila drilled about 18–20 m into the boat-shaped Durupınar formation near Mount Ararat. The team says it hit no bedrock and found charred wood, sent to labs in France and Turkey for radiocarbon dating. No dates are published yet, and a carbon date only shows when a tree died. Atila says the material could also be geological. Genesis 8:4 places the landing on the mountains of Ararat; Quran 11:44 names al-Judi, traditionally Mount Cudi in southeast Turkey.",
+   "sources": [
+    {
+     "type": "press",
+     "url": "https://www.geo.tv/latest/688736-scientists-discover-charred-wood-deep-beneath-site-believed-to-be-noahs-ark",
+     "title": "Scientists discover charred wood deep beneath site believed to be Noah's Ark (Oct 2026)",
+     "publisher": "Geo News",
+     "note": ""
+    },
+    {
+     "type": "press",
+     "url": "https://www.dailysabah.com/life/researchers-conduct-1st-core-drilling-at-turkiyes-noahs-ark-site/news",
+     "title": "Researchers conduct 1st core drilling at Türkiye's Noah's Ark site (2026)",
+     "publisher": "Daily Sabah",
+     "note": ""
+    },
+    {
+     "type": "press",
+     "url": "https://thedebrief.org/new-drilling-at-controversial-noahs-ark-site-reveals-organic-material-and-mysterious-underground-cavities/",
+     "title": "New drilling at controversial Noah's Ark site reveals organic material and mysterious underground cavities (2026)",
+     "publisher": "The Debrief",
+     "note": ""
+    },
+    {
+     "type": "press",
+     "url": "https://foxnews.com/media/noahs-ark-researchers-inching-towards-confirmation-drilling-challenges-natural-rock-theory",
+     "title": "Noah's Ark researchers make unprecedented move at site as hunt goes on (2026)",
+     "publisher": "Fox News",
+     "note": ""
+    },
+    {
+     "type": "press",
+     "url": "https://www.financialcontent.com/article/gnwcq-2026-9-23-core-drilling-begins-at-durupinar-noahs-ark-site-drill-bit-shatters-on-possible-layer-of-petrified-wood",
+     "title": "Core drilling begins at Durupinar Noah's Ark site (press release, 23 Sep 2026)",
+     "publisher": "Noah's Ark Scans via GlobeNewswire",
+     "note": "Press release by the research team itself"
+    },
+    {
+     "type": "text",
+     "url": "https://www.biblegateway.com/passage/?search=Genesis%208%3A4&version=NIV",
+     "title": "Genesis 8:4 – the ark came to rest on the mountains of Ararat",
+     "publisher": "Bible Gateway",
+     "note": ""
+    },
+    {
+     "type": "text",
+     "url": "https://quran.com/11/44",
+     "title": "Quran 11:44 – the ship came to rest on al-Judi",
+     "publisher": "Quran.com",
+     "note": ""
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:%D8%AC%D8%A8%D9%84_%D8%AC%D9%88%D8%AF%D9%8A_%D9%81%D9%8A_%D8%AA%D8%B1%D9%83%D9%8A%D8%A7_%D9%85%D9%86_%D9%85%D9%86%D8%B7%D9%82%D8%A9_%D8%B9%D9%8A%D9%86_%D8%AF%D9%8A%D9%88%D8%A7%D8%B1_%D9%81%D9%8A_%D8%B3%D9%88%D8%B1%D9%8A%D8%A7.jpg",
+     "title": "جبل جودي في تركيا من منطقة عين ديوار في سوريا",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · M. Abokaram"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Wood_charcoal.jpg",
+     "title": "Wood charcoal",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · SarKaLay စာကလေး"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Khalili_Collection_Islamic_Art_kfq_0050.1.jpg",
+     "title": "Khalili Collection Islamic Art kfq 0050.1",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 3.0 igo · Khalili Collections"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Noah%27s_Ark_on_Mount_Ararat_by_Simon_de_Myle.jpg",
+     "title": "Noah's Ark on Mount Ararat by Simon de Myle",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Simon de Myle"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Arka_Noego_zimn%C4%85_przy_Centrum_Turystycznym_w_%C3%9Czengili_(Turcja).jpg",
+     "title": "Arka Noego zimną przy Centrum Turystycznym w Üzengili (Turcja)",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 4.0 · Irek i Kasia"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Blick_zum_Berg_Ararat_A%C4%9Fr%C4%B1_Da%C4%9F%C4%B1_%D5%84%D5%A1%D5%BD%D5%AB%D5%BD_(5137_m)_von_Do%C4%9Fubeyaz%C4%B1t_(39505492865).jpg",
+     "title": "Blick zum Berg Ararat Ağrı Dağı Մասիս (5137 m) von Doğubeyazıt (39505492865)",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 2.0 · Herbert Frank from Wien (Vienna), AT"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:View_of_Mount_Ararat_from_an_aircraft_(June_2023).jpg",
+     "title": "View of Mount Ararat from an aircraft (June 2023)",
+     "publisher": "Wikimedia Commons",
+     "note": "CC0 · Benoît Prieur"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Drilling_occurred_at_Pretty_Rocks_in_2018._Core_samples_from_the_drilling_indicate_how_much_ice_underlies_this_part_of_the_(db7aa7dd-5660-41f2-8ced-0f001b7f2a6f).jpg",
+     "title": "Drilling occurred at Pretty Rocks in 2018. Core samples from the drilling indicate how much ice underlies this part of the (db7aa7dd-5660-41f2-8ced-0f001b7f2a6f)",
+     "publisher": "Wikimedia Commons",
+     "note": "Public domain · Mary Lewandowski"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Core_sampling.jpg",
+     "title": "Core sampling",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 4.0 · Paaver"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:The_Structure_Claimed_to_be_the_Noah%27s_Ark_near_the_Mount_Ararat_in_Turkey.jpg",
+     "title": "The Structure Claimed to be the Noah's Ark near the Mount Ararat in Turkey",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 3.0 · Mfikretyilmaz"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_10468_High_vacuum_apparatus_carbon_14.jpg",
+     "title": "CSIRO ScienceImage 10468 High vacuum apparatus carbon 14",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY 3.0 · division, CSIRO"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Cudi_Da%C4%9F%C4%B1.jpg",
+     "title": "Cudi Dağı",
+     "publisher": "Wikimedia Commons",
+     "note": "CC BY-SA 4.0 · KediÇobanı"
     }
    ]
   }
