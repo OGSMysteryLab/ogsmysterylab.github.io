@@ -20,9 +20,872 @@
   "did-jesus-drink-this-water": "Did Jesus Drink This Water? The full film and all sources",
   "the-palace-they-buried": "The Palace They Buried: the full film and all sources",
   "the-pharaoh-under-the-front-yard": "The Pharaoh Under the Front Yard: the full film and all sources",
-  "pied-piper-hamelin": "The Pied Piper: What Happened to Hamelin's Children? The full film and all sources"
+  "pied-piper-hamelin": "The Pied Piper: What Happened to Hamelin's Children? The full film and all sources",
+  "under-jonahs-tomb": "Under Jonah's Tomb: the full film and all sources",
+  "what-lies-beneath-hagia-sophia": "What Lies Beneath Hagia Sophia: the full film and all sources"
  },
  "items": [
+  {
+   "match": "Under Jonah's Tomb: The Palace ISIS Found by Accident",
+   "film_id": "under-jonahs-tomb",
+   "duration": "5 MIN",
+   "claim": "In 2014 the Islamic State blew up the shrine of the prophet Jonah in Mosul. Looters' tunnels beneath it led to an Assyrian palace of King Esarhaddon. Should Mosul rebuild the shrine, or keep uncovering the palace?",
+   "sources": [
+    {
+     "type": "press",
+     "url": "https://www.foxnews.com/science/biblical-kings-palace-uncovered-beneath-shrine-destroyed-by-isis",
+     "title": "Biblical king's palace uncovered beneath shrine destroyed by ISIS (6 Mar 2017)",
+     "publisher": "Fox News"
+    },
+    {
+     "type": "press",
+     "url": "https://www.timesofisrael.com/iraqi-forces-retake-is-bombed-jonahs-tomb-in-mosul/",
+     "title": "Iraqi forces retake IS-bombed 'Jonah's tomb' in Mosul (17 Jan 2017)",
+     "publisher": "Times of Israel / AFP"
+    },
+    {
+     "type": "press",
+     "url": "https://www.thenationalnews.com/weekend/2023/10/27/postcard-from-mosul-mythical-creatures-emerge-from-the-site-of-esarhaddon/",
+     "title": "Postcard from Mosul: mythical creatures emerge from the site of Esarhaddon (27 Oct 2023)",
+     "publisher": "The National"
+    },
+    {
+     "type": "press",
+     "url": "https://www.finestresullarte.info/en/archaeology/discoveries-continue-in-nineveh-iraq-new-reliefs-and-fifteen-lamassu-in-the-palace-of-assyrian-kings",
+     "title": "Discoveries continue in Nineveh: new reliefs and fifteen lamassu (6 Oct 2025)",
+     "publisher": "Finestre sull'Arte"
+    },
+    {
+     "type": "paper",
+     "url": "https://doi.org/10.34780/26h2-2x6e",
+     "title": "Maul, Miglus & Schmitt, excavation report on Nebi Yunus",
+     "publisher": "Zeitschrift für Orient-Archäologie 16 (2025)",
+     "note": "The Iraqi–German (Heidelberg) excavation since 2018."
+    },
+    {
+     "type": "reference",
+     "url": "https://en.wikipedia.org/wiki/Nabi_Yunus",
+     "title": "Nabi Yunus",
+     "publisher": "Wikipedia",
+     "note": "The mound, the mosque, its destruction in July 2014."
+    },
+    {
+     "type": "reference",
+     "url": "https://en.wikipedia.org/wiki/Esarhaddon",
+     "title": "Esarhaddon",
+     "publisher": "Wikipedia",
+     "note": "Son of Sennacherib; 2 Kings 19:37."
+    },
+    {
+     "type": "primary",
+     "url": "https://www.biblegateway.com/passage/?search=Jonah+1%3A17%3B+2+Kings+19%3A37&version=NIV",
+     "title": "Jonah 1:17 and 2 Kings 19:37",
+     "publisher": "The Bible"
+    },
+    {
+     "type": "primary",
+     "url": "https://quran.com/37/139-148",
+     "title": "Quran 37:139–148 (Yunus and the fish)",
+     "publisher": "Quran.com"
+    },
+    {
+     "type": "images",
+     "url": "https://commons.wikimedia.org/",
+     "title": "Photos and paintings: Wikimedia Commons",
+     "publisher": "Public domain / CC0 / CC BY / CC BY-SA",
+     "note": "Full credit list per image in the video description."
+    }
+   ]
+  },
+  {
+   "match": "What Lies Beneath Hagia Sophia? 3,000 Tons of Mud Later",
+   "film_id": "what-lies-beneath-hagia-sophia",
+   "duration": "4 MIN",
+   "claim": "Restorers removed about 3,000 tons of mud and debris from the tunnels and chambers under Hagia Sophia in Istanbul. What was down there, and what does it tell us about the church Justinian built?",
+   "sources": [
+    {
+     "type": "press",
+     "url": "https://www.turkiyetoday.com/culture/archaeologists-remove-3000-tons-of-debris-from-tunnels-beneath-hagia-sophia-3230495",
+     "title": "Archaeologists remove 3,000 tons of debris from tunnels beneath Hagia Sophia (17 Oct 2026)",
+     "publisher": "Türkiye Today"
+    },
+    {
+     "type": "press",
+     "url": "https://www.dailysabah.com/arts/hidden-world-beneath-istanbuls-hagia-sophia-emerges-in-restoration/news",
+     "title": "Hidden world beneath Istanbul's Hagia Sophia emerges in restoration (3 Nov 2026)",
+     "publisher": "Daily Sabah"
+    },
+    {
+     "type": "press",
+     "url": "https://www.hurriyetdailynews.com/restoration-continues-to-open-hagia-sophias-underground-chambers-to-visitors-228913",
+     "title": "Restoration continues to open Hagia Sophia's underground chambers to visitors (Oct 2026)",
+     "publisher": "Hürriyet Daily News"
+    },
+    {
+     "type": "primary",
+     "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Procopius/Buildings/1A*.html",
+     "title": "Procopius, Buildings I.1 (6th century)",
+     "publisher": "LacusCurtius, University of Chicago",
+     "note": "Justinian's rebuilding of the church after the Nika riots of 532."
+    },
+    {
+     "type": "reference",
+     "url": "https://en.wikipedia.org/wiki/Hagia_Sophia",
+     "title": "Hagia Sophia",
+     "publisher": "Wikipedia",
+     "note": "Dates: 537 church, 1453 mosque, 1934 museum, 2020 mosque."
+    },
+    {
+     "type": "images",
+     "url": "https://commons.wikimedia.org/",
+     "title": "Photos and paintings: Wikimedia Commons",
+     "publisher": "Public domain / CC0 / CC BY / CC BY-SA",
+     "note": "Full credit list per image in the video description."
+    }
+   ]
+  },
+  {
+   "match": "What's Under Hagia Sophia?",
+   "film": "what-lies-beneath-hagia-sophia",
+   "claim": "Restorers have removed about 3,000 tons of mud from tunnels beneath Hagia Sophia, and parts of the underground may open to visitors.",
+   "sources": [
+    {
+     "type": "press",
+     "url": "https://www.turkiyetoday.com/culture/archaeologists-remove-3000-tons-of-debris-from-tunnels-beneath-hagia-sophia-3230495",
+     "title": "Archaeologists remove 3,000 tons of debris from tunnels beneath Hagia Sophia (17 Oct 2026)",
+     "publisher": "Türkiye Today"
+    },
+    {
+     "type": "press",
+     "url": "https://www.dailysabah.com/arts/hidden-world-beneath-istanbuls-hagia-sophia-emerges-in-restoration/news",
+     "title": "Hidden world beneath Istanbul's Hagia Sophia emerges in restoration (3 Nov 2026)",
+     "publisher": "Daily Sabah"
+    },
+    {
+     "type": "press",
+     "url": "https://www.hurriyetdailynews.com/restoration-continues-to-open-hagia-sophias-underground-chambers-to-visitors-228913",
+     "title": "Restoration continues to open Hagia Sophia's underground chambers to visitors (Oct 2026)",
+     "publisher": "Hürriyet Daily News"
+    },
+    {
+     "type": "primary",
+     "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Procopius/Buildings/1A*.html",
+     "title": "Procopius, Buildings I.1 (6th century)",
+     "publisher": "LacusCurtius, University of Chicago",
+     "note": "Justinian's rebuilding of the church after the Nika riots of 532."
+    },
+    {
+     "type": "reference",
+     "url": "https://en.wikipedia.org/wiki/Hagia_Sophia",
+     "title": "Hagia Sophia",
+     "publisher": "Wikipedia",
+     "note": "Dates: 537 church, 1453 mosque, 1934 museum, 2020 mosque."
+    },
+    {
+     "type": "images",
+     "url": "https://commons.wikimedia.org/",
+     "title": "Photos and paintings: Wikimedia Commons",
+     "publisher": "Public domain / CC0 / CC BY / CC BY-SA",
+     "note": "Full credit list per image in the video description."
+    }
+   ]
+  },
+  {
+   "match": "Hidden Inside the Dome: Ottoman Genius or Roman Trick?",
+   "claim": "Restoration of the Süleymaniye Mosque revealed clay jars built into the dome. Was it Mimar Sinan's own acoustic idea, or a trick described by the Roman Vitruvius 1,500 years earlier?",
+   "sources": [
+    {
+     "type": "press",
+     "url": "https://www.hurriyetdailynews.com/restoration-reveals-architectural-secrets-of-istanbuls-suleymaniye-mosque-228238",
+     "title": "Restoration reveals architectural secrets of Istanbul's Süleymaniye Mosque (17 Oct 2026)",
+     "publisher": "Hürriyet Daily News"
+    },
+    {
+     "type": "press",
+     "url": "https://www.dailysabah.com/life/history/restoration-reveals-hidden-secrets-of-istanbuls-suleymaniye-mosque",
+     "title": "Restoration reveals hidden secrets of Istanbul's Süleymaniye Mosque (Oct 2026)",
+     "publisher": "Daily Sabah"
+    },
+    {
+     "type": "press",
+     "url": "https://www.turkiyetoday.com/culture/restoration-of-istanbuls-suleymaniye-mosque-reveals-hidden-acoustic-jars-in-dome-3230387",
+     "title": "Restoration of Süleymaniye Mosque reveals hidden acoustic jars in dome",
+     "publisher": "Türkiye Today"
+    },
+    {
+     "type": "primary",
+     "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Vitruvius/5*.html",
+     "title": "Vitruvius, De architectura, Book V, chapter 5: sounding vessels (echea) in theatres",
+     "publisher": "LacusCurtius, University of Chicago",
+     "note": "The Roman description of bronze jars placed in theatres to strengthen the voice."
+    },
+    {
+     "type": "paper",
+     "url": "https://repository.bilkent.edu.tr/items/c6801d01-8aaa-49c6-8165-e699273f20bc",
+     "title": "The acoustical characterization of clay pots in Ottoman architecture through experimental and numerical analysis",
+     "publisher": "Bilkent / METU / TED University",
+     "note": "Measured effect of the pots: modest, mainly at low frequencies."
+    },
+    {
+     "type": "images",
+     "url": "https://commons.wikimedia.org/",
+     "title": "Photos and paintings: Wikimedia Commons",
+     "publisher": "Public domain / CC0 / CC BY / CC BY-SA",
+     "note": "Full credit list per image in the video description."
+    }
+   ]
+  },
+  {
+   "match": "They Blew Up Jonah's Tomb",
+   "film": "under-jonahs-tomb",
+   "claim": "Under the ruins of Jonah's shrine in Mosul lay an Assyrian palace with an inscription of King Esarhaddon.",
+   "sources": [
+    {
+     "type": "press",
+     "url": "https://www.foxnews.com/science/biblical-kings-palace-uncovered-beneath-shrine-destroyed-by-isis",
+     "title": "Biblical king's palace uncovered beneath shrine destroyed by ISIS (6 Mar 2017)",
+     "publisher": "Fox News"
+    },
+    {
+     "type": "press",
+     "url": "https://www.timesofisrael.com/iraqi-forces-retake-is-bombed-jonahs-tomb-in-mosul/",
+     "title": "Iraqi forces retake IS-bombed 'Jonah's tomb' in Mosul (17 Jan 2017)",
+     "publisher": "Times of Israel / AFP"
+    },
+    {
+     "type": "press",
+     "url": "https://www.thenationalnews.com/weekend/2023/10/27/postcard-from-mosul-mythical-creatures-emerge-from-the-site-of-esarhaddon/",
+     "title": "Postcard from Mosul: mythical creatures emerge from the site of Esarhaddon (27 Oct 2023)",
+     "publisher": "The National"
+    },
+    {
+     "type": "press",
+     "url": "https://www.finestresullarte.info/en/archaeology/discoveries-continue-in-nineveh-iraq-new-reliefs-and-fifteen-lamassu-in-the-palace-of-assyrian-kings",
+     "title": "Discoveries continue in Nineveh: new reliefs and fifteen lamassu (6 Oct 2025)",
+     "publisher": "Finestre sull'Arte"
+    },
+    {
+     "type": "paper",
+     "url": "https://doi.org/10.34780/26h2-2x6e",
+     "title": "Maul, Miglus & Schmitt, excavation report on Nebi Yunus",
+     "publisher": "Zeitschrift für Orient-Archäologie 16 (2025)",
+     "note": "The Iraqi–German (Heidelberg) excavation since 2018."
+    },
+    {
+     "type": "reference",
+     "url": "https://en.wikipedia.org/wiki/Nabi_Yunus",
+     "title": "Nabi Yunus",
+     "publisher": "Wikipedia",
+     "note": "The mound, the mosque, its destruction in July 2014."
+    },
+    {
+     "type": "reference",
+     "url": "https://en.wikipedia.org/wiki/Esarhaddon",
+     "title": "Esarhaddon",
+     "publisher": "Wikipedia",
+     "note": "Son of Sennacherib; 2 Kings 19:37."
+    },
+    {
+     "type": "primary",
+     "url": "https://www.biblegateway.com/passage/?search=Jonah+1%3A17%3B+2+Kings+19%3A37&version=NIV",
+     "title": "Jonah 1:17 and 2 Kings 19:37",
+     "publisher": "The Bible"
+    },
+    {
+     "type": "primary",
+     "url": "https://quran.com/37/139-148",
+     "title": "Quran 37:139–148 (Yunus and the fish)",
+     "publisher": "Quran.com"
+    },
+    {
+     "type": "images",
+     "url": "https://commons.wikimedia.org/",
+     "title": "Photos and paintings: Wikimedia Commons",
+     "publisher": "Public domain / CC0 / CC BY / CC BY-SA",
+     "note": "Full credit list per image in the video description."
+    }
+   ]
+  },
+  {
+   "match": "The Staff of Moses in Istanbul?",
+   "claim": "Topkapı Palace displays a stick labelled as the staff of Moses, brought to Istanbul after 1517. Constantinople and Paris once claimed it too.",
+   "sources": [
+    {
+     "type": "reference",
+     "url": "https://en.wikipedia.org/wiki/Sacred_Relics_(Topkap%C4%B1_Palace)",
+     "title": "Sacred Relics (Topkapı Palace)",
+     "publisher": "Wikipedia",
+     "note": "The relics brought to Istanbul after Selim I conquered Egypt in 1517."
+    },
+    {
+     "type": "reference",
+     "url": "https://en.wikipedia.org/wiki/Staff_of_Moses",
+     "title": "Staff of Moses",
+     "publisher": "Wikipedia",
+     "note": "The earlier claims in Constantinople and Paris (Sainte-Chapelle)."
+    },
+    {
+     "type": "primary",
+     "url": "https://www.biblegateway.com/passage/?search=Exodus+4%3A2-4%3B+Exodus+14%3A16%3B+Exodus+17%3A6&version=NIV",
+     "title": "Exodus 4:2–4, 14:16, 17:6",
+     "publisher": "The Bible"
+    },
+    {
+     "type": "primary",
+     "url": "https://quran.com/20/17-21",
+     "title": "Quran 20:17–21 and 26:63",
+     "publisher": "Quran.com"
+    },
+    {
+     "type": "images",
+     "url": "https://commons.wikimedia.org/",
+     "title": "Photos and paintings: Wikimedia Commons",
+     "publisher": "Public domain / CC0 / CC BY / CC BY-SA",
+     "note": "Full credit list per image in the video description."
+    }
+   ]
+  },
+  {
+   "match": "The Other Shroud of Jesus",
+   "claim": "The Sudarium of Oviedo is said to have covered the face of Jesus. Supporters cite blood type AB; a carbon test dated it to about AD 700.",
+   "sources": [
+    {
+     "type": "paper",
+     "url": "https://revistas.comillas.edu/pensamiento/article/view/24210",
+     "title": "Comparison between the Sudarium of Oviedo and the Shroud of Turin (2025)",
+     "publisher": "J. Díaz-Ropero López, Pensamiento 81",
+     "note": "The supporters' case: blood group AB and matching stain patterns."
+    },
+    {
+     "type": "press",
+     "url": "https://aleteia.org/2019/08/10/get-to-know-the-shroud-of-turins-companion-cloth/",
+     "title": "Get to know the Shroud of Turin's companion cloth (2019)",
+     "publisher": "Aleteia"
+    },
+    {
+     "type": "reference",
+     "url": "https://en.wikipedia.org/wiki/Sudarium_of_Oviedo",
+     "title": "Sudarium of Oviedo",
+     "publisher": "Wikipedia",
+     "note": "The journey via Alexandria (614) to Oviedo; the radiocarbon date of about AD 700."
+    },
+    {
+     "type": "primary",
+     "url": "https://www.biblegateway.com/passage/?search=John+20%3A7&version=NIV",
+     "title": "John 20:7 (the separate face cloth)",
+     "publisher": "The Bible"
+    },
+    {
+     "type": "images",
+     "url": "https://commons.wikimedia.org/",
+     "title": "Photos and paintings: Wikimedia Commons",
+     "publisher": "Public domain / CC0 / CC BY / CC BY-SA",
+     "note": "Full credit list per image in the video description."
+    }
+   ]
+  },
+  {
+   "match": "Jerusalem's Lost Aqueduct to the Temple Mount",
+   "claim": "In October 2026 archaeologists uncovered 300 meters of the aqueduct that carried water to the Temple Mount. Josephus says Pilate paid for an aqueduct with Temple money.",
+   "sources": [
+    {
+     "type": "press",
+     "url": "https://www.timesofisrael.com/plans-for-new-jerusalem-neighborhood-uncover-300-meter-stretch-of-ancient-aqueduct/",
+     "title": "Plans for new Jerusalem neighborhood uncover 300-meter stretch of ancient aqueduct (Oct 2026)",
+     "publisher": "Times of Israel"
+    },
+    {
+     "type": "press",
+     "url": "https://www.jewishnews.co.uk/archaeologists-uncover-a-300-metre-section-of-ancient-aqueduct-in-jerusalem/",
+     "title": "Archaeologists uncover a 300-metre section of ancient aqueduct in Jerusalem (11 Oct 2026)",
+     "publisher": "JTA / Jewish News"
+    },
+    {
+     "type": "press",
+     "url": "https://www.algemeiner.com/?p=781083",
+     "title": "Israeli archaeologists uncover 2,000-year-old aqueduct to the Temple Mount (12 Oct 2026)",
+     "publisher": "Algemeiner"
+    },
+    {
+     "type": "primary",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=J.+AJ+18.3.2",
+     "title": "Josephus, Jewish Antiquities 18.3.2",
+     "publisher": "Perseus Digital Library",
+     "note": "Pilate pays for an aqueduct with sacred money; the protest."
+    },
+    {
+     "type": "primary",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=J.+BJ+2.9.4",
+     "title": "Josephus, The Jewish War 2.9.4",
+     "publisher": "Perseus Digital Library",
+     "note": "The corban and the soldiers."
+    },
+    {
+     "type": "images",
+     "url": "https://commons.wikimedia.org/",
+     "title": "Photos and paintings: Wikimedia Commons",
+     "publisher": "Public domain / CC0 / CC BY / CC BY-SA",
+     "note": "Full credit list per image in the video description."
+    },
+    {
+     "type": "images",
+     "url": "https://www.pexels.com/license/",
+     "title": "Moving footage: Pexels",
+     "publisher": "Pexels licence (free to use)"
+    }
+   ]
+  },
+  {
+   "match": "A Garden Under the Tomb of Jesus?",
+   "claim": "Pollen and plant remains under the Church of the Holy Sepulchre point to olive trees and vines about 2,000 years ago, as in John 19:41.",
+   "sources": [
+    {
+     "type": "press",
+     "url": "https://aleteia.org/2025/03/24/garden-found-beneath-church-of-holy-sepulchre-echoes-gospel-account",
+     "title": "Garden found beneath Church of Holy Sepulchre echoes Gospel account (24 Mar 2025)",
+     "publisher": "Aleteia",
+     "note": "Olive trees and grapevines; excavation led by Francesca Romana Stasolla (Sapienza University)."
+    },
+    {
+     "type": "press",
+     "url": "https://www.biblearchaeology.org/current-events-list/5218-traces-of-ancient-garden-discovered-beneath-the-church-of-the-holy-sepulchre",
+     "title": "Traces of ancient garden discovered beneath the Church of the Holy Sepulchre",
+     "publisher": "Associates for Biblical Research"
+    },
+    {
+     "type": "primary",
+     "url": "https://www.biblegateway.com/passage/?search=John+19%3A41-42&version=NIV",
+     "title": "John 19:41–42",
+     "publisher": "The Bible"
+    },
+    {
+     "type": "images",
+     "url": "https://commons.wikimedia.org/",
+     "title": "Photos and paintings: Wikimedia Commons",
+     "publisher": "Public domain / CC0 / CC BY / CC BY-SA",
+     "note": "Full credit list per image in the video description."
+    },
+    {
+     "type": "images",
+     "url": "https://www.pexels.com/license/",
+     "title": "Moving footage: Pexels",
+     "publisher": "Pexels licence (free to use)"
+    }
+   ]
+  },
+  {
+   "match": "Did Jesus Walk This Road in Jerusalem?",
+   "claim": "A 600-meter road from the Pool of Siloam to the Temple Mount opened in February 2026. Coins date it to around the time of Pontius Pilate.",
+   "sources": [
+    {
+     "type": "press",
+     "url": "https://www.israelhayom.com/2026/02/04/jerusalems-pilgrims-road-walking-the-historic-path/",
+     "title": "Jerusalem's Pilgrims' Road: walking the historic path (4 Feb 2026)",
+     "publisher": "Israel Hayom"
+    },
+    {
+     "type": "press",
+     "url": "https://greekreporter.com/2026/02/05/temple-mount-road-jerusalem/",
+     "title": "2,000-year-old road to the Temple Mount reemerges in Jerusalem (5 Feb 2026)",
+     "publisher": "Greek Reporter"
+    },
+    {
+     "type": "press",
+     "url": "https://www.nationalgeographic.com/history/article/road-built-biblical-villain-uncovered-jerusalem",
+     "title": "Road built by biblical villain uncovered in Jerusalem (2019)",
+     "publisher": "National Geographic",
+     "note": "The coins under the paving and the study by Szanton, Hagbi, Uziel and Ariel (Tel Aviv 46:2, 2019)."
+    },
+    {
+     "type": "primary",
+     "url": "https://www.biblegateway.com/passage/?search=John+9%3A7&version=NIV",
+     "title": "John 9:7 (the Pool of Siloam)",
+     "publisher": "The Bible"
+    },
+    {
+     "type": "images",
+     "url": "https://commons.wikimedia.org/",
+     "title": "Photos and paintings: Wikimedia Commons",
+     "publisher": "Public domain / CC0 / CC BY / CC BY-SA",
+     "note": "Full credit list per image in the video description."
+    },
+    {
+     "type": "images",
+     "url": "https://www.pexels.com/license/",
+     "title": "Moving footage: Pexels",
+     "publisher": "Pexels licence (free to use)"
+    }
+   ]
+  },
+  {
+   "match": "Where Was Abraham Born: Urfa or Ur?",
+   "claim": "Şanlıurfa honours a cave and a pool as Abraham's birthplace, and in 2026 a 5th-century martyr's church was found above the pools. The Bible says Ur of the Chaldees.",
+   "sources": [
+    {
+     "type": "press",
+     "url": "https://arkeonews.net/sanliurfa-castle-excavations-uncover-a-martyrs-church-in-ancient-edessa/",
+     "title": "Şanlıurfa Castle excavations uncover a martyr's church in ancient Edessa (Aug 2026)",
+     "publisher": "Arkeonews"
+    },
+    {
+     "type": "reference",
+     "url": "https://en.wikipedia.org/wiki/Bal%C4%B1kl%C4%B1g%C3%B6l",
+     "title": "Balıklıgöl (Pool of Abraham)",
+     "publisher": "Wikipedia",
+     "note": "The sacred carp and the Nimrod tradition."
+    },
+    {
+     "type": "reference",
+     "url": "https://en.wikipedia.org/wiki/Ur_of_the_Chaldees",
+     "title": "Ur of the Chaldees",
+     "publisher": "Wikipedia",
+     "note": "Why many scholars place it at Ur in southern Iraq, and the case for Urfa."
+    },
+    {
+     "type": "primary",
+     "url": "https://www.biblegateway.com/passage/?search=Genesis+11%3A28-31&version=NIV",
+     "title": "Genesis 11:28–31",
+     "publisher": "The Bible"
+    },
+    {
+     "type": "primary",
+     "url": "https://quran.com/21/68-69",
+     "title": "Quran 21:68–69 (the fire made cool)",
+     "publisher": "Quran.com"
+    },
+    {
+     "type": "images",
+     "url": "https://commons.wikimedia.org/",
+     "title": "Photos and paintings: Wikimedia Commons",
+     "publisher": "Public domain / CC0 / CC BY / CC BY-SA",
+     "note": "Full credit list per image in the video description."
+    },
+    {
+     "type": "images",
+     "url": "https://www.pexels.com/license/",
+     "title": "Moving footage: Pexels",
+     "publisher": "Pexels licence (free to use)"
+    }
+   ]
+  },
+  {
+   "match": "Mount Sinai: Egypt or Saudi Arabia?",
+   "claim": "Pilgrims have climbed Egypt's Jebel Musa for sixteen centuries. Since the 1980s some point to Jabal al-Lawz in Saudi Arabia instead.",
+   "sources": [
+    {
+     "type": "historian",
+     "url": "https://biblearchaeology.org/?p=69207",
+     "title": "Is Mount Sinai in Saudi Arabia?",
+     "publisher": "Gordon Franz, Associates for Biblical Research",
+     "note": "The case against Jabal al-Lawz."
+    },
+    {
+     "type": "press",
+     "url": "https://byfaith.org/2026/06/20/mount-sinai-in-saudi-arabia-jabal-al-lawz-fake-or-true/",
+     "title": "Mount Sinai in Saudi Arabia, Jabal al-Lawz: fake or true? (20 Jun 2026)",
+     "publisher": "ByFaith"
+    },
+    {
+     "type": "reference",
+     "url": "https://en.wikipedia.org/wiki/Mount_Sinai",
+     "title": "Mount Sinai",
+     "publisher": "Wikipedia",
+     "note": "Jebel Musa, Saint Catherine's Monastery and the alternative candidates."
+    },
+    {
+     "type": "primary",
+     "url": "https://www.biblegateway.com/passage/?search=Exodus+3%3A1%3B+Galatians+4%3A25&version=NIV",
+     "title": "Exodus 3:1 and Galatians 4:25",
+     "publisher": "The Bible"
+    },
+    {
+     "type": "images",
+     "url": "https://commons.wikimedia.org/",
+     "title": "Photos and paintings: Wikimedia Commons",
+     "publisher": "Public domain / CC0 / CC BY / CC BY-SA",
+     "note": "Full credit list per image in the video description."
+    },
+    {
+     "type": "images",
+     "url": "https://www.pexels.com/license/",
+     "title": "Moving footage: Pexels",
+     "publisher": "Pexels licence (free to use)"
+    }
+   ]
+  },
+  {
+   "match": "Is the Ark of the Covenant in Ethiopia?",
+   "claim": "The Ethiopian Church says a chapel in Aksum holds the Ark of the Covenant. Only one guardian monk may see it.",
+   "sources": [
+    {
+     "type": "reference",
+     "url": "https://en.wikipedia.org/wiki/Church_of_Our_Lady_Mary_of_Zion",
+     "title": "Church of Our Lady Mary of Zion (Aksum)",
+     "publisher": "Wikipedia",
+     "note": "The Chapel of the Tablet, the guardian monk, Menelik, Ullendorff's 1941 claim."
+    },
+    {
+     "type": "press",
+     "url": "https://www.foxnews.com/science/sorry-indiana-jones-the-ark-of-the-covenant-is-not-inside-this-ethiopian-church",
+     "title": "Ark of the Covenant is only a replica at Ethiopian church",
+     "publisher": "Fox News / Live Science"
+    },
+    {
+     "type": "press",
+     "url": "https://aleteia.org/2017/09/15/is-the-ark-of-the-covenant-really-in-ethiopia",
+     "title": "Is the Ark of the Covenant really in Ethiopia? (15 Sep 2017)",
+     "publisher": "Aleteia"
+    },
+    {
+     "type": "images",
+     "url": "https://commons.wikimedia.org/",
+     "title": "Photos and paintings: Wikimedia Commons",
+     "publisher": "Public domain / CC0 / CC BY / CC BY-SA",
+     "note": "Full credit list per image in the video description."
+    }
+   ]
+  },
+  {
+   "match": "Lalibela: Churches Carved by Angels?",
+   "claim": "Eleven churches in Lalibela were carved down into the rock. Tradition says angels helped; archaeologists see several phases of work.",
+   "sources": [
+    {
+     "type": "museum",
+     "url": "https://www.metmuseum.org/essays/the-rock-hewn-churches-of-lalibela",
+     "title": "The Rock-hewn Churches of Lalibela",
+     "publisher": "The Metropolitan Museum of Art",
+     "note": "King Lalibela, the 'new Jerusalem' and the dating debate."
+    },
+    {
+     "type": "official",
+     "url": "https://whc.unesco.org/en/list/18",
+     "title": "Rock-Hewn Churches, Lalibela",
+     "publisher": "UNESCO World Heritage Centre",
+     "note": "Inscribed in 1978."
+    },
+    {
+     "type": "images",
+     "url": "https://commons.wikimedia.org/",
+     "title": "Photos and paintings: Wikimedia Commons",
+     "publisher": "Public domain / CC0 / CC BY / CC BY-SA",
+     "note": "Full credit list per image in the video description."
+    },
+    {
+     "type": "images",
+     "url": "https://www.pexels.com/license/",
+     "title": "Moving footage: Pexels",
+     "publisher": "Pexels licence (free to use)"
+    }
+   ]
+  },
+  {
+   "match": "Jesus Boat",
+   "claim": "In 1986 a drought revealed a fishing boat from around the time of Jesus in the Sea of Galilee. There is no evidence it ever carried him.",
+   "sources": [
+    {
+     "type": "reference",
+     "url": "https://en.wikipedia.org/wiki/Sea_of_Galilee_Boat",
+     "title": "Sea of Galilee Boat",
+     "publisher": "Wikipedia",
+     "note": "Found in 1986 by Moshe and Yuval Lufan; carbon-dated to the 1st century BC–1st century AD; about 8 m; ten kinds of wood."
+    },
+    {
+     "type": "press",
+     "url": "https://aleteia.org/2019/01/04/the-jesus-boat-an-archeological-treasure-from-the-sea-of-galilee/",
+     "title": "The Jesus Boat: an archaeological treasure (4 Jan 2019)",
+     "publisher": "Aleteia"
+    },
+    {
+     "type": "images",
+     "url": "https://commons.wikimedia.org/",
+     "title": "Photos and paintings: Wikimedia Commons",
+     "publisher": "Public domain / CC0 / CC BY / CC BY-SA",
+     "note": "Full credit list per image in the video description."
+    },
+    {
+     "type": "images",
+     "url": "https://www.pexels.com/license/",
+     "title": "Moving footage: Pexels",
+     "publisher": "Pexels licence (free to use)"
+    }
+   ]
+  },
+  {
+   "match": "Is This Really King Herod's Tomb?",
+   "claim": "Ehud Netzer found a tomb at Herodium in 2007 and believed it was Herod's. In 2013 other archaeologists argued it was too modest.",
+   "sources": [
+    {
+     "type": "reference",
+     "url": "https://en.wikipedia.org/wiki/Tomb_of_Herod",
+     "title": "Tomb of Herod",
+     "publisher": "Wikipedia",
+     "note": "Ehud Netzer's discovery in 2007 and his death at Herodium in 2010."
+    },
+    {
+     "type": "press",
+     "url": "https://www.livescience.com/40443-herods-tomb-not-his-tomb.html",
+     "title": "King Herod's tomb a mystery yet again (2013)",
+     "publisher": "Live Science",
+     "note": "Patrich and Edelcopp: the tomb is too modest for Herod."
+    },
+    {
+     "type": "press",
+     "url": "https://www.biblicalarchaeology.org/daily/news/not-fit-for-a-king/",
+     "title": "Not fit for a king?",
+     "publisher": "Biblical Archaeology Society"
+    },
+    {
+     "type": "primary",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=J.+AJ+17.8.3",
+     "title": "Josephus, Jewish Antiquities 17.8.3 (Herod's funeral)",
+     "publisher": "Perseus Digital Library"
+    },
+    {
+     "type": "images",
+     "url": "https://commons.wikimedia.org/",
+     "title": "Photos and paintings: Wikimedia Commons",
+     "publisher": "Public domain / CC0 / CC BY / CC BY-SA",
+     "note": "Full credit list per image in the video description."
+    },
+    {
+     "type": "images",
+     "url": "https://www.pexels.com/license/",
+     "title": "Moving footage: Pexels",
+     "publisher": "Pexels licence (free to use)"
+    }
+   ]
+  },
+  {
+   "match": "The Hidden Qurans of Sanaa",
+   "claim": "In 1972 workers in Sanaa's Great Mosque found thousands of early Quran pages, including a palimpsest. In 2026 researchers in Hamburg began studying them.",
+   "sources": [
+    {
+     "type": "press",
+     "url": "https://www.uni-hamburg.de/en/newsroom/presse/2026/pm36.html",
+     "title": "Oldest Quran manuscripts to be analysed (press release, 29 Sep 2026)",
+     "publisher": "Universität Hamburg"
+    },
+    {
+     "type": "reference",
+     "url": "https://en.wikipedia.org/wiki/Sanaa_manuscript",
+     "title": "Sanaa manuscript",
+     "publisher": "Wikipedia",
+     "note": "The 1972 find and the palimpsest."
+    },
+    {
+     "type": "paper",
+     "url": "https://doi.org/10.1515/islam-2011-0025",
+     "title": "Sadeghi & Goudarzi, 'Ṣanʿāʾ 1 and the Origins of the Qurʾān' (2012)",
+     "publisher": "Der Islam 87"
+    },
+    {
+     "type": "images",
+     "url": "https://commons.wikimedia.org/",
+     "title": "Photos and paintings: Wikimedia Commons",
+     "publisher": "Public domain / CC0 / CC BY / CC BY-SA",
+     "note": "Full credit list per image in the video description."
+    },
+    {
+     "type": "images",
+     "url": "https://www.pexels.com/license/",
+     "title": "Moving footage: Pexels",
+     "publisher": "Pexels licence (free to use)"
+    }
+   ]
+  },
+  {
+   "match": "America's Sky Went Silent",
+   "claim": "On 13 November 2026 the FAA stopped every departing flight in the US for over four hours. The internet said aliens; the official reason was a telecommunications outage.",
+   "sources": [
+    {
+     "type": "press",
+     "url": "https://www.unilad.com/news/world-news/fos-grounded-flights-south-america-sighting-theory-994850-20261114",
+     "title": "Bizarre theory emerges that FAA grounded all flights as 'UFO' spotted over South America (14 Nov 2026)",
+     "publisher": "UNILAD",
+     "note": "The ground stop of 13 Nov 2026: about 4 p.m. to 8:15 p.m. EST; the official cause."
+    },
+    {
+     "type": "press",
+     "url": "https://www.ibtimes.co.uk/stephen-king-aliens-faa-ground-stop-1832211",
+     "title": "Stephen King claims 'the aliens have landed' during FAA ground stop (14 Nov 2026)",
+     "publisher": "IBTimes UK",
+     "note": "Sean Duffy's statements on the old air traffic control system."
+    },
+    {
+     "type": "reference",
+     "url": "https://en.wikipedia.org/wiki/2026_Texas_and_New_Mexico_airspace_closures",
+     "title": "2026 Texas and New Mexico airspace closures",
+     "publisher": "Wikipedia",
+     "note": "El Paso, February 2026: 'special security reasons', the 'deadly force' warning, and the party balloon hit by a laser (AP/NYT reporting)."
+    },
+    {
+     "type": "images",
+     "url": "https://commons.wikimedia.org/wiki/File:Gimbal_The_First_Official_UAP_Footage_from_the_USG_for_Public_Release.webm",
+     "title": "Gimbal UAP video (U.S. Navy, released 2020)",
+     "publisher": "U.S. Department of Defense · public domain",
+     "note": "Shown as an example of a famous UFO video, not as footage of 13 November."
+    },
+    {
+     "type": "images",
+     "url": "https://commons.wikimedia.org/",
+     "title": "Photos and paintings: Wikimedia Commons",
+     "publisher": "Public domain / CC0 / CC BY / CC BY-SA",
+     "note": "Full credit list per image in the video description."
+    },
+    {
+     "type": "images",
+     "url": "https://www.pexels.com/license/",
+     "title": "Moving footage: Pexels",
+     "publisher": "Pexels licence (free to use)"
+    }
+   ]
+  },
+  {
+   "match": "Jellyfish UFO",
+   "claim": "A tentacled object filmed over Anchorage in June 2026 went viral in November. The Pentagon's former UFO chief says it moves like a kite; the woman who filmed it disagrees.",
+   "sources": [
+    {
+     "type": "press",
+     "url": "https://alaskanews.com/c/alaska-news/anchorages-viral-jellyfish-ufo-was-filmed-in-june-and-it-may-be-a-kite",
+     "title": "Anchorage's viral 'jellyfish UFO' was filmed in June, and it may be a kite (13 Nov 2026)",
+     "publisher": "Alaska News",
+     "note": "Filmed 15 June 2026; the kite field at Russian Jack; the winds; the filmer says it was not a kite."
+    },
+    {
+     "type": "press",
+     "url": "https://www.foxnews.com/us/pentagons-former-ufo-investigator-offers-simple-theory-mysterious-jellyfish-shaped-object-video",
+     "title": "Pentagon's former UFO investigator offers simple theory for jellyfish-shaped object (14 Nov 2026)",
+     "publisher": "Fox News",
+     "note": "Sean Kirkpatrick: 'similar to a kite with streamers'."
+    },
+    {
+     "type": "press",
+     "url": "https://globalnews.ca/news/10216527/jellyfish-ufo-iraq-video-uap",
+     "title": "Video allegedly captures 'jellyfish' UAP over U.S. military base in Iraq (10 Jan 2024)",
+     "publisher": "Global News"
+    },
+    {
+     "type": "press",
+     "url": "https://comicbook.com/irl/news/jellyfish-ufo-video-pentagon-department-defense-breaks-silence",
+     "title": "Pentagon responds to the jellyfish UFO footage (21 Jan 2024)",
+     "publisher": "ComicBook / NewsNation",
+     "note": "The Pentagon would not comment on the authenticity of leaked material."
+    },
+    {
+     "type": "images",
+     "url": "https://commons.wikimedia.org/",
+     "title": "Photos and paintings: Wikimedia Commons",
+     "publisher": "Public domain / CC0 / CC BY / CC BY-SA",
+     "note": "Full credit list per image in the video description."
+    },
+    {
+     "type": "images",
+     "url": "https://www.pexels.com/license/",
+     "title": "Moving footage: Pexels",
+     "publisher": "Pexels licence (free to use)"
+    }
+   ]
+  },
   {
    "match": "oldest shipwreck ever found",
    "film_id": "oldest-shipwreck-ever-found",

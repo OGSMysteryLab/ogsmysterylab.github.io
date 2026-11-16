@@ -1,15 +1,40 @@
 [
   {
+    "id": "america-s-sky-went-silent-aliens-or-old-computers",
+    "video": "bS968mNN300",
+    "ep": 148,
+    "format": "FACT",
+    "title": "America's Sky Went Silent: Aliens or Old Computers?",
+    "claim": "",
+    "verdict": "",
+    "date": "2026-11-16",
+    "youtube": "https://www.youtube.com/watch?v=bS968mNN300",
+    "sources": []
+  },
+  {
+    "id": "where-was-abraham-born-urfa-or-ur",
+    "video": "cUiWqsASUzE",
+    "ep": 147,
+    "format": "FACT",
+    "title": "Where Was Abraham Born: Urfa or Ur?",
+    "claim": "",
+    "verdict": "",
+    "date": "2026-11-16",
+    "youtube": "https://www.youtube.com/watch?v=cUiWqsASUzE",
+    "sources": []
+  },
+  {
     "id": "under-jonah-s-tomb-the-palace-isis-found-by-accide",
     "video": "lbbWpM78yes",
     "ep": 146,
-    "format": "FACT",
+    "format": "LONG",
     "title": "Under Jonah's Tomb: The Palace ISIS Found by Accident",
     "claim": "",
     "verdict": "",
     "date": "2026-11-15",
     "youtube": "https://www.youtube.com/watch?v=lbbWpM78yes",
-    "sources": []
+    "sources": [],
+    "duration": "5 MIN"
   },
   {
     "id": "jerusalem-s-lost-aqueduct-to-the-temple-mount",
@@ -87,13 +112,14 @@
     "id": "what-lies-beneath-hagia-sophia-3-000-tons-of-mud-l",
     "video": "kChIyLCbHHc",
     "ep": 139,
-    "format": "FACT",
+    "format": "LONG",
     "title": "What Lies Beneath Hagia Sophia? 3,000 Tons of Mud Later",
     "claim": "",
     "verdict": "",
     "date": "2026-11-09",
     "youtube": "https://www.youtube.com/watch?v=kChIyLCbHHc",
-    "sources": []
+    "sources": [],
+    "duration": "4 MIN"
   },
   {
     "id": "ram-setu-the-bridge-from-the-ramayana",
@@ -339,13 +365,14 @@
     "id": "the-pied-piper-was-real-what-happened-to-hamelin-s",
     "video": "Sqn-uSEMJhQ",
     "ep": 118,
-    "format": "FACT",
+    "format": "LONG",
     "title": "The Pied Piper Was Real? What Happened to Hamelin's 130 Children in 1284",
     "claim": "",
     "verdict": "",
     "date": "2026-10-29",
     "youtube": "https://www.youtube.com/watch?v=Sqn-uSEMJhQ",
-    "sources": []
+    "sources": [],
+    "duration": "6 MIN"
   },
   {
     "id": "this-dog-s-name-was-hidden-for-3-500-years",
@@ -411,13 +438,14 @@
     "id": "the-pharaoh-under-the-front-yard-giant-ramesses-ii",
     "video": "2WqxdRb475Y",
     "ep": 112,
-    "format": "FACT",
+    "format": "LONG",
     "title": "The Pharaoh Under the Front Yard: Giant Ramesses II Found in a Village",
     "claim": "",
     "verdict": "",
     "date": "2026-10-27",
     "youtube": "https://www.youtube.com/watch?v=2WqxdRb475Y",
-    "sources": []
+    "sources": [],
+    "duration": "5 MIN"
   },
   {
     "id": "the-four-rivers-of-eden-on-a-1-500-year-old-floor",
@@ -471,13 +499,14 @@
     "id": "where-was-the-garden-of-eden-a-1-500-year-old-mosa",
     "video": "kjb09Hn1mgo",
     "ep": 107,
-    "format": "FACT",
+    "format": "LONG",
     "title": "Where Was the Garden of Eden? A 1,500-Year-Old Mosaic and 7 Theories",
     "claim": "",
     "verdict": "",
     "date": "2026-10-25",
     "youtube": "https://www.youtube.com/watch?v=kjb09Hn1mgo",
-    "sources": []
+    "sources": [],
+    "duration": "6 MIN"
   },
   {
     "id": "4-700-year-old-residue-still-inside-these-jars",
@@ -519,13 +548,14 @@
     "id": "the-oldest-shipwreck-ever-found-4-700-years-under-",
     "video": "0DnfOfrnt_4",
     "ep": 103,
-    "format": "FACT",
+    "format": "LONG",
     "title": "The Oldest Shipwreck Ever Found? 4,700 Years Under the Sea",
     "claim": "",
     "verdict": "",
     "date": "2026-10-23",
     "youtube": "https://www.youtube.com/watch?v=0DnfOfrnt_4",
-    "sources": []
+    "sources": [],
+    "duration": "5 MIN"
   },
   {
     "id": "no-pumps-just-gravity-jerusalem-s-ancient-aqueduct",
@@ -579,13 +609,14 @@
     "id": "did-jesus-drink-this-water-jerusalem-s-2-000-year-",
     "video": "VP_6BfuoYkc",
     "ep": 98,
-    "format": "MYTH",
+    "format": "LONG",
     "title": "Did Jesus Drink This Water? Jerusalem's 2,000-Year-Old Aqueduct",
     "claim": "",
     "verdict": "",
     "date": "2026-10-21",
     "youtube": "https://www.youtube.com/watch?v=VP_6BfuoYkc",
-    "sources": []
+    "sources": [],
+    "duration": "5 MIN"
   },
   {
     "id": "why-would-anyone-bury-a-palace",
@@ -639,13 +670,14 @@
     "id": "the-palace-they-buried-themselves-china-s-5-000-ye",
     "video": "A1i-WQukcxI",
     "ep": 93,
-    "format": "FACT",
+    "format": "LONG",
     "title": "The Palace They Buried Themselves: China's 5,000-Year-Old Mystery",
     "claim": "",
     "verdict": "",
     "date": "2026-10-19",
     "youtube": "https://www.youtube.com/watch?v=A1i-WQukcxI",
-    "sources": []
+    "sources": [],
+    "duration": "5 MIN"
   },
   {
     "id": "a-village-with-no-doors-not-even-the-bank",
@@ -687,13 +719,14 @@
     "id": "they-drop-babies-from-a-roof-india-s-5-most-shocki",
     "video": "lOOOPI5-85g",
     "ep": 89,
-    "format": "FACT",
+    "format": "LONG",
     "title": "They Drop Babies From a Roof. India's 5 Most Shocking Beliefs",
     "claim": "",
     "verdict": "",
     "date": "2026-10-17",
     "youtube": "https://www.youtube.com/watch?v=lOOOPI5-85g",
-    "sources": []
+    "sources": [],
+    "duration": "5 MIN"
   },
   {
     "id": "she-was-buried-with-a-sickle-at-her-throat",
@@ -735,13 +768,14 @@
     "id": "she-was-buried-with-a-blade-at-her-throat-poland-s",
     "video": "QnjmIr_OoLM",
     "ep": 85,
-    "format": "FACT",
+    "format": "LONG",
     "title": "She Was Buried With a Blade at Her Throat: Poland's \"Vampire\" Grave",
     "claim": "",
     "verdict": "",
     "date": "2026-10-15",
     "youtube": "https://www.youtube.com/watch?v=QnjmIr_OoLM",
-    "sources": []
+    "sources": [],
+    "duration": "5 MIN"
   },
   {
     "id": "the-3-000-year-old-peace-treaty-at-the-united-nati",
@@ -795,13 +829,14 @@
     "id": "both-sides-claimed-victory-then-they-wrote-the-wor",
     "video": "6sug6EW2aKs",
     "ep": 80,
-    "format": "FACT",
+    "format": "LONG",
     "title": "Both Sides Claimed Victory. Then They Wrote the World's Oldest Peace Treaty.",
     "claim": "",
     "verdict": "",
     "date": "2026-10-13",
     "youtube": "https://www.youtube.com/watch?v=6sug6EW2aKs",
-    "sources": []
+    "sources": [],
+    "duration": "9 MIN"
   },
   {
     "id": "how-did-they-really-build-the-great-pyramid",
@@ -891,25 +926,27 @@
     "id": "is-this-the-face-of-jesus-science-still-can-t-agre",
     "video": "UUfJZMrod0Y",
     "ep": 72,
-    "format": "MYTH",
+    "format": "LONG",
     "title": "Is This the Face of Jesus? Science Still Can't Agree.",
     "claim": "",
     "verdict": "",
     "date": "2026-10-09",
     "youtube": "https://www.youtube.com/watch?v=UUfJZMrod0Y",
-    "sources": []
+    "sources": [],
+    "duration": "8 MIN"
   },
   {
     "id": "texas-remembers-the-alamo-here-s-what-it-forgot",
     "video": "-BVnAmkiTg4",
     "ep": 71,
-    "format": "FACT",
+    "format": "LONG",
     "title": "Texas Remembers the Alamo. Here's What It Forgot.",
     "claim": "",
     "verdict": "",
     "date": "2026-10-08",
     "youtube": "https://www.youtube.com/watch?v=-BVnAmkiTg4",
-    "sources": []
+    "sources": [],
+    "duration": "8 MIN"
   },
   {
     "id": "the-alamo-s-most-famous-scene-may-never-have-happe",
@@ -999,13 +1036,14 @@
     "id": "britain-swore-its-sailors-never-ate-each-other-dna",
     "video": "H58794wk5U4",
     "ep": 63,
-    "format": "FACT",
+    "format": "LONG",
     "title": "Britain Swore Its Sailors Never Ate Each Other. DNA Says Otherwise.",
     "claim": "",
     "verdict": "",
     "date": "2026-10-07",
     "youtube": "https://www.youtube.com/watch?v=H58794wk5U4",
-    "sources": []
+    "sources": [],
+    "duration": "10 MIN"
   },
   {
     "id": "charles-dickens-said-british-sailors-would-never-e",
@@ -1047,13 +1085,14 @@
     "id": "scientists-claimed-a-hidden-city-under-the-pyramid",
     "video": "B8l4_tdWftc",
     "ep": 59,
-    "format": "FACT",
+    "format": "LONG",
     "title": "Scientists Claimed a Hidden City Under the Pyramids. It Fell Apart.",
     "claim": "",
     "verdict": "",
     "date": "2026-10-06",
     "youtube": "https://www.youtube.com/watch?v=B8l4_tdWftc",
-    "sources": []
+    "sources": [],
+    "duration": "6 MIN"
   },
   {
     "id": "the-pyramid-underground-city-team-just-had-its-pap",
@@ -1083,13 +1122,14 @@
     "id": "columbus-never-reached-any-of-the-50-states-so-why",
     "video": "qXEpGxhahMw",
     "ep": 56,
-    "format": "FACT",
+    "format": "LONG",
     "title": "Columbus Never Reached Any of the 50 States. So Why Does America Celebrate Him?",
     "claim": "",
     "verdict": "",
     "date": "2026-10-05",
     "youtube": "https://www.youtube.com/watch?v=qXEpGxhahMw",
-    "sources": []
+    "sources": [],
+    "duration": "12 MIN"
   },
   {
     "id": "columbus-never-set-foot-in-any-of-the-50-states",
@@ -1143,13 +1183,14 @@
     "id": "dracula-betrayed-the-sultan-the-sultan-got-his-hea",
     "video": "etayE8YztAQ",
     "ep": 51,
-    "format": "FACT",
+    "format": "LONG",
     "title": "Dracula Betrayed the Sultan. The Sultan Got His Head.",
     "claim": "",
     "verdict": "",
     "date": "2026-10-04",
     "youtube": "https://www.youtube.com/watch?v=etayE8YztAQ",
-    "sources": []
+    "sources": [],
+    "duration": "12 MIN"
   },
   {
     "id": "dracula-wasn-t-impaled-his-head-went-to-the-sultan",
@@ -1203,13 +1244,14 @@
     "id": "g-bekli-tepe-was-called-a-temple-then-they-found-t",
     "video": "eEq_sjSYm74",
     "ep": 46,
-    "format": "FACT",
+    "format": "LONG",
     "title": "Göbekli Tepe Was Called a Temple. Then They Found the Graves.",
     "claim": "",
     "verdict": "",
     "date": "2026-10-03",
     "youtube": "https://www.youtube.com/watch?v=eEq_sjSYm74",
-    "sources": []
+    "sources": [],
+    "duration": "10 MIN"
   },
   {
     "id": "the-first-graves-from-g-bekli-tepe",
@@ -1275,13 +1317,14 @@
     "id": "houdini-died-on-halloween-100-years-later-we-still",
     "video": "VwZqS7XbxTA",
     "ep": 40,
-    "format": "FACT",
+    "format": "LONG",
     "title": "Houdini Died on Halloween. 100 Years Later, We Still Don't Know Why.",
     "claim": "",
     "verdict": "",
     "date": "2026-10-02",
     "youtube": "https://www.youtube.com/watch?v=VwZqS7XbxTA",
-    "sources": []
+    "sources": [],
+    "duration": "10 MIN"
   },
   {
     "id": "a-student-punched-houdini-nine-days-later-he-was-d",

@@ -259,6 +259,31 @@ details.kids>summary:hover{border-color:rgba(120,190,255,.35);background:rgba(12
 .kidlist{display:grid;gap:6px;margin-top:8px}
 .kidlist .ep{background:var(--panel-2)}
 [hidden]{display:none!important}
+/* Just posted: newest long film + newest short on the first screen */
+.newest{margin-bottom:26px}
+.nw{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:640px){.nw{grid-template-columns:1fr}}
+.nwcard{display:flex;flex-direction:column;background:var(--panel);border:1px solid var(--line-2);border-radius:14px;overflow:hidden;color:var(--ink);text-decoration:none;transition:transform .16s,border-color .16s,box-shadow .16s}
+.nwcard:hover{transform:translateY(-2px);border-color:var(--green);box-shadow:0 0 44px -20px rgba(53,208,127,.9);color:var(--ink)}
+.nwcard.long:hover{border-color:#FFB367;box-shadow:0 0 44px -20px rgba(255,159,69,.9)}
+.nwthumb{position:relative;aspect-ratio:16/9;background:#000 center/cover no-repeat}
+.nwthumb .play{position:absolute;inset:auto auto 10px 10px;display:inline-flex;align-items:center;gap:6px;background:rgba(0,0,0,.72);color:#fff;font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.05em;padding:5px 10px;border-radius:999px}
+.nwthumb .badge{position:absolute;top:10px;left:10px;font-family:var(--mono);font-size:10.5px;font-weight:700;letter-spacing:.08em;padding:4px 9px;border-radius:6px;background:var(--green);color:#04130B}
+.nwcard.long .nwthumb .badge{background:#FFB347;color:#1E1102}
+.nwbody{padding:11px 14px 13px;display:flex;flex-direction:column;gap:5px;flex:1}
+.nwbody h3{font-family:var(--display);font-size:17px;line-height:1.25;margin:0;font-weight:700}
+.nwbody .meta{font-family:var(--mono);font-size:10.5px;color:var(--ink-3);letter-spacing:.06em}
+.nwbody p{margin:0;color:var(--ink-2);font-size:12.5px;line-height:1.4}
+.nwacts{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto;padding-top:6px}
+.nwacts a{font-family:var(--mono);font-size:11.5px;font-weight:600;border:1px solid var(--line-2);border-radius:999px;padding:6px 12px;text-decoration:none;color:var(--ink)}
+.nwacts a.w{background:var(--panel-2)}
+.nwacts a:hover{border-color:var(--green)}
+.recent{display:grid;gap:6px}
+.rrow{display:grid;grid-template-columns:96px 1fr;gap:12px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:6px;text-decoration:none;color:var(--ink);transition:border-color .16s,background .16s}
+.rrow:hover{border-color:var(--line-2);background:var(--panel-2);color:var(--ink)}
+.rrow .t{aspect-ratio:16/9;border-radius:6px;background:#000 center/cover no-repeat}
+.rrow b{display:block;font-size:14px;font-weight:600;line-height:1.3}
+.rrow span{font-family:var(--mono);font-size:10.5px;color:var(--ink-3);letter-spacing:.05em}
 </style>
 </head>
 <body>
@@ -283,7 +308,7 @@ details.kids>summary:hover{border-color:rgba(120,190,255,.35);background:rgba(12
 
 <section class="intro">
 <h2>Short videos, <span class="hl">long receipts.</span></h2>
-<p class="sub">Every claim in every episode, traced back to where it came from. Pick a category below, or search for an episode.</p>
+<p class="sub">Every claim in every episode, traced back to where it came from. The newest videos are right below. Search by topic, place or name, or pick a category.</p>
 
 </section>
 
@@ -298,7 +323,7 @@ details.kids>summary:hover{border-color:rgba(120,190,255,.35);background:rgba(12
 <div class="tools" role="search">
 <label class="search">
 <span aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="10.8" cy="10.8" r="6.4"/><path d="M15.6 15.6 20 20"/></svg></span>
-<input id="q" type="search" placeholder="Search an episode or a source…" autocomplete="off">
+<input id="q" type="search" placeholder="Search a topic, place or name…" autocomplete="off">
 </label>
 <div class="chips" role="group" aria-label="Category">
 <button class="chip" id="f-long" data-f="LONG" aria-pressed="false">FULL EPISODES</button>
@@ -311,6 +336,13 @@ details.kids>summary:hover{border-color:rgba(120,190,255,.35);background:rgba(12
 </div>
 
 <section class="home" id="home" aria-labelledby="home-h">
+<div class="newest">
+<h2 class="sec">Just posted</h2>
+<p class="sec-sub">Our newest full episode and our newest short, with their sources.</p>
+<div class="nw" id="newest"></div>
+<div class="lhead" style="margin-top:18px"><h3>Recently posted</h3><button class="linkbtn" type="button" data-v="ALL">See everything &rarr;</button></div>
+<div class="recent" id="recent"></div>
+</div>
 <h2 class="sec" id="home-h">What do you want to watch?</h2>
 <p class="sec-sub">Pick a category. Every episode has its full list of sources.</p>
 <div class="cats">
@@ -352,6 +384,7 @@ details.kids>summary:hover{border-color:rgba(120,190,255,.35);background:rgba(12
 var episodes = [];
 var list = document.getElementById('list'), q = document.getElementById('q'), count = document.getElementById('count');
 var home = document.getElementById('home'), latest = document.getElementById('latest');
+var newestEl = document.getElementById('newest'), recentEl = document.getElementById('recent');
 var viewbar = document.getElementById('viewbar'), vtitle = document.getElementById('vtitle'), vsub = document.getElementById('vsub');
 var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
 var fmtLabel = {FACT:'FACT', MYTH:'MYTH CHECK', WHATIF:'WHAT IF', LONG:'FULL EPISODE'};
@@ -428,6 +461,34 @@ function card(e, opts){
   + '</div>' + body + kidsHtml + '</article>';
 }
 
+function thumb(e){ return e.video ? 'https://i.ytimg.com/vi/' + encodeURIComponent(e.video) + '/mqdefault.jpg' : ''; }
+// Startpagina: nieuwste lange film en nieuwste Short bovenaan, daaronder de zes nieuwste video's.
+function vers(){
+  var opEp = function(a,b){ return (b.ep||0)-(a.ep||0); };
+  var lang = episodes.filter(function(e){ return e.format === 'LONG'; }).sort(opEp)[0];
+  var kort = episodes.filter(function(e){ return e.format !== 'LONG'; }).sort(opEp)[0];
+  var groot = function(e, isLong){
+    if(!e) return '';
+    var n = (e.sources||[]).length;
+    return '<div class="nwcard'+(isLong?' long':'')+'">'
+      + '<a class="nwthumb" href="'+esc(e.youtube)+'" target="_blank" rel="noopener" style="background-image:url(\''+thumb(e)+'\')" aria-label="Watch '+esc(clean(e.title))+' on YouTube">'
+      + '<span class="badge">'+(isLong ? 'NEWEST FULL EPISODE' : 'NEWEST SHORT')+'</span><span class="play">▶ WATCH'+(e.duration?' · '+esc(e.duration):'')+'</span></a>'
+      + '<div class="nwbody"><span class="meta">EP '+String(e.ep).padStart(3,'0')+' · '+esc(fmtDate(e.date))+'</span>'
+      + '<h3>'+esc(clean(e.title))+'</h3>'
+      + (e.claim ? '<p>'+esc(e.claim)+'</p>' : '')
+      + '<div class="nwacts"><a class="w" href="'+esc(e.youtube)+'" target="_blank" rel="noopener">▶ Watch on YouTube</a>'
+      + '<a href="#'+esc(e.id)+'">Sources'+(n?' ('+n+')':'')+'</a></div></div></div>';
+  };
+  newestEl.innerHTML = groot(lang, true) + groot(kort, false);
+  var skip = {}; if(lang) skip[lang.id] = 1; if(kort) skip[kort.id] = 1;
+  var rest = episodes.filter(function(e){ return !skip[e.id]; }).sort(opEp).slice(0, 6);
+  recentEl.innerHTML = rest.map(function(e){
+    var soort = e.format === 'LONG' ? 'FULL EPISODE' : (e.format === 'MYTH' ? 'MYTH CHECK' : (e.format === 'WHATIF' ? 'WHAT IF' : 'SHORT REEL'));
+    return '<a class="rrow" href="#'+esc(e.id)+'"><span class="t" style="background-image:url(\''+thumb(e)+'\')"></span>'
+      + '<div><b>'+esc(clean(e.title))+'</b><span>'+soort+' · '+esc(fmtDate(e.date))+(e.duration?' · '+esc(e.duration):'')+'</span></div></a>';
+  }).join('');
+}
+
 function counts(){
   ['LONG','SHORT','MYTH','WHATIF'].forEach(function(v){
     var n = episodes.filter(function(e){ return inView(e, v); }).length;
@@ -449,6 +510,7 @@ function render(){
     counts();
     var nieuw = episodes.filter(function(e){ return e.format === 'LONG'; }).sort(function(a,b){ return (b.ep||0)-(a.ep||0); }).slice(0,3);
     latest.innerHTML = nieuw.map(function(e){ return card(e, {noId:true}); }).join('');
+    vers();
     return;
   }
   vtitle.textContent = (term && view === 'HOME') ? 'Search results' : VIEWS[v].title;
