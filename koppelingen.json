@@ -26,6 +26,85 @@
  },
  "items": [
   {
+   "match": "The Economist's 2027 Cover",
+   "claim": "On 17 November 2026 The Economist revealed the cover of The World Ahead 2027. Readers online decoded every symbol, from a brain made of circuits to a crescent moon on red. The editors say the cover simply shows their ten trends for 2027; a viral 2027 cover from August was a fake made with AI.",
+   "sources": [
+    {
+     "type": "press",
+     "url": "https://www.economist.com/the-world-ahead/2026/11/17/tom-standages-ten-trends-to-watch-in-2027",
+     "title": "Tom Standage's ten trends to watch in 2027 (17 Nov 2026)",
+     "publisher": "The Economist"
+    },
+    {
+     "type": "press",
+     "url": "https://en.haberler.com/crescent-and-star-detail-on-the-economist-s-2027-2338424/",
+     "title": "Crescent and star detail on The Economist's 2027 cover (17 Nov 2026)",
+     "publisher": "Haberler"
+    },
+    {
+     "type": "press",
+     "url": "https://www.merca20.com/the-economists-2027-cover-explained-what-its-images-of-war-ai-and-the-economy-mean-according-to-the-editors-10-key-trends/",
+     "title": "The Economist's 2027 cover explained",
+     "publisher": "Merca2.0"
+    },
+    {
+     "type": "press",
+     "url": "https://culturacolectiva.com/en/history/economist-world-ahead-2027-cover-symbols-explained/",
+     "title": "Economist World Ahead 2027 cover symbols explained",
+     "publisher": "Cultura Colectiva"
+    },
+    {
+     "type": "press",
+     "url": "https://www.turkiyetoday.com/world/a-new-war-in-2027-the-economist-flags-10-trends-shaping-the-year-3232573",
+     "title": "A new war in 2027? The Economist flags 10 trends (17 Nov 2026)",
+     "publisher": "Türkiye Today"
+    },
+    {
+     "type": "fact-check",
+     "url": "https://www.aap.com.au/factcheck/fake-economist-cover-spreads-on-social-media/",
+     "title": "Fake Economist cover spreads on social media (10 Sep 2026)",
+     "publisher": "AAP FactCheck"
+    }
+   ]
+  },
+  {
+   "match": "Burnt Wood Found Inside Noah",
+   "claim": "In November 2026 the Noah's Ark Scans team showed charred wood it says came from about 9 meters deep inside the Durupınar formation, about 30 km from Mount Ararat. Samples went to four labs for carbon dating. Geologists have argued since 1996 that the formation is natural rock, and no results have been published yet.",
+   "sources": [
+    {
+     "type": "press",
+     "url": "https://www.foxnews.com/travel/noahs-ark-site-yields-first-look-charred-wood-fragments-recovered-deep-below-soil",
+     "title": "Noah's Ark site yields first look at charred wood fragments (10 Nov 2026)",
+     "publisher": "Fox News"
+    },
+    {
+     "type": "press release",
+     "url": "https://www.globenewswire.com/news-release/2026/11/11/3400406/0/en/noah-s-ark-scans-releases-first-look-at-charred-wood-recovered-from-noah-s-ark-durupinar-site.html",
+     "title": "Noah's Ark Scans releases first look at charred wood (11 Nov 2026)",
+     "publisher": "GlobeNewswire"
+    },
+    {
+     "type": "press",
+     "url": "https://newsweek.com/noahs-ark-hunters-say-theyve-found-wood-with-tool-marks-12700404",
+     "title": "Noah's Ark hunters say they've found wood with tool marks (11 Nov 2026)",
+     "publisher": "Newsweek",
+     "note": "Not independently verified; final report expected spring 2027."
+    },
+    {
+     "type": "press",
+     "url": "https://www.newsweek.com/what-1996-study-said-about-noahs-ark-site-12507519",
+     "title": "What a 1996 study said about the Noah's Ark site",
+     "publisher": "Newsweek"
+    },
+    {
+     "type": "press",
+     "url": "https://greekreporter.com/2026/11/10/charred-wood-noah-ark-site/",
+     "title": "Researchers find charred wood deep underground at site associated with Noah's Ark (10 Nov 2026)",
+     "publisher": "Greek Reporter"
+    }
+   ]
+  },
+  {
    "match": "Under Jonah's Tomb: The Palace ISIS Found by Accident",
    "film_id": "under-jonahs-tomb",
    "duration": "5 MIN",
@@ -1808,6 +1887,19 @@
      "title": "The Danube's water is dropping so low that WWII ships are emerging (AP)",
      "publisher": "PBS NewsHour",
      "note": ""
+    },
+    {
+     "type": "press",
+     "url": "https://abcnews.com/International/wireStory/danube-rivers-water-dropping-low-world-war-ii-135357221",
+     "title": "The Danube River's water is dropping so low that World War II ships are emerging (Aug 2026)",
+     "publisher": "ABC News / AP"
+    },
+    {
+     "type": "press",
+     "url": "https://nationalgeographic.com/environment/article/drought-heat-danube-river-wwii-shipwrecks",
+     "title": "Dozens of Nazi-era ships are emerging in the Danube. How did they get there?",
+     "publisher": "National Geographic",
+     "note": "About the same wrecks in the 2022 drought."
     }
    ]
   },
@@ -1874,6 +1966,12 @@
      "title": "Claim CH504.2: radiocarbon dates of Navarra's wood",
      "publisher": "TalkOrigins Archive",
      "note": ""
+    },
+    {
+     "type": "press",
+     "url": "https://www.christianitytoday.com/ct/1969/september-12/wood-on-mount-ararat-intrigues-explorers.html",
+     "title": "Wood on Mount Ararat intrigues explorers (1969)",
+     "publisher": "Christianity Today"
     }
    ]
   },
@@ -1907,6 +2005,12 @@
      "title": "Durupınar site",
      "publisher": "HandWiki",
      "note": ""
+    },
+    {
+     "type": "encyclopedia",
+     "url": "https://en.wikipedia.org/wiki/Durup%C4%B1nar_site",
+     "title": "Durupınar site",
+     "publisher": "Wikipedia"
     }
    ]
   },
@@ -1940,6 +2044,18 @@
      "title": "3,500-year-old Egyptian tomb reveals name of dog forgotten for centuries (26 Oct 2026)",
      "publisher": "HeritageDaily",
      "note": ""
+    },
+    {
+     "type": "press",
+     "url": "https://www.theartnewspaper.com/2026/10/30/name-of-3500-year-old-egyptian-dog-has-been-revealedand-it-has-a-unique-link-to-god-anubis",
+     "title": "Name of 3,500-year-old Egyptian dog revealed, with a link to Anubis (30 Oct 2026)",
+     "publisher": "The Art Newspaper"
+    },
+    {
+     "type": "press",
+     "url": "https://archaeologymag.com/2026/10/egyptian-dog-had-a-name-linked-to-anubis/",
+     "title": "Egyptian dog had a name linked to Anubis (Oct 2026)",
+     "publisher": "Archaeology Magazine"
     }
    ]
   },
@@ -3537,6 +3653,18 @@
      "title": "Franklin's lost expedition",
      "publisher": "Wikipedia",
      "note": "129 men; Beechey Island; ships beset 1846; the Victory Point note; the march south; searches; the wrecks found in 2014 and 2016."
+    },
+    {
+     "type": "museum",
+     "url": "https://www.rmg.co.uk/stories/maritime-history/what-happened-to-erebus-terror-crew-true-story",
+     "title": "What happened to the Erebus and Terror crew?",
+     "publisher": "Royal Museums Greenwich"
+    },
+    {
+     "type": "archive",
+     "url": "https://canadianmysteries.ca/sites/franklin/archive/text/FranklinVictoryPoint_en.htm",
+     "title": "Franklin Expedition Record (Victory Point, found 1859): transcript",
+     "publisher": "Great Unsolved Mysteries in Canadian History"
     }
    ]
   },
@@ -3634,6 +3762,18 @@
      "title": "Shroud of Turin",
      "publisher": "Wikipedia",
      "note": "Lirey (1350s); the d'Arcis memorandum; Chambéry fire 1532; Turin since 1578; Secondo Pia 1898; STURP 1978; the 1988 carbon dating; later studies."
+    },
+    {
+     "type": "encyclopedia",
+     "url": "https://en.wikipedia.org/wiki/Secondo_Pia",
+     "title": "Secondo Pia",
+     "publisher": "Wikipedia"
+    },
+    {
+     "type": "museum",
+     "url": "https://www.metmuseum.org/ja/art/collection/search/687615",
+     "title": "Detail of the Shroud of Turin (Secondo Pia negative)",
+     "publisher": "The Metropolitan Museum of Art"
     }
    ]
   },
@@ -3676,6 +3816,18 @@
      "title": "Shroud of Turin",
      "publisher": "Wikipedia",
      "note": "Lirey (1350s); the d'Arcis memorandum; Chambéry fire 1532; Turin since 1578; Secondo Pia 1898; STURP 1978; the 1988 carbon dating; later studies."
+    },
+    {
+     "type": "encyclopedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_the_Shroud_of_Turin",
+     "title": "History of the Shroud of Turin",
+     "publisher": "Wikipedia"
+    },
+    {
+     "type": "press",
+     "url": "https://news.artnet.com/art-world/shroud-of-turin-medieval-document-forgery-2683600",
+     "title": "Medieval document adds to the case that the Shroud is a forgery",
+     "publisher": "Artnet News"
     }
    ]
   },
@@ -4160,6 +4312,18 @@
      "title": "Pyramid of Khafre",
      "publisher": "Wikipedia",
      "note": "Dates, size, chambers; Belzoni, 1818."
+    },
+    {
+     "type": "encyclopedia",
+     "url": "https://en.wikipedia.org/wiki/Giovanni_Belzoni",
+     "title": "Giovanni Belzoni",
+     "publisher": "Wikipedia"
+    },
+    {
+     "type": "archive",
+     "url": "https://giza.digitalhumanities.fas.harvard.edu/modernpeople/2569/full/",
+     "title": "Giovanni Battista Belzoni",
+     "publisher": "Harvard Digital Giza"
     }
    ]
   },
@@ -4262,6 +4426,18 @@
      "title": "Hittite royal archive discovered in Türkiye reveals a 3,400-year-old royal tragedy",
      "publisher": "Arkeonews",
      "note": "131 tablets in 2026 and 53 in 2025; excavation director Çiğdem Maner."
+    },
+    {
+     "type": "press",
+     "url": "https://www.dailysabah.com/life/hittite-royal-archive-with-184-tablets-unearthed-in-central-turkiye/news/amp",
+     "title": "Hittite royal archive with 184 tablets unearthed in central Türkiye",
+     "publisher": "Daily Sabah"
+    },
+    {
+     "type": "press",
+     "url": "https://www.turkiyetoday.com/culture/3400-year-old-hittite-royal-archive-unearthed-in-turkiye-what-does-it-reveal-3229880",
+     "title": "3,400-year-old Hittite royal archive unearthed in Türkiye: what does it reveal?",
+     "publisher": "Türkiye Today"
     }
    ]
   },
