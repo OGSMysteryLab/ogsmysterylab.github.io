@@ -26,6 +26,258 @@
  },
  "items": [
   {
+   "match": "Noah's Ark Wood Dated",
+   "claim": "On 22 November 2026 Noah's Ark Scans said charred wood from the Durupınar formation in eastern Turkey dates to the time of Noah's Flood. Their graphic shows two radiocarbon ranges (2456–2203 BC and 2446–2143 BC) with lines at 2348 and 2304 BC. 2348 BC is exactly the Flood year Archbishop James Ussher calculated in 1650. The lab has not been named and no report has been published; a carbon date only shows when a tree died, not that the wood was part of a ship.",
+   "sources": [
+    {
+     "type": "press",
+     "url": "https://greekcitytimes.com/2026/11/22/noahs-ark-wood-dating-claim-no-lab-report/",
+     "title": "Noah's Ark hunters claim wood dates to 'Flood Era', but no lab report has been published (22 Nov 2026)",
+     "publisher": "Greek City Times"
+    },
+    {
+     "type": "press",
+     "url": "https://www.foxnews.com/travel/noahs-ark-site-yields-first-look-charred-wood-fragments-recovered-deep-below-soil",
+     "title": "Noah's Ark site yields first look at charred wood fragments (Nov 2026)",
+     "publisher": "Fox News"
+    },
+    {
+     "type": "fact-check",
+     "url": "https://www.ancient-origins.net/news-history-archaeology/durupinar-wood-carbon-dating-fact-check-00128323",
+     "title": "Durupınar wood carbon dating fact check (Oct 2026)",
+     "publisher": "Ancient Origins"
+    },
+    {
+     "type": "reference",
+     "url": "https://en.wikipedia.org/wiki/Ussher_chronology",
+     "title": "Ussher chronology",
+     "publisher": "Wikipedia"
+    },
+    {
+     "type": "primary",
+     "url": "https://exhibits.library.illinois.edu/s/rbml/item/3923",
+     "title": "James Ussher, Annales Veteris Testamenti (1650)",
+     "publisher": "University of Illinois Library"
+    }
+   ]
+  },
+  {
+   "match": "Beyond the Ice Wall",
+   "claim": "A viral 'secret U.N. map' shows Atlantis, Lemuria and Asgard beyond Antarctica's ice wall. The U.N. emblem, adopted in 1946, is an azimuthal equidistant projection centred on the North Pole and stops at 60° south. A version of the viral map was posted on DeviantArt in 2021 by an artist who calls it a fantasy setting. The real 'ice wall' is the Ross Ice Shelf, up to 50 m high, and 118,491 tourists visited Antarctica in the 2024-25 season (IAATO).",
+   "sources": [
+    {
+     "type": "reference",
+     "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_Nations",
+     "title": "Flag and emblem of the United Nations",
+     "publisher": "Wikipedia"
+    },
+    {
+     "type": "official",
+     "url": "https://www.cia.gov/stories/story/the-oss-architects-who-designed-the-un-logo",
+     "title": "The OSS architects who designed the UN logo",
+     "publisher": "CIA"
+    },
+    {
+     "type": "primary",
+     "url": "https://www.deviantart.com/ohawhewhe/art/The-World-Beyond-the-Ice-Wall-2-0-875422222",
+     "title": "The World Beyond the Ice Wall 2.0 (5 Apr 2021)",
+     "publisher": "DeviantArt / Ohawhewhe"
+    },
+    {
+     "type": "press",
+     "url": "https://en.mercopress.com/2026/05/03/another-antarctica-season-of-over-100.000-visitors-according-to-iaato",
+     "title": "Another Antarctica season of over 100,000 visitors, according to IAATO",
+     "publisher": "MercoPress"
+    },
+    {
+     "type": "reference",
+     "url": "https://en.wikipedia.org/wiki/Ross_Ice_Shelf",
+     "title": "Ross Ice Shelf",
+     "publisher": "Wikipedia"
+    },
+    {
+     "type": "museum",
+     "url": "https://www.leventhalmap.org/digital-exhibitions/bending-lines/power-belief/3.1.3",
+     "title": "Gleason's New Standard Map of the World (1892)",
+     "publisher": "Leventhal Map & Education Center"
+    }
+   ]
+  },
+  {
+   "match": "Home Ransacked",
+   "claim": "On 26 September 2026 Noah's Ark Scans said the apartment of founder Andrew Jones near the Durupınar site in Turkey was ransacked, that only laptops, computers and memory cards were taken, that he had been threatened at night and that the building's cameras were down. Every detail comes from one team statement shared by Lauren Witzke; outlets repeated it without independent confirmation. No police statement, suspect or arrest has been reported. The data had been backed up, the fundraiser passed $100,000, and Jones said it should not be blamed on Turkey.",
+   "sources": [
+    {
+     "type": "primary",
+     "url": "https://x.com/LaurenWitzkeDE/status/2103997447361970631",
+     "title": "Team statement shared by Lauren Witzke (26 Sep 2026)",
+     "publisher": "X"
+    },
+    {
+     "type": "press",
+     "url": "https://www.newsweek.com/noahs-ark-hunters-raise-100000-as-burglary-detailed-12494210",
+     "title": "Noah's Ark hunters raise $100,000 as burglary detailed (27 Sep 2026)",
+     "publisher": "Newsweek"
+    },
+    {
+     "type": "press",
+     "url": "https://mycharisma.com/news/noahs-ark-researcher-reports-death-threats-targeted-burglary/",
+     "title": "Noah's Ark researcher reports death threats, targeted burglary (28 Sep 2026)",
+     "publisher": "Charisma"
+    },
+    {
+     "type": "press",
+     "url": "https://www.thegatewaypundit.com/2026/09/new-noahs-ark-scans-founders-apartment-ransacked-as/",
+     "title": "Noah's Ark Scans founder's apartment burglarized (27 Sep 2026)",
+     "publisher": "The Gateway Pundit"
+    }
+   ]
+  },
+  {
+   "match": "Peanut DNA on the Shroud",
+   "claim": "In July 2026 researchers published DNA from the official 1978 sample collection of the Shroud of Turin: wheat, carrot, bananas, cattle, cats, dogs, Mediterranean red coral, and also American crops such as maize and peanuts, unknown in Europe before Columbus. The authors call this a significant conundrum for the Shroud's age, though later contamination cannot be ruled out. The dominant human DNA matched the collector or a close relative. The 1988 radiocarbon test dated the linen to 1260–1390 AD.",
+   "sources": [
+    {
+     "type": "paper",
+     "url": "https://www.nature.com/articles/s41598-026-60684-7",
+     "title": "Barcaccia et al., DNA signatures preserved in the official 1978 sample collection of the Shroud of Turin, Scientific Reports 16, 21206 (2026), CC BY 4.0",
+     "publisher": "Scientific Reports"
+    },
+    {
+     "type": "paper",
+     "url": "https://www.nature.com/articles/337611a0",
+     "title": "Damon et al., Radiocarbon dating of the Shroud of Turin, Nature 337 (1989)",
+     "publisher": "Nature"
+    },
+    {
+     "type": "image",
+     "url": "https://commons.wikimedia.org/wiki/File:Holy_Face_of_Jesus_from_Shroud_of_Turin_(1909).jpg",
+     "title": "Secondo Pia / Holy Face photograph (public domain)",
+     "publisher": "Wikimedia Commons"
+    }
+   ]
+  },
+  {
+   "match": "Stairs Under the Sacred Lake",
+   "claim": "In November 2026 Bolivian navy divers reported submerged stones shaped like steps and a wall near the Island of the Sun in Lake Titicaca. The lake does hide real treasures: since 2012 underwater archaeologists have recovered more than 20,000 objects, and in 2013 offerings of puma-shaped incense burners, gold and sacrificed llamas from the 8th–10th centuries were found at the Khoa reef. The navy's dive commander says a study is needed; nothing has been dated and the stones could be natural rock.",
+   "sources": [
+    {
+     "type": "press",
+     "url": "https://caretas.pe/mundo/una-ciudad-sumergida-en-el-lago-titicaca-buzos-hallan-estructuras-de-piedra-con-forma-de-escaleras-y-muros/",
+     "title": "¿Una ciudad sumergida en el lago Titicaca? (18 Nov 2026)",
+     "publisher": "Caretas"
+    },
+    {
+     "type": "paper",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6486741",
+     "title": "Delaere, Capriles & Stanish, Underwater ritual offerings in the Island of the Sun, PNAS 116(17) (2019)",
+     "publisher": "PNAS"
+    },
+    {
+     "type": "official",
+     "url": "https://crea.centresphisoc.ulb.be/en/recherches/archeologie-programmee/archeologie-precolombienne/titicaca-bolivie",
+     "title": "Lake Titicaca Archaeology Project",
+     "publisher": "Université libre de Bruxelles"
+    },
+    {
+     "type": "image",
+     "url": "https://s2maps.eu",
+     "title": "Sentinel-2 cloudless by EOX IT Services GmbH (CC BY 4.0)",
+     "publisher": "EOX"
+    }
+   ]
+  },
+  {
+   "match": "Fake Gold or a King",
+   "claim": "In 1958 Dumbarton Oaks bought a gold medallion of the East Roman emperor Anastasius, reportedly found in Syria. Its inscription DNANASTRVIST looked garbled, and in 1993 it was called a freehand imitation. In 2026 historian Marco Cristini read it as D(ominus) N(oster) ANAS(tasius) T(e) R(egem) V(ult) I(n)ST(ituere): 'Our lord Anastasius wants to appoint you king', and argues it was sent to a king of the Lazi on the Black Sea. No written source mentions this gift and its provenance is unknown.",
+   "sources": [
+    {
+     "type": "journal",
+     "url": "https://www.degruyterbrill.com/document/doi/10.1515/fmst-2026-0001/html",
+     "title": "Cristini, Glittering Diplomacy: Two East Roman Gold Medallions for the King of the Lazi, Frühmittelalterliche Studien 60 (2026)",
+     "publisher": "De Gruyter"
+    },
+    {
+     "type": "press",
+     "url": "https://gizmodo.com/experts-thought-this-1500-year-old-gold-medallion-was-a-cheap-copy-they-may-be-wrong-2000844166",
+     "title": "Experts thought this gold medallion was a cheap copy. They may be wrong (23 Nov 2026)",
+     "publisher": "Gizmodo"
+    },
+    {
+     "type": "press",
+     "url": "https://www.labrujulaverde.com/en/2026/11/a-gold-pendant-once-thought-fake-is-one-of-the-insignia-constantinople-sent-to-allied-kings-a-strange-inscription-reveals-a-fascinating-story/",
+     "title": "A gold pendant once thought fake… (23 Nov 2026)",
+     "publisher": "La Brújula Verde"
+    },
+    {
+     "type": "museum",
+     "url": "https://www.doaks.org/visit/museum/exhibitions/medallions/index",
+     "title": "Medallions: The Art of Politics and Generosity",
+     "publisher": "Dumbarton Oaks"
+    }
+   ]
+  },
+  {
+   "match": "Lost Legion Camp in Jerusalem",
+   "claim": "After 70 AD Rome's Tenth Legion (Legio X Fretensis) was based in Jerusalem until the late third century, but its camp was never found. In November 2026 archaeologist Shimon Gibson pointed to unpublished remains from Magen Broshi's 1975–78 excavations: two walls meeting in a corner south of the Citadel ('Tower of David'). He reconstructs a western camp wall of 285 m and a garrison of about 1,800–2,200 soldiers. The walls survive only as foundations and Gibson calls parts of his plan tentative and theoretical.",
+   "sources": [
+    {
+     "type": "journal",
+     "url": "https://www.cambridge.org/core/journals/journal-of-roman-archaeology/article/solving-the-location-of-the-camp-of-legio-x-fretensis-in-jerusalem/BFF751CF670400146E3188ADB81641F6",
+     "title": "Gibson, Solving the location of the camp of Legio X Fretensis in Jerusalem, Journal of Roman Archaeology (2026)",
+     "publisher": "Cambridge University Press"
+    },
+    {
+     "type": "press",
+     "url": "https://archaeologymag.com/2026/11/romes-tenth-legion-camped-in-jerusalem/",
+     "title": "Unpublished dig records could finally reveal where Rome's Tenth Legion camped (Nov 2026)",
+     "publisher": "Archaeology Magazine"
+    },
+    {
+     "type": "press",
+     "url": "https://www.discovermagazine.com/two-walls-beneath-jerusalem-may-solve-a-150-year-mystery-about-rome-s-military-camp-49991",
+     "title": "Two walls beneath Jerusalem may solve a 150-year mystery",
+     "publisher": "Discover"
+    },
+    {
+     "type": "image",
+     "url": "https://www.openstreetmap.org/copyright",
+     "title": "Map data © OpenStreetMap contributors (ODbL)",
+     "publisher": "OpenStreetMap"
+    }
+   ]
+  },
+  {
+   "match": "Did AI Find a Lost Maya Site",
+   "claim": "In October 2026 a Google researcher, Pietro Miotti, let 48 AI agents scan about 1,200 km² of NASA lidar of the Mexican jungle as a personal project and flagged a hilltop with a plaza and an 8–12 m pyramid. Mexico's INAH had no registered site there and the find was hailed online as a discovery, but archaeologist Sarah Parcak pointed out it had already been published by Francisco Estrada-Belli's team in 2025. Miotti updated his post to 'rediscovered'; a co-author of the 2025 study warned that publicised locations can help looters.",
+   "sources": [
+    {
+     "type": "primary",
+     "url": "https://pietromiotti.com/latest/maya-site/",
+     "title": "My AI Agents (Re)discovered a Maya Site in 72 Hours (updated 11 Nov 2026)",
+     "publisher": "Pietro Miotti"
+    },
+    {
+     "type": "press",
+     "url": "https://futurism.com/artificial-intelligence/ai-found-ancient-maya-site-not",
+     "title": "AI-pilled tech bro claims his agents found an ancient Maya site… (13 Nov 2026)",
+     "publisher": "Futurism"
+    },
+    {
+     "type": "press",
+     "url": "https://lidarnews.com/ai-lidar-archaeology-maya-site-48-agents/",
+     "title": "48 AI agents found a Maya site in NASA lidar. Here's what they got wrong (22 Nov 2026)",
+     "publisher": "Lidar News"
+    },
+    {
+     "type": "paper",
+     "url": "https://doi.org/10.1016/j.jasrep.2025.105288",
+     "title": "Estrada-Belli et al., Journal of Archaeological Science: Reports (2025)",
+     "publisher": "Elsevier"
+    }
+   ]
+  },
+  {
    "match": "The Economist's 2027 Cover",
    "claim": "On 17 November 2026 The Economist revealed the cover of The World Ahead 2027. Readers online decoded every symbol, from a brain made of circuits to a crescent moon on red. The editors say the cover simply shows their ten trends for 2027; a viral 2027 cover from August was a fake made with AI.",
    "sources": [
